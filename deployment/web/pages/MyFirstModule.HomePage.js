@@ -238,7 +238,10 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 icon={WebIconProperty({
                                                     "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-location-pin" }
                                                 })}
-                                                action={undefined} />,
+                                                action={ActionProperty({
+                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                                    "abortOnServerValidation": true
+                                                })} />,
                                             <$Text key="p0.MyFirstModule.HomePage.text5"
                                                 $widgetId="p0.MyFirstModule.HomePage.text5"
                                                 class={"mx-name-text5 text-primary spacing-outer-bottom-none"}
@@ -254,60 +257,6 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                 ]} />,
                             <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row1$column1"
                                 $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row1$column1"
-                                class={"col-lg col-md col"}
-                                style={undefined}
-                                content={[
-                                    <$Container key="p0.MyFirstModule.HomePage.container5"
-                                        $widgetId="p0.MyFirstModule.HomePage.container5"
-                                        class={"mx-name-container5 card springboard-card justify-content-end spacing-outer-bottom-medium"}
-                                        style={undefined}
-                                        renderMode={"div"}
-                                        onClick={undefined}
-                                        content={[
-                                            <$ActionButton key="p0.MyFirstModule.HomePage.actionButton20"
-                                                $widgetId="p0.MyFirstModule.HomePage.actionButton20"
-                                                buttonId={"p0.MyFirstModule.HomePage.actionButton20"}
-                                                class={"mx-name-actionButton20 card-icon text-primary spacing-outer-bottom"}
-                                                style={undefined}
-                                                tabIndex={undefined}
-                                                renderType={"link"}
-                                                role={"button"}
-                                                buttonClass={"btn-default"}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                    })
-                                                ])}
-                                                tooltip={TextProperty({
-                                                    "value": t([
-                                                        "Folder Open Icon"
-                                                    ])
-                                                })}
-                                                icon={WebIconProperty({
-                                                    "icon": { "type": "glyph", "iconClass": "glyphicon-thumbs-up" }
-                                                })}
-                                                action={undefined} />,
-                                            <$Text key="p0.MyFirstModule.HomePage.text6"
-                                                $widgetId="p0.MyFirstModule.HomePage.text6"
-                                                class={"mx-name-text6 text-primary spacing-outer-bottom-none"}
-                                                style={undefined}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "Sales Person" }, "args": {} }
-                                                    })
-                                                ])}
-                                                renderMode={"h5"} />
-                                        ]}
-                                        ariaHidden={false} />
-                                ]} />
-                        ]} />,
-                    <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row2"
-                        $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row2"
-                        class={"row"}
-                        style={undefined}
-                        content={[
-                            <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row2$column0"
-                                $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row2$column0"
                                 class={"col-lg col-md col"}
                                 style={undefined}
                                 content={[
@@ -340,20 +289,34 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 icon={WebIconProperty({
                                                     "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
                                                 })}
-                                                action={undefined} />,
+                                                action={ActionProperty({
+                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesOrderDraftPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                                    "abortOnServerValidation": true
+                                                })} />,
                                             <$Text key="p0.MyFirstModule.HomePage.text7"
                                                 $widgetId="p0.MyFirstModule.HomePage.text7"
                                                 class={"mx-name-text7 text-primary spacing-outer-bottom-none"}
                                                 style={undefined}
                                                 caption={t([
                                                     ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "Sales Tracking Page" }, "args": {} }
+                                                        "expression": { "expr": { "type": "literal", "value": "Sales Order Draft" }, "args": {} }
                                                     })
                                                 ])}
                                                 renderMode={"h5"} />
                                         ]}
                                         ariaHidden={false} />
-                                ]} />,
+                                ]} />
+                        ]} />,
+                    <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row2"
+                        $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row2"
+                        class={"row"}
+                        style={undefined}
+                        content={[
+                            <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row2$column0"
+                                $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row2$column0"
+                                class={"col-lg col-md col"}
+                                style={undefined}
+                                content={undefined} />,
                             <$Div key="p0.MyFirstModule.HomePage.layoutGrid1$row2$column1"
                                 $widgetId="p0.MyFirstModule.HomePage.layoutGrid1$row2$column1"
                                 class={"col-lg col-md col"}

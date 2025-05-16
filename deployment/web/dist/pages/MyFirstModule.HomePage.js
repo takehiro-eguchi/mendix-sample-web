@@ -1,14 +1,16 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
-import { ActionButton, ActionProperty } from '../ActionButton-B90FcSI6.js';
-import { TextProperty } from '../Icon-Dv5nfF6s.js';
-import { WebIconProperty } from '../WebIconProperty-BFDeGq-3.js';
-import { Container } from '../Container-6llxP7Tz.js';
-import { Div } from '../Div-DJcJ5gVg.js';
-import { Text } from '../Text-CXGRaJYu.js';
-import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-CbgRSnYS.js';
-import '../InlineText-CYLpzmqS.js';
-import '../DMc54HEs-CJQCGXv1.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-byXJmgeF.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BNFOh2As.js';
+import { ActionProperty } from '../ActionProperty-Bit9c0PV.js';
+import { TextProperty } from '../Icon-BZqjj_0y.js';
+import { WebIconProperty } from '../WebIconProperty-Dlq3RviU.js';
+import { ActionButton } from '../ActionButton-Cam8M_BK.js';
+import { Container } from '../Container-BAe5wxcO.js';
+import { Div } from '../Div-32Jsy3k8.js';
+import { Text } from '../Text-DZ-U1Q-n.js';
+import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-D6ZG6JFy.js';
+import '../InlineText-D7jZL5NZ.js';
+import '../SimpleMenuBar-cbI6aqB4.js';
+import '../DMc54HEs-BlvWf0_R.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Container, $ActionButton, $Text, $Div } = asPluginWidgets({ Container, ActionButton, Text, Div });
@@ -321,7 +323,10 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     icon: WebIconProperty({
                                       "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-location-pin" }
                                     }),
-                                    action: void 0
+                                    action: ActionProperty({
+                                      "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
@@ -351,85 +356,6 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                       {
                         key: "p0.MyFirstModule.HomePage.layoutGrid1$row1$column1",
                         $widgetId: "p0.MyFirstModule.HomePage.layoutGrid1$row1$column1",
-                        class: "col-lg col-md col",
-                        style: void 0,
-                        content: [
-                          /* @__PURE__ */ React.createElement(
-                            $Container,
-                            {
-                              key: "p0.MyFirstModule.HomePage.container5",
-                              $widgetId: "p0.MyFirstModule.HomePage.container5",
-                              class: "mx-name-container5 card springboard-card justify-content-end spacing-outer-bottom-medium",
-                              style: void 0,
-                              renderMode: "div",
-                              onClick: void 0,
-                              content: [
-                                /* @__PURE__ */ React.createElement(
-                                  $ActionButton,
-                                  {
-                                    key: "p0.MyFirstModule.HomePage.actionButton20",
-                                    $widgetId: "p0.MyFirstModule.HomePage.actionButton20",
-                                    buttonId: "p0.MyFirstModule.HomePage.actionButton20",
-                                    class: "mx-name-actionButton20 card-icon text-primary spacing-outer-bottom",
-                                    style: void 0,
-                                    tabIndex: void 0,
-                                    renderType: "link",
-                                    role: "button",
-                                    buttonClass: "btn-default",
-                                    caption: selectTranslation([
-                                      ExpressionProperty({
-                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                      })
-                                    ]),
-                                    tooltip: TextProperty({
-                                      "value": selectTranslation([
-                                        "Folder Open Icon"
-                                      ])
-                                    }),
-                                    icon: WebIconProperty({
-                                      "icon": { "type": "glyph", "iconClass": "glyphicon-thumbs-up" }
-                                    }),
-                                    action: void 0
-                                  }
-                                ),
-                                /* @__PURE__ */ React.createElement(
-                                  $Text,
-                                  {
-                                    key: "p0.MyFirstModule.HomePage.text6",
-                                    $widgetId: "p0.MyFirstModule.HomePage.text6",
-                                    class: "mx-name-text6 text-primary spacing-outer-bottom-none",
-                                    style: void 0,
-                                    caption: selectTranslation([
-                                      ExpressionProperty({
-                                        "expression": { "expr": { "type": "literal", "value": "Sales Person" }, "args": {} }
-                                      })
-                                    ]),
-                                    renderMode: "h5"
-                                  }
-                                )
-                              ],
-                              ariaHidden: false
-                            }
-                          )
-                        ]
-                      }
-                    )
-                  ]
-                }
-              ),
-              /* @__PURE__ */ React.createElement(
-                $Div,
-                {
-                  key: "p0.MyFirstModule.HomePage.layoutGrid1$row2",
-                  $widgetId: "p0.MyFirstModule.HomePage.layoutGrid1$row2",
-                  class: "row",
-                  style: void 0,
-                  content: [
-                    /* @__PURE__ */ React.createElement(
-                      $Div,
-                      {
-                        key: "p0.MyFirstModule.HomePage.layoutGrid1$row2$column0",
-                        $widgetId: "p0.MyFirstModule.HomePage.layoutGrid1$row2$column0",
                         class: "col-lg col-md col",
                         style: void 0,
                         content: [
@@ -468,7 +394,10 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     icon: WebIconProperty({
                                       "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
                                     }),
-                                    action: void 0
+                                    action: ActionProperty({
+                                      "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesOrderDraftPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
@@ -480,7 +409,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     style: void 0,
                                     caption: selectTranslation([
                                       ExpressionProperty({
-                                        "expression": { "expr": { "type": "literal", "value": "Sales Tracking Page" }, "args": {} }
+                                        "expression": { "expr": { "type": "literal", "value": "Sales Order Draft" }, "args": {} }
                                       })
                                     ]),
                                     renderMode: "h5"
@@ -491,6 +420,27 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                             }
                           )
                         ]
+                      }
+                    )
+                  ]
+                }
+              ),
+              /* @__PURE__ */ React.createElement(
+                $Div,
+                {
+                  key: "p0.MyFirstModule.HomePage.layoutGrid1$row2",
+                  $widgetId: "p0.MyFirstModule.HomePage.layoutGrid1$row2",
+                  class: "row",
+                  style: void 0,
+                  content: [
+                    /* @__PURE__ */ React.createElement(
+                      $Div,
+                      {
+                        key: "p0.MyFirstModule.HomePage.layoutGrid1$row2$column0",
+                        $widgetId: "p0.MyFirstModule.HomePage.layoutGrid1$row2$column0",
+                        class: "col-lg col-md col",
+                        style: void 0,
+                        content: void 0
                       }
                     ),
                     /* @__PURE__ */ React.createElement(

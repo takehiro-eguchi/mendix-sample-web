@@ -1,18 +1,21 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DF_eSa8O.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-BV5OVGGR.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-Bg2pyCI-.js';
-import { ListView } from '../ListView-BNI4C0Uh.js';
-import { Text } from '../Text-CXGRaJYu.js';
-import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-CbgRSnYS.js';
-import '../BrzhM9fk-D6dvPqAy.js';
-import '../BQa9VDC5-bIsskIdw.js';
-import '../Bgp-XL0v-ChI9Snow.js';
-import '../Icon-Dv5nfF6s.js';
-import '../InlineText-CYLpzmqS.js';
-import '../WebIconProperty-BFDeGq-3.js';
-import '../DMc54HEs-CJQCGXv1.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-byXJmgeF.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BNFOh2As.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-Uep1-5zc.js';
+import { ListActionProperty } from '../ListActionProperty-VWeAxBMO.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-CWpfMZr8.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-Dnn_ONys.js';
+import { ListView } from '../ListView-2iOLO5xL.js';
+import { Text } from '../Text-DZ-U1Q-n.js';
+import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-D6ZG6JFy.js';
+import '../BrzhM9fk-N7FbJJus.js';
+import '../BQa9VDC5-BWEBlAni.js';
+import '../ActionProperty-Bit9c0PV.js';
+import '../Icon-BZqjj_0y.js';
+import '../Bgp-XL0v-NBFeyE8N.js';
+import '../InlineText-D7jZL5NZ.js';
+import '../WebIconProperty-Dlq3RviU.js';
+import '../SimpleMenuBar-cbI6aqB4.js';
+import '../DMc54HEs-BlvWf0_R.js';
 
 const React = { createElement: reactExports.createElement };
 const { $ListView, $Text } = asPluginWidgets({ ListView, Text });
@@ -233,7 +236,11 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           )
         ]
       }),
-      onClick: void 0,
+      onClick: ListActionProperty({
+        "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
+        "abortOnServerValidation": false,
+        "dataSourceId": "p0.0"
+      }),
       pageSize: 5
     }
   )

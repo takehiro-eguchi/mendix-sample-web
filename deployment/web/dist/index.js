@@ -1,4 +1,4 @@
-import { startApp } from './index-DJGwzDdd.js';
+import { startApp } from './index-byXJmgeF.js';
 
 startApp({
   "languages": [

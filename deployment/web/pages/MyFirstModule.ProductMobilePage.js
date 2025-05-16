@@ -4,6 +4,7 @@ const React = { createElement };
 import { PageFragment } from "mendix/PageFragment";
 import { DatabaseObjectListProperty } from "mendix/DatabaseObjectListProperty";
 import { ExpressionProperty } from "mendix/ExpressionProperty";
+import { ListActionProperty } from "mendix/ListActionProperty";
 import { ListAttributeProperty } from "mendix/ListAttributeProperty";
 import { TemplatedWidgetProperty } from "mendix/TemplatedWidgetProperty";
 
@@ -184,7 +185,11 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     renderMode={"span"} />
             ]
         })}
-        onClick={undefined}
+        onClick={ListActionProperty({
+            "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
+            "abortOnServerValidation": false,
+            "dataSourceId": "p0.0"
+        })}
         pageSize={5} />
 ]}</PageFragment>);
 

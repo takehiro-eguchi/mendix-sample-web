@@ -2,7 +2,7 @@ Initialized native services in: C:\Users\nss430011\.gradle\native
 Initialized jansi services in: C:\Users\nss430011\.gradle\native
 Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
 The client will now receive all logging from the daemon (pid: 7756). The daemon log file: C:\Users\nss430011\.gradle\daemon\8.5\daemon-7756.out.log
-Starting 4th build in daemon [uptime: 12 mins 6.551 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 15% of 384 MiB]
+Starting 6th build in daemon [uptime: 1 hrs 54 mins 52.075 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 15% of 384 MiB]
 Using 8 worker leases.
 Now considering [C:\work\git\mendix-sample-web\deployment] as hierarchies to watch
 Watching the file system is configured to be enabled if available
@@ -24,18 +24,18 @@ Selected primary task 'compile' from project :
 Selected primary task 'package' from project :
 Tasks to be executed: [task ':clean-custom-classes', task ':compile', task ':package']
 Tasks that were excluded: []
-Resolve mutations for :clean-custom-classes (Thread[#133,Execution worker Thread 2,5,main]) started.
-:clean-custom-classes (Thread[#133,Execution worker Thread 2,5,main]) started.
-destroyer locations for task group 0 (Thread[#138,Execution worker Thread 7,5,main]) started.
-destroyer locations for task group 1 (Thread[#138,Execution worker Thread 7,5,main]) started.
+Resolve mutations for :clean-custom-classes (Thread[#182,Execution worker,5,main]) started.
+:clean-custom-classes (Thread[#182,Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[#181,included builds,5,main]) started.
+destroyer locations for task group 1 (Thread[#181,included builds,5,main]) started.
 
 > Task :clean-custom-classes
 Caching disabled for task ':clean-custom-classes' because:
   Build cache is disabled
 Task ':clean-custom-classes' is not up-to-date because:
   Task has not declared any outputs despite executing actions.
-Resolve mutations for :compile (Thread[#133,Execution worker Thread 2,5,main]) started.
-:compile (Thread[#133,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :compile (Thread[#182,Execution worker,5,main]) started.
+:compile (Thread[#182,Execution worker,5,main]) started.
 
 > Task :compile
 Caching disabled for task ':compile' because:
@@ -57,18 +57,20 @@ file or directory 'C:\work\git\mendix-sample-web\vendorlib', not found
 Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
 Compiling with toolchain 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot'.
 Compiling with JDK Java compiler API.
-Class dependency analysis for incremental compilation took 0.158 secs.
-Created classpath snapshot for incremental compilation in 0.008 secs.
-Resolve mutations for :package (Thread[#135,Execution worker Thread 4,5,main]) started.
-:package (Thread[#133,Execution worker Thread 2,5,main]) started.
+Class dependency analysis for incremental compilation took 0.279 secs.
+Created classpath snapshot for incremental compilation in 0.006 secs.
+Resolve mutations for :package (Thread[#182,Execution worker,5,main]) started.
+:package (Thread[#182,Execution worker,5,main]) started.
 
-> Task :package UP-TO-DATE
+> Task :package
 Caching disabled for task ':package' because:
   Build cache is disabled
-Skipping task ':package' as it is up-to-date.
+Task ':package' is not up-to-date because:
+  Input property 'rootSpec$1$1' file C:\work\git\mendix-sample-web\deployment\run\bin\myfirstmodule\proxies\SalesTrackingTableTemporary$MemberNames.class has been added.
+  Input property 'rootSpec$1$1' file C:\work\git\mendix-sample-web\deployment\run\bin\myfirstmodule\proxies\SalesTrackingTableTemporary.class has been added.
 
-BUILD SUCCESSFUL in 9s
-3 actionable tasks: 2 executed, 1 up-to-date
+BUILD SUCCESSFUL in 17s
+3 actionable tasks: 3 executed
 Watched directory hierarchies: [C:\work\git\mendix-sample-web\deployment]
 
 
