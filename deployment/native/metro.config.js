@@ -4,9 +4,9 @@ const path = require("path");
 
 const metroConfig = {
     watchFolders: [
-        path.resolve(__dirname, "C:/Users/nss430011/Mendix/SalesManagement/theme"),
-        path.resolve(__dirname, "C:/Users/nss430011/Mendix/SalesManagement/javascriptsource"),
-        path.resolve(__dirname, "C:/Users/nss430011/Mendix/SalesManagement/themesource"),
+        path.resolve(__dirname, "C:/work/git/mendix-sample-web/theme"),
+        path.resolve(__dirname, "C:/work/git/mendix-sample-web/javascriptsource"),
+        path.resolve(__dirname, "C:/work/git/mendix-sample-web/themesource"),
         path.resolve(__dirname, "C:/Program Files/Mendix/10.21.1.64969/modeler/tools/node/node_modules"),
     ],
     resolver: {

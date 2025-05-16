@@ -26,7 +26,7 @@ export const ACT_Feedback_UploadImage = {
     {
       "type": "javaScriptActionCall",
       "label": "bdbe1182-fd05-4bf7-820e-844cf2066322",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/JS_UploadAndConvertToFileBlobURL").JS_UploadAndConvertToFileBlobURL,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/JS_UploadAndConvertToFileBlobURL").JS_UploadAndConvertToFileBlobURL,
       "outputVar": "fileBlobURL",
       "parameters": [
         {
@@ -170,7 +170,7 @@ export const ACT_Feedback_UploadImage = {
     {
       "type": "javaScriptActionCall",
       "label": "1a9206e0-d75a-42f2-9f42-9af9e22d76a2",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/JS_ToggleFeedbackAnnotateWidget").JS_ToggleFeedbackAnnotateWidget,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/JS_ToggleFeedbackAnnotateWidget").JS_ToggleFeedbackAnnotateWidget,
       "outputVar": "base64ImageFromWidget",
       "parameters": [
         {
@@ -210,7 +210,7 @@ export const ACT_Feedback_UploadImage = {
     {
       "type": "javaScriptActionCall",
       "label": "f492f813-5196-4aac-a894-e5a72c938434",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
       "parameters": [
         {
           "kind": "primitive",
@@ -231,7 +231,7 @@ export const ACT_Feedback_UploadImage = {
     {
       "type": "javaScriptActionCall",
       "label": "87c9c527-6787-4efe-b7df-59dcadfaedd9",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/JS_RevokeUploadedFileFromMemory").JS_RevokeUploadedFileFromMemory,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/JS_RevokeUploadedFileFromMemory").JS_RevokeUploadedFileFromMemory,
       "parameters": [
         {
           "kind": "primitive",

@@ -16,7 +16,7 @@ export const ACT_Feedback_ClearImage = {
     {
       "type": "javaScriptActionCall",
       "label": "7824122a-5e37-4228-a6e8-871f1849acb9",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
       "parameters": [
         {
           "kind": "primitive",

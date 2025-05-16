@@ -2,11 +2,11 @@ ext {
 	mendixJavaVersion = 21
 	mendixInstallDir = "C:/Program Files/Mendix/10.21.1.64969"
 	projectName = "SalesManagement"
-	projectSafeName = "SalesManagement"
-	mendixProjectDir = "C:/Users/nss430011/Mendix/SalesManagement"
-	deploymentDir = "C:/Users/nss430011/Mendix/SalesManagement/deployment"
-	dataSnapshotFile = "C:/Users/nss430011/Mendix/SalesManagement/data-snapshot.zip"
-	dataDir = "C:/Users/nss430011/Mendix/SalesManagement/deployment/data"
+	projectSafeName = "mendix_sample_web"
+	mendixProjectDir = "C:/work/git/mendix-sample-web"
+	deploymentDir = "C:/work/git/mendix-sample-web/deployment"
+	dataSnapshotFile = "C:/work/git/mendix-sample-web/data-snapshot.zip"
+	dataDir = "C:/work/git/mendix-sample-web/deployment/data"
 	extractDataSnapshot = false
 	templatesDir = "C:/Program Files/Mendix/10.21.1.64969/modeler/runtemplates"
 	runDir = "run"

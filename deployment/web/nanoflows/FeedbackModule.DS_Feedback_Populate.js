@@ -6,7 +6,7 @@ export const DS_Feedback_Populate = {
     {
       "type": "nanoflowCall",
       "label": "0e2512c6-59aa-4ffd-b28a-c49be100c1f1",
-      "flow": () => require("C:/Users/nss430011/Mendix/SalesManagement/deployment/web/nanoflows/FeedbackModule.SUB_Feedback_GetOrCreate").SUB_Feedback_GetOrCreate,
+      "flow": () => require("C:/work/git/mendix-sample-web/deployment/web/nanoflows/FeedbackModule.SUB_Feedback_GetOrCreate").SUB_Feedback_GetOrCreate,
       "parameters": [],
       "outputVar": "Feedback"
     },
@@ -82,7 +82,7 @@ export const DS_Feedback_Populate = {
     {
       "type": "javaScriptActionCall",
       "label": "b18657b9-7788-43f0-9474-62b7c85bd06f",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/JS_PopulateFeedbackMetadata").JS_PopulateFeedbackMetadata,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/JS_PopulateFeedbackMetadata").JS_PopulateFeedbackMetadata,
       "parameters": [
         {
           "kind": "object",
@@ -96,7 +96,7 @@ export const DS_Feedback_Populate = {
     {
       "type": "javaScriptActionCall",
       "label": "d518afce-04db-4039-a0fe-8867bd83c649",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
       "parameters": [
         {
           "kind": "primitive",

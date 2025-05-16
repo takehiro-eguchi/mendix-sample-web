@@ -133,7 +133,7 @@ export const SUB_Feedback_ResetLocalStorage = {
     {
       "type": "javaScriptActionCall",
       "label": "1679198f-ebf5-4a47-92e8-c787ddbe5808",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
       "parameters": [
         {
           "kind": "primitive",

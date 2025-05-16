@@ -1,10 +1,10 @@
-import * as style0 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/administration/native/main";
-import * as style1 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/fileuploader/native/main";
-import * as style2 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/nanoflowcommons/native/main";
-import * as style3 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/atlas_core/native/main";
-import * as style4 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/feedbackmodule/native/main";
-import * as style5 from "C:/Users/nss430011/Mendix/SalesManagement/themesource/myfirstmodule/native/main";
-import * as style6 from "C:/Users/nss430011/Mendix/SalesManagement/theme/native/main";
+import * as style0 from "C:/work/git/mendix-sample-web/themesource/administration/native/main";
+import * as style1 from "C:/work/git/mendix-sample-web/themesource/fileuploader/native/main";
+import * as style2 from "C:/work/git/mendix-sample-web/themesource/nanoflowcommons/native/main";
+import * as style3 from "C:/work/git/mendix-sample-web/themesource/atlas_core/native/main";
+import * as style4 from "C:/work/git/mendix-sample-web/themesource/feedbackmodule/native/main";
+import * as style5 from "C:/work/git/mendix-sample-web/themesource/myfirstmodule/native/main";
+import * as style6 from "C:/work/git/mendix-sample-web/theme/native/main";
 
 import { flatten } from "mendix/native";
 

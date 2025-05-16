@@ -129,7 +129,7 @@ export const ACT_SubmitFeedback = {
     {
       "type": "nanoflowCall",
       "label": "dbcc1a76-edc9-4e7d-b109-b3ca0460fdd0",
-      "flow": () => require("C:/Users/nss430011/Mendix/SalesManagement/deployment/web/nanoflows/FeedbackModule.SUB_Feedback_ResetLocalStorage").SUB_Feedback_ResetLocalStorage,
+      "flow": () => require("C:/work/git/mendix-sample-web/deployment/web/nanoflows/FeedbackModule.SUB_Feedback_ResetLocalStorage").SUB_Feedback_ResetLocalStorage,
       "parameters": [
         {
           "name": "Feedback",

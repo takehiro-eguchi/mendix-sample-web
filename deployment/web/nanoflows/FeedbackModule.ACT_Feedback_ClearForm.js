@@ -43,7 +43,7 @@ export const ACT_Feedback_ClearForm = {
     {
       "type": "javaScriptActionCall",
       "label": "facfe0f2-0a7d-4ddb-bc8a-59104e7527cc",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/SetStorageItemObject").SetStorageItemObject,
       "parameters": [
         {
           "kind": "primitive",

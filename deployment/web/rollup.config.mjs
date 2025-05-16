@@ -87,14 +87,14 @@ export default {
         mendixCopy({
             sources: [
                 {
-                    folder: "C:/Users/nss430011/Mendix/SalesManagement/deployment/web/widgets",
+                    folder: "C:/work/git/mendix-sample-web/deployment/web/widgets",
                     exclude: [".js", ".mjs", ".css"],
                     include: "**",
                 },
             ],
         }),
         mendixServiceWorker({
-            deploymentDir: "C:/Users/nss430011/Mendix/SalesManagement/deployment",
+            deploymentDir: "C:/work/git/mendix-sample-web/deployment",
         }),
         mendixOnlyWriteChanged(),
         alias({

@@ -1,2 +1,2 @@
 /.mendix-cache/
-*.lock
+**/*.lock

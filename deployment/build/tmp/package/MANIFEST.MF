@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-Name: SalesManagement
+Bundle-Name: mendix_sample_web
 Bundle-SymbolicName: project
 Service-Component: OSGI-INF/component.xml
 

@@ -1,13 +1,13 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-Ddy2lrnD.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-YQ-h89DR.js';
-import { DataView } from '../DataView-DXQkwbZR.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-BGWZaNs3.js';
-import { AttributeProperty } from '../Bgp-XL0v-DW6BUmyg.js';
-import '../BrzhM9fk-jMkfAVmt.js';
-import '../CD0QimeZ-R_z0Vu6l.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-C14yx1Zk.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-B1wkSDs7.js';
+import { DataView } from '../DataView-CaIIM5iN.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-B2hGIfmd.js';
+import { AttributeProperty } from '../Bgp-XL0v-DFoXROlK.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../CD0QimeZ-CMswa-zm.js';
 
 const React = { createElement: reactExports.createElement };
 const { $DataView, $FormGroup, $TextBox, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, ActionButton });
@@ -15,13 +15,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $DataView,
     {
-      key: "p5.Administration.ChangeMyPasswordForm.dataView2",
-      $widgetId: "p5.Administration.ChangeMyPasswordForm.dataView2",
+      key: "p1.Administration.ChangeMyPasswordForm.dataView2",
+      $widgetId: "p1.Administration.ChangeMyPasswordForm.dataView2",
       class: "mx-name-dataView2 form-horizontal",
       style: void 0,
       tabIndex: void 0,
       object: AssociationObjectProperty({
-        "dataSourceId": "p5.6",
+        "dataSourceId": "p1.6",
         "scope": "$AccountPasswordData",
         "editable": true
       }),
@@ -34,18 +34,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p5.Administration.ChangeMyPasswordForm.textBox2$formGroup",
-            $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox2$formGroup",
+            key: "p1.Administration.ChangeMyPasswordForm.textBox2$formGroup",
+            $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox2$formGroup",
             class: "mx-name-textBox2 mx-textbox",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $TextBox,
                 {
-                  key: "p5.Administration.ChangeMyPasswordForm.textBox2",
-                  $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox2",
+                  key: "p1.Administration.ChangeMyPasswordForm.textBox2",
+                  $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox2",
                   inputValue: AttributeProperty({
-                    "scope": "p5.Administration.ChangeMyPasswordForm.dataView2",
+                    "scope": "p1.Administration.ChangeMyPasswordForm.dataView2",
                     "path": "",
                     "entity": "Administration.AccountPasswordData",
                     "attribute": "OldPassword",
@@ -73,7 +73,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   ariaRequired: true,
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox2"
+                    "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox2"
                   })
                 }
               )
@@ -84,30 +84,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox2"
+              "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox2"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p5.Administration.ChangeMyPasswordForm.textBox2"
+              "inputWidgetId": "p1.Administration.ChangeMyPasswordForm.textBox2"
             })
           }
         ),
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p5.Administration.ChangeMyPasswordForm.textBox3$formGroup",
-            $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox3$formGroup",
+            key: "p1.Administration.ChangeMyPasswordForm.textBox3$formGroup",
+            $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox3$formGroup",
             class: "mx-name-textBox3 mx-textbox",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $TextBox,
                 {
-                  key: "p5.Administration.ChangeMyPasswordForm.textBox3",
-                  $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox3",
+                  key: "p1.Administration.ChangeMyPasswordForm.textBox3",
+                  $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox3",
                   inputValue: AttributeProperty({
-                    "scope": "p5.Administration.ChangeMyPasswordForm.dataView2",
+                    "scope": "p1.Administration.ChangeMyPasswordForm.dataView2",
                     "path": "",
                     "entity": "Administration.AccountPasswordData",
                     "attribute": "NewPassword",
@@ -135,7 +135,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   ariaRequired: true,
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox3"
+                    "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox3"
                   })
                 }
               )
@@ -146,30 +146,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox3"
+              "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox3"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p5.Administration.ChangeMyPasswordForm.textBox3"
+              "inputWidgetId": "p1.Administration.ChangeMyPasswordForm.textBox3"
             })
           }
         ),
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p5.Administration.ChangeMyPasswordForm.textBox1$formGroup",
-            $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox1$formGroup",
+            key: "p1.Administration.ChangeMyPasswordForm.textBox1$formGroup",
+            $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox1$formGroup",
             class: "mx-name-textBox1 mx-textbox",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $TextBox,
                 {
-                  key: "p5.Administration.ChangeMyPasswordForm.textBox1",
-                  $widgetId: "p5.Administration.ChangeMyPasswordForm.textBox1",
+                  key: "p1.Administration.ChangeMyPasswordForm.textBox1",
+                  $widgetId: "p1.Administration.ChangeMyPasswordForm.textBox1",
                   inputValue: AttributeProperty({
-                    "scope": "p5.Administration.ChangeMyPasswordForm.dataView2",
+                    "scope": "p1.Administration.ChangeMyPasswordForm.dataView2",
                     "path": "",
                     "entity": "Administration.AccountPasswordData",
                     "attribute": "ConfirmPassword",
@@ -197,7 +197,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   ariaRequired: true,
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox1"
+                    "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox1"
                   })
                 }
               )
@@ -208,12 +208,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p5.Administration.ChangeMyPasswordForm.textBox1"
+              "widgetId": "p1.Administration.ChangeMyPasswordForm.textBox1"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p5.Administration.ChangeMyPasswordForm.textBox1"
+              "inputWidgetId": "p1.Administration.ChangeMyPasswordForm.textBox1"
             })
           }
         )
@@ -223,9 +223,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p5.Administration.ChangeMyPasswordForm.microflowButton1",
-            $widgetId: "p5.Administration.ChangeMyPasswordForm.microflowButton1",
-            buttonId: "p5.Administration.ChangeMyPasswordForm.microflowButton1",
+            key: "p1.Administration.ChangeMyPasswordForm.microflowButton1",
+            $widgetId: "p1.Administration.ChangeMyPasswordForm.microflowButton1",
+            buttonId: "p1.Administration.ChangeMyPasswordForm.microflowButton1",
             class: "mx-name-microflowButton1",
             style: void 0,
             tabIndex: void 0,
@@ -252,9 +252,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p5.Administration.ChangeMyPasswordForm.cancelButton1",
-            $widgetId: "p5.Administration.ChangeMyPasswordForm.cancelButton1",
-            buttonId: "p5.Administration.ChangeMyPasswordForm.cancelButton1",
+            key: "p1.Administration.ChangeMyPasswordForm.cancelButton1",
+            $widgetId: "p1.Administration.ChangeMyPasswordForm.cancelButton1",
+            buttonId: "p1.Administration.ChangeMyPasswordForm.cancelButton1",
             class: "mx-name-cancelButton1",
             style: void 0,
             tabIndex: void 0,
@@ -287,7 +287,7 @@ const title = selectTranslation([
 ]);
 const classes = "";
 const cancelChangesOperationId = "gvrOxjFEBVib0VY1naLkyg";
-const closeButton = "p5.Administration.ChangeMyPasswordForm.cancelButton1";
+const closeButton = "p1.Administration.ChangeMyPasswordForm.cancelButton1";
 const style = {};
 const content = {
   ...content$1,

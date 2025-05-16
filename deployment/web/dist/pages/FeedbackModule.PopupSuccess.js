@@ -1,15 +1,15 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-Ddy2lrnD.js';
-import { WebStaticImageProperty } from '../WebStaticImageProperty-PMDPRPuR.js';
-import { ImageWidgetModule, Container } from '../Image-BImigOxk.js';
-import { DataView } from '../DataView-DXQkwbZR.js';
-import { Div } from '../Div-DFdMVjtU.js';
-import { Text } from '../Text-DNQkDjEw.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-BGWZaNs3.js';
-import '../CD0QimeZ-R_z0Vu6l.js';
-import '../InlineText-CysQN2Fr.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-C14yx1Zk.js';
+import { WebStaticImageProperty } from '../WebStaticImageProperty-D8DEVy4Y.js';
+import { ImageWidgetModule, Container } from '../Image-H8ZrTm5W.js';
+import { DataView } from '../DataView-CaIIM5iN.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-B2hGIfmd.js';
+import '../CD0QimeZ-CMswa-zm.js';
+import '../InlineText-D7gieNIv.js';
 
 const React = { createElement: reactExports.createElement };
 const Image = Object.getOwnPropertyDescriptor(ImageWidgetModule, "Image")?.value || Object.getOwnPropertyDescriptor(ImageWidgetModule, "default")?.value;
@@ -18,37 +18,37 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p27.FeedbackModule.PopupSuccess.layoutGrid1",
-      $widgetId: "p27.FeedbackModule.PopupSuccess.layoutGrid1",
+      key: "p36.FeedbackModule.PopupSuccess.layoutGrid1",
+      $widgetId: "p36.FeedbackModule.PopupSuccess.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p27.FeedbackModule.PopupSuccess.layoutGrid1$row0",
-            $widgetId: "p27.FeedbackModule.PopupSuccess.layoutGrid1$row0",
+            key: "p36.FeedbackModule.PopupSuccess.layoutGrid1$row0",
+            $widgetId: "p36.FeedbackModule.PopupSuccess.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p27.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0",
-                  $widgetId: "p27.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0",
+                  key: "p36.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0",
+                  $widgetId: "p36.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $DataView,
                       {
-                        key: "p27.FeedbackModule.PopupSuccess.dataView1",
-                        $widgetId: "p27.FeedbackModule.PopupSuccess.dataView1",
+                        key: "p36.FeedbackModule.PopupSuccess.dataView1",
+                        $widgetId: "p36.FeedbackModule.PopupSuccess.dataView1",
                         class: "mx-name-dataView1 form-vertical",
                         style: void 0,
                         tabIndex: void 0,
                         object: AssociationObjectProperty({
-                          "dataSourceId": "p27.10",
+                          "dataSourceId": "p36.10",
                           "scope": "$Response",
                           "editable": true
                         }),
@@ -61,8 +61,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Container,
                             {
-                              key: "p27.FeedbackModule.PopupSuccess.container1",
-                              $widgetId: "p27.FeedbackModule.PopupSuccess.container1",
+                              key: "p36.FeedbackModule.PopupSuccess.container1",
+                              $widgetId: "p36.FeedbackModule.PopupSuccess.container1",
                               class: "mx-name-container1",
                               style: void 0,
                               renderMode: "div",
@@ -71,8 +71,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 /* @__PURE__ */ React.createElement(
                                   $Image,
                                   {
-                                    key: "p27.FeedbackModule.PopupSuccess.image1",
-                                    $widgetId: "p27.FeedbackModule.PopupSuccess.image1",
+                                    key: "p36.FeedbackModule.PopupSuccess.image1",
+                                    $widgetId: "p36.FeedbackModule.PopupSuccess.image1",
                                     datasource: "image",
                                     imageObject: WebStaticImageProperty({
                                       "image": { "uri": "img/FeedbackModule$Images$Success.png" }
@@ -108,8 +108,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 /* @__PURE__ */ React.createElement(
                                   $Text,
                                   {
-                                    key: "p27.FeedbackModule.PopupSuccess.text1",
-                                    $widgetId: "p27.FeedbackModule.PopupSuccess.text1",
+                                    key: "p36.FeedbackModule.PopupSuccess.text1",
+                                    $widgetId: "p36.FeedbackModule.PopupSuccess.text1",
                                     class: "mx-name-text1 text-center d-block spacing-outer-top-large spacing-outer-bottom-medium",
                                     style: void 0,
                                     caption: selectTranslation([
@@ -123,9 +123,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 /* @__PURE__ */ React.createElement(
                                   $ActionButton,
                                   {
-                                    key: "p27.FeedbackModule.PopupSuccess.actionButton2",
-                                    $widgetId: "p27.FeedbackModule.PopupSuccess.actionButton2",
-                                    buttonId: "p27.FeedbackModule.PopupSuccess.actionButton2",
+                                    key: "p36.FeedbackModule.PopupSuccess.actionButton2",
+                                    $widgetId: "p36.FeedbackModule.PopupSuccess.actionButton2",
+                                    buttonId: "p36.FeedbackModule.PopupSuccess.actionButton2",
                                     class: "mx-name-actionButton2 d-block center-block",
                                     style: void 0,
                                     tabIndex: void 0,

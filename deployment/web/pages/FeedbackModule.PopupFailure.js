@@ -7,9 +7,9 @@ import { WebStaticImageProperty } from "mendix/WebStaticImageProperty";
 
 import { Container } from "mendix/widgets/web/Container";
 import { Div } from "mendix/widgets/web/Div";
-import * as ImageWidgetModule from "C:/Users/nss430011/Mendix/SalesManagement/deployment/web/widgets/com/mendix/widget/web/image/Image.mjs";
+import * as ImageWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/image/Image.mjs";
 const Image = Object.getOwnPropertyDescriptor(ImageWidgetModule, "Image")?.value || Object.getOwnPropertyDescriptor(ImageWidgetModule, "default")?.value;   
-import "C:/Users/nss430011/Mendix/SalesManagement/deployment/web/widgets/com/mendix/widget/web/image/Image.css";
+import "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/image/Image.css";
 import { Text } from "mendix/widgets/web/Text";
 import { addEnumerations, asPluginWidgets, t } from "mendix";
 
@@ -18,30 +18,30 @@ import { content as parentContent } from "../layouts/Atlas_Core.PopupLayout.js";
 const { $Div, $Container, $Image, $Text } = asPluginWidgets({ Div, Container, Image, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p23.FeedbackModule.PopupFailure.layoutGrid1"
-        $widgetId="p23.FeedbackModule.PopupFailure.layoutGrid1"
+    <$Div key="p35.FeedbackModule.PopupFailure.layoutGrid1"
+        $widgetId="p35.FeedbackModule.PopupFailure.layoutGrid1"
         class={"mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p23.FeedbackModule.PopupFailure.layoutGrid1$row0"
-                $widgetId="p23.FeedbackModule.PopupFailure.layoutGrid1$row0"
+            <$Div key="p35.FeedbackModule.PopupFailure.layoutGrid1$row0"
+                $widgetId="p35.FeedbackModule.PopupFailure.layoutGrid1$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p23.FeedbackModule.PopupFailure.layoutGrid1$row0$column0"
-                        $widgetId="p23.FeedbackModule.PopupFailure.layoutGrid1$row0$column0"
+                    <$Div key="p35.FeedbackModule.PopupFailure.layoutGrid1$row0$column0"
+                        $widgetId="p35.FeedbackModule.PopupFailure.layoutGrid1$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$Container key="p23.FeedbackModule.PopupFailure.container1"
-                                $widgetId="p23.FeedbackModule.PopupFailure.container1"
+                            <$Container key="p35.FeedbackModule.PopupFailure.container1"
+                                $widgetId="p35.FeedbackModule.PopupFailure.container1"
                                 class={"mx-name-container1"}
                                 style={undefined}
                                 renderMode={"div"}
                                 onClick={undefined}
                                 content={[
-                                    <$Image key="p23.FeedbackModule.PopupFailure.image1"
-                                        $widgetId="p23.FeedbackModule.PopupFailure.image1"
+                                    <$Image key="p35.FeedbackModule.PopupFailure.image1"
+                                        $widgetId="p35.FeedbackModule.PopupFailure.image1"
                                         datasource={"image"}
                                         imageObject={WebStaticImageProperty({
                                             "image": { "uri": "img/FeedbackModule$Images$Failure.png" }
@@ -72,8 +72,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         class={"mx-name-image1 img-center"}
                                         style={undefined}
                                         tabIndex={undefined} />,
-                                    <$Text key="p23.FeedbackModule.PopupFailure.text1"
-                                        $widgetId="p23.FeedbackModule.PopupFailure.text1"
+                                    <$Text key="p35.FeedbackModule.PopupFailure.text1"
+                                        $widgetId="p35.FeedbackModule.PopupFailure.text1"
                                         class={"mx-name-text1 text-center d-block spacing-outer-top-large spacing-outer-bottom"}
                                         style={undefined}
                                         caption={t([
@@ -82,8 +82,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         renderMode={"h3"} />,
-                                    <$Text key="p23.FeedbackModule.PopupFailure.text2"
-                                        $widgetId="p23.FeedbackModule.PopupFailure.text2"
+                                    <$Text key="p35.FeedbackModule.PopupFailure.text2"
+                                        $widgetId="p35.FeedbackModule.PopupFailure.text2"
                                         class={"mx-name-text2 text-center d-block"}
                                         style={undefined}
                                         caption={t([

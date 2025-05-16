@@ -1,22 +1,22 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-BYePFRyK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-B1wQvYge.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-B0dcvEB8.js';
-import { WebIconProperty } from '../WebIconProperty-cd8xjTAJ.js';
-import { Container } from '../Image-BImigOxk.js';
-import { DatagridWidgetModule } from '../Datagrid-B1CA748-.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-CZl258qA.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-IQT4i7Df.js';
-import { Div } from '../Div-DFdMVjtU.js';
-import { Text } from '../Text-DNQkDjEw.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default--Py_FdGo.js';
-import '../BrzhM9fk-jMkfAVmt.js';
-import '../Bgp-XL0v-DW6BUmyg.js';
-import '../InlineText-CysQN2Fr.js';
-import '../ListExpressionProperty-C9mAXjYp.js';
-import '../WebStaticImageProperty-PMDPRPuR.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-CBHyzLdu.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DPf5U2kY.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BfE9ukAc.js';
+import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
+import { Container } from '../Image-H8ZrTm5W.js';
+import { DatagridWidgetModule } from '../Datagrid-sI2-Wmk5.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-CS-ZfvTk.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BWCwG6U2.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B7-azn8d.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../Bgp-XL0v-DFoXROlK.js';
+import '../InlineText-D7gieNIv.js';
+import '../ListExpressionProperty-eCDDpqMr.js';
+import '../WebStaticImageProperty-D8DEVy4Y.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
@@ -27,32 +27,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p32.MyFirstModule.LocationPage.layoutGrid4",
-      $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid4",
+      key: "p27.MyFirstModule.LocationPage.layoutGrid4",
+      $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid4",
       class: "mx-name-layoutGrid4 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p32.MyFirstModule.LocationPage.layoutGrid4$row0",
-            $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid4$row0",
+            key: "p27.MyFirstModule.LocationPage.layoutGrid4$row0",
+            $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid4$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p32.MyFirstModule.LocationPage.layoutGrid4$row0$column0",
-                  $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid4$row0$column0",
+                  key: "p27.MyFirstModule.LocationPage.layoutGrid4$row0$column0",
+                  $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid4$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Container,
                       {
-                        key: "p32.MyFirstModule.LocationPage.container1",
-                        $widgetId: "p32.MyFirstModule.LocationPage.container1",
+                        key: "p27.MyFirstModule.LocationPage.container1",
+                        $widgetId: "p27.MyFirstModule.LocationPage.container1",
                         class: "mx-name-container1 pageheader spacing-outer-bottom-large",
                         style: void 0,
                         renderMode: "div",
@@ -61,32 +61,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Div,
                             {
-                              key: "p32.MyFirstModule.LocationPage.layoutGrid2",
-                              $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid2",
+                              key: "p27.MyFirstModule.LocationPage.layoutGrid2",
+                              $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid2",
                               class: "mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid",
                               style: void 0,
                               content: [
                                 /* @__PURE__ */ React.createElement(
                                   $Div,
                                   {
-                                    key: "p32.MyFirstModule.LocationPage.layoutGrid2$row0",
-                                    $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid2$row0",
+                                    key: "p27.MyFirstModule.LocationPage.layoutGrid2$row0",
+                                    $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid2$row0",
                                     class: "row",
                                     style: void 0,
                                     content: [
                                       /* @__PURE__ */ React.createElement(
                                         $Div,
                                         {
-                                          key: "p32.MyFirstModule.LocationPage.layoutGrid2$row0$column0",
-                                          $widgetId: "p32.MyFirstModule.LocationPage.layoutGrid2$row0$column0",
+                                          key: "p27.MyFirstModule.LocationPage.layoutGrid2$row0$column0",
+                                          $widgetId: "p27.MyFirstModule.LocationPage.layoutGrid2$row0$column0",
                                           class: "col-lg col-md col",
                                           style: void 0,
                                           content: [
                                             /* @__PURE__ */ React.createElement(
                                               $Text,
                                               {
-                                                key: "p32.MyFirstModule.LocationPage.text40",
-                                                $widgetId: "p32.MyFirstModule.LocationPage.text40",
+                                                key: "p27.MyFirstModule.LocationPage.text40",
+                                                $widgetId: "p27.MyFirstModule.LocationPage.text40",
                                                 class: "mx-name-text40 pageheader-title spacing-outer-bottom",
                                                 style: void 0,
                                                 caption: selectTranslation([
@@ -100,8 +100,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             /* @__PURE__ */ React.createElement(
                                               $Text,
                                               {
-                                                key: "p32.MyFirstModule.LocationPage.text39",
-                                                $widgetId: "p32.MyFirstModule.LocationPage.text39",
+                                                key: "p27.MyFirstModule.LocationPage.text39",
+                                                $widgetId: "p27.MyFirstModule.LocationPage.text39",
                                                 class: "mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large",
                                                 style: void 0,
                                                 caption: selectTranslation([
@@ -137,11 +137,11 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Datagrid,
     {
-      key: "p32.MyFirstModule.LocationPage.dataGrid2_1",
-      $widgetId: "p32.MyFirstModule.LocationPage.dataGrid2_1",
+      key: "p27.MyFirstModule.LocationPage.dataGrid2_1",
+      $widgetId: "p27.MyFirstModule.LocationPage.dataGrid2_1",
       advanced: false,
       datasource: DatabaseObjectListProperty({
-        "dataSourceId": "p32.18",
+        "dataSourceId": "p27.18",
         "entity": "MyFirstModule.Locations",
         "operationId": "ct61jhHbIVySevGULm/wdw",
         "sort": []
@@ -161,7 +161,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -183,8 +183,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.textFilter1",
-                $widgetId: "p32.MyFirstModule.LocationPage.textFilter1",
+                key: "p27.MyFirstModule.LocationPage.textFilter1",
+                $widgetId: "p27.MyFirstModule.LocationPage.textFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -238,7 +238,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -260,8 +260,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.textFilter2",
-                $widgetId: "p32.MyFirstModule.LocationPage.textFilter2",
+                key: "p27.MyFirstModule.LocationPage.textFilter2",
+                $widgetId: "p27.MyFirstModule.LocationPage.textFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -315,7 +315,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -337,8 +337,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.textFilter3",
-                $widgetId: "p32.MyFirstModule.LocationPage.textFilter3",
+                key: "p27.MyFirstModule.LocationPage.textFilter3",
+                $widgetId: "p27.MyFirstModule.LocationPage.textFilter3",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -392,7 +392,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -414,8 +414,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.numberFilter1",
-                $widgetId: "p32.MyFirstModule.LocationPage.numberFilter1",
+                key: "p27.MyFirstModule.LocationPage.numberFilter1",
+                $widgetId: "p27.MyFirstModule.LocationPage.numberFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -469,7 +469,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -491,8 +491,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.numberFilter2",
-                $widgetId: "p32.MyFirstModule.LocationPage.numberFilter2",
+                key: "p27.MyFirstModule.LocationPage.numberFilter2",
+                $widgetId: "p27.MyFirstModule.LocationPage.numberFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -546,7 +546,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Integer",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": void 0,
@@ -568,8 +568,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p32.MyFirstModule.LocationPage.numberFilter3",
-                $widgetId: "p32.MyFirstModule.LocationPage.numberFilter3",
+                key: "p27.MyFirstModule.LocationPage.numberFilter3",
+                $widgetId: "p27.MyFirstModule.LocationPage.numberFilter3",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -623,19 +623,19 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "isList": false
           }),
           "content": TemplatedWidgetProperty({
-            "dataSourceId": "p32.18",
+            "dataSourceId": "p27.18",
             "editable": false,
             "children": () => [
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p32.MyFirstModule.LocationPage.actionButton1",
-                  $widgetId: "p32.MyFirstModule.LocationPage.actionButton1",
-                  buttonId: "p32.MyFirstModule.LocationPage.actionButton1",
+                  key: "p27.MyFirstModule.LocationPage.actionButton1",
+                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton1",
+                  buttonId: "p27.MyFirstModule.LocationPage.actionButton1",
                   class: "mx-name-actionButton1 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -656,7 +656,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p32.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                    "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -664,9 +664,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p32.MyFirstModule.LocationPage.actionButton2",
-                  $widgetId: "p32.MyFirstModule.LocationPage.actionButton2",
-                  buttonId: "p32.MyFirstModule.LocationPage.actionButton2",
+                  key: "p27.MyFirstModule.LocationPage.actionButton2",
+                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton2",
+                  buttonId: "p27.MyFirstModule.LocationPage.actionButton2",
                   class: "mx-name-actionButton2 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -687,7 +687,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p32.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
+                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -755,9 +755,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p32.MyFirstModule.LocationPage.actionButton3",
-            $widgetId: "p32.MyFirstModule.LocationPage.actionButton3",
-            buttonId: "p32.MyFirstModule.LocationPage.actionButton3",
+            key: "p27.MyFirstModule.LocationPage.actionButton3",
+            $widgetId: "p27.MyFirstModule.LocationPage.actionButton3",
+            buttonId: "p27.MyFirstModule.LocationPage.actionButton3",
             class: "mx-name-actionButton3",
             style: void 0,
             tabIndex: void 0,

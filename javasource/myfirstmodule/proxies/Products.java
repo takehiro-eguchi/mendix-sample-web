@@ -22,8 +22,8 @@ public class Products implements com.mendix.systemwideinterfaces.core.IEntityPro
 	{
 		ProductName("ProductName"),
 		Color("Color"),
-		SafetyStockLevel("SafetyStockLevel"),
 		ListPrice("ListPrice"),
+		SafetyStockLevel("SafetyStockLevel"),
 		Size("Size"),
 		Weight("Weight"),
 		Style("Style"),
@@ -171,42 +171,6 @@ public class Products implements com.mendix.systemwideinterfaces.core.IEntityPro
 	}
 
 	/**
-	 * @return value of SafetyStockLevel
-	 */
-	public final java.lang.Integer getSafetyStockLevel()
-	{
-		return getSafetyStockLevel(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of SafetyStockLevel
-	 */
-	public final java.lang.Integer getSafetyStockLevel(com.mendix.systemwideinterfaces.core.IContext context)
-	{
-		return (java.lang.Integer) getMendixObject().getValue(context, MemberNames.SafetyStockLevel.toString());
-	}
-
-	/**
-	 * Set value of SafetyStockLevel
-	 * @param safetystocklevel
-	 */
-	public final void setSafetyStockLevel(java.lang.Integer safetystocklevel)
-	{
-		setSafetyStockLevel(getContext(), safetystocklevel);
-	}
-
-	/**
-	 * Set value of SafetyStockLevel
-	 * @param context
-	 * @param safetystocklevel
-	 */
-	public final void setSafetyStockLevel(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Integer safetystocklevel)
-	{
-		getMendixObject().setValue(context, MemberNames.SafetyStockLevel.toString(), safetystocklevel);
-	}
-
-	/**
 	 * @return value of ListPrice
 	 */
 	public final java.math.BigDecimal getListPrice()
@@ -240,6 +204,42 @@ public class Products implements com.mendix.systemwideinterfaces.core.IEntityPro
 	public final void setListPrice(com.mendix.systemwideinterfaces.core.IContext context, java.math.BigDecimal listprice)
 	{
 		getMendixObject().setValue(context, MemberNames.ListPrice.toString(), listprice);
+	}
+
+	/**
+	 * @return value of SafetyStockLevel
+	 */
+	public final java.lang.Integer getSafetyStockLevel()
+	{
+		return getSafetyStockLevel(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of SafetyStockLevel
+	 */
+	public final java.lang.Integer getSafetyStockLevel(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.Integer) getMendixObject().getValue(context, MemberNames.SafetyStockLevel.toString());
+	}
+
+	/**
+	 * Set value of SafetyStockLevel
+	 * @param safetystocklevel
+	 */
+	public final void setSafetyStockLevel(java.lang.Integer safetystocklevel)
+	{
+		setSafetyStockLevel(getContext(), safetystocklevel);
+	}
+
+	/**
+	 * Set value of SafetyStockLevel
+	 * @param context
+	 * @param safetystocklevel
+	 */
+	public final void setSafetyStockLevel(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Integer safetystocklevel)
+	{
+		getMendixObject().setValue(context, MemberNames.SafetyStockLevel.toString(), safetystocklevel);
 	}
 
 	/**

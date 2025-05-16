@@ -10,7 +10,7 @@ export const ACT_Feedback_TriggerScreenshotMode = {
     {
       "type": "javaScriptActionCall",
       "label": "44cfcc57-0c65-4761-a936-e4bd8b9e3463",
-      "action": () => require("C:/Users/nss430011/Mendix/SalesManagement/javascriptsource/feedbackmodule/actions/JS_ToggleFeedbackScreenshotWidget").JS_ToggleFeedbackScreenshotWidget,
+      "action": () => require("C:/work/git/mendix-sample-web/javascriptsource/feedbackmodule/actions/JS_ToggleFeedbackScreenshotWidget").JS_ToggleFeedbackScreenshotWidget,
       "outputVar": "base64FromWidget",
       "parameters": []
     },

@@ -1,16 +1,16 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { WebIconProperty } from '../WebIconProperty-cd8xjTAJ.js';
-import { Container } from '../Image-BImigOxk.js';
-import { Div } from '../Div-DFdMVjtU.js';
-import { Text } from '../Text-DNQkDjEw.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default--Py_FdGo.js';
-import '../InlineText-CysQN2Fr.js';
-import '../BH5qNKCa-BYePFRyK.js';
-import '../BrzhM9fk-jMkfAVmt.js';
-import '../ListExpressionProperty-C9mAXjYp.js';
-import '../WebStaticImageProperty-PMDPRPuR.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
+import { Container } from '../Image-H8ZrTm5W.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B7-azn8d.js';
+import '../InlineText-D7gieNIv.js';
+import '../BH5qNKCa-CBHyzLdu.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../ListExpressionProperty-eCDDpqMr.js';
+import '../WebStaticImageProperty-D8DEVy4Y.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Container, $Div, $Text, $ActionButton } = asPluginWidgets({ Container, Div, Text, ActionButton });
@@ -18,8 +18,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Container,
     {
-      key: "p22.MyFirstModule.Home_Web.container1",
-      $widgetId: "p22.MyFirstModule.Home_Web.container1",
+      key: "p33.MyFirstModule.Home_Web.container1",
+      $widgetId: "p33.MyFirstModule.Home_Web.container1",
       class: "mx-name-container1 pageheader",
       style: void 0,
       renderMode: "div",
@@ -28,32 +28,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p22.MyFirstModule.Home_Web.layoutGrid2",
-            $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid2",
+            key: "p33.MyFirstModule.Home_Web.layoutGrid2",
+            $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid2",
             class: "mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid2$row0",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid2$row0",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid2$row0",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid2$row0",
                   class: "row",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Div,
                       {
-                        key: "p22.MyFirstModule.Home_Web.layoutGrid2$row0$column0",
-                        $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid2$row0$column0",
+                        key: "p33.MyFirstModule.Home_Web.layoutGrid2$row0$column0",
+                        $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid2$row0$column0",
                         class: "col-lg col-md col",
                         style: void 0,
                         content: [
                           /* @__PURE__ */ React.createElement(
                             $Text,
                             {
-                              key: "p22.MyFirstModule.Home_Web.text1",
-                              $widgetId: "p22.MyFirstModule.Home_Web.text1",
+                              key: "p33.MyFirstModule.Home_Web.text1",
+                              $widgetId: "p33.MyFirstModule.Home_Web.text1",
                               class: "mx-name-text1 pageheader-title spacing-outer-bottom",
                               style: void 0,
                               caption: selectTranslation([
@@ -67,8 +67,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Text,
                             {
-                              key: "p22.MyFirstModule.Home_Web.text3",
-                              $widgetId: "p22.MyFirstModule.Home_Web.text3",
+                              key: "p33.MyFirstModule.Home_Web.text3",
+                              $widgetId: "p33.MyFirstModule.Home_Web.text3",
                               class: "mx-name-text3 pageheader-subtitle text-detail",
                               style: void 0,
                               caption: selectTranslation([
@@ -82,9 +82,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p22.MyFirstModule.Home_Web.actionButton1",
-                              $widgetId: "p22.MyFirstModule.Home_Web.actionButton1",
-                              buttonId: "p22.MyFirstModule.Home_Web.actionButton1",
+                              key: "p33.MyFirstModule.Home_Web.actionButton1",
+                              $widgetId: "p33.MyFirstModule.Home_Web.actionButton1",
+                              buttonId: "p33.MyFirstModule.Home_Web.actionButton1",
                               class: "mx-name-actionButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -113,9 +113,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p22.MyFirstModule.Home_Web.actionButton7",
-                              $widgetId: "p22.MyFirstModule.Home_Web.actionButton7",
-                              buttonId: "p22.MyFirstModule.Home_Web.actionButton7",
+                              key: "p33.MyFirstModule.Home_Web.actionButton7",
+                              $widgetId: "p33.MyFirstModule.Home_Web.actionButton7",
+                              buttonId: "p33.MyFirstModule.Home_Web.actionButton7",
                               class: "mx-name-actionButton7",
                               style: void 0,
                               tabIndex: void 0,
@@ -154,33 +154,33 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p22.MyFirstModule.Home_Web.layoutGrid1",
-      $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1",
+      key: "p33.MyFirstModule.Home_Web.layoutGrid1",
+      $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p22.MyFirstModule.Home_Web.layoutGrid1$row0",
-            $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row0",
+            key: "p33.MyFirstModule.Home_Web.layoutGrid1$row0",
+            $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row0$column0",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row0$column0",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row0$column0",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p22.MyFirstModule.Home_Web.actionButton2",
-                        $widgetId: "p22.MyFirstModule.Home_Web.actionButton2",
-                        buttonId: "p22.MyFirstModule.Home_Web.actionButton2",
+                        key: "p33.MyFirstModule.Home_Web.actionButton2",
+                        $widgetId: "p33.MyFirstModule.Home_Web.actionButton2",
+                        buttonId: "p33.MyFirstModule.Home_Web.actionButton2",
                         class: "mx-name-actionButton2",
                         style: void 0,
                         tabIndex: void 0,
@@ -212,17 +212,17 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row0$column1",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row0$column1",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row0$column1",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row0$column1",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p22.MyFirstModule.Home_Web.actionButton5",
-                        $widgetId: "p22.MyFirstModule.Home_Web.actionButton5",
-                        buttonId: "p22.MyFirstModule.Home_Web.actionButton5",
+                        key: "p33.MyFirstModule.Home_Web.actionButton5",
+                        $widgetId: "p33.MyFirstModule.Home_Web.actionButton5",
+                        buttonId: "p33.MyFirstModule.Home_Web.actionButton5",
                         class: "mx-name-actionButton5",
                         style: void 0,
                         tabIndex: void 0,
@@ -257,25 +257,25 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p22.MyFirstModule.Home_Web.layoutGrid1$row1",
-            $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row1",
+            key: "p33.MyFirstModule.Home_Web.layoutGrid1$row1",
+            $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row1",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row1$column0",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row1$column0",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row1$column0",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row1$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p22.MyFirstModule.Home_Web.actionButton3",
-                        $widgetId: "p22.MyFirstModule.Home_Web.actionButton3",
-                        buttonId: "p22.MyFirstModule.Home_Web.actionButton3",
+                        key: "p33.MyFirstModule.Home_Web.actionButton3",
+                        $widgetId: "p33.MyFirstModule.Home_Web.actionButton3",
+                        buttonId: "p33.MyFirstModule.Home_Web.actionButton3",
                         class: "mx-name-actionButton3",
                         style: void 0,
                         tabIndex: void 0,
@@ -307,17 +307,17 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row1$column1",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row1$column1",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row1$column1",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row1$column1",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p22.MyFirstModule.Home_Web.actionButton6",
-                        $widgetId: "p22.MyFirstModule.Home_Web.actionButton6",
-                        buttonId: "p22.MyFirstModule.Home_Web.actionButton6",
+                        key: "p33.MyFirstModule.Home_Web.actionButton6",
+                        $widgetId: "p33.MyFirstModule.Home_Web.actionButton6",
+                        buttonId: "p33.MyFirstModule.Home_Web.actionButton6",
                         class: "mx-name-actionButton6",
                         style: void 0,
                         tabIndex: void 0,
@@ -352,25 +352,25 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p22.MyFirstModule.Home_Web.layoutGrid1$row2",
-            $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row2",
+            key: "p33.MyFirstModule.Home_Web.layoutGrid1$row2",
+            $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row2",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row2$column0",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row2$column0",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row2$column0",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row2$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p22.MyFirstModule.Home_Web.actionButton4",
-                        $widgetId: "p22.MyFirstModule.Home_Web.actionButton4",
-                        buttonId: "p22.MyFirstModule.Home_Web.actionButton4",
+                        key: "p33.MyFirstModule.Home_Web.actionButton4",
+                        $widgetId: "p33.MyFirstModule.Home_Web.actionButton4",
+                        buttonId: "p33.MyFirstModule.Home_Web.actionButton4",
                         class: "mx-name-actionButton4",
                         style: void 0,
                         tabIndex: void 0,
@@ -402,8 +402,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p22.MyFirstModule.Home_Web.layoutGrid1$row2$column1",
-                  $widgetId: "p22.MyFirstModule.Home_Web.layoutGrid1$row2$column1",
+                  key: "p33.MyFirstModule.Home_Web.layoutGrid1$row2$column1",
+                  $widgetId: "p33.MyFirstModule.Home_Web.layoutGrid1$row2$column1",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: void 0

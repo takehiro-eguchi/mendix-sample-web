@@ -1,20 +1,20 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-Ddy2lrnD.js';
-import { AssociationProperty } from '../AssociationProperty-DxdxFtsX.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-YQ-h89DR.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-BYePFRyK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-B1wQvYge.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-C9mAXjYp.js';
-import { CheckBox } from '../CheckBox-BnzAJl6Y.js';
-import { ComboboxWidgetModule } from '../Combobox-rdiS9-8-.js';
-import { DataView } from '../DataView-DXQkwbZR.js';
-import { Div } from '../Div-DFdMVjtU.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-BGWZaNs3.js';
-import { AttributeProperty } from '../Bgp-XL0v-DW6BUmyg.js';
-import '../BrzhM9fk-jMkfAVmt.js';
-import '../CD0QimeZ-R_z0Vu6l.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-C14yx1Zk.js';
+import { AssociationProperty } from '../AssociationProperty-C5EqUVpJ.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-B1wkSDs7.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-CBHyzLdu.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DPf5U2kY.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-eCDDpqMr.js';
+import { CheckBox } from '../CheckBox-CLm4cR4b.js';
+import { ComboboxWidgetModule } from '../Combobox-CxE5ND5W.js';
+import { DataView } from '../DataView-CaIIM5iN.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-B2hGIfmd.js';
+import { AttributeProperty } from '../Bgp-XL0v-DFoXROlK.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../CD0QimeZ-CMswa-zm.js';
 
 const React = { createElement: reactExports.createElement };
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;
@@ -23,37 +23,37 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p2.Administration.Account_New.layoutGrid1",
-      $widgetId: "p2.Administration.Account_New.layoutGrid1",
+      key: "p28.Administration.Account_New.layoutGrid1",
+      $widgetId: "p28.Administration.Account_New.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p2.Administration.Account_New.layoutGrid1$row0",
-            $widgetId: "p2.Administration.Account_New.layoutGrid1$row0",
+            key: "p28.Administration.Account_New.layoutGrid1$row0",
+            $widgetId: "p28.Administration.Account_New.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p2.Administration.Account_New.layoutGrid1$row0$column0",
-                  $widgetId: "p2.Administration.Account_New.layoutGrid1$row0$column0",
+                  key: "p28.Administration.Account_New.layoutGrid1$row0$column0",
+                  $widgetId: "p28.Administration.Account_New.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $DataView,
                       {
-                        key: "p2.Administration.Account_New.dataView2",
-                        $widgetId: "p2.Administration.Account_New.dataView2",
+                        key: "p28.Administration.Account_New.dataView2",
+                        $widgetId: "p28.Administration.Account_New.dataView2",
                         class: "mx-name-dataView2 form-horizontal",
                         style: void 0,
                         tabIndex: void 0,
                         object: AssociationObjectProperty({
-                          "dataSourceId": "p2.15",
+                          "dataSourceId": "p28.15",
                           "scope": "$AccountPasswordData",
                           "editable": true
                         }),
@@ -66,13 +66,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $DataView,
                             {
-                              key: "p2.Administration.Account_New.dataView1",
-                              $widgetId: "p2.Administration.Account_New.dataView1",
+                              key: "p28.Administration.Account_New.dataView1",
+                              $widgetId: "p28.Administration.Account_New.dataView1",
                               class: "mx-name-dataView1 form-horizontal",
                               style: void 0,
                               tabIndex: void 0,
                               object: AssociationObjectProperty({
-                                "dataSourceId": "p2.18",
+                                "dataSourceId": "p28.18",
                                 "scope": "$AccountPasswordData",
                                 "editable": true,
                                 "path": "Administration.AccountPasswordData_Account/Administration.Account",
@@ -87,18 +87,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.textBox6$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.textBox6$formGroup",
+                                    key: "p28.Administration.Account_New.textBox6$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.textBox6$formGroup",
                                     class: "mx-name-textBox6 mx-textbox",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $TextBox,
                                         {
-                                          key: "p2.Administration.Account_New.textBox6",
-                                          $widgetId: "p2.Administration.Account_New.textBox6",
+                                          key: "p28.Administration.Account_New.textBox6",
+                                          $widgetId: "p28.Administration.Account_New.textBox6",
                                           inputValue: AttributeProperty({
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "path": "",
                                             "entity": "Administration.Account",
                                             "attribute": "FullName",
@@ -126,7 +126,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           ariaRequired: void 0,
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.textBox6"
+                                            "widgetId": "p28.Administration.Account_New.textBox6"
                                           })
                                         }
                                       )
@@ -137,30 +137,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.textBox6"
+                                      "widgetId": "p28.Administration.Account_New.textBox6"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.textBox6"
+                                      "inputWidgetId": "p28.Administration.Account_New.textBox6"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.textBox9$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.textBox9$formGroup",
+                                    key: "p28.Administration.Account_New.textBox9$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.textBox9$formGroup",
                                     class: "mx-name-textBox9 mx-textbox",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $TextBox,
                                         {
-                                          key: "p2.Administration.Account_New.textBox9",
-                                          $widgetId: "p2.Administration.Account_New.textBox9",
+                                          key: "p28.Administration.Account_New.textBox9",
+                                          $widgetId: "p28.Administration.Account_New.textBox9",
                                           inputValue: AttributeProperty({
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "path": "",
                                             "entity": "Administration.Account",
                                             "attribute": "Name",
@@ -188,7 +188,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           ariaRequired: void 0,
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.textBox9"
+                                            "widgetId": "p28.Administration.Account_New.textBox9"
                                           })
                                         }
                                       )
@@ -199,28 +199,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.textBox9"
+                                      "widgetId": "p28.Administration.Account_New.textBox9"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.textBox9"
+                                      "inputWidgetId": "p28.Administration.Account_New.textBox9"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.comboBox1$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.comboBox1$formGroup",
+                                    key: "p28.Administration.Account_New.comboBox1$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.comboBox1$formGroup",
                                     class: "mx-name-comboBox1",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $Combobox,
                                         {
-                                          key: "p2.Administration.Account_New.comboBox1",
-                                          $widgetId: "p2.Administration.Account_New.comboBox1",
+                                          key: "p28.Administration.Account_New.comboBox1",
+                                          $widgetId: "p28.Administration.Account_New.comboBox1",
                                           optionsSourceType: "association",
                                           attributeAssociation: AssociationProperty({
                                             "type": "ReferenceSet",
@@ -228,14 +228,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "path": "",
                                             "attribute": "System.UserRoles",
                                             "endpointEntity": "System.UserRole",
-                                            "selectableObjectsId": "p2.0",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "selectableObjectsId": "p28.0",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                           }),
                                           optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                            "dataSourceId": "p2.0",
+                                            "dataSourceId": "p28.0",
                                             "entity": "System.UserRole",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "operationId": "AJVXCzh3vFu+kxAZ0r7uIg",
                                             "sort": [
                                               [
@@ -253,7 +253,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "attributeType": "String",
                                             "sortable": true,
                                             "filterable": true,
-                                            "dataSourceId": "p2.0",
+                                            "dataSourceId": "p28.0",
                                             "isList": false
                                           }),
                                           optionsSourceAssociationCaptionExpression: void 0,
@@ -322,7 +322,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           loadingType: "spinner",
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.comboBox1"
+                                            "widgetId": "p28.Administration.Account_New.comboBox1"
                                           })
                                         }
                                       )
@@ -333,30 +333,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.comboBox1"
+                                      "widgetId": "p28.Administration.Account_New.comboBox1"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.comboBox1"
+                                      "inputWidgetId": "p28.Administration.Account_New.comboBox1"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.checkBox1$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.checkBox1$formGroup",
+                                    key: "p28.Administration.Account_New.checkBox1$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.checkBox1$formGroup",
                                     class: "mx-name-checkBox1 mx-checkbox",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $CheckBox,
                                         {
-                                          key: "p2.Administration.Account_New.checkBox1",
-                                          $widgetId: "p2.Administration.Account_New.checkBox1",
+                                          key: "p28.Administration.Account_New.checkBox1",
+                                          $widgetId: "p28.Administration.Account_New.checkBox1",
                                           value: AttributeProperty({
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "path": "",
                                             "entity": "Administration.Account",
                                             "attribute": "Blocked",
@@ -371,7 +371,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           ariaLabel: void 0,
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.checkBox1"
+                                            "widgetId": "p28.Administration.Account_New.checkBox1"
                                           })
                                         }
                                       )
@@ -382,30 +382,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.checkBox1"
+                                      "widgetId": "p28.Administration.Account_New.checkBox1"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.checkBox1"
+                                      "inputWidgetId": "p28.Administration.Account_New.checkBox1"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.checkBox2$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.checkBox2$formGroup",
+                                    key: "p28.Administration.Account_New.checkBox2$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.checkBox2$formGroup",
                                     class: "mx-name-checkBox2 mx-checkbox",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $CheckBox,
                                         {
-                                          key: "p2.Administration.Account_New.checkBox2",
-                                          $widgetId: "p2.Administration.Account_New.checkBox2",
+                                          key: "p28.Administration.Account_New.checkBox2",
+                                          $widgetId: "p28.Administration.Account_New.checkBox2",
                                           value: AttributeProperty({
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "path": "",
                                             "entity": "Administration.Account",
                                             "attribute": "Active",
@@ -420,7 +420,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           ariaLabel: void 0,
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.checkBox2"
+                                            "widgetId": "p28.Administration.Account_New.checkBox2"
                                           })
                                         }
                                       )
@@ -431,28 +431,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.checkBox2"
+                                      "widgetId": "p28.Administration.Account_New.checkBox2"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.checkBox2"
+                                      "inputWidgetId": "p28.Administration.Account_New.checkBox2"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.comboBox3$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.comboBox3$formGroup",
+                                    key: "p28.Administration.Account_New.comboBox3$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.comboBox3$formGroup",
                                     class: "mx-name-comboBox3",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $Combobox,
                                         {
-                                          key: "p2.Administration.Account_New.comboBox3",
-                                          $widgetId: "p2.Administration.Account_New.comboBox3",
+                                          key: "p28.Administration.Account_New.comboBox3",
+                                          $widgetId: "p28.Administration.Account_New.comboBox3",
                                           optionsSourceType: "association",
                                           attributeAssociation: AssociationProperty({
                                             "type": "Reference",
@@ -460,14 +460,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "path": "",
                                             "attribute": "System.User_Language",
                                             "endpointEntity": "System.Language",
-                                            "selectableObjectsId": "p2.1",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "selectableObjectsId": "p28.1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                           }),
                                           optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                            "dataSourceId": "p2.1",
+                                            "dataSourceId": "p28.1",
                                             "entity": "System.Language",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "operationId": "+3RY7oGw6FKShGK+zquX6Q",
                                             "sort": []
                                           }),
@@ -479,7 +479,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "attributeType": "String",
                                             "sortable": true,
                                             "filterable": true,
-                                            "dataSourceId": "p2.1",
+                                            "dataSourceId": "p28.1",
                                             "isList": false
                                           }),
                                           optionsSourceAssociationCaptionExpression: void 0,
@@ -548,7 +548,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           loadingType: "spinner",
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.comboBox3"
+                                            "widgetId": "p28.Administration.Account_New.comboBox3"
                                           })
                                         }
                                       )
@@ -559,28 +559,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.comboBox3"
+                                      "widgetId": "p28.Administration.Account_New.comboBox3"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.comboBox3"
+                                      "inputWidgetId": "p28.Administration.Account_New.comboBox3"
                                     })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
                                   $FormGroup,
                                   {
-                                    key: "p2.Administration.Account_New.comboBox2$formGroup",
-                                    $widgetId: "p2.Administration.Account_New.comboBox2$formGroup",
+                                    key: "p28.Administration.Account_New.comboBox2$formGroup",
+                                    $widgetId: "p28.Administration.Account_New.comboBox2$formGroup",
                                     class: "mx-name-comboBox2",
                                     style: void 0,
                                     control: [
                                       /* @__PURE__ */ React.createElement(
                                         $Combobox,
                                         {
-                                          key: "p2.Administration.Account_New.comboBox2",
-                                          $widgetId: "p2.Administration.Account_New.comboBox2",
+                                          key: "p28.Administration.Account_New.comboBox2",
+                                          $widgetId: "p28.Administration.Account_New.comboBox2",
                                           optionsSourceType: "association",
                                           attributeAssociation: AssociationProperty({
                                             "type": "Reference",
@@ -588,14 +588,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "path": "",
                                             "attribute": "System.User_TimeZone",
                                             "endpointEntity": "System.TimeZone",
-                                            "selectableObjectsId": "p2.2",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "selectableObjectsId": "p28.2",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                           }),
                                           optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                            "dataSourceId": "p2.2",
+                                            "dataSourceId": "p28.2",
                                             "entity": "System.TimeZone",
-                                            "scope": "p2.Administration.Account_New.dataView1",
+                                            "scope": "p28.Administration.Account_New.dataView1",
                                             "operationId": "PWmlCX8fd1GjxhoXCeZTLw",
                                             "sort": [
                                               [
@@ -610,8 +610,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           }),
                                           optionsSourceAssociationCaptionType: "expression",
                                           optionsSourceAssociationCaptionExpression: ListExpressionProperty({
-                                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Description" }, "args": { "currentObject": { "widget": "p2.Administration.Account_New.comboBox2", "source": "object" } } },
-                                            "dataSourceId": "p2.2"
+                                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Description" }, "args": { "currentObject": { "widget": "p28.Administration.Account_New.comboBox2", "source": "object" } } },
+                                            "dataSourceId": "p28.2"
                                           }),
                                           emptyOptionText: selectTranslation([
                                             ExpressionProperty({
@@ -678,7 +678,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                           loadingType: "spinner",
                                           tabIndex: void 0,
                                           id: DerivedUniqueIdProperty({
-                                            "widgetId": "p2.Administration.Account_New.comboBox2"
+                                            "widgetId": "p28.Administration.Account_New.comboBox2"
                                           })
                                         }
                                       )
@@ -689,12 +689,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       })
                                     ]),
                                     labelFor: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.comboBox2"
+                                      "widgetId": "p28.Administration.Account_New.comboBox2"
                                     }),
                                     width: 3,
                                     orientation: "horizontal",
                                     hasError: ValidationProperty({
-                                      "inputWidgetId": "p2.Administration.Account_New.comboBox2"
+                                      "inputWidgetId": "p28.Administration.Account_New.comboBox2"
                                     })
                                   }
                                 )
@@ -706,18 +706,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p2.Administration.Account_New.textBox5$formGroup",
-                              $widgetId: "p2.Administration.Account_New.textBox5$formGroup",
+                              key: "p28.Administration.Account_New.textBox5$formGroup",
+                              $widgetId: "p28.Administration.Account_New.textBox5$formGroup",
                               class: "mx-name-textBox5 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p2.Administration.Account_New.textBox5",
-                                    $widgetId: "p2.Administration.Account_New.textBox5",
+                                    key: "p28.Administration.Account_New.textBox5",
+                                    $widgetId: "p28.Administration.Account_New.textBox5",
                                     inputValue: AttributeProperty({
-                                      "scope": "p2.Administration.Account_New.dataView2",
+                                      "scope": "p28.Administration.Account_New.dataView2",
                                       "path": "",
                                       "entity": "Administration.AccountPasswordData",
                                       "attribute": "NewPassword",
@@ -745,7 +745,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: true,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.textBox5"
+                                      "widgetId": "p28.Administration.Account_New.textBox5"
                                     })
                                   }
                                 )
@@ -756,30 +756,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p2.Administration.Account_New.textBox5"
+                                "widgetId": "p28.Administration.Account_New.textBox5"
                               }),
                               width: 3,
                               orientation: "horizontal",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p2.Administration.Account_New.textBox5"
+                                "inputWidgetId": "p28.Administration.Account_New.textBox5"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p2.Administration.Account_New.textBox7$formGroup",
-                              $widgetId: "p2.Administration.Account_New.textBox7$formGroup",
+                              key: "p28.Administration.Account_New.textBox7$formGroup",
+                              $widgetId: "p28.Administration.Account_New.textBox7$formGroup",
                               class: "mx-name-textBox7 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p2.Administration.Account_New.textBox7",
-                                    $widgetId: "p2.Administration.Account_New.textBox7",
+                                    key: "p28.Administration.Account_New.textBox7",
+                                    $widgetId: "p28.Administration.Account_New.textBox7",
                                     inputValue: AttributeProperty({
-                                      "scope": "p2.Administration.Account_New.dataView2",
+                                      "scope": "p28.Administration.Account_New.dataView2",
                                       "path": "",
                                       "entity": "Administration.AccountPasswordData",
                                       "attribute": "ConfirmPassword",
@@ -807,7 +807,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: true,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p2.Administration.Account_New.textBox7"
+                                      "widgetId": "p28.Administration.Account_New.textBox7"
                                     })
                                   }
                                 )
@@ -818,12 +818,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p2.Administration.Account_New.textBox7"
+                                "widgetId": "p28.Administration.Account_New.textBox7"
                               }),
                               width: 3,
                               orientation: "horizontal",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p2.Administration.Account_New.textBox7"
+                                "inputWidgetId": "p28.Administration.Account_New.textBox7"
                               })
                             }
                           )
@@ -833,9 +833,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p2.Administration.Account_New.microflowButton1",
-                              $widgetId: "p2.Administration.Account_New.microflowButton1",
-                              buttonId: "p2.Administration.Account_New.microflowButton1",
+                              key: "p28.Administration.Account_New.microflowButton1",
+                              $widgetId: "p28.Administration.Account_New.microflowButton1",
+                              buttonId: "p28.Administration.Account_New.microflowButton1",
                               class: "mx-name-microflowButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -862,9 +862,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p2.Administration.Account_New.cancelButton1",
-                              $widgetId: "p2.Administration.Account_New.cancelButton1",
-                              buttonId: "p2.Administration.Account_New.cancelButton1",
+                              key: "p28.Administration.Account_New.cancelButton1",
+                              $widgetId: "p28.Administration.Account_New.cancelButton1",
+                              buttonId: "p28.Administration.Account_New.cancelButton1",
                               class: "mx-name-cancelButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -906,7 +906,7 @@ const title = selectTranslation([
 ]);
 const classes = "";
 const cancelChangesOperationId = "zyssWadnd16Wp+QzkV272Q";
-const closeButton = "p2.Administration.Account_New.cancelButton1";
+const closeButton = "p28.Administration.Account_New.cancelButton1";
 const style = {};
 const content = {
   ...content$1,

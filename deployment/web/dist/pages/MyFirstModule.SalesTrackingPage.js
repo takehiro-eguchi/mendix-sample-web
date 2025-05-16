@@ -1,22 +1,22 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-lDZbtAHK.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CiGAZyLQ.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-Dr8i0yjm.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-BYePFRyK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-B1wQvYge.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-B0dcvEB8.js';
-import { WebIconProperty } from '../WebIconProperty-cd8xjTAJ.js';
-import { Container } from '../Image-BImigOxk.js';
-import { DatagridWidgetModule } from '../Datagrid-B1CA748-.js';
-import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-BHY6acuV.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-CZl258qA.js';
-import { Div } from '../Div-DFdMVjtU.js';
-import { Text } from '../Text-DNQkDjEw.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default--Py_FdGo.js';
-import '../BrzhM9fk-jMkfAVmt.js';
-import '../Bgp-XL0v-DW6BUmyg.js';
-import '../InlineText-CysQN2Fr.js';
-import '../ListExpressionProperty-C9mAXjYp.js';
-import '../WebStaticImageProperty-PMDPRPuR.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-CBHyzLdu.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DPf5U2kY.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BfE9ukAc.js';
+import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
+import { Container } from '../Image-H8ZrTm5W.js';
+import { DatagridWidgetModule } from '../Datagrid-sI2-Wmk5.js';
+import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-Coevrw7S.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-CS-ZfvTk.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B7-azn8d.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../Bgp-XL0v-DFoXROlK.js';
+import '../InlineText-D7gieNIv.js';
+import '../ListExpressionProperty-eCDDpqMr.js';
+import '../WebStaticImageProperty-D8DEVy4Y.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
@@ -27,32 +27,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4",
-      $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4",
+      key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4",
+      $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4",
       class: "mx-name-layoutGrid4 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4$row0",
-            $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4$row0",
+            key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4$row0",
+            $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4$row0$column0",
-                  $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid4$row0$column0",
+                  key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4$row0$column0",
+                  $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid4$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Container,
                       {
-                        key: "p34.MyFirstModule.SalesTrackingPage.container1",
-                        $widgetId: "p34.MyFirstModule.SalesTrackingPage.container1",
+                        key: "p30.MyFirstModule.SalesTrackingPage.container1",
+                        $widgetId: "p30.MyFirstModule.SalesTrackingPage.container1",
                         class: "mx-name-container1 pageheader spacing-outer-bottom-large",
                         style: void 0,
                         renderMode: "div",
@@ -61,32 +61,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Div,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2",
+                              key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2",
+                              $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2",
                               class: "mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid",
                               style: void 0,
                               content: [
                                 /* @__PURE__ */ React.createElement(
                                   $Div,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2$row0",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2$row0",
+                                    key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2$row0",
+                                    $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2$row0",
                                     class: "row",
                                     style: void 0,
                                     content: [
                                       /* @__PURE__ */ React.createElement(
                                         $Div,
                                         {
-                                          key: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2$row0$column0",
-                                          $widgetId: "p34.MyFirstModule.SalesTrackingPage.layoutGrid2$row0$column0",
+                                          key: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2$row0$column0",
+                                          $widgetId: "p30.MyFirstModule.SalesTrackingPage.layoutGrid2$row0$column0",
                                           class: "col-lg col-md col",
                                           style: void 0,
                                           content: [
                                             /* @__PURE__ */ React.createElement(
                                               $Text,
                                               {
-                                                key: "p34.MyFirstModule.SalesTrackingPage.text40",
-                                                $widgetId: "p34.MyFirstModule.SalesTrackingPage.text40",
+                                                key: "p30.MyFirstModule.SalesTrackingPage.text40",
+                                                $widgetId: "p30.MyFirstModule.SalesTrackingPage.text40",
                                                 class: "mx-name-text40 pageheader-title spacing-outer-bottom",
                                                 style: void 0,
                                                 caption: selectTranslation([
@@ -100,8 +100,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             /* @__PURE__ */ React.createElement(
                                               $Text,
                                               {
-                                                key: "p34.MyFirstModule.SalesTrackingPage.text39",
-                                                $widgetId: "p34.MyFirstModule.SalesTrackingPage.text39",
+                                                key: "p30.MyFirstModule.SalesTrackingPage.text39",
+                                                $widgetId: "p30.MyFirstModule.SalesTrackingPage.text39",
                                                 class: "mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large",
                                                 style: void 0,
                                                 caption: selectTranslation([
@@ -137,11 +137,11 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Datagrid,
     {
-      key: "p34.MyFirstModule.SalesTrackingPage.dataGrid2_1",
-      $widgetId: "p34.MyFirstModule.SalesTrackingPage.dataGrid2_1",
+      key: "p30.MyFirstModule.SalesTrackingPage.dataGrid2_1",
+      $widgetId: "p30.MyFirstModule.SalesTrackingPage.dataGrid2_1",
       advanced: false,
       datasource: DatabaseObjectListProperty({
-        "dataSourceId": "p34.18",
+        "dataSourceId": "p30.18",
         "entity": "MyFirstModule.SalesTrackingTable",
         "operationId": "EdnjlJOStFmbC7U5289R9Q",
         "sort": []
@@ -161,7 +161,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Integer",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -183,8 +183,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.numberFilter1",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.numberFilter1",
+                key: "p30.MyFirstModule.SalesTrackingPage.numberFilter1",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.numberFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -238,7 +238,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -260,8 +260,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.numberFilter2",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.numberFilter2",
+                key: "p30.MyFirstModule.SalesTrackingPage.numberFilter2",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.numberFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -315,7 +315,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -337,8 +337,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.numberFilter3",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.numberFilter3",
+                key: "p30.MyFirstModule.SalesTrackingPage.numberFilter3",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.numberFilter3",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -392,7 +392,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -414,8 +414,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.numberFilter4",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.numberFilter4",
+                key: "p30.MyFirstModule.SalesTrackingPage.numberFilter4",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.numberFilter4",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -469,7 +469,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -491,8 +491,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.numberFilter5",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.numberFilter5",
+                key: "p30.MyFirstModule.SalesTrackingPage.numberFilter5",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.numberFilter5",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -546,7 +546,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "DateTime",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -568,8 +568,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDateFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.dateFilter1",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.dateFilter1",
+                key: "p30.MyFirstModule.SalesTrackingPage.dateFilter1",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.dateFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultStartDate: void 0,
@@ -629,7 +629,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "DateTime",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -651,8 +651,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDateFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.dateFilter2",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.dateFilter2",
+                key: "p30.MyFirstModule.SalesTrackingPage.dateFilter2",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.dateFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultStartDate: void 0,
@@ -712,7 +712,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "DateTime",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -734,8 +734,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDateFilter,
               {
-                key: "p34.MyFirstModule.SalesTrackingPage.dateFilter3",
-                $widgetId: "p34.MyFirstModule.SalesTrackingPage.dateFilter3",
+                key: "p30.MyFirstModule.SalesTrackingPage.dateFilter3",
+                $widgetId: "p30.MyFirstModule.SalesTrackingPage.dateFilter3",
                 advanced: false,
                 defaultValue: void 0,
                 defaultStartDate: void 0,
@@ -795,7 +795,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -840,7 +840,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": void 0,
@@ -885,19 +885,19 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Integer",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "isList": false
           }),
           "content": TemplatedWidgetProperty({
-            "dataSourceId": "p34.18",
+            "dataSourceId": "p30.18",
             "editable": false,
             "children": () => [
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p34.MyFirstModule.SalesTrackingPage.actionButton1",
-                  $widgetId: "p34.MyFirstModule.SalesTrackingPage.actionButton1",
-                  buttonId: "p34.MyFirstModule.SalesTrackingPage.actionButton1",
+                  key: "p30.MyFirstModule.SalesTrackingPage.actionButton1",
+                  $widgetId: "p30.MyFirstModule.SalesTrackingPage.actionButton1",
+                  buttonId: "p30.MyFirstModule.SalesTrackingPage.actionButton1",
                   class: "mx-name-actionButton1 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -918,7 +918,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "openPage", "argMap": { "param$SalesTrackingTable": { "widget": "p34.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                    "action": { "type": "openPage", "argMap": { "param$SalesTrackingTable": { "widget": "p30.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -926,9 +926,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p34.MyFirstModule.SalesTrackingPage.actionButton2",
-                  $widgetId: "p34.MyFirstModule.SalesTrackingPage.actionButton2",
-                  buttonId: "p34.MyFirstModule.SalesTrackingPage.actionButton2",
+                  key: "p30.MyFirstModule.SalesTrackingPage.actionButton2",
+                  $widgetId: "p30.MyFirstModule.SalesTrackingPage.actionButton2",
+                  buttonId: "p30.MyFirstModule.SalesTrackingPage.actionButton2",
                   class: "mx-name-actionButton2 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -949,7 +949,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p34.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "6IKFfEynSFycFdce8e4XmA" }, "disabledDuringExecution": true },
+                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p30.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "6IKFfEynSFycFdce8e4XmA" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -1017,9 +1017,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p34.MyFirstModule.SalesTrackingPage.actionButton3",
-            $widgetId: "p34.MyFirstModule.SalesTrackingPage.actionButton3",
-            buttonId: "p34.MyFirstModule.SalesTrackingPage.actionButton3",
+            key: "p30.MyFirstModule.SalesTrackingPage.actionButton3",
+            $widgetId: "p30.MyFirstModule.SalesTrackingPage.actionButton3",
+            buttonId: "p30.MyFirstModule.SalesTrackingPage.actionButton3",
             class: "mx-name-actionButton3",
             style: void 0,
             tabIndex: void 0,

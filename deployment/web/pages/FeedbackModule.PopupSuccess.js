@@ -12,9 +12,9 @@ import { ActionButton } from "mendix/widgets/web/ActionButton";
 import { Container } from "mendix/widgets/web/Container";
 import { DataView } from "mendix/widgets/web/DataView";
 import { Div } from "mendix/widgets/web/Div";
-import * as ImageWidgetModule from "C:/Users/nss430011/Mendix/SalesManagement/deployment/web/widgets/com/mendix/widget/web/image/Image.mjs";
+import * as ImageWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/image/Image.mjs";
 const Image = Object.getOwnPropertyDescriptor(ImageWidgetModule, "Image")?.value || Object.getOwnPropertyDescriptor(ImageWidgetModule, "default")?.value;   
-import "C:/Users/nss430011/Mendix/SalesManagement/deployment/web/widgets/com/mendix/widget/web/image/Image.css";
+import "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/image/Image.css";
 import { Text } from "mendix/widgets/web/Text";
 import { addEnumerations, asPluginWidgets, t } from "mendix";
 
@@ -23,28 +23,28 @@ import { content as parentContent } from "../layouts/Atlas_Core.PopupLayout.js";
 const { $Div, $DataView, $Container, $Image, $Text, $ActionButton } = asPluginWidgets({ Div, DataView, Container, Image, Text, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p27.FeedbackModule.PopupSuccess.layoutGrid1"
-        $widgetId="p27.FeedbackModule.PopupSuccess.layoutGrid1"
+    <$Div key="p36.FeedbackModule.PopupSuccess.layoutGrid1"
+        $widgetId="p36.FeedbackModule.PopupSuccess.layoutGrid1"
         class={"mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p27.FeedbackModule.PopupSuccess.layoutGrid1$row0"
-                $widgetId="p27.FeedbackModule.PopupSuccess.layoutGrid1$row0"
+            <$Div key="p36.FeedbackModule.PopupSuccess.layoutGrid1$row0"
+                $widgetId="p36.FeedbackModule.PopupSuccess.layoutGrid1$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p27.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0"
-                        $widgetId="p27.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0"
+                    <$Div key="p36.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0"
+                        $widgetId="p36.FeedbackModule.PopupSuccess.layoutGrid1$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$DataView key="p27.FeedbackModule.PopupSuccess.dataView1"
-                                $widgetId="p27.FeedbackModule.PopupSuccess.dataView1"
+                            <$DataView key="p36.FeedbackModule.PopupSuccess.dataView1"
+                                $widgetId="p36.FeedbackModule.PopupSuccess.dataView1"
                                 class={"mx-name-dataView1 form-vertical"}
                                 style={undefined}
                                 tabIndex={undefined}
                                 object={AssociationObjectProperty({
-                                    "dataSourceId": "p27.10",
+                                    "dataSourceId": "p36.10",
                                     "scope": "$Response",
                                     "editable": true
                                 })}
@@ -54,15 +54,15 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                     ])
                                 })}
                                 body={[
-                                    <$Container key="p27.FeedbackModule.PopupSuccess.container1"
-                                        $widgetId="p27.FeedbackModule.PopupSuccess.container1"
+                                    <$Container key="p36.FeedbackModule.PopupSuccess.container1"
+                                        $widgetId="p36.FeedbackModule.PopupSuccess.container1"
                                         class={"mx-name-container1"}
                                         style={undefined}
                                         renderMode={"div"}
                                         onClick={undefined}
                                         content={[
-                                            <$Image key="p27.FeedbackModule.PopupSuccess.image1"
-                                                $widgetId="p27.FeedbackModule.PopupSuccess.image1"
+                                            <$Image key="p36.FeedbackModule.PopupSuccess.image1"
+                                                $widgetId="p36.FeedbackModule.PopupSuccess.image1"
                                                 datasource={"image"}
                                                 imageObject={WebStaticImageProperty({
                                                     "image": { "uri": "img/FeedbackModule$Images$Success.png" }
@@ -93,8 +93,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 class={"mx-name-image1 img-center"}
                                                 style={undefined}
                                                 tabIndex={undefined} />,
-                                            <$Text key="p27.FeedbackModule.PopupSuccess.text1"
-                                                $widgetId="p27.FeedbackModule.PopupSuccess.text1"
+                                            <$Text key="p36.FeedbackModule.PopupSuccess.text1"
+                                                $widgetId="p36.FeedbackModule.PopupSuccess.text1"
                                                 class={"mx-name-text1 text-center d-block spacing-outer-top-large spacing-outer-bottom-medium"}
                                                 style={undefined}
                                                 caption={t([
@@ -103,9 +103,9 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                     })
                                                 ])}
                                                 renderMode={"h3"} />,
-                                            <$ActionButton key="p27.FeedbackModule.PopupSuccess.actionButton2"
-                                                $widgetId="p27.FeedbackModule.PopupSuccess.actionButton2"
-                                                buttonId={"p27.FeedbackModule.PopupSuccess.actionButton2"}
+                                            <$ActionButton key="p36.FeedbackModule.PopupSuccess.actionButton2"
+                                                $widgetId="p36.FeedbackModule.PopupSuccess.actionButton2"
+                                                buttonId={"p36.FeedbackModule.PopupSuccess.actionButton2"}
                                                 class={"mx-name-actionButton2 d-block center-block"}
                                                 style={undefined}
                                                 tabIndex={undefined}
