@@ -599,7 +599,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "formatting": {
                                               "dateFormat": selectTranslation([
                                                 {
-                                                  "type": "date"
+                                                  "type": "custom",
+                                                  "pattern": "yyyy/MM/dd"
                                                 }
                                               ])
                                             }
@@ -667,7 +668,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "formatting": {
                                               "dateFormat": selectTranslation([
                                                 {
-                                                  "type": "date"
+                                                  "type": "custom",
+                                                  "pattern": "yyyy/MM/dd"
                                                 }
                                               ])
                                             }
@@ -735,7 +737,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                             "formatting": {
                                               "dateFormat": selectTranslation([
                                                 {
-                                                  "type": "date"
+                                                  "type": "custom",
+                                                  "pattern": "yyyy/MM/dd"
                                                 }
                                               ])
                                             }
@@ -1303,7 +1306,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     tabIndex: void 0,
                                     renderType: "button",
                                     role: void 0,
-                                    buttonClass: "btn-success",
+                                    buttonClass: "btn-primary",
                                     caption: selectTranslation([
                                       ExpressionProperty({
                                         "expression": { "expr": { "type": "literal", "value": "Save" }, "args": {} }

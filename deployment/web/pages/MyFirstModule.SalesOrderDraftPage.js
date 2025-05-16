@@ -2,12 +2,16 @@ import { createElement } from "react";
 const React = { createElement };
 
 import { PageFragment } from "mendix/PageFragment";
+import { ActionProperty } from "mendix/ActionProperty";
 import { DatabaseObjectListProperty } from "mendix/DatabaseObjectListProperty";
 import { ExpressionProperty } from "mendix/ExpressionProperty";
 import { ListActionProperty } from "mendix/ListActionProperty";
 import { ListAttributeProperty } from "mendix/ListAttributeProperty";
 import { TemplatedWidgetProperty } from "mendix/TemplatedWidgetProperty";
+import { TextProperty } from "mendix/TextProperty";
+import { WebIconProperty } from "mendix/WebIconProperty";
 
+import { ActionButton } from "mendix/widgets/web/ActionButton";
 import { Container } from "mendix/widgets/web/Container";
 import { Div } from "mendix/widgets/web/Div";
 import { ListView } from "mendix/widgets/web/ListView";
@@ -16,7 +20,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Phone_Default.js";
 
-const { $Div, $ListView, $Container, $Text } = asPluginWidgets({ Div, ListView, Container, Text });
+const { $Div, $ActionButton, $ListView, $Container, $Text } = asPluginWidgets({ Div, ActionButton, ListView, Container, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p0.MyFirstModule.SalesOrderDraftPage.layoutGrid1"
@@ -33,7 +37,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         $widgetId="p0.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0$column0"
                         class={"col-lg-12 col-md-12 col-12"}
                         style={undefined}
-                        content={undefined} />
+                        content={[
+                            <$ActionButton key="p0.MyFirstModule.SalesOrderDraftPage.actionButton1"
+                                $widgetId="p0.MyFirstModule.SalesOrderDraftPage.actionButton1"
+                                buttonId={"p0.MyFirstModule.SalesOrderDraftPage.actionButton1"}
+                                class={"mx-name-actionButton1"}
+                                style={{
+                                    "float": "right",
+                                    "marginTop": "10px",
+                                    "marginBottom": "10px",
+                                    "marginRight": "10px"
+                                }}
+                                tabIndex={undefined}
+                                renderType={"button"}
+                                role={undefined}
+                                buttonClass={"btn-primary"}
+                                caption={t([
+                                    ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "Add Order" }, "args": {} }
+                                    })
+                                ])}
+                                tooltip={TextProperty({
+                                    "value": t([
+                                        ""
+                                    ])
+                                })}
+                                icon={WebIconProperty({
+                                    "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+                                })}
+                                action={ActionProperty({
+                                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "pVuWxuONlVqV/XL6/pAnUA", "validate": "view" }, "disabledDuringExecution": true },
+                                    "abortOnServerValidation": true
+                                })} />
+                        ]} />
                 ]} />
         ]} />,
     <$ListView key="p0.MyFirstModule.SalesOrderDraftPage.listView1"
@@ -41,7 +77,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         class={"mx-name-listView1"}
         style={undefined}
         listValue={DatabaseObjectListProperty({
-            "dataSourceId": "p0.6",
+            "dataSourceId": "p0.8",
             "entity": "MyFirstModule.SalesTrackingTableTemporary",
             "operationId": "ebNjBkSrm1+zbdPIoCQGPQ",
             "sort": []
@@ -54,7 +90,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "AutoNumber",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -64,7 +100,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Integer",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -74,7 +110,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -84,7 +120,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -94,7 +130,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -104,12 +140,12 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.6",
+                "dataSourceId": "p0.8",
                 "isList": false
             })
         ]}
         itemTemplate={TemplatedWidgetProperty({
-            "dataSourceId": "p0.6",
+            "dataSourceId": "p0.8",
             "editable": false,
             "children": () => [
                 <$Container key="p0.MyFirstModule.SalesOrderDraftPage.container1"
@@ -122,7 +158,9 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         <$Text key="p0.MyFirstModule.SalesOrderDraftPage.text1"
                             $widgetId="p0.MyFirstModule.SalesOrderDraftPage.text1"
                             class={"mx-name-text1"}
-                            style={undefined}
+                            style={{
+                                "fontWeight": "bold"
+                            }}
                             caption={t([
                                 ExpressionProperty({
                                     "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "SalesID" }, { "type": "literal", "value": "{}" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
@@ -135,7 +173,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                             style={undefined}
                             caption={t([
                                 ExpressionProperty({
-                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Customers/MyFirstModule.Customers/FirstName" }, "args": { "currentObject": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
+                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Customers/MyFirstModule.Customers/FirstName" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
                                 })
                             ])}
                             renderMode={"span"} />,
@@ -145,7 +183,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                             style={undefined}
                             caption={t([
                                 ExpressionProperty({
-                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Products/MyFirstModule.Products/ProductName" }, "args": { "currentObject": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
+                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Products/MyFirstModule.Products/ProductName" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
                                 })
                             ])}
                             renderMode={"span"} />
@@ -156,7 +194,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         onClick={ListActionProperty({
             "action": { "type": "openPage", "argMap": { "param$SalesTrackingTableTemporary": { "widget": "p0.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "name": "MyFirstModule/DraftSalesOrder_Edit.page.xml", "location": "content" }, "disabledDuringExecution": true },
             "abortOnServerValidation": false,
-            "dataSourceId": "p0.6"
+            "dataSourceId": "p0.8"
         })}
         pageSize={10} />
 ]}</PageFragment>);

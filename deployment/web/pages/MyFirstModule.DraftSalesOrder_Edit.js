@@ -484,7 +484,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                             "formatting": {
                                                                 "dateFormat": t([
                                                                     {
-                                                                        "type": "date"
+                                                                        "type": "custom",
+                                                                        "pattern": "yyyy/MM/dd"
                                                                     }
                                                                 ])
                                                             }
@@ -542,7 +543,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                             "formatting": {
                                                                 "dateFormat": t([
                                                                     {
-                                                                        "type": "date"
+                                                                        "type": "custom",
+                                                                        "pattern": "yyyy/MM/dd"
                                                                     }
                                                                 ])
                                                             }
@@ -600,7 +602,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                             "formatting": {
                                                                 "dateFormat": t([
                                                                     {
-                                                                        "type": "date"
+                                                                        "type": "custom",
+                                                                        "pattern": "yyyy/MM/dd"
                                                                     }
                                                                 ])
                                                             }
@@ -1121,7 +1124,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 tabIndex={undefined}
                                                 renderType={"button"}
                                                 role={undefined}
-                                                buttonClass={"btn-success"}
+                                                buttonClass={"btn-primary"}
                                                 caption={t([
                                                     ExpressionProperty({
                                                         "expression": { "expr": { "type": "literal", "value": "Save" }, "args": {} }
