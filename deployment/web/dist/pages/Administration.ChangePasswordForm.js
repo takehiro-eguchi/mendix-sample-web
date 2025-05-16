@@ -1,13 +1,14 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
-import { ActionButton, TextProperty, ActionProperty } from '../ActionButton-CJ7Z7nWm.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-C14yx1Zk.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-B1wkSDs7.js';
-import { DataView } from '../DataView-CaIIM5iN.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-B2hGIfmd.js';
-import { AttributeProperty } from '../Bgp-XL0v-DFoXROlK.js';
-import '../BrzhM9fk-DIx2MmKD.js';
-import '../CD0QimeZ-CMswa-zm.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-sUfOvV_8.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
+import { ActionProperty } from '../BQa9VDC5-DyZYO1l2.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-C0gJX3Iw.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-DWi0z_zw.js';
+import { ActionButton, TextProperty } from '../ActionButton-D4JDMugy.js';
+import { DataView } from '../DataView-CN3VDaKd.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-Ci2buiUx.js';
+import { AttributeProperty } from '../Bgp-XL0v-wsgFNuuZ.js';
+import '../BrzhM9fk-DCcHnYPV.js';
+import '../CD0QimeZ-BCPkRTe3.js';
 
 const React = { createElement: reactExports.createElement };
 const { $DataView, $FormGroup, $TextBox, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, ActionButton });
