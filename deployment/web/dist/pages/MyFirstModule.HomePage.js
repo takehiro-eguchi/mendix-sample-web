@@ -1,123 +1,14 @@
-import { jsxRuntimeExports, classNames, reactExports, asPluginWidgets, selectTranslation, PlaceholderProperty } from '../index-sUfOvV_8.js';
-import { ScrollContainer, Placeholder, PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
-import { TextProperty, ActionButton } from '../ActionButton-D4JDMugy.js';
-import { WebIconProperty } from '../WebIconProperty-BB_92iSr.js';
-import { Container } from '../Container-DX13f28C.js';
-import { Div } from '../Div-CqbbyV04.js';
-import { Text } from '../Text-CYzI2A7u.js';
-import { useMenuActiveItem, preProcessMenus, createAnchor } from '../DMc54HEs-jJpiS_cX.js';
-import '../InlineText-e67tRU7X.js';
-
-function SimpleMenuBar(props) {
-  const [activeItemId, setActiveItem] = useMenuActiveItem();
-  return jsxRuntimeExports.jsx("div", { className: classNames("mx-menubar", `mx-menubar-${props.orientation}`, props.class), style: props.style, children: jsxRuntimeExports.jsx("ul", { className: classNames("nav nav-pills mx-menubar-list", { "nav-stacked": "vertical" === props.orientation }), role: "menu", children: preProcessMenus(props.menu).map((menu, index) => jsxRuntimeExports.jsx("li", { className: classNames(`mx-menubar-item mx-name-index-${index}`, { active: activeItemId === menu.stableId }), role: "none", children: createAnchor(props.name, menu, false, setActiveItem) }, index)) }) });
-}
-
-const React$1 = { createElement: reactExports.createElement };
-const { $ScrollContainer, $SimpleMenuBar, $Placeholder } = asPluginWidgets({ ScrollContainer, SimpleMenuBar, Placeholder });
-const region$Main$1 = [
-  /* @__PURE__ */ React$1.createElement(
-    $ScrollContainer,
-    {
-      key: "l22.Atlas_Core.Phone_BottomBar.scrollContainer1",
-      $widgetId: "l22.Atlas_Core.Phone_BottomBar.scrollContainer1",
-      class: "mx-name-scrollContainer1",
-      style: void 0,
-      scrollPerRegion: true,
-      layoutMode: "headline",
-      top: {
-        "enabled": false
-      },
-      bottom: {
-        "enabled": true,
-        "content": [
-          /* @__PURE__ */ React$1.createElement(
-            $SimpleMenuBar,
-            {
-              key: "l22.Atlas_Core.Phone_BottomBar.simpleMenuBar1",
-              $widgetId: "l22.Atlas_Core.Phone_BottomBar.simpleMenuBar1",
-              class: "mx-name-simpleMenuBar1 bottom-nav-text-icons",
-              style: void 0,
-              menu: [
-                {
-                  "caption": TextProperty({
-                    "value": selectTranslation([
-                      "Home"
-                    ])
-                  }),
-                  "icon": WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-home" }
-                  }),
-                  "action": void 0
-                },
-                {
-                  "caption": TextProperty({
-                    "value": selectTranslation([
-                      "Layouts"
-                    ])
-                  }),
-                  "icon": WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-layout-2" }
-                  }),
-                  "action": void 0
-                },
-                {
-                  "caption": TextProperty({
-                    "value": selectTranslation([
-                      "Templates"
-                    ])
-                  }),
-                  "icon": WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-notes-paper-text" }
-                  }),
-                  "action": void 0
-                },
-                {
-                  "caption": TextProperty({
-                    "value": selectTranslation([
-                      "Widgets"
-                    ])
-                  }),
-                  "icon": WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-cog" }
-                  }),
-                  "action": void 0
-                }
-              ],
-              orientation: "horizontal"
-            }
-          )
-        ],
-        "sizeMode": "auto",
-        "class": "region-bottombar"
-      },
-      left: {
-        "enabled": false
-      },
-      right: {
-        "enabled": false
-      },
-      center: {
-        "content": [
-          /* @__PURE__ */ React$1.createElement(
-            $Placeholder,
-            {
-              key: "l22.Atlas_Core.Phone_BottomBar.Main",
-              $widgetId: "l22.Atlas_Core.Phone_BottomBar.Main",
-              content: PlaceholderProperty({
-                "id": "Atlas_Core.Phone_BottomBar.Main"
-              })
-            }
-          )
-        ],
-        "class": "region-content"
-      }
-    }
-  )
-];
-const content$1 = {
-  "Main": region$Main$1
-};
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
+import { ActionButton, ActionProperty } from '../ActionButton-B90FcSI6.js';
+import { TextProperty } from '../Icon-Dv5nfF6s.js';
+import { WebIconProperty } from '../WebIconProperty-BFDeGq-3.js';
+import { Container } from '../Container-6llxP7Tz.js';
+import { Div } from '../Div-DJcJ5gVg.js';
+import { Text } from '../Text-CXGRaJYu.js';
+import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-CbgRSnYS.js';
+import '../InlineText-CYLpzmqS.js';
+import '../DMc54HEs-CJQCGXv1.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Container, $ActionButton, $Text, $Div } = asPluginWidgets({ Container, ActionButton, Text, Div });
@@ -277,7 +168,10 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     icon: WebIconProperty({
                                       "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-user" }
                                     }),
-                                    action: void 0
+                                    action: ActionProperty({
+                                      "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CuttomerMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(
@@ -345,7 +239,10 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     icon: WebIconProperty({
                                       "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
                                     }),
-                                    action: void 0
+                                    action: ActionProperty({
+                                      "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
                                   }
                                 ),
                                 /* @__PURE__ */ React.createElement(

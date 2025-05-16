@@ -1,31 +1,33 @@
-import { fromRequest$, available, withObjectKeeping$, fromComputation$, mapL, evaluateExpressionValue, scheduleSideEffect, toObjectItem, readUntracked, LogManager, asProperty, toFriendlyId, getSubscribedObjectState$, getObjectsByPath$, fromConstant$, onlineData, unavailable, ensureAssociationId, registerAssociationType, registerFilterAttribute, asReloadable$, getObjectByPath$, useIsFirstRender, reactExports, contains, attribute, literal, or, jsxRuntimeExports, classNames, translate, getStaticResourceUrl, getFocus, getHTMLElement, ensure, isNavigableElement, isHTMLElement, newId, Big, useForceUpdate, tuple, repeat, reaction, useStoreBackendValue, NestedStoreProvider, asPluginWidgets, selectTranslation } from '../index-sUfOvV_8.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
-import { ActionProperty } from '../BQa9VDC5-DyZYO1l2.js';
-import { handleDataSourceExecutionError } from '../CsY9Olfe-CHW5dFWF.js';
-import { objectListTrigger, convertFilterExpressionToExpression, convertSortInstructionToExpression, getCompareFunction, withSetItemsStoreSideEffect$, asReloadableListValue$, withFirstLoadDoneSharing$, listItemProperty, DatabaseObjectListProperty } from '../BH5qNKCa-DxGFmzkZ.js';
-import '../BrzhM9fk-DCcHnYPV.js';
-import { getCurrentRefObjectItem$ } from '../AssociationProperty-BLm4_vmm.js';
-import '../Bgp-XL0v-wsgFNuuZ.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-D6IAi7Qj.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-KnvL5XoQ.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BlYkv9_n.js';
-import { ActionButton, TextProperty } from '../ActionButton-D4JDMugy.js';
-import { WebIconProperty } from '../WebIconProperty-BB_92iSr.js';
-import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-Cc1bUh1v.js';
-import { Container } from '../Container-DX13f28C.js';
-import { DatagridWidgetModule } from '../Datagrid-C-kBrYJS.js';
-import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-B-kjq4No.js';
-import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-Dff5_9IO.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-zMo25Iqg.js';
-import { Div } from '../Div-CqbbyV04.js';
-import { useLegacyResize, getBox } from '../CD0QimeZ-BCPkRTe3.js';
-import { usePersistentState } from '../DMc54HEs-jJpiS_cX.js';
-import { isRightToLeft } from '../C6ZHc0Cf-CABMShA-.js';
-import { Text } from '../Text-CYzI2A7u.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BhthJPlD.js';
-import '../Image-DtxvCY00.js';
-import '../InlineText-e67tRU7X.js';
-import '../WebStaticImageProperty-BaJIOPEP.js';
+import { fromRequest$, available, withObjectKeeping$, fromComputation$, mapL, evaluateExpressionValue, scheduleSideEffect, toObjectItem, readUntracked, LogManager, asProperty, toFriendlyId, getSubscribedObjectState$, getObjectsByPath$, fromConstant$, onlineData, unavailable, ensureAssociationId, registerAssociationType, registerFilterAttribute, asReloadable$, getObjectByPath$, getFocus, getHTMLElement, ensure, isNavigableElement, isHTMLElement, reactExports, newId, Big, useForceUpdate, tuple, repeat, reaction, useStoreBackendValue, jsxRuntimeExports, classNames, NestedStoreProvider, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
+import { ActionButton, ActionProperty } from '../ActionButton-B90FcSI6.js';
+import { handleDataSourceExecutionError } from '../CsY9Olfe-CzRpA7Wm.js';
+import { objectListTrigger, convertFilterExpressionToExpression, convertSortInstructionToExpression, getCompareFunction, withSetItemsStoreSideEffect$, asReloadableListValue$, withFirstLoadDoneSharing$, listItemProperty, DatabaseObjectListProperty } from '../BH5qNKCa-DF_eSa8O.js';
+import '../BrzhM9fk-D6dvPqAy.js';
+import '../BQa9VDC5-bIsskIdw.js';
+import { getCurrentRefObjectItem$ } from '../AssociationProperty-Ir1Ciw-F.js';
+import '../Bgp-XL0v-ChI9Snow.js';
+import { TextProperty } from '../Icon-Dv5nfF6s.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-BV5OVGGR.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-DCAmFb5G.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-Bg2pyCI-.js';
+import { WebIconProperty } from '../WebIconProperty-BFDeGq-3.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-CavSfYHA.js';
+import { Container } from '../Container-6llxP7Tz.js';
+import { DatagridWidgetModule } from '../Datagrid-DDBwOl7N.js';
+import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-CjxVOYNl.js';
+import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-DFAIq-OL.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-RjfA9HHm.js';
+import { Div } from '../Div-DJcJ5gVg.js';
+import { ListView } from '../ListView-BNI4C0Uh.js';
+import { useLegacyResize, getBox } from '../CD0QimeZ-CgVe4JEF.js';
+import { usePersistentState } from '../DMc54HEs-CJQCGXv1.js';
+import { isRightToLeft } from '../C6ZHc0Cf-B2pvAQmI.js';
+import { Text } from '../Text-CXGRaJYu.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-BGEPdRoX.js';
+import '../Image-CGzd1yTB.js';
+import '../InlineText-CYLpzmqS.js';
+import '../WebStaticImageProperty-BzG0dGiB.js';
 
 function getClientPagedList$(config, store, widgetId, parameters$, fetchData) {
   const { fetchTrigger$, retrieveParameters$, silentlyResetOffset, needTotalCount$, delayedRetrieveParametersSetters, immediateRetrieveParametersSetters, loadedCallback } = objectListTrigger(config, [], store, widgetId, parameters$), fetchResult$ = fromRequest$(`Load data of ${widgetId}`, () => {
@@ -113,52 +115,6 @@ const ListAssociationProperty = asProperty((config, store, widgetId, propertyPat
     }
   }, description, config.dataSourceId, { id, filterable, type: config.type });
 });
-
-function ListView(props) {
-  useIsFirstRender() && props.listValue.limit === Number.POSITIVE_INFINITY && 0 !== props.pageSize && props.listValue.setLimit(props.pageSize);
-  const [isLoadingMore, setIsLoadingMore] = reactExports.useState(false), dataAtLastLoadMore = reactExports.useRef();
-  if (!isLoadingMore || "available" === props.listValue.status && props.listValue.items === dataAtLastLoadMore.current || setIsLoadingMore(false), "available" === props.listValue.status && props.listValue.items && props.selection) {
-    const currentSelection = props.selection.value?.[0], fixedSelection = props.listValue.items[0]?.id;
-    currentSelection !== fixedSelection && props.listValue.items.every((i) => i.id !== currentSelection) && props.selection.setValue(fixedSelection ? [fixedSelection] : void 0);
-  }
-  const [searchValue, setSearchValue] = reactExports.useState(getSearchValueFromFilter);
-  reactExports.useEffect(() => setSearchValue(getSearchValueFromFilter()), [props.listValue.filter]), reactExports.useEffect(function() {
-    const trimmedSearchValue = searchValue.trim();
-    if (trimmedSearchValue === getSearchValueFromFilter())
-      return;
-    clearTimeout(searchTimeout.current), searchTimeout.current = window.setTimeout(() => {
-      const searchExpressions = "" !== trimmedSearchValue ? props.searchAttributes.map((s) => contains(attribute(s.id), literal(trimmedSearchValue))) : [], filter = 0 === searchExpressions.length ? void 0 : 1 === searchExpressions.length ? searchExpressions[0] : or(...searchExpressions);
-      props.listValue.setFilter(filter);
-    }, 500);
-  }, [searchValue]);
-  const searchTimeout = reactExports.useRef(), contentProps = { listValue: props.listValue, itemTemplate: props.itemTemplate, selection: props.selection, onClick: props.onClick, isLoadingMore };
-  return jsxRuntimeExports.jsxs("div", { className: classNames("mx-listview", props.class, { "mx-listview-clickable": null != props.onClick }), style: props.style, children: [props.searchAttributes && jsxRuntimeExports.jsxs("div", { className: "mx-listview-searchbar", children: [jsxRuntimeExports.jsx("input", { type: "text", placeholder: translate("mxui.widget.ListView", "search"), className: "form-control", value: searchValue, onChange: (e) => setSearchValue(e.target.value), "aria-label": translate("mxui.widget.ListView", "search") }), jsxRuntimeExports.jsx("button", { className: "btn mx-button", onClick: () => {
-    "" !== searchValue ? setSearchValue("") : (props.listValue.reload(), 0 !== props.pageSize && props.listValue.setLimit(props.pageSize));
-  }, "aria-label": translate("mxui.widget.ListView", "refresh"), title: translate("mxui.widget.ListView", "refresh"), children: jsxRuntimeExports.jsx("span", { className: classNames("mx-icon-filled", searchValue ? "mx-icon-remove" : "mx-icon-refresh") }) })] }), reactExports.useMemo(() => jsxRuntimeExports.jsx(ListViewContent, { ...contentProps }), Object.values(contentProps)), props.listValue.hasMoreItems && !isLoadingMore && jsxRuntimeExports.jsxs("button", { type: "button", className: "btn mx-button mx-listview-loadMore", onClick: function(e) {
-    e.stopPropagation(), props.listValue.setLimit(props.listValue.limit + props.pageSize), setIsLoadingMore(true), dataAtLastLoadMore.current = props.listValue.items;
-  }, children: [jsxRuntimeExports.jsx("span", { className: "mx-icon-filled mx-icon-repeat" }), " ", translate("mxui.widget.ListView", "load_more")] })] });
-  function getSearchValueFromFilter() {
-    const filter = props.listValue.filter;
-    if (void 0 !== filter) {
-      const condition = "or" === filter.name ? filter.args[0] : filter;
-      if ("contains" === condition.name && "string" === condition.arg2.valueType)
-        return condition.arg2.value;
-    }
-    return "";
-  }
-}
-function ListViewContent(props) {
-  return jsxRuntimeExports.jsxs("ul", { children: [0 === props.listValue.items?.length && jsxRuntimeExports.jsx("li", { className: "mx-listview-empty", children: jsxRuntimeExports.jsx("label", { children: translate("mxui.widget.ListView", "no_items") }) }), (props.listValue.items ?? []).map((item, index) => {
-    const selection = props.selection, onClick = props.onClick?.get(item), clickEventHandler = onClick ? (e) => function(e2, action) {
-      e2.stopPropagation(), !action.canExecute || action.disabledDuringExecution && action.isExecuting || action.execute();
-    }(e, onClick) : selection ? () => function(item2, selection2) {
-      selection2.value?.includes(item2.id) || selection2.setValue([item2.id]);
-    }(item, selection) : void 0;
-    return jsxRuntimeExports.jsx("li", { className: classNames(`mx-name-index-${index}`, { selected: selection?.value?.includes(item.id) }), tabIndex: clickEventHandler ? 0 : -1, role: clickEventHandler ? "button" : void 0, onClick: clickEventHandler, onKeyDown: clickEventHandler ? (e) => function(e2, clickEventHandler2) {
-      "Enter" !== e2.key && " " !== e2.key || (e2.preventDefault(), clickEventHandler2(e2));
-    }(e, clickEventHandler) : void 0, children: jsxRuntimeExports.jsx("div", { className: "mx-dataview", "data-focusindex": "0", children: jsxRuntimeExports.jsx("div", { className: "mx-dataview-content", children: props.itemTemplate?.get(item) }) }) }, item.id);
-  }), props.isLoadingMore && jsxRuntimeExports.jsx("li", { className: "mx-listview-loading", children: jsxRuntimeExports.jsx("img", { src: getStaticResourceUrl("mxclientsystem/images/loading.gif") }) })] });
-}
 
 var NavigationKeys, NavigationCommand;
 !function(NavigationKeys2) {

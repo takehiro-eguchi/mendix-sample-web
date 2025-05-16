@@ -1,14 +1,15 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-sUfOvV_8.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
-import { ActionProperty } from '../BQa9VDC5-DyZYO1l2.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-C0gJX3Iw.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-DWi0z_zw.js';
-import { ActionButton, TextProperty } from '../ActionButton-D4JDMugy.js';
-import { DataView } from '../DataView-CN3VDaKd.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-Ci2buiUx.js';
-import { AttributeProperty } from '../Bgp-XL0v-wsgFNuuZ.js';
-import '../BrzhM9fk-DCcHnYPV.js';
-import '../CD0QimeZ-BCPkRTe3.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
+import { ActionButton, ActionProperty } from '../ActionButton-B90FcSI6.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-CvISHixh.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CDLV78js.js';
+import { TextProperty } from '../Icon-Dv5nfF6s.js';
+import { DataView } from '../DataView-BpUahdMP.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-XJJ2t8-l.js';
+import { AttributeProperty } from '../Bgp-XL0v-ChI9Snow.js';
+import '../BQa9VDC5-bIsskIdw.js';
+import '../BrzhM9fk-D6dvPqAy.js';
+import '../CD0QimeZ-CgVe4JEF.js';
 
 const React = { createElement: reactExports.createElement };
 const { $DataView, $FormGroup, $TextBox, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, ActionButton });

@@ -2,6 +2,7 @@ import { createElement } from "react";
 const React = { createElement };
 
 import { PageFragment } from "mendix/PageFragment";
+import { ActionProperty } from "mendix/ActionProperty";
 import { ExpressionProperty } from "mendix/ExpressionProperty";
 import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
@@ -129,7 +130,10 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 icon={WebIconProperty({
                                                     "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-user" }
                                                 })}
-                                                action={undefined} />,
+                                                action={ActionProperty({
+                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CuttomerMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                                    "abortOnServerValidation": true
+                                                })} />,
                                             <$Text key="p0.MyFirstModule.HomePage.text3"
                                                 $widgetId="p0.MyFirstModule.HomePage.text3"
                                                 class={"mx-name-text3 text-primary spacing-outer-bottom-none"}
@@ -177,7 +181,10 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 icon={WebIconProperty({
                                                     "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
                                                 })}
-                                                action={undefined} />,
+                                                action={ActionProperty({
+                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                                    "abortOnServerValidation": true
+                                                })} />,
                                             <$Text key="p0.MyFirstModule.HomePage.text4"
                                                 $widgetId="p0.MyFirstModule.HomePage.text4"
                                                 class={"mx-name-text4 text-primary spacing-outer-bottom-none"}

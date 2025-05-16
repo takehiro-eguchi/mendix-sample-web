@@ -1,12 +1,12 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-sUfOvV_8.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
-import { WebStaticImageProperty } from '../WebStaticImageProperty-BaJIOPEP.js';
-import { Container } from '../Container-DX13f28C.js';
-import { Div } from '../Div-CqbbyV04.js';
-import { ImageWidgetModule } from '../Image-DtxvCY00.js';
-import { Text } from '../Text-CYzI2A7u.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-Ci2buiUx.js';
-import '../InlineText-e67tRU7X.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DJGwzDdd.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BpA9Sx2X.js';
+import { WebStaticImageProperty } from '../WebStaticImageProperty-BzG0dGiB.js';
+import { Container } from '../Container-6llxP7Tz.js';
+import { Div } from '../Div-DJcJ5gVg.js';
+import { ImageWidgetModule } from '../Image-CGzd1yTB.js';
+import { Text } from '../Text-CXGRaJYu.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-XJJ2t8-l.js';
+import '../InlineText-CYLpzmqS.js';
 
 const React = { createElement: reactExports.createElement };
 const Image = Object.getOwnPropertyDescriptor(ImageWidgetModule, "Image")?.value || Object.getOwnPropertyDescriptor(ImageWidgetModule, "default")?.value;
