@@ -17,12 +17,12 @@ import { content as parentContent } from "../layouts/Atlas_Core.Phone_BottomBar.
 const { $ListView, $Text } = asPluginWidgets({ ListView, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$ListView key="p0.MyFirstModule.ProductMobilePage.listView3"
-        $widgetId="p0.MyFirstModule.ProductMobilePage.listView3"
+    <$ListView key="p32.MyFirstModule.ProductMobilePage.listView3"
+        $widgetId="p32.MyFirstModule.ProductMobilePage.listView3"
         class={"mx-name-listView3 listview-lined listview-hover"}
         style={undefined}
         listValue={DatabaseObjectListProperty({
-            "dataSourceId": "p0.0",
+            "dataSourceId": "p32.0",
             "entity": "MyFirstModule.Products",
             "operationId": "7SKoJnGUjVqVjTYJ6nbfCw",
             "sort": []
@@ -35,7 +35,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -45,7 +45,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -55,7 +55,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Integer",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -65,7 +65,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -75,7 +75,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -85,110 +85,110 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p0.0",
+                "dataSourceId": "p32.0",
                 "isList": false
             })
         ]}
         itemTemplate={TemplatedWidgetProperty({
-            "dataSourceId": "p0.0",
+            "dataSourceId": "p32.0",
             "editable": false,
             "children": () => [
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text1"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text1"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text1"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text1"
                     class={"mx-name-text1"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "ProductName" }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "ProductName" }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text2"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text2"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text2"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text2"
                     class={"mx-name-text2"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Color" }, { "type": "literal", "value": "MyFirstModule.Color" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Color" }, { "type": "literal", "value": "MyFirstModule.Color" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text3"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text3"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text3"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text3"
                     class={"mx-name-text3"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "ListPrice" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "ListPrice" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text4"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text4"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text4"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text4"
                     class={"mx-name-text4"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "SafetyStockLevel" }, { "type": "literal", "value": "{}" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "SafetyStockLevel" }, { "type": "literal", "value": "{}" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text5"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text5"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text5"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text5"
                     class={"mx-name-text5"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Size" }, { "type": "literal", "value": "MyFirstModule.Size" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Size" }, { "type": "literal", "value": "MyFirstModule.Size" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text6"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text6"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text6"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text6"
                     class={"mx-name-text6"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Weight" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Weight" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text7"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text7"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text7"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text7"
                     class={"mx-name-text7"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Style" }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Style" }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text8"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text8"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text8"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text8"
                     class={"mx-name-text8"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "ModelName" }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "ModelName" }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />,
-                <$Text key="p0.MyFirstModule.ProductMobilePage.text9"
-                    $widgetId="p0.MyFirstModule.ProductMobilePage.text9"
+                <$Text key="p32.MyFirstModule.ProductMobilePage.text9"
+                    $widgetId="p32.MyFirstModule.ProductMobilePage.text9"
                     class={"mx-name-text9"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Status" }, { "type": "literal", "value": "MyFirstModule.Status" } ] }, "args": { "currentObject": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Status" }, { "type": "literal", "value": "MyFirstModule.Status" } ] }, "args": { "currentObject": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"span"} />
             ]
         })}
         onClick={ListActionProperty({
-            "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p0.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
+            "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p32.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
             "abortOnServerValidation": false,
-            "dataSourceId": "p0.0"
+            "dataSourceId": "p32.0"
         })}
         pageSize={5} />
 ]}</PageFragment>);

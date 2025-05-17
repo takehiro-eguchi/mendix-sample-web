@@ -1,19 +1,19 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-byXJmgeF.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BNFOh2As.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-Uep1-5zc.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-CWpfMZr8.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-Dnn_ONys.js';
-import { ListView } from '../ListView-2iOLO5xL.js';
-import { Text } from '../Text-DZ-U1Q-n.js';
-import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-D6ZG6JFy.js';
-import '../BrzhM9fk-N7FbJJus.js';
-import '../BQa9VDC5-BWEBlAni.js';
-import '../Bgp-XL0v-NBFeyE8N.js';
-import '../Icon-BZqjj_0y.js';
-import '../InlineText-D7jZL5NZ.js';
-import '../WebIconProperty-Dlq3RviU.js';
-import '../SimpleMenuBar-cbI6aqB4.js';
-import '../DMc54HEs-BlvWf0_R.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-YUXxnGjk.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-CdJB2qIy.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BfE9ukAc.js';
+import { ListView } from '../ListView-Cs3yqIel.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-DUPdzp5F.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../BQa9VDC5-B8H0Gl41.js';
+import '../Bgp-XL0v-CydxPoxA.js';
+import '../Icon-CD3-QqtZ.js';
+import '../InlineText-D7gieNIv.js';
+import '../WebIconProperty-B88sVxeT.js';
+import '../SimpleMenuBar-CrwLfguo.js';
+import '../DMc54HEs-DHjqPhQF.js';
 
 const React = { createElement: reactExports.createElement };
 const { $ListView, $Text } = asPluginWidgets({ ListView, Text });
@@ -21,12 +21,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $ListView,
     {
-      key: "p2.MyFirstModule.LocationMobilePage.listView3",
-      $widgetId: "p2.MyFirstModule.LocationMobilePage.listView3",
+      key: "p36.MyFirstModule.LocationMobilePage.listView3",
+      $widgetId: "p36.MyFirstModule.LocationMobilePage.listView3",
       class: "mx-name-listView3 listview-lined listview-hover",
       style: void 0,
       listValue: DatabaseObjectListProperty({
-        "dataSourceId": "p2.0",
+        "dataSourceId": "p36.0",
         "entity": "MyFirstModule.Locations",
         "operationId": "aDW/LFBYxFeDDNIql8ODjA",
         "sort": []
@@ -39,7 +39,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "String",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         }),
         ListAttributeProperty({
@@ -49,7 +49,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "String",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         }),
         ListAttributeProperty({
@@ -59,7 +59,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "String",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         }),
         ListAttributeProperty({
@@ -69,7 +69,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         }),
         ListAttributeProperty({
@@ -79,7 +79,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         }),
         ListAttributeProperty({
@@ -89,24 +89,24 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Integer",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p2.0",
+          "dataSourceId": "p36.0",
           "isList": false
         })
       ],
       itemTemplate: TemplatedWidgetProperty({
-        "dataSourceId": "p2.0",
+        "dataSourceId": "p36.0",
         "editable": false,
         "children": () => [
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text1",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text1",
+              key: "p36.MyFirstModule.LocationMobilePage.text1",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text1",
               class: "mx-name-text1",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "State" }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "State" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"
@@ -115,13 +115,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text2",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text2",
+              key: "p36.MyFirstModule.LocationMobilePage.text2",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text2",
               class: "mx-name-text2",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "City" }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "City" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"
@@ -130,13 +130,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text3",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text3",
+              key: "p36.MyFirstModule.LocationMobilePage.text3",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text3",
               class: "mx-name-text3",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Country" }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Country" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"
@@ -145,13 +145,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text4",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text4",
+              key: "p36.MyFirstModule.LocationMobilePage.text4",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text4",
               class: "mx-name-text4",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "Longitude" }, { "type": "literal", "value": '{"decimalPrecision":2}' }] }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "Longitude" }, { "type": "literal", "value": '{"decimalPrecision":2}' }] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"
@@ -160,13 +160,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text5",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text5",
+              key: "p36.MyFirstModule.LocationMobilePage.text5",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text5",
               class: "mx-name-text5",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "Latitude" }, { "type": "literal", "value": '{"decimalPrecision":2}' }] }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "Latitude" }, { "type": "literal", "value": '{"decimalPrecision":2}' }] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"
@@ -175,13 +175,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           /* @__PURE__ */ React.createElement(
             $Text,
             {
-              key: "p2.MyFirstModule.LocationMobilePage.text6",
-              $widgetId: "p2.MyFirstModule.LocationMobilePage.text6",
+              key: "p36.MyFirstModule.LocationMobilePage.text6",
+              $widgetId: "p36.MyFirstModule.LocationMobilePage.text6",
               class: "mx-name-text6",
               style: void 0,
               caption: selectTranslation([
                 ExpressionProperty({
-                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "PostalCode" }, { "type": "literal", "value": "{}" }] }, "args": { "currentObject": { "widget": "p2.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                  "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "PostalCode" }, { "type": "literal", "value": "{}" }] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                 })
               ]),
               renderMode: "p"

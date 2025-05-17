@@ -1,29 +1,29 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-byXJmgeF.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BNFOh2As.js';
-import { ActionProperty } from '../ActionProperty-Bit9c0PV.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-Uep1-5zc.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-CWpfMZr8.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-Dnn_ONys.js';
-import { TextProperty } from '../Icon-BZqjj_0y.js';
-import { WebIconProperty } from '../WebIconProperty-Dlq3RviU.js';
-import { ActionButton } from '../ActionButton-Cam8M_BK.js';
-import { Container } from '../Container-BAe5wxcO.js';
-import { DatagridWidgetModule } from '../Datagrid-CPLAumoB.js';
-import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-DGHJP10_.js';
-import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-Cnb1criT.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-BAmniLCe.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-B0Kjd7oR.js';
-import { Div } from '../Div-32Jsy3k8.js';
-import { Text } from '../Text-DZ-U1Q-n.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BiMKMVdx.js';
-import '../BrzhM9fk-N7FbJJus.js';
-import '../BQa9VDC5-BWEBlAni.js';
-import '../Bgp-XL0v-NBFeyE8N.js';
-import '../Image-Db6pb7gc.js';
-import '../InlineText-D7jZL5NZ.js';
-import '../ListExpressionProperty-Dt1ifW9o.js';
-import '../WebStaticImageProperty-MO_QyBt-.js';
-import '../DMc54HEs-BlvWf0_R.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
+import { ActionProperty } from '../ActionProperty-BTILmUmE.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-YUXxnGjk.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-CdJB2qIy.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BfE9ukAc.js';
+import { TextProperty } from '../Icon-CD3-QqtZ.js';
+import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
+import { ActionButton } from '../ActionButton-C4Tg9t6b.js';
+import { Container } from '../Container-DwlZ5IDZ.js';
+import { DatagridWidgetModule } from '../Datagrid-BaS4Vf7J.js';
+import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-i1pvoQ7K.js';
+import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-9tK4HoNs.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DftkNU0H.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-CfteYneP.js';
+import { Div } from '../Div-DGtcc-SO.js';
+import { Text } from '../Text-DR32TaDK.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CPl-t0Ao.js';
+import '../BrzhM9fk-DIx2MmKD.js';
+import '../BQa9VDC5-B8H0Gl41.js';
+import '../Bgp-XL0v-CydxPoxA.js';
+import '../Image-BTiL4qVa.js';
+import '../InlineText-D7gieNIv.js';
+import '../ListExpressionProperty-DJewd2cn.js';
+import '../WebStaticImageProperty-D8DEVy4Y.js';
+import '../DMc54HEs-DHjqPhQF.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
@@ -36,32 +36,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p34.MyFirstModule.CustomersPage.layoutGrid2",
-      $widgetId: "p34.MyFirstModule.CustomersPage.layoutGrid2",
+      key: "p42.MyFirstModule.CustomersPage.layoutGrid2",
+      $widgetId: "p42.MyFirstModule.CustomersPage.layoutGrid2",
       class: "mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p34.MyFirstModule.CustomersPage.layoutGrid2$row0",
-            $widgetId: "p34.MyFirstModule.CustomersPage.layoutGrid2$row0",
+            key: "p42.MyFirstModule.CustomersPage.layoutGrid2$row0",
+            $widgetId: "p42.MyFirstModule.CustomersPage.layoutGrid2$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p34.MyFirstModule.CustomersPage.layoutGrid2$row0$column0",
-                  $widgetId: "p34.MyFirstModule.CustomersPage.layoutGrid2$row0$column0",
+                  key: "p42.MyFirstModule.CustomersPage.layoutGrid2$row0$column0",
+                  $widgetId: "p42.MyFirstModule.CustomersPage.layoutGrid2$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Container,
                       {
-                        key: "p34.MyFirstModule.CustomersPage.container1",
-                        $widgetId: "p34.MyFirstModule.CustomersPage.container1",
+                        key: "p42.MyFirstModule.CustomersPage.container1",
+                        $widgetId: "p42.MyFirstModule.CustomersPage.container1",
                         class: "mx-name-container1 pageheader spacing-outer-bottom-large",
                         style: void 0,
                         renderMode: "div",
@@ -70,8 +70,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Text,
                             {
-                              key: "p34.MyFirstModule.CustomersPage.text40",
-                              $widgetId: "p34.MyFirstModule.CustomersPage.text40",
+                              key: "p42.MyFirstModule.CustomersPage.text40",
+                              $widgetId: "p42.MyFirstModule.CustomersPage.text40",
                               class: "mx-name-text40 pageheader-title spacing-outer-bottom",
                               style: void 0,
                               caption: selectTranslation([
@@ -85,8 +85,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $Text,
                             {
-                              key: "p34.MyFirstModule.CustomersPage.text39",
-                              $widgetId: "p34.MyFirstModule.CustomersPage.text39",
+                              key: "p42.MyFirstModule.CustomersPage.text39",
+                              $widgetId: "p42.MyFirstModule.CustomersPage.text39",
                               class: "mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large",
                               style: void 0,
                               caption: selectTranslation([
@@ -113,11 +113,11 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Datagrid,
     {
-      key: "p34.MyFirstModule.CustomersPage.dataGrid2_1",
-      $widgetId: "p34.MyFirstModule.CustomersPage.dataGrid2_1",
+      key: "p42.MyFirstModule.CustomersPage.dataGrid2_1",
+      $widgetId: "p42.MyFirstModule.CustomersPage.dataGrid2_1",
       advanced: false,
       datasource: DatabaseObjectListProperty({
-        "dataSourceId": "p34.12",
+        "dataSourceId": "p42.12",
         "entity": "MyFirstModule.Customers",
         "operationId": "ODw/vuIgQVau84Xbhaetjw",
         "sort": []
@@ -137,7 +137,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -159,8 +159,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.textFilter1",
-                $widgetId: "p34.MyFirstModule.CustomersPage.textFilter1",
+                key: "p42.MyFirstModule.CustomersPage.textFilter1",
+                $widgetId: "p42.MyFirstModule.CustomersPage.textFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -214,7 +214,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -236,8 +236,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.textFilter2",
-                $widgetId: "p34.MyFirstModule.CustomersPage.textFilter2",
+                key: "p42.MyFirstModule.CustomersPage.textFilter2",
+                $widgetId: "p42.MyFirstModule.CustomersPage.textFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -291,7 +291,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "DateTime",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -313,8 +313,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDateFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.dateFilter1",
-                $widgetId: "p34.MyFirstModule.CustomersPage.dateFilter1",
+                key: "p42.MyFirstModule.CustomersPage.dateFilter1",
+                $widgetId: "p42.MyFirstModule.CustomersPage.dateFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultStartDate: void 0,
@@ -374,7 +374,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Enum",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -396,8 +396,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDropdownFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.drop_downFilter1",
-                $widgetId: "p34.MyFirstModule.CustomersPage.drop_downFilter1",
+                key: "p42.MyFirstModule.CustomersPage.drop_downFilter1",
+                $widgetId: "p42.MyFirstModule.CustomersPage.drop_downFilter1",
                 auto: true,
                 defaultValue: void 0,
                 filterOptions: [],
@@ -449,7 +449,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Enum",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -471,8 +471,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridDropdownFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.drop_downFilter2",
-                $widgetId: "p34.MyFirstModule.CustomersPage.drop_downFilter2",
+                key: "p42.MyFirstModule.CustomersPage.drop_downFilter2",
+                $widgetId: "p42.MyFirstModule.CustomersPage.drop_downFilter2",
                 auto: true,
                 defaultValue: void 0,
                 filterOptions: [],
@@ -524,7 +524,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -546,8 +546,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.textFilter3",
-                $widgetId: "p34.MyFirstModule.CustomersPage.textFilter3",
+                key: "p42.MyFirstModule.CustomersPage.textFilter3",
+                $widgetId: "p42.MyFirstModule.CustomersPage.textFilter3",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -601,7 +601,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -623,8 +623,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridTextFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.textFilter4",
-                $widgetId: "p34.MyFirstModule.CustomersPage.textFilter4",
+                key: "p42.MyFirstModule.CustomersPage.textFilter4",
+                $widgetId: "p42.MyFirstModule.CustomersPage.textFilter4",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "contains",
@@ -678,7 +678,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Decimal",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -700,8 +700,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.numberFilter1",
-                $widgetId: "p34.MyFirstModule.CustomersPage.numberFilter1",
+                key: "p42.MyFirstModule.CustomersPage.numberFilter1",
+                $widgetId: "p42.MyFirstModule.CustomersPage.numberFilter1",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -755,7 +755,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "Integer",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": void 0,
@@ -777,8 +777,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             /* @__PURE__ */ React.createElement(
               $DatagridNumberFilter,
               {
-                key: "p34.MyFirstModule.CustomersPage.numberFilter2",
-                $widgetId: "p34.MyFirstModule.CustomersPage.numberFilter2",
+                key: "p42.MyFirstModule.CustomersPage.numberFilter2",
+                $widgetId: "p42.MyFirstModule.CustomersPage.numberFilter2",
                 advanced: false,
                 defaultValue: void 0,
                 defaultFilter: "equal",
@@ -832,19 +832,19 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "attributeType": "String",
             "sortable": true,
             "filterable": true,
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "isList": false
           }),
           "content": TemplatedWidgetProperty({
-            "dataSourceId": "p34.12",
+            "dataSourceId": "p42.12",
             "editable": false,
             "children": () => [
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p34.MyFirstModule.CustomersPage.actionButton1",
-                  $widgetId: "p34.MyFirstModule.CustomersPage.actionButton1",
-                  buttonId: "p34.MyFirstModule.CustomersPage.actionButton1",
+                  key: "p42.MyFirstModule.CustomersPage.actionButton1",
+                  $widgetId: "p42.MyFirstModule.CustomersPage.actionButton1",
+                  buttonId: "p42.MyFirstModule.CustomersPage.actionButton1",
                   class: "mx-name-actionButton1 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -865,7 +865,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p34.MyFirstModule.CustomersPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                    "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p42.MyFirstModule.CustomersPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -873,9 +873,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               /* @__PURE__ */ React.createElement(
                 $ActionButton,
                 {
-                  key: "p34.MyFirstModule.CustomersPage.actionButton2",
-                  $widgetId: "p34.MyFirstModule.CustomersPage.actionButton2",
-                  buttonId: "p34.MyFirstModule.CustomersPage.actionButton2",
+                  key: "p42.MyFirstModule.CustomersPage.actionButton2",
+                  $widgetId: "p42.MyFirstModule.CustomersPage.actionButton2",
+                  buttonId: "p42.MyFirstModule.CustomersPage.actionButton2",
                   class: "mx-name-actionButton2 btn-lg",
                   style: void 0,
                   tabIndex: void 0,
@@ -961,9 +961,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p34.MyFirstModule.CustomersPage.actionButton3",
-            $widgetId: "p34.MyFirstModule.CustomersPage.actionButton3",
-            buttonId: "p34.MyFirstModule.CustomersPage.actionButton3",
+            key: "p42.MyFirstModule.CustomersPage.actionButton3",
+            $widgetId: "p42.MyFirstModule.CustomersPage.actionButton3",
+            buttonId: "p42.MyFirstModule.CustomersPage.actionButton3",
             class: "mx-name-actionButton3",
             style: void 0,
             tabIndex: void 0,

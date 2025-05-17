@@ -13,8 +13,8 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 const { $ScrollContainer, $Header, $Title, $Placeholder } = asPluginWidgets({ ScrollContainer, Header, Title, Placeholder });
 
 const region$Main = [
-    <$ScrollContainer key="l18.Atlas_Core.Tablet_TopBar.layoutContainer"
-        $widgetId="l18.Atlas_Core.Tablet_TopBar.layoutContainer"
+    <$ScrollContainer key="l17.Atlas_Core.Tablet_TopBar.layoutContainer"
+        $widgetId="l17.Atlas_Core.Tablet_TopBar.layoutContainer"
         class={"mx-name-layoutContainer"}
         style={undefined}
         scrollPerRegion={true}
@@ -22,13 +22,13 @@ const region$Main = [
         top={{
             "enabled": true,
             "content": [
-                <$Header key="l18.Atlas_Core.Tablet_TopBar.header1"
-                    $widgetId="l18.Atlas_Core.Tablet_TopBar.header1"
+                <$Header key="l17.Atlas_Core.Tablet_TopBar.header1"
+                    $widgetId="l17.Atlas_Core.Tablet_TopBar.header1"
                     class={"mx-name-header1"}
                     style={undefined}
                     content={[
-                        <$Title key="l18.4"
-                            $widgetId="l18.4"
+                        <$Title key="l17.4"
+                            $widgetId="l17.4"
                             class={""}
                             style={undefined}
                             caption={ExpressionProperty({
@@ -36,15 +36,15 @@ const region$Main = [
                             })} />
                     ]}
                     leftWidgets={[
-                        <$Placeholder key="l18.Atlas_Core.Tablet_TopBar.HeaderLeft"
-                            $widgetId="l18.Atlas_Core.Tablet_TopBar.HeaderLeft"
+                        <$Placeholder key="l17.Atlas_Core.Tablet_TopBar.HeaderLeft"
+                            $widgetId="l17.Atlas_Core.Tablet_TopBar.HeaderLeft"
                             content={PlaceholderProperty({
                                 "id": "Atlas_Core.Tablet_TopBar.HeaderLeft"
                             })} />
                     ]}
                     rightWidgets={[
-                        <$Placeholder key="l18.Atlas_Core.Tablet_TopBar.HeaderRight"
-                            $widgetId="l18.Atlas_Core.Tablet_TopBar.HeaderRight"
+                        <$Placeholder key="l17.Atlas_Core.Tablet_TopBar.HeaderRight"
+                            $widgetId="l17.Atlas_Core.Tablet_TopBar.HeaderRight"
                             content={PlaceholderProperty({
                                 "id": "Atlas_Core.Tablet_TopBar.HeaderRight"
                             })} />
@@ -64,8 +64,8 @@ const region$Main = [
         }}
         center={{
             "content": [
-                <$Placeholder key="l18.Atlas_Core.Tablet_TopBar.Main"
-                    $widgetId="l18.Atlas_Core.Tablet_TopBar.Main"
+                <$Placeholder key="l17.Atlas_Core.Tablet_TopBar.Main"
+                    $widgetId="l17.Atlas_Core.Tablet_TopBar.Main"
                     content={PlaceholderProperty({
                         "id": "Atlas_Core.Tablet_TopBar.Main"
                     })} />

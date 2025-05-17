@@ -15,6 +15,36 @@ public final class Microflows
 	private Microflows() {}
 
 	// These are the microflows for the MyFirstModule module
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder createSalesOrderDraftObjectBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.CreateSalesOrderDraftObject");
+		return builder;
+	}
+
+	public static void createSalesOrderDraftObject(IContext context)
+	{
+		createSalesOrderDraftObjectBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder createVariableBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.CreateVariable");
+		return builder;
+	}
+
+	public static void createVariable(IContext context)
+	{
+		createVariableBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder ifStatementBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.IfStatement");
+		return builder;
+	}
+
+	public static void ifStatement(IContext context)
+	{
+		ifStatementBuilder().execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder myFirstLogicBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.MyFirstLogic");

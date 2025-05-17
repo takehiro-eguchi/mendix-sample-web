@@ -22,28 +22,28 @@ import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js
 const { $Div, $DataView, $FormGroup, $TextBox, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p38.MyFirstModule.Locations_NewEdit.layoutGrid1"
-        $widgetId="p38.MyFirstModule.Locations_NewEdit.layoutGrid1"
+    <$Div key="p27.MyFirstModule.Locations_NewEdit.layoutGrid1"
+        $widgetId="p27.MyFirstModule.Locations_NewEdit.layoutGrid1"
         class={"mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p38.MyFirstModule.Locations_NewEdit.layoutGrid1$row0"
-                $widgetId="p38.MyFirstModule.Locations_NewEdit.layoutGrid1$row0"
+            <$Div key="p27.MyFirstModule.Locations_NewEdit.layoutGrid1$row0"
+                $widgetId="p27.MyFirstModule.Locations_NewEdit.layoutGrid1$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p38.MyFirstModule.Locations_NewEdit.layoutGrid1$row0$column0"
-                        $widgetId="p38.MyFirstModule.Locations_NewEdit.layoutGrid1$row0$column0"
+                    <$Div key="p27.MyFirstModule.Locations_NewEdit.layoutGrid1$row0$column0"
+                        $widgetId="p27.MyFirstModule.Locations_NewEdit.layoutGrid1$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$DataView key="p38.MyFirstModule.Locations_NewEdit.dataView6"
-                                $widgetId="p38.MyFirstModule.Locations_NewEdit.dataView6"
+                            <$DataView key="p27.MyFirstModule.Locations_NewEdit.dataView6"
+                                $widgetId="p27.MyFirstModule.Locations_NewEdit.dataView6"
                                 class={"mx-name-dataView6 form-vertical"}
                                 style={undefined}
                                 tabIndex={undefined}
                                 object={AssociationObjectProperty({
-                                    "dataSourceId": "p38.12",
+                                    "dataSourceId": "p27.12",
                                     "scope": "$Locations",
                                     "editable": true
                                 })}
@@ -53,15 +53,15 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                     ])
                                 })}
                                 body={[
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox1$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox1$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox1$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox1$formGroup"
                                         class={"mx-name-textBox1 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox1"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox1"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox1"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox1"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "State",
@@ -89,7 +89,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox1"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox1"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -98,22 +98,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox1"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox1"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox1"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox1"
                                         })} />,
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox2$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox2$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox2$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox2$formGroup"
                                         class={"mx-name-textBox2 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox2"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox2"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox2"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox2"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "City",
@@ -141,7 +141,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox2"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox2"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -150,22 +150,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox2"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox2"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox2"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox2"
                                         })} />,
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox3$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox3$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox3$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox3$formGroup"
                                         class={"mx-name-textBox3 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox3"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox3"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox3"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox3"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "Country",
@@ -193,7 +193,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox3"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox3"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -202,22 +202,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox3"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox3"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox3"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox3"
                                         })} />,
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox4$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox4$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox4$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox4$formGroup"
                                         class={"mx-name-textBox4 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox4"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox4"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox4"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox4"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "Longitude",
@@ -250,7 +250,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox4"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox4"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -259,22 +259,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox4"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox4"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox4"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox4"
                                         })} />,
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox5$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox5$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox5$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox5$formGroup"
                                         class={"mx-name-textBox5 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox5"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox5"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox5"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox5"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "Latitude",
@@ -307,7 +307,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox5"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox5"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -316,22 +316,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox5"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox5"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox5"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox5"
                                         })} />,
-                                    <$FormGroup key="p38.MyFirstModule.Locations_NewEdit.textBox6$formGroup"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox6$formGroup"
+                                    <$FormGroup key="p27.MyFirstModule.Locations_NewEdit.textBox6$formGroup"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox6$formGroup"
                                         class={"mx-name-textBox6 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p38.MyFirstModule.Locations_NewEdit.textBox6"
-                                                $widgetId="p38.MyFirstModule.Locations_NewEdit.textBox6"
+                                            <$TextBox key="p27.MyFirstModule.Locations_NewEdit.textBox6"
+                                                $widgetId="p27.MyFirstModule.Locations_NewEdit.textBox6"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p38.MyFirstModule.Locations_NewEdit.dataView6",
+                                                    "scope": "p27.MyFirstModule.Locations_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Locations",
                                                     "attribute": "PostalCode",
@@ -363,7 +363,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox6"
+                                                    "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox6"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -372,19 +372,19 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p38.MyFirstModule.Locations_NewEdit.textBox6"
+                                            "widgetId": "p27.MyFirstModule.Locations_NewEdit.textBox6"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p38.MyFirstModule.Locations_NewEdit.textBox6"
+                                            "inputWidgetId": "p27.MyFirstModule.Locations_NewEdit.textBox6"
                                         })} />
                                 ]}
                                 hideFooter={false}
                                 footer={[
-                                    <$ActionButton key="p38.MyFirstModule.Locations_NewEdit.actionButton1"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.actionButton1"
-                                        buttonId={"p38.MyFirstModule.Locations_NewEdit.actionButton1"}
+                                    <$ActionButton key="p27.MyFirstModule.Locations_NewEdit.actionButton1"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.actionButton1"
+                                        buttonId={"p27.MyFirstModule.Locations_NewEdit.actionButton1"}
                                         class={"mx-name-actionButton1"}
                                         style={undefined}
                                         tabIndex={undefined}
@@ -403,12 +403,12 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         })}
                                         icon={undefined}
                                         action={ActionProperty({
-                                            "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p38.MyFirstModule.Locations_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "y2/w1g2Lb1mzRbCyUuY7hQ", "closePage": true }, "disabledDuringExecution": true },
+                                            "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p27.MyFirstModule.Locations_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "y2/w1g2Lb1mzRbCyUuY7hQ", "closePage": true }, "disabledDuringExecution": true },
                                             "abortOnServerValidation": true
                                         })} />,
-                                    <$ActionButton key="p38.MyFirstModule.Locations_NewEdit.actionButton2"
-                                        $widgetId="p38.MyFirstModule.Locations_NewEdit.actionButton2"
-                                        buttonId={"p38.MyFirstModule.Locations_NewEdit.actionButton2"}
+                                    <$ActionButton key="p27.MyFirstModule.Locations_NewEdit.actionButton2"
+                                        $widgetId="p27.MyFirstModule.Locations_NewEdit.actionButton2"
+                                        buttonId={"p27.MyFirstModule.Locations_NewEdit.actionButton2"}
                                         class={"mx-name-actionButton2"}
                                         style={undefined}
                                         tabIndex={undefined}
