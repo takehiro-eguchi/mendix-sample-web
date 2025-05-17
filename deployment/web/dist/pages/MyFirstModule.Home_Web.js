@@ -1,21 +1,21 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
-import { ActionProperty } from '../ActionProperty-BTILmUmE.js';
-import { TextProperty } from '../Icon-CD3-QqtZ.js';
-import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
-import { ActionButton } from '../ActionButton-C4Tg9t6b.js';
-import { Container } from '../Container-DwlZ5IDZ.js';
-import { Div } from '../Div-DGtcc-SO.js';
-import { Text } from '../Text-DR32TaDK.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-CPl-t0Ao.js';
-import '../InlineText-D7gieNIv.js';
-import '../BH5qNKCa-YUXxnGjk.js';
-import '../BrzhM9fk-DIx2MmKD.js';
-import '../BQa9VDC5-B8H0Gl41.js';
-import '../ListExpressionProperty-DJewd2cn.js';
-import '../WebStaticImageProperty-D8DEVy4Y.js';
-import '../Image-BTiL4qVa.js';
-import '../DMc54HEs-DHjqPhQF.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../BH5qNKCa-He16eDuK.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../ListExpressionProperty-UOQ4kvKt.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../Image-CRLik9xo.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Container, $Div, $Text, $ActionButton } = asPluginWidgets({ Container, Div, Text, ActionButton });
@@ -141,7 +141,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
                               }),
                               action: ActionProperty({
-                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view" }, "disabledDuringExecution": true },
+                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "opRSVIjGiVSTjntW3CCBlA", "validate": "view" }, "disabledDuringExecution": true },
                                 "abortOnServerValidation": true
                               })
                             }

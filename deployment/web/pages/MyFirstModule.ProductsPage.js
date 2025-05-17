@@ -28,6 +28,23 @@ import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js
 
 const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
 
+addEnumerations({
+    "MyFirstModule.Status": [
+        [
+            "Active",
+            t([
+                "Active"
+            ])
+        ],
+        [
+            "Disable",
+            t([
+                "Disable"
+            ])
+        ]
+    ]
+});
+
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid4"
         $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid4"
@@ -816,7 +833,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
                             })}
                             action={ActionProperty({
-                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "xfWzwaNEpVWNOjC4UALCSw" }, "disabledDuringExecution": true },
+                                "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view" }, "disabledDuringExecution": true },
                                 "abortOnServerValidation": true
                             })} />
                     ]
@@ -882,7 +899,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton3"
                 $widgetId="p21.MyFirstModule.ProductsPage.actionButton3"
                 buttonId={"p21.MyFirstModule.ProductsPage.actionButton3"}
-                class={"mx-name-actionButton3"}
+                class={"mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
                 style={undefined}
                 tabIndex={undefined}
                 renderType={"button"}
@@ -903,6 +920,58 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 })}
                 action={ActionProperty({
                     "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />,
+            <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton4"
+                $widgetId="p21.MyFirstModule.ProductsPage.actionButton4"
+                buttonId={"p21.MyFirstModule.ProductsPage.actionButton4"}
+                class={"mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-success"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
+                })}
+                icon={WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />,
+            <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton5"
+                $widgetId="p21.MyFirstModule.ProductsPage.actionButton5"
+                buttonId={"p21.MyFirstModule.ProductsPage.actionButton5"}
+                class={"mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-warning"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
+                })}
+                icon={WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                 })} />
         ]}

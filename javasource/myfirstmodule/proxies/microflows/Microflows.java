@@ -15,6 +15,45 @@ public final class Microflows
 	private Microflows() {}
 
 	// These are the microflows for the MyFirstModule module
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder changeObjectBuilder(
+		myfirstmodule.proxies.Status _status
+	)
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.ChangeObject");
+		builder = builder.withParam("Status", _status == null ? null : _status.name());
+		return builder;
+	}
+
+	public static void changeObject(
+		IContext context,
+		myfirstmodule.proxies.Status _status
+	)
+	{
+		changeObjectBuilder(
+				_status
+			)
+			.execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder continueOrBreakBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.ContinueOrBreak");
+		return builder;
+	}
+
+	public static void continueOrBreak(IContext context)
+	{
+		continueOrBreakBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder createObjectBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.CreateObject");
+		return builder;
+	}
+
+	public static void createObject(IContext context)
+	{
+		createObjectBuilder().execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder createSalesOrderDraftObjectBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.CreateSalesOrderDraftObject");
@@ -35,6 +74,25 @@ public final class Microflows
 	{
 		createVariableBuilder().execute(context);
 	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder deleteObjectBuilder(
+		myfirstmodule.proxies.Products _deleteProduct
+	)
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.DeleteObject");
+		builder = builder.withParam("DeleteProduct", _deleteProduct);
+		return builder;
+	}
+
+	public static void deleteObject(
+		IContext context,
+		myfirstmodule.proxies.Products _deleteProduct
+	)
+	{
+		deleteObjectBuilder(
+				_deleteProduct
+			)
+			.execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder ifStatementBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.IfStatement");
@@ -45,6 +103,26 @@ public final class Microflows
 	{
 		ifStatementBuilder().execute(context);
 	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder loopsBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.Loops");
+		return builder;
+	}
+
+	public static void loops(IContext context)
+	{
+		loopsBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder mergeBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.Merge");
+		return builder;
+	}
+
+	public static void merge(IContext context)
+	{
+		mergeBuilder().execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder myFirstLogicBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.MyFirstLogic");
@@ -54,6 +132,16 @@ public final class Microflows
 	public static void myFirstLogic(IContext context)
 	{
 		myFirstLogicBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder retrieveBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.Retrieve");
+		return builder;
+	}
+
+	public static void retrieve(IContext context)
+	{
+		retrieveBuilder().execute(context);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder sampleFlowBuilder()
 	{

@@ -1,28 +1,28 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-DsLjkJno.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CE-u0OT2.js';
-import { ActionProperty } from '../ActionProperty-BTILmUmE.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-YUXxnGjk.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-CdJB2qIy.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BfE9ukAc.js';
-import { TextProperty } from '../Icon-CD3-QqtZ.js';
-import { WebIconProperty } from '../WebIconProperty-B88sVxeT.js';
-import { ActionButton } from '../ActionButton-C4Tg9t6b.js';
-import { Container } from '../Container-DwlZ5IDZ.js';
-import { DatagridWidgetModule } from '../Datagrid-BaS4Vf7J.js';
-import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-9tK4HoNs.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DftkNU0H.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-CfteYneP.js';
-import { Div } from '../Div-DGtcc-SO.js';
-import { Text } from '../Text-DR32TaDK.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-CPl-t0Ao.js';
-import '../BrzhM9fk-DIx2MmKD.js';
-import '../BQa9VDC5-B8H0Gl41.js';
-import '../Bgp-XL0v-CydxPoxA.js';
-import '../Image-BTiL4qVa.js';
-import '../InlineText-D7gieNIv.js';
-import '../ListExpressionProperty-DJewd2cn.js';
-import '../WebStaticImageProperty-D8DEVy4Y.js';
-import '../DMc54HEs-DHjqPhQF.js';
+import { reactExports, asPluginWidgets, addEnumerations, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
+import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-DH4SzIqp.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DLZhJWxj.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BD-DuJ-V.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import '../Image-CRLik9xo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../ListExpressionProperty-UOQ4kvKt.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
@@ -30,6 +30,22 @@ const DatagridDropdownFilter = Object.getOwnPropertyDescriptor(DatagridDropdownF
 const DatagridNumberFilter = Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "DatagridNumberFilter")?.value || Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "default")?.value;
 const DatagridTextFilter = Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "DatagridTextFilter")?.value || Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "default")?.value;
 const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
+addEnumerations({
+  "MyFirstModule.Status": [
+    [
+      "Active",
+      selectTranslation([
+        "Active"
+      ])
+    ],
+    [
+      "Disable",
+      selectTranslation([
+        "Disable"
+      ])
+    ]
+  ]
+});
 const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragment, { renderKey: historyId }, [
   /* @__PURE__ */ React.createElement(
     $Div,
@@ -919,7 +935,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
                   }),
                   action: ActionProperty({
-                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "xfWzwaNEpVWNOjC4UALCSw" }, "disabledDuringExecution": true },
+                    "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view" }, "disabledDuringExecution": true },
                     "abortOnServerValidation": true
                   })
                 }
@@ -990,7 +1006,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             key: "p21.MyFirstModule.ProductsPage.actionButton3",
             $widgetId: "p21.MyFirstModule.ProductsPage.actionButton3",
             buttonId: "p21.MyFirstModule.ProductsPage.actionButton3",
-            class: "mx-name-actionButton3",
+            class: "mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
             style: void 0,
             tabIndex: void 0,
             renderType: "button",
@@ -1011,6 +1027,68 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             }),
             action: ActionProperty({
               "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view" }, "disabledDuringExecution": true },
+              "abortOnServerValidation": true
+            })
+          }
+        ),
+        /* @__PURE__ */ React.createElement(
+          $ActionButton,
+          {
+            key: "p21.MyFirstModule.ProductsPage.actionButton4",
+            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton4",
+            buttonId: "p21.MyFirstModule.ProductsPage.actionButton4",
+            class: "mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top",
+            style: void 0,
+            tabIndex: void 0,
+            renderType: "button",
+            role: void 0,
+            buttonClass: "btn-success",
+            caption: selectTranslation([
+              ExpressionProperty({
+                "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
+              })
+            ]),
+            tooltip: TextProperty({
+              "value": selectTranslation([
+                ""
+              ])
+            }),
+            icon: WebIconProperty({
+              "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+            }),
+            action: ActionProperty({
+              "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
+              "abortOnServerValidation": true
+            })
+          }
+        ),
+        /* @__PURE__ */ React.createElement(
+          $ActionButton,
+          {
+            key: "p21.MyFirstModule.ProductsPage.actionButton5",
+            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton5",
+            buttonId: "p21.MyFirstModule.ProductsPage.actionButton5",
+            class: "mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
+            style: void 0,
+            tabIndex: void 0,
+            renderType: "button",
+            role: void 0,
+            buttonClass: "btn-warning",
+            caption: selectTranslation([
+              ExpressionProperty({
+                "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
+              })
+            ]),
+            tooltip: TextProperty({
+              "value": selectTranslation([
+                ""
+              ])
+            }),
+            icon: WebIconProperty({
+              "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
+            }),
+            action: ActionProperty({
+              "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
               "abortOnServerValidation": true
             })
           }
