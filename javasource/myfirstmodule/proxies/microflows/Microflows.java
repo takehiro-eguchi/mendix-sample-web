@@ -15,6 +15,16 @@ public final class Microflows
 	private Microflows() {}
 
 	// These are the microflows for the MyFirstModule module
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder aggregateListBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.AggregateList");
+		return builder;
+	}
+
+	public static void aggregateList(IContext context)
+	{
+		aggregateListBuilder().execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder changeObjectBuilder(
 		myfirstmodule.proxies.Status _status
 	)
@@ -33,6 +43,16 @@ public final class Microflows
 				_status
 			)
 			.execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder commitSalesOrderBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.CommitSalesOrder");
+		return builder;
+	}
+
+	public static void commitSalesOrder(IContext context)
+	{
+		commitSalesOrderBuilder().execute(context);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder continueOrBreakBuilder()
 	{
@@ -103,6 +123,16 @@ public final class Microflows
 	{
 		ifStatementBuilder().execute(context);
 	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder listOperationBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.ListOperation");
+		return builder;
+	}
+
+	public static void listOperation(IContext context)
+	{
+		listOperationBuilder().execute(context);
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder loopsBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.Loops");
@@ -152,5 +182,15 @@ public final class Microflows
 	public static void sampleFlow(IContext context)
 	{
 		sampleFlowBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder xPathBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.XPath");
+		return builder;
+	}
+
+	public static void xPath(IContext context)
+	{
+		xPathBuilder().execute(context);
 	}
 }

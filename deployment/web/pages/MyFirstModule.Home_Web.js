@@ -109,7 +109,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
                                         })}
                                         action={ActionProperty({
-                                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "d+OtV+TUyF6i7QrAIx+oxg", "validate": "view" }, "disabledDuringExecution": true },
+                                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "iMyed6qxUVmOM8pNMJEf5w", "validate": "view" }, "disabledDuringExecution": true },
                                             "abortOnServerValidation": true
                                         })} />
                                 ]} />

@@ -196,7 +196,31 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             "abortOnServerValidation": false,
             "dataSourceId": "p28.8"
         })}
-        pageSize={10} />
+        pageSize={10} />,
+    <$ActionButton key="p28.MyFirstModule.SalesOrderDraftPage.actionButton2"
+        $widgetId="p28.MyFirstModule.SalesOrderDraftPage.actionButton2"
+        buttonId={"p28.MyFirstModule.SalesOrderDraftPage.actionButton2"}
+        class={"mx-name-actionButton2"}
+        style={undefined}
+        tabIndex={undefined}
+        renderType={"button"}
+        role={undefined}
+        buttonClass={"btn-success"}
+        caption={t([
+            ExpressionProperty({
+                "expression": { "expr": { "type": "literal", "value": "Create Sales Order" }, "args": {} }
+            })
+        ])}
+        tooltip={TextProperty({
+            "value": t([
+                ""
+            ])
+        })}
+        icon={undefined}
+        action={ActionProperty({
+            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "NX1TrnUxm1WQLvqbKwwtQA", "validate": "view" }, "disabledDuringExecution": true },
+            "abortOnServerValidation": true
+        })} />
 ]}</PageFragment>);
 
 export const title = t([
