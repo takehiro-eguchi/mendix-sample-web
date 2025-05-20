@@ -1,11 +1,18 @@
 Initialized native services in: C:\Users\nss430011\.gradle\native
 Initialized jansi services in: C:\Users\nss430011\.gradle\native
 Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
-The client will now receive all logging from the daemon (pid: 30672). The daemon log file: C:\Users\nss430011\.gradle\daemon\8.5\daemon-30672.out.log
-Starting 5th build in daemon [uptime: 3 hrs 53 mins 21.359 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 15% of 384 MiB]
+Removing 1 daemon stop events from registry
+Previous Daemon (30672) stopped at Tue May 20 09:58:42 JST 2025 by user or operating system
+Starting a Gradle Daemon, 1 stopped Daemon could not be reused, use --status for details
+Starting process 'Gradle build daemon'. Working directory: C:\Users\nss430011\.gradle\daemon\8.5 Command: C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin\java.exe --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=JP -Duser.language=ja -Duser.variant -cp C:\Program Files\Mendix\gradle-8.5\lib\gradle-launcher-8.5.jar -javaagent:C:\Program Files\Mendix\gradle-8.5\lib\agents\gradle-instrumentation-agent-8.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.5
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 2.415 secs.
+The client will now receive all logging from the daemon (pid: 1664). The daemon log file: C:\Users\nss430011\.gradle\daemon\8.5\daemon-1664.out.log
+Starting build in new daemon [memory: 512 MiB]
 Using 8 worker leases.
-Now considering [C:\work\git\mendix-sample-web\deployment] as hierarchies to watch
+Received JVM installation metadata from 'C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot': {JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
 Watching the file system is configured to be enabled if available
+Now considering [C:\work\git\mendix-sample-web\deployment] as hierarchies to watch
 File system watching is active
 Starting Build
 Settings evaluated using settings file 'C:\work\git\mendix-sample-web\deployment\settings.gradle'.
@@ -21,47 +28,53 @@ Selected primary task 'clean-excluded-jars' from project :
 Selected primary task 'deploy' from project :
 Tasks to be executed: [task ':clean-excluded-jars', task ':copyDeploymentArtifacts', task ':copyLibs', task ':copyResources', task ':unzipDataSnapshot', task ':deploy']
 Tasks that were excluded: []
-Resolve mutations for :clean-excluded-jars (Thread[#161,Execution worker,5,main]) started.
-:clean-excluded-jars (Thread[#161,Execution worker,5,main]) started.
-destroyer locations for task group 0 (Thread[#160,included builds,5,main]) started.
+Resolve mutations for :clean-excluded-jars (Thread[#60,Execution worker Thread 2,5,main]) started.
+:clean-excluded-jars (Thread[#58,included builds,5,main]) started.
+destroyer locations for task group 0 (Thread[#60,Execution worker Thread 2,5,main]) started.
 
 > Task :clean-excluded-jars UP-TO-DATE
 Caching disabled for task ':clean-excluded-jars' because:
   Build cache is disabled
 Task ':clean-excluded-jars' is not up-to-date because:
   Task has not declared any outputs despite executing actions.
-Resolve mutations for :copyDeploymentArtifacts (Thread[#161,Execution worker,5,main]) started.
-:copyDeploymentArtifacts (Thread[#161,Execution worker,5,main]) started.
+Resolve mutations for :copyDeploymentArtifacts (Thread[#58,included builds,5,main]) started.
+:copyDeploymentArtifacts (Thread[#58,included builds,5,main]) started.
 
 > Task :copyDeploymentArtifacts
 Caching disabled for task ':copyDeploymentArtifacts' because:
   Build cache is disabled
 Task ':copyDeploymentArtifacts' is not up-to-date because:
   Task has not declared any outputs despite executing actions.
-Resolve mutations for :copyLibs (Thread[#161,Execution worker,5,main]) started.
-:copyLibs (Thread[#161,Execution worker,5,main]) started.
+Resolve mutations for :copyLibs (Thread[#58,included builds,5,main]) started.
+:copyLibs (Thread[#60,Execution worker Thread 2,5,main]) started.
 
 > Task :copyLibs NO-SOURCE
 Skipping task ':copyLibs' as it has no source files and no previous output files.
-Resolve mutations for :copyResources (Thread[#161,Execution worker,5,main]) started.
-:copyResources (Thread[#161,Execution worker,5,main]) started.
+Resolve mutations for :copyResources (Thread[#60,Execution worker Thread 2,5,main]) started.
+:copyResources (Thread[#60,Execution worker Thread 2,5,main]) started.
 
 > Task :copyResources NO-SOURCE
 Skipping task ':copyResources' as it has no source files and no previous output files.
-Resolve mutations for :unzipDataSnapshot (Thread[#160,included builds,5,main]) started.
-:unzipDataSnapshot (Thread[#161,Execution worker,5,main]) started.
+Resolve mutations for :unzipDataSnapshot (Thread[#58,included builds,5,main]) started.
+:unzipDataSnapshot (Thread[#58,included builds,5,main]) started.
 
 > Task :unzipDataSnapshot SKIPPED
 Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
-Resolve mutations for :deploy (Thread[#161,Execution worker,5,main]) started.
-:deploy (Thread[#162,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :deploy (Thread[#58,included builds,5,main]) started.
+:deploy (Thread[#58,included builds,5,main]) started.
 
 > Task :deploy
 Skipping task ':deploy' as it has no actions.
 
-BUILD SUCCESSFUL in 2s
+BUILD SUCCESSFUL in 9s
 2 actionable tasks: 1 executed, 1 up-to-date
-Watched directory hierarchies: [C:\work\git\mendix-sample-web\deployment]
+Watched directory hierarchies: []
+VCS Checkout Cache (C:\work\git\mendix-sample-web\deployment\.gradle\vcs-1) removing files not accessed on or after Tue May 13 09:59:15 JST 2025.
+VCS Checkout Cache (C:\work\git\mendix-sample-web\deployment\.gradle\vcs-1) cleanup deleted 0 files/directories.
+VCS Checkout Cache (C:\work\git\mendix-sample-web\deployment\.gradle\vcs-1) cleaned up in 0.004 secs.
+dependencies-accessors (C:\work\git\mendix-sample-web\deployment\.gradle\8.5\dependencies-accessors) removing files not accessed on or after Tue May 13 09:59:13 JST 2025.
+dependencies-accessors (C:\work\git\mendix-sample-web\deployment\.gradle\8.5\dependencies-accessors) cleanup deleted 0 files/directories.
+dependencies-accessors (C:\work\git\mendix-sample-web\deployment\.gradle\8.5\dependencies-accessors) cleaned up in 0.001 secs.
 
 
 

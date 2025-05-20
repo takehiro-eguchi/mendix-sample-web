@@ -13,8 +13,8 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 const { $ScrollContainer, $Header, $Title, $Placeholder } = asPluginWidgets({ ScrollContainer, Header, Title, Placeholder });
 
 const region$Main = [
-    <$ScrollContainer key="l19.Atlas_Core.Phone_TopBar.scrollContainer1"
-        $widgetId="l19.Atlas_Core.Phone_TopBar.scrollContainer1"
+    <$ScrollContainer key="l22.Atlas_Core.Phone_TopBar.scrollContainer1"
+        $widgetId="l22.Atlas_Core.Phone_TopBar.scrollContainer1"
         class={"mx-name-scrollContainer1"}
         style={undefined}
         scrollPerRegion={true}
@@ -22,13 +22,13 @@ const region$Main = [
         top={{
             "enabled": true,
             "content": [
-                <$Header key="l19.Atlas_Core.Phone_TopBar.header1"
-                    $widgetId="l19.Atlas_Core.Phone_TopBar.header1"
+                <$Header key="l22.Atlas_Core.Phone_TopBar.header1"
+                    $widgetId="l22.Atlas_Core.Phone_TopBar.header1"
                     class={"mx-name-header1"}
                     style={undefined}
                     content={[
-                        <$Title key="l19.4"
-                            $widgetId="l19.4"
+                        <$Title key="l22.4"
+                            $widgetId="l22.4"
                             class={""}
                             style={undefined}
                             caption={ExpressionProperty({
@@ -36,15 +36,15 @@ const region$Main = [
                             })} />
                     ]}
                     leftWidgets={[
-                        <$Placeholder key="l19.Atlas_Core.Phone_TopBar.HeaderLeft"
-                            $widgetId="l19.Atlas_Core.Phone_TopBar.HeaderLeft"
+                        <$Placeholder key="l22.Atlas_Core.Phone_TopBar.HeaderLeft"
+                            $widgetId="l22.Atlas_Core.Phone_TopBar.HeaderLeft"
                             content={PlaceholderProperty({
                                 "id": "Atlas_Core.Phone_TopBar.HeaderLeft"
                             })} />
                     ]}
                     rightWidgets={[
-                        <$Placeholder key="l19.Atlas_Core.Phone_TopBar.HeaderRight"
-                            $widgetId="l19.Atlas_Core.Phone_TopBar.HeaderRight"
+                        <$Placeholder key="l22.Atlas_Core.Phone_TopBar.HeaderRight"
+                            $widgetId="l22.Atlas_Core.Phone_TopBar.HeaderRight"
                             content={PlaceholderProperty({
                                 "id": "Atlas_Core.Phone_TopBar.HeaderRight"
                             })} />
@@ -64,8 +64,8 @@ const region$Main = [
         }}
         center={{
             "content": [
-                <$Placeholder key="l19.Atlas_Core.Phone_TopBar.Main"
-                    $widgetId="l19.Atlas_Core.Phone_TopBar.Main"
+                <$Placeholder key="l22.Atlas_Core.Phone_TopBar.Main"
+                    $widgetId="l22.Atlas_Core.Phone_TopBar.Main"
                     content={PlaceholderProperty({
                         "id": "Atlas_Core.Phone_TopBar.Main"
                     })} />

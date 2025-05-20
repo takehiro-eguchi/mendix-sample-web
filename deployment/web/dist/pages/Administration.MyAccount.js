@@ -1,20 +1,20 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-CpSsGt-6.js';
-import { AssociationProperty } from '../AssociationProperty-76-wepxH.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-D6Rvgx61.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { ComboboxWidgetModule } from '../Combobox-B0qP6hOu.js';
-import { DataView } from '../DataView-VUb0u99s.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-CyHkTsF9.js';
-import { AttributeProperty } from '../Bgp-XL0v-C7x6tFfM.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../CD0QimeZ-Do4rcJoP.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-stug8OtK.js';
+import { AssociationProperty } from '../AssociationProperty-DKsoagH2.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CGXSnxmy.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
+import { TextProperty } from '../Icon-CwpoK74K.js';
+import { ActionButton } from '../ActionButton-B1FZcI8p.js';
+import { ComboboxWidgetModule } from '../Combobox-Dn5J5Hsy.js';
+import { DataView } from '../DataView-3yV-QRpp.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-pMT392Cz.js';
+import { AttributeProperty } from '../Bgp-XL0v-iR-R4xy_.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../CD0QimeZ-CiCtDOL8.js';
 
 const React = { createElement: reactExports.createElement };
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;
@@ -23,13 +23,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $DataView,
     {
-      key: "p6.Administration.MyAccount.dataView1",
-      $widgetId: "p6.Administration.MyAccount.dataView1",
+      key: "p8.Administration.MyAccount.dataView1",
+      $widgetId: "p8.Administration.MyAccount.dataView1",
       class: "mx-name-dataView1 form-horizontal",
       style: void 0,
       tabIndex: void 0,
       object: AssociationObjectProperty({
-        "dataSourceId": "p6.9",
+        "dataSourceId": "p8.9",
         "scope": "$Account",
         "editable": true
       }),
@@ -42,18 +42,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p6.Administration.MyAccount.textBox2$formGroup",
-            $widgetId: "p6.Administration.MyAccount.textBox2$formGroup",
+            key: "p8.Administration.MyAccount.textBox2$formGroup",
+            $widgetId: "p8.Administration.MyAccount.textBox2$formGroup",
             class: "mx-name-textBox2 mx-textbox",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $TextBox,
                 {
-                  key: "p6.Administration.MyAccount.textBox2",
-                  $widgetId: "p6.Administration.MyAccount.textBox2",
+                  key: "p8.Administration.MyAccount.textBox2",
+                  $widgetId: "p8.Administration.MyAccount.textBox2",
                   inputValue: AttributeProperty({
-                    "scope": "p6.Administration.MyAccount.dataView1",
+                    "scope": "p8.Administration.MyAccount.dataView1",
                     "path": "",
                     "entity": "Administration.Account",
                     "attribute": "FullName",
@@ -81,7 +81,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   ariaRequired: void 0,
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p6.Administration.MyAccount.textBox2"
+                    "widgetId": "p8.Administration.MyAccount.textBox2"
                   })
                 }
               )
@@ -92,30 +92,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p6.Administration.MyAccount.textBox2"
+              "widgetId": "p8.Administration.MyAccount.textBox2"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p6.Administration.MyAccount.textBox2"
+              "inputWidgetId": "p8.Administration.MyAccount.textBox2"
             })
           }
         ),
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p6.Administration.MyAccount.textBox5$formGroup",
-            $widgetId: "p6.Administration.MyAccount.textBox5$formGroup",
+            key: "p8.Administration.MyAccount.textBox5$formGroup",
+            $widgetId: "p8.Administration.MyAccount.textBox5$formGroup",
             class: "mx-name-textBox5 mx-textbox",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $TextBox,
                 {
-                  key: "p6.Administration.MyAccount.textBox5",
-                  $widgetId: "p6.Administration.MyAccount.textBox5",
+                  key: "p8.Administration.MyAccount.textBox5",
+                  $widgetId: "p8.Administration.MyAccount.textBox5",
                   inputValue: AttributeProperty({
-                    "scope": "p6.Administration.MyAccount.dataView1",
+                    "scope": "p8.Administration.MyAccount.dataView1",
                     "path": "",
                     "entity": "Administration.Account",
                     "attribute": "Name",
@@ -143,7 +143,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   ariaRequired: void 0,
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p6.Administration.MyAccount.textBox5"
+                    "widgetId": "p8.Administration.MyAccount.textBox5"
                   })
                 }
               )
@@ -154,28 +154,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p6.Administration.MyAccount.textBox5"
+              "widgetId": "p8.Administration.MyAccount.textBox5"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p6.Administration.MyAccount.textBox5"
+              "inputWidgetId": "p8.Administration.MyAccount.textBox5"
             })
           }
         ),
         /* @__PURE__ */ React.createElement(
           $FormGroup,
           {
-            key: "p6.Administration.MyAccount.comboBox3$formGroup",
-            $widgetId: "p6.Administration.MyAccount.comboBox3$formGroup",
+            key: "p8.Administration.MyAccount.comboBox3$formGroup",
+            $widgetId: "p8.Administration.MyAccount.comboBox3$formGroup",
             class: "mx-name-comboBox3",
             style: void 0,
             control: [
               /* @__PURE__ */ React.createElement(
                 $Combobox,
                 {
-                  key: "p6.Administration.MyAccount.comboBox3",
-                  $widgetId: "p6.Administration.MyAccount.comboBox3",
+                  key: "p8.Administration.MyAccount.comboBox3",
+                  $widgetId: "p8.Administration.MyAccount.comboBox3",
                   optionsSourceType: "association",
                   attributeAssociation: AssociationProperty({
                     "type": "Reference",
@@ -183,14 +183,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "path": "",
                     "attribute": "System.User_Language",
                     "endpointEntity": "System.Language",
-                    "selectableObjectsId": "p6.0",
-                    "scope": "p6.Administration.MyAccount.dataView1",
+                    "selectableObjectsId": "p8.0",
+                    "scope": "p8.Administration.MyAccount.dataView1",
                     "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                   }),
                   optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                    "dataSourceId": "p6.0",
+                    "dataSourceId": "p8.0",
                     "entity": "System.Language",
-                    "scope": "p6.Administration.MyAccount.dataView1",
+                    "scope": "p8.Administration.MyAccount.dataView1",
                     "operationId": "tKH7iq7PE1ej98Nz7GM2Dw",
                     "sort": []
                   }),
@@ -202,7 +202,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p6.0",
+                    "dataSourceId": "p8.0",
                     "isList": false
                   }),
                   optionsSourceAssociationCaptionExpression: void 0,
@@ -271,7 +271,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   loadingType: "spinner",
                   tabIndex: void 0,
                   id: DerivedUniqueIdProperty({
-                    "widgetId": "p6.Administration.MyAccount.comboBox3"
+                    "widgetId": "p8.Administration.MyAccount.comboBox3"
                   })
                 }
               )
@@ -282,21 +282,21 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
               })
             ]),
             labelFor: DerivedUniqueIdProperty({
-              "widgetId": "p6.Administration.MyAccount.comboBox3"
+              "widgetId": "p8.Administration.MyAccount.comboBox3"
             }),
             width: 3,
             orientation: "horizontal",
             hasError: ValidationProperty({
-              "inputWidgetId": "p6.Administration.MyAccount.comboBox3"
+              "inputWidgetId": "p8.Administration.MyAccount.comboBox3"
             })
           }
         ),
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p6.Administration.MyAccount.microflowTrigger1",
-            $widgetId: "p6.Administration.MyAccount.microflowTrigger1",
-            buttonId: "p6.Administration.MyAccount.microflowTrigger1",
+            key: "p8.Administration.MyAccount.microflowTrigger1",
+            $widgetId: "p8.Administration.MyAccount.microflowTrigger1",
+            buttonId: "p8.Administration.MyAccount.microflowTrigger1",
             class: "mx-name-microflowTrigger1",
             style: void 0,
             tabIndex: void 0,
@@ -326,9 +326,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p6.Administration.MyAccount.saveButton1",
-            $widgetId: "p6.Administration.MyAccount.saveButton1",
-            buttonId: "p6.Administration.MyAccount.saveButton1",
+            key: "p8.Administration.MyAccount.saveButton1",
+            $widgetId: "p8.Administration.MyAccount.saveButton1",
+            buttonId: "p8.Administration.MyAccount.saveButton1",
             class: "mx-name-saveButton1",
             style: void 0,
             tabIndex: void 0,
@@ -347,7 +347,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             }),
             icon: void 0,
             action: ActionProperty({
-              "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p6.Administration.MyAccount.dataView1", "source": "object" } }, "config": { "operationId": "kv/Kr3OkP1m39Bv4PsQrkA", "closePage": true }, "disabledDuringExecution": true },
+              "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p8.Administration.MyAccount.dataView1", "source": "object" } }, "config": { "operationId": "kv/Kr3OkP1m39Bv4PsQrkA", "closePage": true }, "disabledDuringExecution": true },
               "abortOnServerValidation": true
             })
           }
@@ -355,9 +355,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $ActionButton,
           {
-            key: "p6.Administration.MyAccount.cancelButton1",
-            $widgetId: "p6.Administration.MyAccount.cancelButton1",
-            buttonId: "p6.Administration.MyAccount.cancelButton1",
+            key: "p8.Administration.MyAccount.cancelButton1",
+            $widgetId: "p8.Administration.MyAccount.cancelButton1",
+            buttonId: "p8.Administration.MyAccount.cancelButton1",
             class: "mx-name-cancelButton1",
             style: void 0,
             tabIndex: void 0,
@@ -390,7 +390,7 @@ const title = selectTranslation([
 ]);
 const classes = "";
 const cancelChangesOperationId = "dNI7FPScoVGc1ZFVute/Yg";
-const closeButton = "p6.Administration.MyAccount.cancelButton1";
+const closeButton = "p8.Administration.MyAccount.cancelButton1";
 const style = {};
 const content = {
   ...content$1,

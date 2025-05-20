@@ -1,24 +1,24 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-UOQ4kvKt.js';
-import { Container } from '../Container-DobQDWAA.js';
-import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { Text } from '../Text-BcexcteZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../Bgp-XL0v-C7x6tFfM.js';
-import '../Icon-bVASr8MS.js';
-import '../Image-CRLik9xo.js';
-import '../InlineText-06k9DgcQ.js';
-import '../ActionProperty-DS8NDQ2q.js';
-import '../WebIconProperty-vPsRN3Rv.js';
-import '../WebStaticImageProperty-DtivNI6l.js';
-import '../DMc54HEs-BMpoF4j_.js';
-import '../ActionButton-DQrAMvYT.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-BWFcYvBl.js';
+import { Container } from '../Container-CxVkjo8s.js';
+import { DatagridWidgetModule } from '../Datagrid-BhDFmpJP.js';
+import { Div } from '../Div-DWESTEoo.js';
+import { Text } from '../Text-BH0JoxPZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B9xNoncC.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../Bgp-XL0v-iR-R4xy_.js';
+import '../Icon-CwpoK74K.js';
+import '../Image-BLvaO7vK.js';
+import '../InlineText-BU8NLTPl.js';
+import '../ActionProperty-BjRv15Ma.js';
+import '../WebIconProperty-DksUkMrc.js';
+import '../WebStaticImageProperty-CiXGhPz_.js';
+import '../DMc54HEs-BETi155K.js';
+import '../ActionButton-B1FZcI8p.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
@@ -27,8 +27,8 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Container,
     {
-      key: "p7.Administration.RuntimeInstances.container1",
-      $widgetId: "p7.Administration.RuntimeInstances.container1",
+      key: "p0.Administration.RuntimeInstances.container1",
+      $widgetId: "p0.Administration.RuntimeInstances.container1",
       class: "mx-name-container1 pageheader pageheader-fullwidth",
       style: void 0,
       renderMode: "div",
@@ -37,32 +37,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p7.Administration.RuntimeInstances.layoutGrid1",
-            $widgetId: "p7.Administration.RuntimeInstances.layoutGrid1",
+            key: "p0.Administration.RuntimeInstances.layoutGrid1",
+            $widgetId: "p0.Administration.RuntimeInstances.layoutGrid1",
             class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p7.Administration.RuntimeInstances.layoutGrid1$row0",
-                  $widgetId: "p7.Administration.RuntimeInstances.layoutGrid1$row0",
+                  key: "p0.Administration.RuntimeInstances.layoutGrid1$row0",
+                  $widgetId: "p0.Administration.RuntimeInstances.layoutGrid1$row0",
                   class: "row",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Div,
                       {
-                        key: "p7.Administration.RuntimeInstances.layoutGrid1$row0$column0",
-                        $widgetId: "p7.Administration.RuntimeInstances.layoutGrid1$row0$column0",
+                        key: "p0.Administration.RuntimeInstances.layoutGrid1$row0$column0",
+                        $widgetId: "p0.Administration.RuntimeInstances.layoutGrid1$row0$column0",
                         class: "col-lg-12 col-md-12 col-12",
                         style: void 0,
                         content: [
                           /* @__PURE__ */ React.createElement(
                             $Text,
                             {
-                              key: "p7.Administration.RuntimeInstances.label1",
-                              $widgetId: "p7.Administration.RuntimeInstances.label1",
+                              key: "p0.Administration.RuntimeInstances.label1",
+                              $widgetId: "p0.Administration.RuntimeInstances.label1",
                               class: "mx-name-label1 pageheader-title",
                               style: void 0,
                               caption: selectTranslation([
@@ -89,35 +89,35 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p7.Administration.RuntimeInstances.layoutGrid2",
-      $widgetId: "p7.Administration.RuntimeInstances.layoutGrid2",
+      key: "p0.Administration.RuntimeInstances.layoutGrid2",
+      $widgetId: "p0.Administration.RuntimeInstances.layoutGrid2",
       class: "mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p7.Administration.RuntimeInstances.layoutGrid2$row0",
-            $widgetId: "p7.Administration.RuntimeInstances.layoutGrid2$row0",
+            key: "p0.Administration.RuntimeInstances.layoutGrid2$row0",
+            $widgetId: "p0.Administration.RuntimeInstances.layoutGrid2$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p7.Administration.RuntimeInstances.layoutGrid2$row0$column0",
-                  $widgetId: "p7.Administration.RuntimeInstances.layoutGrid2$row0$column0",
+                  key: "p0.Administration.RuntimeInstances.layoutGrid2$row0$column0",
+                  $widgetId: "p0.Administration.RuntimeInstances.layoutGrid2$row0$column0",
                   class: "col-lg-12 col-md-12 col-12",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $Datagrid,
                       {
-                        key: "p7.Administration.RuntimeInstances.dataGrid21",
-                        $widgetId: "p7.Administration.RuntimeInstances.dataGrid21",
+                        key: "p0.Administration.RuntimeInstances.dataGrid21",
+                        $widgetId: "p0.Administration.RuntimeInstances.dataGrid21",
                         advanced: false,
                         datasource: DatabaseObjectListProperty({
-                          "dataSourceId": "p7.10",
+                          "dataSourceId": "p0.10",
                           "entity": "System.XASInstance",
                           "operationId": "GjEZijLFzli5dV82JxT6nw",
                           "sort": [
@@ -140,7 +140,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "attributeType": "String",
                               "sortable": true,
                               "filterable": true,
-                              "dataSourceId": "p7.10",
+                              "dataSourceId": "p0.10",
                               "isList": false
                             }),
                             "content": void 0,
@@ -185,14 +185,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "attributeType": "DateTime",
                               "sortable": true,
                               "filterable": true,
-                              "dataSourceId": "p7.10",
+                              "dataSourceId": "p0.10",
                               "isList": false
                             }),
                             "content": void 0,
                             "dynamicText": selectTranslation([
                               ListExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "createdDate" }, { "type": "literal", "value": '{"type":"datetime"}' }] }, "args": { "currentObject": { "widget": "p7.Administration.RuntimeInstances.dataGrid21", "source": "object" } } },
-                                "dataSourceId": "p7.10"
+                                "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "createdDate" }, { "type": "literal", "value": '{"type":"datetime"}' }] }, "args": { "currentObject": { "widget": "p0.Administration.RuntimeInstances.dataGrid21", "source": "object" } } },
+                                "dataSourceId": "p0.10"
                               })
                             ]),
                             "header": selectTranslation([
@@ -233,7 +233,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "attributeType": "Integer",
                               "sortable": true,
                               "filterable": true,
-                              "dataSourceId": "p7.10",
+                              "dataSourceId": "p0.10",
                               "isList": false
                             }),
                             "content": void 0,
@@ -278,7 +278,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "attributeType": "String",
                               "sortable": true,
                               "filterable": true,
-                              "dataSourceId": "p7.10",
+                              "dataSourceId": "p0.10",
                               "isList": false
                             }),
                             "content": void 0,
@@ -323,7 +323,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "attributeType": "String",
                               "sortable": true,
                               "filterable": true,
-                              "dataSourceId": "p7.10",
+                              "dataSourceId": "p0.10",
                               "isList": false
                             }),
                             "content": void 0,

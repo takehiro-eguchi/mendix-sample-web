@@ -1,26 +1,26 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-CpSsGt-6.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-D6Rvgx61.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { DataView } from '../DataView-VUb0u99s.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { RadioButtonGroup } from '../RadioButtonGroup-B_LhRmPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
-import { AttributeProperty } from '../Bgp-XL0v-C7x6tFfM.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../CD0QimeZ-Do4rcJoP.js';
-import '../CRg6lXMU-Cxeq2ZRY.js';
-import '../BH5qNKCa-He16eDuK.js';
-import '../ListExpressionProperty-UOQ4kvKt.js';
-import '../WebIconProperty-vPsRN3Rv.js';
-import '../WebStaticImageProperty-DtivNI6l.js';
-import '../Container-DobQDWAA.js';
-import '../Image-CRLik9xo.js';
-import '../DMc54HEs-BMpoF4j_.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-stug8OtK.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CGXSnxmy.js';
+import { TextProperty } from '../Icon-CwpoK74K.js';
+import { ActionButton } from '../ActionButton-B1FZcI8p.js';
+import { DataView } from '../DataView-3yV-QRpp.js';
+import { Div } from '../Div-DWESTEoo.js';
+import { RadioButtonGroup } from '../RadioButtonGroup-Dl-KCgta.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B9xNoncC.js';
+import { AttributeProperty } from '../Bgp-XL0v-iR-R4xy_.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../CD0QimeZ-CiCtDOL8.js';
+import '../CRg6lXMU-CTJyE8HK.js';
+import '../BH5qNKCa-DKuecUbx.js';
+import '../ListExpressionProperty-BWFcYvBl.js';
+import '../WebIconProperty-DksUkMrc.js';
+import '../WebStaticImageProperty-CiXGhPz_.js';
+import '../Container-CxVkjo8s.js';
+import '../Image-BLvaO7vK.js';
+import '../DMc54HEs-BETi155K.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Div, $DataView, $FormGroup, $TextBox, $RadioButtonGroup, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, RadioButtonGroup, ActionButton });
@@ -28,37 +28,37 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p20.MyFirstModule.Products_NewEdit.layoutGrid1",
-      $widgetId: "p20.MyFirstModule.Products_NewEdit.layoutGrid1",
+      key: "p18.MyFirstModule.Products_NewEdit.layoutGrid1",
+      $widgetId: "p18.MyFirstModule.Products_NewEdit.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0",
-            $widgetId: "p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0",
+            key: "p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0",
+            $widgetId: "p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0",
-                  $widgetId: "p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0",
+                  key: "p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0",
+                  $widgetId: "p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $DataView,
                       {
-                        key: "p20.MyFirstModule.Products_NewEdit.dataView6",
-                        $widgetId: "p20.MyFirstModule.Products_NewEdit.dataView6",
+                        key: "p18.MyFirstModule.Products_NewEdit.dataView6",
+                        $widgetId: "p18.MyFirstModule.Products_NewEdit.dataView6",
                         class: "mx-name-dataView6 form-vertical",
                         style: void 0,
                         tabIndex: void 0,
                         object: AssociationObjectProperty({
-                          "dataSourceId": "p20.12",
+                          "dataSourceId": "p18.12",
                           "scope": "$Products",
                           "editable": true
                         }),
@@ -71,18 +71,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox1$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox1$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox1$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox1$formGroup",
                               class: "mx-name-textBox1 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox1",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox1",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox1",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox1",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "ProductName",
@@ -110,7 +110,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
                                     })
                                   }
                                 )
@@ -121,30 +121,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.radioButtons1$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons1$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.radioButtons1$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons1$formGroup",
                               class: "mx-name-radioButtons1 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.radioButtons1",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons1",
+                                    key: "p18.MyFirstModule.Products_NewEdit.radioButtons1",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons1",
                                     value: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "Color",
@@ -159,7 +159,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
                                     })
                                   }
                                 )
@@ -170,30 +170,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox2$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox2$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox2$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox2$formGroup",
                               class: "mx-name-textBox2 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox2",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox2",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox2",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox2",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "SafetyStockLevel",
@@ -225,7 +225,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
                                     })
                                   }
                                 )
@@ -236,30 +236,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox3$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox3$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox3$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox3$formGroup",
                               class: "mx-name-textBox3 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox3",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox3",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox3",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox3",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "ListPrice",
@@ -292,7 +292,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
                                     })
                                   }
                                 )
@@ -303,30 +303,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.radioButtons2$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons2$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.radioButtons2$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons2$formGroup",
                               class: "mx-name-radioButtons2 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.radioButtons2",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons2",
+                                    key: "p18.MyFirstModule.Products_NewEdit.radioButtons2",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons2",
                                     value: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "Size",
@@ -341,7 +341,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
                                     })
                                   }
                                 )
@@ -352,30 +352,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox4$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox4$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox4$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox4$formGroup",
                               class: "mx-name-textBox4 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox4",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox4",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox4",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox4",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "Weight",
@@ -408,7 +408,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
                                     })
                                   }
                                 )
@@ -419,30 +419,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox5$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox5$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox5$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox5$formGroup",
                               class: "mx-name-textBox5 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox5",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox5",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox5",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox5",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "Style",
@@ -470,7 +470,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
                                     })
                                   }
                                 )
@@ -481,30 +481,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.textBox6$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox6$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.textBox6$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox6$formGroup",
                               class: "mx-name-textBox6 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.textBox6",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.textBox6",
+                                    key: "p18.MyFirstModule.Products_NewEdit.textBox6",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.textBox6",
                                     inputValue: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "ModelName",
@@ -532,7 +532,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
                                     })
                                   }
                                 )
@@ -543,30 +543,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.radioButtons3$formGroup",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons3$formGroup",
+                              key: "p18.MyFirstModule.Products_NewEdit.radioButtons3$formGroup",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons3$formGroup",
                               class: "mx-name-radioButtons3 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p20.MyFirstModule.Products_NewEdit.radioButtons3",
-                                    $widgetId: "p20.MyFirstModule.Products_NewEdit.radioButtons3",
+                                    key: "p18.MyFirstModule.Products_NewEdit.radioButtons3",
+                                    $widgetId: "p18.MyFirstModule.Products_NewEdit.radioButtons3",
                                     value: AttributeProperty({
-                                      "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
+                                      "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.Products",
                                       "attribute": "Status",
@@ -581,7 +581,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
+                                      "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
                                     })
                                   }
                                 )
@@ -592,12 +592,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
+                                "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
+                                "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
                               })
                             }
                           )
@@ -607,9 +607,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.actionButton1",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.actionButton1",
-                              buttonId: "p20.MyFirstModule.Products_NewEdit.actionButton1",
+                              key: "p18.MyFirstModule.Products_NewEdit.actionButton1",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.actionButton1",
+                              buttonId: "p18.MyFirstModule.Products_NewEdit.actionButton1",
                               class: "mx-name-actionButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -628,7 +628,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               }),
                               icon: void 0,
                               action: ActionProperty({
-                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p20.MyFirstModule.Products_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "e6myHyVpbFOThqG3LsTEag", "closePage": true }, "disabledDuringExecution": true },
+                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p18.MyFirstModule.Products_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "e6myHyVpbFOThqG3LsTEag", "closePage": true }, "disabledDuringExecution": true },
                                 "abortOnServerValidation": true
                               })
                             }
@@ -636,9 +636,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p20.MyFirstModule.Products_NewEdit.actionButton2",
-                              $widgetId: "p20.MyFirstModule.Products_NewEdit.actionButton2",
-                              buttonId: "p20.MyFirstModule.Products_NewEdit.actionButton2",
+                              key: "p18.MyFirstModule.Products_NewEdit.actionButton2",
+                              $widgetId: "p18.MyFirstModule.Products_NewEdit.actionButton2",
+                              buttonId: "p18.MyFirstModule.Products_NewEdit.actionButton2",
                               class: "mx-name-actionButton2",
                               style: void 0,
                               tabIndex: void 0,

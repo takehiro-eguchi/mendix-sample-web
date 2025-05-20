@@ -1,30 +1,30 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-CpSsGt-6.js';
-import { AssociationProperty } from '../AssociationProperty-76-wepxH.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-D6Rvgx61.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { ComboboxWidgetModule } from '../Combobox-B0qP6hOu.js';
-import { DataView } from '../DataView-VUb0u99s.js';
-import { DatePicker } from '../DatePicker-B0E9SWfr.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
-import { AttributeProperty } from '../Bgp-XL0v-C7x6tFfM.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../CD0QimeZ-Do4rcJoP.js';
-import '../C6ZHc0Cf-DW2U1m2B.js';
-import '../CRg6lXMU-Cxeq2ZRY.js';
-import '../ListExpressionProperty-UOQ4kvKt.js';
-import '../WebIconProperty-vPsRN3Rv.js';
-import '../WebStaticImageProperty-DtivNI6l.js';
-import '../Container-DobQDWAA.js';
-import '../Image-CRLik9xo.js';
-import '../DMc54HEs-BMpoF4j_.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-stug8OtK.js';
+import { AssociationProperty } from '../AssociationProperty-DKsoagH2.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CGXSnxmy.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
+import { TextProperty } from '../Icon-CwpoK74K.js';
+import { ActionButton } from '../ActionButton-B1FZcI8p.js';
+import { ComboboxWidgetModule } from '../Combobox-Dn5J5Hsy.js';
+import { DataView } from '../DataView-3yV-QRpp.js';
+import { DatePicker } from '../DatePicker-B6FW3hWh.js';
+import { Div } from '../Div-DWESTEoo.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B9xNoncC.js';
+import { AttributeProperty } from '../Bgp-XL0v-iR-R4xy_.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../CD0QimeZ-CiCtDOL8.js';
+import '../C6ZHc0Cf-e1SMPdVi.js';
+import '../CRg6lXMU-CTJyE8HK.js';
+import '../ListExpressionProperty-BWFcYvBl.js';
+import '../WebIconProperty-DksUkMrc.js';
+import '../WebStaticImageProperty-CiXGhPz_.js';
+import '../Container-CxVkjo8s.js';
+import '../Image-BLvaO7vK.js';
+import '../DMc54HEs-BETi155K.js';
 
 const React = { createElement: reactExports.createElement };
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;
@@ -33,37 +33,37 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1",
-      $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1",
+      key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1",
+      $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0",
-            $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0",
+            key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0",
+            $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0$column0",
-                  $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0$column0",
+                  key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0$column0",
+                  $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $DataView,
                       {
-                        key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
-                        $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                        key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                        $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                         class: "mx-name-dataView6 form-vertical",
                         style: void 0,
                         tabIndex: void 0,
                         object: AssociationObjectProperty({
-                          "dataSourceId": "p34.16",
+                          "dataSourceId": "p27.16",
                           "scope": "$SalesTrackingTable",
                           "editable": true
                         }),
@@ -76,18 +76,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1$formGroup",
                               class: "mx-name-textBox1 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1",
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "OrderQuantity",
@@ -119,7 +119,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
                                     })
                                   }
                                 )
@@ -130,30 +130,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2$formGroup",
                               class: "mx-name-textBox2 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2",
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "UnitPrice",
@@ -186,7 +186,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
                                     })
                                   }
                                 )
@@ -197,30 +197,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3$formGroup",
                               class: "mx-name-textBox3 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3",
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "DiscountAmount",
@@ -253,7 +253,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
                                     })
                                   }
                                 )
@@ -264,30 +264,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox3"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4$formGroup",
                               class: "mx-name-textBox4 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4",
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "ProductStandardCost",
@@ -320,7 +320,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
                                     })
                                   }
                                 )
@@ -331,30 +331,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox4"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5$formGroup",
                               class: "mx-name-textBox5 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5",
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "TaxAmt",
@@ -387,7 +387,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
                                     })
                                   }
                                 )
@@ -398,32 +398,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.textBox5"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1$formGroup",
                               class: "mx-name-datePicker1 mx-datepicker",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $DatePicker,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1",
                                     mode: "date",
                                     showCalendarButton: true,
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "OrderDate",
@@ -455,7 +455,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
                                     })
                                   }
                                 )
@@ -466,32 +466,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2$formGroup",
                               class: "mx-name-datePicker2 mx-datepicker",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $DatePicker,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2",
                                     mode: "date",
                                     showCalendarButton: true,
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "ShipDate",
@@ -523,7 +523,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
                                     })
                                   }
                                 )
@@ -534,32 +534,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3$formGroup",
                               class: "mx-name-datePicker3 mx-datepicker",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $DatePicker,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3",
                                     mode: "date",
                                     showCalendarButton: true,
                                     inputValue: AttributeProperty({
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesTrackingTable",
                                       "attribute": "DueDate",
@@ -591,7 +591,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
                                     })
                                   }
                                 )
@@ -602,28 +602,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.datePicker3"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1$formGroup",
                               class: "mx-name-comboBox1",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $Combobox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1",
                                     source: "context",
                                     optionsSourceType: "association",
                                     optionsSourceDatabaseDataSource: void 0,
@@ -636,7 +636,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "attributeType": "String",
                                       "sortable": true,
                                       "filterable": true,
-                                      "dataSourceId": "p34.0",
+                                      "dataSourceId": "p27.0",
                                       "isList": false
                                     }),
                                     optionsSourceAssociationCaptionExpression: void 0,
@@ -647,14 +647,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "path": "",
                                       "attribute": "MyFirstModule.SalesTrackingTable_Customers",
                                       "endpointEntity": "MyFirstModule.Customers",
-                                      "selectableObjectsId": "p34.0",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "selectableObjectsId": "p27.0",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                     }),
                                     optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                      "dataSourceId": "p34.0",
+                                      "dataSourceId": "p27.0",
                                       "entity": "MyFirstModule.Customers",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "operationId": "wvllWaYbi1ipfSZxVCfxMQ",
                                       "sort": []
                                     }),
@@ -719,7 +719,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     loadingType: "spinner",
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
                                     })
                                   }
                                 )
@@ -730,28 +730,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2$formGroup",
                               class: "mx-name-comboBox2",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $Combobox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2",
                                     source: "context",
                                     optionsSourceType: "association",
                                     optionsSourceDatabaseDataSource: void 0,
@@ -764,7 +764,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "attributeType": "String",
                                       "sortable": true,
                                       "filterable": true,
-                                      "dataSourceId": "p34.1",
+                                      "dataSourceId": "p27.1",
                                       "isList": false
                                     }),
                                     optionsSourceAssociationCaptionExpression: void 0,
@@ -775,14 +775,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "path": "",
                                       "attribute": "MyFirstModule.SalesTrackingTable_Locations",
                                       "endpointEntity": "MyFirstModule.Locations",
-                                      "selectableObjectsId": "p34.1",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "selectableObjectsId": "p27.1",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                     }),
                                     optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                      "dataSourceId": "p34.1",
+                                      "dataSourceId": "p27.1",
                                       "entity": "MyFirstModule.Locations",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "operationId": "O3nMb+8AMlawXDm4zbBRAQ",
                                       "sort": []
                                     }),
@@ -847,7 +847,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     loadingType: "spinner",
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
                                     })
                                   }
                                 )
@@ -858,28 +858,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3$formGroup",
                               class: "mx-name-comboBox3",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $Combobox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3",
                                     source: "context",
                                     optionsSourceType: "association",
                                     optionsSourceDatabaseDataSource: void 0,
@@ -892,7 +892,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "attributeType": "String",
                                       "sortable": true,
                                       "filterable": true,
-                                      "dataSourceId": "p34.2",
+                                      "dataSourceId": "p27.2",
                                       "isList": false
                                     }),
                                     optionsSourceAssociationCaptionExpression: void 0,
@@ -903,14 +903,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "path": "",
                                       "attribute": "MyFirstModule.SalesTrackingTable_SalesPersons",
                                       "endpointEntity": "MyFirstModule.SalesPersons",
-                                      "selectableObjectsId": "p34.2",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "selectableObjectsId": "p27.2",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                     }),
                                     optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                      "dataSourceId": "p34.2",
+                                      "dataSourceId": "p27.2",
                                       "entity": "MyFirstModule.SalesPersons",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "operationId": "KD8V+wRUJVmcaO3ewxm4pQ",
                                       "sort": []
                                     }),
@@ -975,7 +975,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     loadingType: "spinner",
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
                                     })
                                   }
                                 )
@@ -986,28 +986,28 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox3"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4$formGroup",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4$formGroup",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4$formGroup",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4$formGroup",
                               class: "mx-name-comboBox4",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $Combobox,
                                   {
-                                    key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4",
-                                    $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4",
+                                    key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4",
+                                    $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4",
                                     source: "context",
                                     optionsSourceType: "association",
                                     optionsSourceDatabaseDataSource: void 0,
@@ -1020,7 +1020,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "attributeType": "String",
                                       "sortable": true,
                                       "filterable": true,
-                                      "dataSourceId": "p34.3",
+                                      "dataSourceId": "p27.3",
                                       "isList": false
                                     }),
                                     optionsSourceAssociationCaptionExpression: void 0,
@@ -1031,14 +1031,14 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "path": "",
                                       "attribute": "MyFirstModule.SalesTrackingTable_Products",
                                       "endpointEntity": "MyFirstModule.Products",
-                                      "selectableObjectsId": "p34.3",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "selectableObjectsId": "p27.3",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false }
                                     }),
                                     optionsSourceAssociationDataSource: DatabaseObjectListProperty({
-                                      "dataSourceId": "p34.3",
+                                      "dataSourceId": "p27.3",
                                       "entity": "MyFirstModule.Products",
-                                      "scope": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
+                                      "scope": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6",
                                       "operationId": "DP2HgjdLVl+GSssz3yCepQ",
                                       "sort": []
                                     }),
@@ -1103,7 +1103,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     loadingType: "spinner",
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
+                                      "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
                                     })
                                   }
                                 )
@@ -1114,12 +1114,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
+                                "widgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p34.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
+                                "inputWidgetId": "p27.MyFirstModule.SalesTrackingTable_NewEdit.comboBox4"
                               })
                             }
                           )
@@ -1129,9 +1129,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
-                              buttonId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
+                              buttonId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton1",
                               class: "mx-name-actionButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -1150,7 +1150,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               }),
                               icon: void 0,
                               action: ActionProperty({
-                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p34.MyFirstModule.SalesTrackingTable_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "5ZxFF1WnGVmvXz3Kq7uMBA", "closePage": true }, "disabledDuringExecution": true },
+                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p27.MyFirstModule.SalesTrackingTable_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "5ZxFF1WnGVmvXz3Kq7uMBA", "closePage": true }, "disabledDuringExecution": true },
                                 "abortOnServerValidation": true
                               })
                             }
@@ -1158,9 +1158,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
-                              $widgetId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
-                              buttonId: "p34.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
+                              key: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
+                              $widgetId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
+                              buttonId: "p27.MyFirstModule.SalesTrackingTable_NewEdit.actionButton2",
                               class: "mx-name-actionButton2",
                               style: void 0,
                               tabIndex: void 0,

@@ -16,12 +16,12 @@ import { content as parentContent } from "../layouts/Atlas_Core.Phone_BottomBar.
 const { $ListView, $Text } = asPluginWidgets({ ListView, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$ListView key="p36.MyFirstModule.LocationMobilePage.listView3"
-        $widgetId="p36.MyFirstModule.LocationMobilePage.listView3"
+    <$ListView key="p35.MyFirstModule.LocationMobilePage.listView3"
+        $widgetId="p35.MyFirstModule.LocationMobilePage.listView3"
         class={"mx-name-listView3 listview-lined listview-hover"}
         style={undefined}
         listValue={DatabaseObjectListProperty({
-            "dataSourceId": "p36.0",
+            "dataSourceId": "p35.0",
             "entity": "MyFirstModule.Locations",
             "operationId": "aDW/LFBYxFeDDNIql8ODjA",
             "sort": []
@@ -34,7 +34,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -44,7 +44,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -54,7 +54,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -64,7 +64,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -74,7 +74,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -84,71 +84,71 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Integer",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p36.0",
+                "dataSourceId": "p35.0",
                 "isList": false
             })
         ]}
         itemTemplate={TemplatedWidgetProperty({
-            "dataSourceId": "p36.0",
+            "dataSourceId": "p35.0",
             "editable": false,
             "children": () => [
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text1"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text1"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text1"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text1"
                     class={"mx-name-text1"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "State" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "State" }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />,
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text2"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text2"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text2"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text2"
                     class={"mx-name-text2"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "City" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "City" }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />,
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text3"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text3"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text3"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text3"
                     class={"mx-name-text3"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Country" }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Country" }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />,
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text4"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text4"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text4"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text4"
                     class={"mx-name-text4"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Longitude" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Longitude" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />,
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text5"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text5"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text5"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text5"
                     class={"mx-name-text5"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Latitude" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Latitude" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />,
-                <$Text key="p36.MyFirstModule.LocationMobilePage.text6"
-                    $widgetId="p36.MyFirstModule.LocationMobilePage.text6"
+                <$Text key="p35.MyFirstModule.LocationMobilePage.text6"
+                    $widgetId="p35.MyFirstModule.LocationMobilePage.text6"
                     class={"mx-name-text6"}
                     style={undefined}
                     caption={t([
                         ExpressionProperty({
-                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "PostalCode" }, { "type": "literal", "value": "{}" } ] }, "args": { "currentObject": { "widget": "p36.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
+                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "PostalCode" }, { "type": "literal", "value": "{}" } ] }, "args": { "currentObject": { "widget": "p35.MyFirstModule.LocationMobilePage.listView3", "source": "object" } } }
                         })
                     ])}
                     renderMode={"p"} />

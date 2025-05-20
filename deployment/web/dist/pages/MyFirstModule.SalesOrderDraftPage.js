@@ -1,24 +1,24 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
-import { ListActionProperty } from '../ListActionProperty-DdqK2sz7.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { Container } from '../Container-DobQDWAA.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { ListView } from '../ListView-DlByzcJa.js';
-import { Text } from '../Text-BcexcteZ.js';
-import { content as content$1 } from '../Atlas_Core.Phone_Default-Cnc3pzVy.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../Bgp-XL0v-C7x6tFfM.js';
-import '../InlineText-06k9DgcQ.js';
-import '../SimpleMenuBar-CXu-E15R.js';
-import '../DMc54HEs-BMpoF4j_.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
+import { ListActionProperty } from '../ListActionProperty-CoCCB2vR.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
+import { TextProperty } from '../Icon-CwpoK74K.js';
+import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
+import { ActionButton } from '../ActionButton-B1FZcI8p.js';
+import { Container } from '../Container-CxVkjo8s.js';
+import { Div } from '../Div-DWESTEoo.js';
+import { ListView } from '../ListView-B1Yau7GF.js';
+import { Text } from '../Text-BH0JoxPZ.js';
+import { content as content$1 } from '../Atlas_Core.Phone_Default-BDduNu_D.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../Bgp-XL0v-iR-R4xy_.js';
+import '../InlineText-BU8NLTPl.js';
+import '../SimpleMenuBar-CQ7UtPfo.js';
+import '../DMc54HEs-BETi155K.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Div, $ActionButton, $ListView, $Container, $Text } = asPluginWidgets({ Div, ActionButton, ListView, Container, Text });
@@ -26,33 +26,33 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1",
-      $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1",
+      key: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1",
+      $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0",
-            $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0",
+            key: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0",
+            $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0$column0",
-                  $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0$column0",
+                  key: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0$column0",
+                  $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.layoutGrid1$row0$column0",
                   class: "col-lg-12 col-md-12 col-12",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $ActionButton,
                       {
-                        key: "p45.MyFirstModule.SalesOrderDraftPage.actionButton1",
-                        $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.actionButton1",
-                        buttonId: "p45.MyFirstModule.SalesOrderDraftPage.actionButton1",
+                        key: "p28.MyFirstModule.SalesOrderDraftPage.actionButton1",
+                        $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.actionButton1",
+                        buttonId: "p28.MyFirstModule.SalesOrderDraftPage.actionButton1",
                         class: "mx-name-actionButton1",
                         style: {
                           "float": "right",
@@ -95,12 +95,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $ListView,
     {
-      key: "p45.MyFirstModule.SalesOrderDraftPage.listView1",
-      $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.listView1",
+      key: "p28.MyFirstModule.SalesOrderDraftPage.listView1",
+      $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.listView1",
       class: "mx-name-listView1",
       style: void 0,
       listValue: DatabaseObjectListProperty({
-        "dataSourceId": "p45.8",
+        "dataSourceId": "p28.8",
         "entity": "MyFirstModule.SalesTrackingTableTemporary",
         "operationId": "ebNjBkSrm1+zbdPIoCQGPQ",
         "sort": []
@@ -113,7 +113,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "AutoNumber",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         }),
         ListAttributeProperty({
@@ -123,7 +123,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Integer",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         }),
         ListAttributeProperty({
@@ -133,7 +133,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         }),
         ListAttributeProperty({
@@ -143,7 +143,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         }),
         ListAttributeProperty({
@@ -153,7 +153,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         }),
         ListAttributeProperty({
@@ -163,19 +163,19 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
           "attributeType": "Decimal",
           "sortable": true,
           "filterable": true,
-          "dataSourceId": "p45.8",
+          "dataSourceId": "p28.8",
           "isList": false
         })
       ],
       itemTemplate: TemplatedWidgetProperty({
-        "dataSourceId": "p45.8",
+        "dataSourceId": "p28.8",
         "editable": false,
         "children": () => [
           /* @__PURE__ */ React.createElement(
             $Container,
             {
-              key: "p45.MyFirstModule.SalesOrderDraftPage.container1",
-              $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.container1",
+              key: "p28.MyFirstModule.SalesOrderDraftPage.container1",
+              $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.container1",
               class: "mx-name-container1",
               style: void 0,
               renderMode: "div",
@@ -184,15 +184,15 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                 /* @__PURE__ */ React.createElement(
                   $Text,
                   {
-                    key: "p45.MyFirstModule.SalesOrderDraftPage.text1",
-                    $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.text1",
+                    key: "p28.MyFirstModule.SalesOrderDraftPage.text1",
+                    $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.text1",
                     class: "mx-name-text1",
                     style: {
                       "fontWeight": "bold"
                     },
                     caption: selectTranslation([
                       ExpressionProperty({
-                        "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "SalesID" }, { "type": "literal", "value": "{}" }] }, "args": { "currentObject": { "widget": "p45.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
+                        "expression": { "expr": { "type": "function", "name": "_format", "parameters": [{ "type": "variable", "variable": "currentObject", "path": "SalesID" }, { "type": "literal", "value": "{}" }] }, "args": { "currentObject": { "widget": "p28.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
                       })
                     ]),
                     renderMode: "span"
@@ -201,13 +201,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                 /* @__PURE__ */ React.createElement(
                   $Text,
                   {
-                    key: "p45.MyFirstModule.SalesOrderDraftPage.text10",
-                    $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.text10",
+                    key: "p28.MyFirstModule.SalesOrderDraftPage.text10",
+                    $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.text10",
                     class: "mx-name-text10",
                     style: void 0,
                     caption: selectTranslation([
                       ExpressionProperty({
-                        "expression": { "expr": { "type": "function", "name": "+", "parameters": [{ "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Customers/MyFirstModule.Customers/FirstName" }] }, "args": { "currentObject": { "widget": "p45.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
+                        "expression": { "expr": { "type": "function", "name": "+", "parameters": [{ "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Customers/MyFirstModule.Customers/FirstName" }] }, "args": { "currentObject": { "widget": "p28.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
                       })
                     ]),
                     renderMode: "span"
@@ -216,13 +216,13 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                 /* @__PURE__ */ React.createElement(
                   $Text,
                   {
-                    key: "p45.MyFirstModule.SalesOrderDraftPage.text11",
-                    $widgetId: "p45.MyFirstModule.SalesOrderDraftPage.text11",
+                    key: "p28.MyFirstModule.SalesOrderDraftPage.text11",
+                    $widgetId: "p28.MyFirstModule.SalesOrderDraftPage.text11",
                     class: "mx-name-text11",
                     style: void 0,
                     caption: selectTranslation([
                       ExpressionProperty({
-                        "expression": { "expr": { "type": "function", "name": "+", "parameters": [{ "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Products/MyFirstModule.Products/ProductName" }] }, "args": { "currentObject": { "widget": "p45.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
+                        "expression": { "expr": { "type": "function", "name": "+", "parameters": [{ "type": "literal", "value": " / " }, { "type": "variable", "variable": "currentObject", "path": "MyFirstModule.SalesTrackingTableTemporary_Products/MyFirstModule.Products/ProductName" }] }, "args": { "currentObject": { "widget": "p28.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } } }
                       })
                     ]),
                     renderMode: "span"
@@ -235,9 +235,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         ]
       }),
       onClick: ListActionProperty({
-        "action": { "type": "openPage", "argMap": { "param$SalesTrackingTableTemporary": { "widget": "p45.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "name": "MyFirstModule/DraftSalesOrder_Edit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+        "action": { "type": "openPage", "argMap": { "param$SalesTrackingTableTemporary": { "widget": "p28.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "name": "MyFirstModule/DraftSalesOrder_Edit.page.xml", "location": "content" }, "disabledDuringExecution": true },
         "abortOnServerValidation": false,
-        "dataSourceId": "p45.8"
+        "dataSourceId": "p28.8"
       }),
       pageSize: 10
     }

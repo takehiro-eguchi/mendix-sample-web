@@ -1,28 +1,28 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-CpSsGt-6.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-D6Rvgx61.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { DataView } from '../DataView-VUb0u99s.js';
-import { DatePicker } from '../DatePicker-B0E9SWfr.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { RadioButtonGroup } from '../RadioButtonGroup-B_LhRmPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-BCD-qmIo.js';
-import { AttributeProperty } from '../Bgp-XL0v-C7x6tFfM.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../CD0QimeZ-Do4rcJoP.js';
-import '../C6ZHc0Cf-DW2U1m2B.js';
-import '../CRg6lXMU-Cxeq2ZRY.js';
-import '../BH5qNKCa-He16eDuK.js';
-import '../ListExpressionProperty-UOQ4kvKt.js';
-import '../WebIconProperty-vPsRN3Rv.js';
-import '../WebStaticImageProperty-DtivNI6l.js';
-import '../Container-DobQDWAA.js';
-import '../Image-CRLik9xo.js';
-import '../DMc54HEs-BMpoF4j_.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
+import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-stug8OtK.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CGXSnxmy.js';
+import { TextProperty } from '../Icon-CwpoK74K.js';
+import { ActionButton } from '../ActionButton-B1FZcI8p.js';
+import { DataView } from '../DataView-3yV-QRpp.js';
+import { DatePicker } from '../DatePicker-B6FW3hWh.js';
+import { Div } from '../Div-DWESTEoo.js';
+import { RadioButtonGroup } from '../RadioButtonGroup-Dl-KCgta.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-B9xNoncC.js';
+import { AttributeProperty } from '../Bgp-XL0v-iR-R4xy_.js';
+import '../BQa9VDC5-BsmL2sNc.js';
+import '../BrzhM9fk-B35Z04N6.js';
+import '../CD0QimeZ-CiCtDOL8.js';
+import '../C6ZHc0Cf-e1SMPdVi.js';
+import '../CRg6lXMU-CTJyE8HK.js';
+import '../BH5qNKCa-DKuecUbx.js';
+import '../ListExpressionProperty-BWFcYvBl.js';
+import '../WebIconProperty-DksUkMrc.js';
+import '../WebStaticImageProperty-CiXGhPz_.js';
+import '../Container-CxVkjo8s.js';
+import '../Image-BLvaO7vK.js';
+import '../DMc54HEs-BETi155K.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Div, $DataView, $FormGroup, $TextBox, $DatePicker, $RadioButtonGroup, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, DatePicker, RadioButtonGroup, ActionButton });
@@ -30,37 +30,37 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
   /* @__PURE__ */ React.createElement(
     $Div,
     {
-      key: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1",
-      $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1",
+      key: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1",
+      $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1",
       class: "mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid",
       style: void 0,
       content: [
         /* @__PURE__ */ React.createElement(
           $Div,
           {
-            key: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0",
-            $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0",
+            key: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0",
+            $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0",
             class: "row",
             style: void 0,
             content: [
               /* @__PURE__ */ React.createElement(
                 $Div,
                 {
-                  key: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0$column0",
-                  $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0$column0",
+                  key: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0$column0",
+                  $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.layoutGrid1$row0$column0",
                   class: "col-lg col-md col",
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
                       $DataView,
                       {
-                        key: "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
-                        $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                        key: "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                        $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                         class: "mx-name-dataView6 form-vertical",
                         style: void 0,
                         tabIndex: void 0,
                         object: AssociationObjectProperty({
-                          "dataSourceId": "p28.12",
+                          "dataSourceId": "p20.12",
                           "scope": "$SalesPersons",
                           "editable": true
                         }),
@@ -73,18 +73,18 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox1$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox1$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox1$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox1$formGroup",
                               class: "mx-name-textBox1 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox1",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox1",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox1",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox1",
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "SalesPersonName",
@@ -112,7 +112,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox1"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox1"
                                     })
                                   }
                                 )
@@ -123,30 +123,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox1"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox1"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox2$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox2$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox2$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox2$formGroup",
                               class: "mx-name-textBox2 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox2",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox2",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox2",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox2",
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "SalesPersonLastName",
@@ -174,7 +174,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox2"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox2"
                                     })
                                   }
                                 )
@@ -185,30 +185,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox2"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox2"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox3$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox3$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox3$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox3$formGroup",
                               class: "mx-name-textBox3 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox3",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox3",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox3",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox3",
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "SalesPersonTitle",
@@ -236,7 +236,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox3"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox3"
                                     })
                                   }
                                 )
@@ -247,32 +247,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox3"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox3"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox3"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1$formGroup",
                               class: "mx-name-datePicker1 mx-datepicker",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $DatePicker,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1",
                                     mode: "date",
                                     showCalendarButton: true,
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "HireDate",
@@ -304,7 +304,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1"
                                     })
                                   }
                                 )
@@ -315,32 +315,32 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker1"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2$formGroup",
                               class: "mx-name-datePicker2 mx-datepicker",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $DatePicker,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2",
                                     mode: "date",
                                     showCalendarButton: true,
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "BirthDate",
@@ -372,7 +372,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2"
                                     })
                                   }
                                 )
@@ -383,30 +383,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.datePicker2"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.datePicker2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1$formGroup",
                               class: "mx-name-radioButtons1 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1",
                                     value: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "MaritialStatus",
@@ -421,7 +421,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
                                     })
                                   }
                                 )
@@ -432,30 +432,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons1"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2$formGroup",
                               class: "mx-name-radioButtons2 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2",
                                     value: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "Gender",
@@ -470,7 +470,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
                                     })
                                   }
                                 )
@@ -481,30 +481,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons2"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox4$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox4$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox4$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox4$formGroup",
                               class: "mx-name-textBox4 mx-textbox",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $TextBox,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.textBox4",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.textBox4",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.textBox4",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.textBox4",
                                     inputValue: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "MonthlySalary",
@@ -536,7 +536,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox4"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox4"
                                     })
                                   }
                                 )
@@ -547,30 +547,30 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox4"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox4"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.textBox4"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.textBox4"
                               })
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
                             $FormGroup,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3$formGroup",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3$formGroup",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3$formGroup",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3$formGroup",
                               class: "mx-name-radioButtons3 mx-radiobuttons inline",
                               style: void 0,
                               control: [
                                 /* @__PURE__ */ React.createElement(
                                   $RadioButtonGroup,
                                   {
-                                    key: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3",
-                                    $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3",
+                                    key: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3",
+                                    $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3",
                                     value: AttributeProperty({
-                                      "scope": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6",
+                                      "scope": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6",
                                       "path": "",
                                       "entity": "MyFirstModule.SalesPersons",
                                       "attribute": "Status",
@@ -585,7 +585,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     ariaRequired: void 0,
                                     tabIndex: void 0,
                                     id: DerivedUniqueIdProperty({
-                                      "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
+                                      "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
                                     })
                                   }
                                 )
@@ -596,12 +596,12 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                 })
                               ]),
                               labelFor: DerivedUniqueIdProperty({
-                                "widgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
+                                "widgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
                               }),
                               width: void 0,
                               orientation: "vertical",
                               hasError: ValidationProperty({
-                                "inputWidgetId": "p28.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
+                                "inputWidgetId": "p20.MyFirstModule.SalesPersons_NewEdit.radioButtons3"
                               })
                             }
                           )
@@ -611,9 +611,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton1",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton1",
-                              buttonId: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton1",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton1",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton1",
+                              buttonId: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton1",
                               class: "mx-name-actionButton1",
                               style: void 0,
                               tabIndex: void 0,
@@ -632,7 +632,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               }),
                               icon: void 0,
                               action: ActionProperty({
-                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p28.MyFirstModule.SalesPersons_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "2nO7nxQCzV6IplsMtAB1Lg", "closePage": true }, "disabledDuringExecution": true },
+                                "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p20.MyFirstModule.SalesPersons_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "2nO7nxQCzV6IplsMtAB1Lg", "closePage": true }, "disabledDuringExecution": true },
                                 "abortOnServerValidation": true
                               })
                             }
@@ -640,9 +640,9 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                           /* @__PURE__ */ React.createElement(
                             $ActionButton,
                             {
-                              key: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton2",
-                              $widgetId: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton2",
-                              buttonId: "p28.MyFirstModule.SalesPersons_NewEdit.actionButton2",
+                              key: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton2",
+                              $widgetId: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton2",
+                              buttonId: "p20.MyFirstModule.SalesPersons_NewEdit.actionButton2",
                               class: "mx-name-actionButton2",
                               style: void 0,
                               tabIndex: void 0,

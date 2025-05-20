@@ -18,12 +18,12 @@ import { content as parentContent } from "../layouts/Atlas_Core.Phone_BottomBar.
 const { $ListView, $Container, $Text } = asPluginWidgets({ ListView, Container, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$ListView key="p26.MyFirstModule.CuttomerMobilePage.listView3"
-        $widgetId="p26.MyFirstModule.CuttomerMobilePage.listView3"
+    <$ListView key="p29.MyFirstModule.CuttomerMobilePage.listView3"
+        $widgetId="p29.MyFirstModule.CuttomerMobilePage.listView3"
         class={"mx-name-listView3 listview-lined listview-hover"}
         style={undefined}
         listValue={DatabaseObjectListProperty({
-            "dataSourceId": "p26.0",
+            "dataSourceId": "p29.0",
             "entity": "MyFirstModule.Customers",
             "operationId": "CDWzLar461yjypd8sLNc4g",
             "sort": []
@@ -36,7 +36,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -46,7 +46,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -56,7 +56,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -66,7 +66,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "String",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -76,7 +76,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -86,23 +86,23 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Integer",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p26.0",
+                "dataSourceId": "p29.0",
                 "isList": false
             })
         ]}
         itemTemplate={TemplatedWidgetProperty({
-            "dataSourceId": "p26.0",
+            "dataSourceId": "p29.0",
             "editable": false,
             "children": () => [
-                <$Container key="p26.MyFirstModule.CuttomerMobilePage.container1"
-                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.container1"
+                <$Container key="p29.MyFirstModule.CuttomerMobilePage.container1"
+                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.container1"
                     class={"mx-name-container1"}
                     style={undefined}
                     renderMode={"div"}
                     onClick={undefined}
                     content={[
-                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text10"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text10"
+                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text10"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text10"
                             class={"mx-name-text10 text-bold"}
                             style={undefined}
                             caption={t([
@@ -111,37 +111,37 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                 })
                             ])}
                             renderMode={"span"} />,
-                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text1"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text1"
+                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text1"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text1"
                             class={"mx-name-text1"}
                             style={undefined}
                             caption={t([
                                 ExpressionProperty({
-                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "FirstName" }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "FirstName" }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                 })
                             ])}
                             renderMode={"span"} />,
-                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text2"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text2"
+                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text2"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text2"
                             class={"mx-name-text2"}
                             style={undefined}
                             caption={t([
                                 ExpressionProperty({
-                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": " " }, { "type": "variable", "variable": "currentObject", "path": "LastName" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": " " }, { "type": "variable", "variable": "currentObject", "path": "LastName" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                 })
                             ])}
                             renderMode={"span"} />
                     ]}
                     ariaHidden={false} />,
-                <$Container key="p26.MyFirstModule.CuttomerMobilePage.container2"
-                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.container2"
+                <$Container key="p29.MyFirstModule.CuttomerMobilePage.container2"
+                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.container2"
                     class={"mx-name-container2"}
                     style={undefined}
                     renderMode={"div"}
                     onClick={undefined}
                     content={[
-                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text11"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text11"
+                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text11"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text11"
                             class={"mx-name-text11 text-bold"}
                             style={undefined}
                             caption={t([
@@ -150,25 +150,25 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                 })
                             ])}
                             renderMode={"span"} />,
-                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text3"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text3"
+                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text3"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text3"
                             class={"mx-name-text3"}
                             style={undefined}
                             caption={t([
                                 ExpressionProperty({
-                                    "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "BirthDate" }, { "type": "literal", "value": "{\"type\":\"date\"}" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                    "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "BirthDate" }, { "type": "literal", "value": "{\"type\":\"date\"}" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                 })
                             ])}
                             renderMode={"span"} />,
-                        <$Container key="p26.MyFirstModule.CuttomerMobilePage.container3"
-                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.container3"
+                        <$Container key="p29.MyFirstModule.CuttomerMobilePage.container3"
+                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.container3"
                             class={"mx-name-container3"}
                             style={undefined}
                             renderMode={"div"}
                             onClick={undefined}
                             content={[
-                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text12"
-                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text12"
+                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text12"
+                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text12"
                                     class={"mx-name-text12 text-bold"}
                                     style={undefined}
                                     caption={t([
@@ -177,35 +177,35 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         })
                                     ])}
                                     renderMode={"span"} />,
-                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text5"
-                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text5"
+                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text5"
+                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text5"
                                     class={"mx-name-text5"}
                                     style={undefined}
                                     caption={t([
                                         ExpressionProperty({
-                                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Gender" }, { "type": "literal", "value": "MyFirstModule.Gender" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                            "expression": { "expr": { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Gender" }, { "type": "literal", "value": "MyFirstModule.Gender" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                         })
                                     ])}
                                     renderMode={"span"} />,
-                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text4"
-                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text4"
+                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text4"
+                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text4"
                                     class={"mx-name-text4"}
                                     style={undefined}
                                     caption={t([
                                         ExpressionProperty({
-                                            "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "（" }, { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "MaritialStatus" }, { "type": "literal", "value": "MyFirstModule.MaritialStatus" } ] } ] }, { "type": "literal", "value": "）" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                            "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "（" }, { "type": "function", "name": "getCaption", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "MaritialStatus" }, { "type": "literal", "value": "MyFirstModule.MaritialStatus" } ] } ] }, { "type": "literal", "value": "）" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                         })
                                     ])}
                                     renderMode={"span"} />,
-                                <$Container key="p26.MyFirstModule.CuttomerMobilePage.container4"
-                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.container4"
+                                <$Container key="p29.MyFirstModule.CuttomerMobilePage.container4"
+                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.container4"
                                     class={"mx-name-container4"}
                                     style={undefined}
                                     renderMode={"div"}
                                     onClick={undefined}
                                     content={[
-                                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text13"
-                                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text13"
+                                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text13"
+                                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text13"
                                             class={"mx-name-text13 text-bold"}
                                             style={undefined}
                                             caption={t([
@@ -214,35 +214,35 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 })
                                             ])}
                                             renderMode={"span"} />,
-                                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text7"
-                                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text7"
+                                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text7"
+                                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text7"
                                             class={"mx-name-text7"}
                                             style={undefined}
                                             caption={t([
                                                 ExpressionProperty({
-                                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "PhoneNumber" }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                                    "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "PhoneNumber" }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                                 })
                                             ])}
                                             renderMode={"span"} />,
-                                        <$Text key="p26.MyFirstModule.CuttomerMobilePage.text6"
-                                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.text6"
+                                        <$Text key="p29.MyFirstModule.CuttomerMobilePage.text6"
+                                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.text6"
                                             class={"mx-name-text6"}
                                             style={undefined}
                                             caption={t([
                                                 ExpressionProperty({
-                                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "（" }, { "type": "variable", "variable": "currentObject", "path": "MailAddress" } ] }, { "type": "literal", "value": "）" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                                    "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "（" }, { "type": "variable", "variable": "currentObject", "path": "MailAddress" } ] }, { "type": "literal", "value": "）" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                                 })
                                             ])}
                                             renderMode={"span"} />,
-                                        <$Container key="p26.MyFirstModule.CuttomerMobilePage.container5"
-                                            $widgetId="p26.MyFirstModule.CuttomerMobilePage.container5"
+                                        <$Container key="p29.MyFirstModule.CuttomerMobilePage.container5"
+                                            $widgetId="p29.MyFirstModule.CuttomerMobilePage.container5"
                                             class={"mx-name-container5"}
                                             style={undefined}
                                             renderMode={"div"}
                                             onClick={undefined}
                                             content={[
-                                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text14"
-                                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text14"
+                                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text14"
+                                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text14"
                                                     class={"mx-name-text14 text-bold"}
                                                     style={undefined}
                                                     caption={t([
@@ -251,23 +251,23 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                         })
                                                     ])}
                                                     renderMode={"span"} />,
-                                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text8"
-                                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text8"
+                                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text8"
+                                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text8"
                                                     class={"mx-name-text8"}
                                                     style={undefined}
                                                     caption={t([
                                                         ExpressionProperty({
-                                                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "AverageYearlyIncome" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                                            "expression": { "expr": { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "AverageYearlyIncome" }, { "type": "literal", "value": "{\"decimalPrecision\":2}" } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                                         })
                                                     ])}
                                                     renderMode={"span"} />,
-                                                <$Text key="p26.MyFirstModule.CuttomerMobilePage.text9"
-                                                    $widgetId="p26.MyFirstModule.CuttomerMobilePage.text9"
+                                                <$Text key="p29.MyFirstModule.CuttomerMobilePage.text9"
+                                                    $widgetId="p29.MyFirstModule.CuttomerMobilePage.text9"
                                                     class={"mx-name-text9"}
                                                     style={undefined}
                                                     caption={t([
                                                         ExpressionProperty({
-                                                            "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "| " }, { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "AverageSalesOrderQuantity" }, { "type": "literal", "value": "{}" } ] } ] }, "args": { "currentObject": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
+                                                            "expression": { "expr": { "type": "function", "name": "+", "parameters": [ { "type": "literal", "value": "| " }, { "type": "function", "name": "_format", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "AverageSalesOrderQuantity" }, { "type": "literal", "value": "{}" } ] } ] }, "args": { "currentObject": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } } }
                                                         })
                                                     ])}
                                                     renderMode={"span"} />
@@ -282,9 +282,9 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             ]
         })}
         onClick={ListActionProperty({
-            "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p26.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
+            "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p29.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
             "abortOnServerValidation": false,
-            "dataSourceId": "p26.0"
+            "dataSourceId": "p29.0"
         })}
         pageSize={5} />
 ]}</PageFragment>);

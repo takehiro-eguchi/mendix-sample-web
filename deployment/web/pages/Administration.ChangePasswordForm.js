@@ -21,13 +21,13 @@ import { content as parentContent } from "../layouts/Atlas_Core.PopupLayout.js";
 const { $DataView, $FormGroup, $TextBox, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$DataView key="p5.Administration.ChangePasswordForm.dataView2"
-        $widgetId="p5.Administration.ChangePasswordForm.dataView2"
+    <$DataView key="p1.Administration.ChangePasswordForm.dataView2"
+        $widgetId="p1.Administration.ChangePasswordForm.dataView2"
         class={"mx-name-dataView2 form-horizontal"}
         style={undefined}
         tabIndex={undefined}
         object={AssociationObjectProperty({
-            "dataSourceId": "p5.6",
+            "dataSourceId": "p1.6",
             "scope": "$AccountPasswordData",
             "editable": true
         })}
@@ -37,15 +37,15 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             ])
         })}
         body={[
-            <$FormGroup key="p5.Administration.ChangePasswordForm.textBox3$formGroup"
-                $widgetId="p5.Administration.ChangePasswordForm.textBox3$formGroup"
+            <$FormGroup key="p1.Administration.ChangePasswordForm.textBox3$formGroup"
+                $widgetId="p1.Administration.ChangePasswordForm.textBox3$formGroup"
                 class={"mx-name-textBox3 mx-textbox"}
                 style={undefined}
                 control={[
-                    <$TextBox key="p5.Administration.ChangePasswordForm.textBox3"
-                        $widgetId="p5.Administration.ChangePasswordForm.textBox3"
+                    <$TextBox key="p1.Administration.ChangePasswordForm.textBox3"
+                        $widgetId="p1.Administration.ChangePasswordForm.textBox3"
                         inputValue={AttributeProperty({
-                            "scope": "p5.Administration.ChangePasswordForm.dataView2",
+                            "scope": "p1.Administration.ChangePasswordForm.dataView2",
                             "path": "",
                             "entity": "Administration.AccountPasswordData",
                             "attribute": "NewPassword",
@@ -73,7 +73,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         ariaRequired={true}
                         tabIndex={undefined}
                         id={DerivedUniqueIdProperty({
-                            "widgetId": "p5.Administration.ChangePasswordForm.textBox3"
+                            "widgetId": "p1.Administration.ChangePasswordForm.textBox3"
                         })} />
                 ]}
                 caption={t([
@@ -82,22 +82,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     })
                 ])}
                 labelFor={DerivedUniqueIdProperty({
-                    "widgetId": "p5.Administration.ChangePasswordForm.textBox3"
+                    "widgetId": "p1.Administration.ChangePasswordForm.textBox3"
                 })}
                 width={3}
                 orientation={"horizontal"}
                 hasError={ValidationProperty({
-                    "inputWidgetId": "p5.Administration.ChangePasswordForm.textBox3"
+                    "inputWidgetId": "p1.Administration.ChangePasswordForm.textBox3"
                 })} />,
-            <$FormGroup key="p5.Administration.ChangePasswordForm.textBox1$formGroup"
-                $widgetId="p5.Administration.ChangePasswordForm.textBox1$formGroup"
+            <$FormGroup key="p1.Administration.ChangePasswordForm.textBox1$formGroup"
+                $widgetId="p1.Administration.ChangePasswordForm.textBox1$formGroup"
                 class={"mx-name-textBox1 mx-textbox"}
                 style={undefined}
                 control={[
-                    <$TextBox key="p5.Administration.ChangePasswordForm.textBox1"
-                        $widgetId="p5.Administration.ChangePasswordForm.textBox1"
+                    <$TextBox key="p1.Administration.ChangePasswordForm.textBox1"
+                        $widgetId="p1.Administration.ChangePasswordForm.textBox1"
                         inputValue={AttributeProperty({
-                            "scope": "p5.Administration.ChangePasswordForm.dataView2",
+                            "scope": "p1.Administration.ChangePasswordForm.dataView2",
                             "path": "",
                             "entity": "Administration.AccountPasswordData",
                             "attribute": "ConfirmPassword",
@@ -125,7 +125,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         ariaRequired={true}
                         tabIndex={undefined}
                         id={DerivedUniqueIdProperty({
-                            "widgetId": "p5.Administration.ChangePasswordForm.textBox1"
+                            "widgetId": "p1.Administration.ChangePasswordForm.textBox1"
                         })} />
                 ]}
                 caption={t([
@@ -134,19 +134,19 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     })
                 ])}
                 labelFor={DerivedUniqueIdProperty({
-                    "widgetId": "p5.Administration.ChangePasswordForm.textBox1"
+                    "widgetId": "p1.Administration.ChangePasswordForm.textBox1"
                 })}
                 width={3}
                 orientation={"horizontal"}
                 hasError={ValidationProperty({
-                    "inputWidgetId": "p5.Administration.ChangePasswordForm.textBox1"
+                    "inputWidgetId": "p1.Administration.ChangePasswordForm.textBox1"
                 })} />
         ]}
         hideFooter={false}
         footer={[
-            <$ActionButton key="p5.Administration.ChangePasswordForm.microflowButton1"
-                $widgetId="p5.Administration.ChangePasswordForm.microflowButton1"
-                buttonId={"p5.Administration.ChangePasswordForm.microflowButton1"}
+            <$ActionButton key="p1.Administration.ChangePasswordForm.microflowButton1"
+                $widgetId="p1.Administration.ChangePasswordForm.microflowButton1"
+                buttonId={"p1.Administration.ChangePasswordForm.microflowButton1"}
                 class={"mx-name-microflowButton1"}
                 style={undefined}
                 tabIndex={undefined}
@@ -168,9 +168,9 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "action": { "type": "callMicroflow", "argMap": { "AccountPasswordData": { "widget": "$AccountPasswordData", "source": "object" } }, "config": { "operationId": "r1HjGj+CS1WcAvQQ+IopOg", "validate": "view" }, "disabledDuringExecution": false },
                     "abortOnServerValidation": true
                 })} />,
-            <$ActionButton key="p5.Administration.ChangePasswordForm.cancelButton1"
-                $widgetId="p5.Administration.ChangePasswordForm.cancelButton1"
-                buttonId={"p5.Administration.ChangePasswordForm.cancelButton1"}
+            <$ActionButton key="p1.Administration.ChangePasswordForm.cancelButton1"
+                $widgetId="p1.Administration.ChangePasswordForm.cancelButton1"
+                buttonId={"p1.Administration.ChangePasswordForm.cancelButton1"}
                 class={"mx-name-cancelButton1"}
                 style={undefined}
                 tabIndex={undefined}
@@ -202,7 +202,7 @@ export const title = t([
 export const classes = "";
 
 export const cancelChangesOperationId = "3sWWl7CrkFCoLe+hI9Hp9A";
-export const closeButton = "p5.Administration.ChangePasswordForm.cancelButton1";
+export const closeButton = "p1.Administration.ChangePasswordForm.cancelButton1";
 export const style = {};
 export const content = { ...parentContent,
     "Atlas_Core.PopupLayout.Main": region$Main,
