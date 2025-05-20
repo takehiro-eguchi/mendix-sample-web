@@ -744,58 +744,72 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                             "dataSourceId": "p5.14",
                                                             "editable": false,
                                                             "children": () => [
-                                                                <$ActionButton key="p5.Administration.Account_Overview.actionButton3"
-                                                                    $widgetId="p5.Administration.Account_Overview.actionButton3"
-                                                                    buttonId={"p5.Administration.Account_Overview.actionButton3"}
-                                                                    class={"mx-name-actionButton3 btn-lg"}
-                                                                    style={undefined}
-                                                                    tabIndex={undefined}
-                                                                    renderType={"link"}
-                                                                    role={"button"}
-                                                                    buttonClass={"btn-default"}
-                                                                    caption={t([
-                                                                        ExpressionProperty({
-                                                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                                        })
-                                                                    ])}
-                                                                    tooltip={TextProperty({
-                                                                        "value": t([
-                                                                            ""
-                                                                        ])
+                                                                <$ConditionalVisibilityWrapper key="p5.Administration.Account_Overview.actionButton3$visibility"
+                                                                    $widgetId="p5.Administration.Account_Overview.actionButton3$visibility"
+                                                                    visible={ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                                                     })}
-                                                                    icon={WebIconProperty({
-                                                                        "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-pencil" }
+                                                                    contents={[
+                                                                        <$ActionButton key="p5.Administration.Account_Overview.actionButton3"
+                                                                            $widgetId="p5.Administration.Account_Overview.actionButton3"
+                                                                            buttonId={"p5.Administration.Account_Overview.actionButton3"}
+                                                                            class={"mx-name-actionButton3 btn-lg"}
+                                                                            style={undefined}
+                                                                            tabIndex={undefined}
+                                                                            renderType={"link"}
+                                                                            role={"button"}
+                                                                            buttonClass={"btn-default"}
+                                                                            caption={t([
+                                                                                ExpressionProperty({
+                                                                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                                })
+                                                                            ])}
+                                                                            tooltip={TextProperty({
+                                                                                "value": t([
+                                                                                    ""
+                                                                                ])
+                                                                            })}
+                                                                            icon={WebIconProperty({
+                                                                                "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-pencil" }
+                                                                            })}
+                                                                            action={ActionProperty({
+                                                                                "action": { "type": "openPage", "argMap": { "param$Account": { "widget": "p5.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "name": "Administration/Account_Edit.page.xml", "location": "modal", "resizable": true, "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": true },
+                                                                                "abortOnServerValidation": true
+                                                                            })} />
+                                                                    ]} />,
+                                                                <$ConditionalVisibilityWrapper key="p5.Administration.Account_Overview.actionButton4$visibility"
+                                                                    $widgetId="p5.Administration.Account_Overview.actionButton4$visibility"
+                                                                    visible={ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                                                     })}
-                                                                    action={ActionProperty({
-                                                                        "action": { "type": "openPage", "argMap": { "param$Account": { "widget": "p5.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "name": "Administration/Account_Edit.page.xml", "location": "modal", "resizable": true }, "disabledDuringExecution": true },
-                                                                        "abortOnServerValidation": true
-                                                                    })} />,
-                                                                <$ActionButton key="p5.Administration.Account_Overview.actionButton4"
-                                                                    $widgetId="p5.Administration.Account_Overview.actionButton4"
-                                                                    buttonId={"p5.Administration.Account_Overview.actionButton4"}
-                                                                    class={"mx-name-actionButton4 btn-lg spacing-outer-left-medium"}
-                                                                    style={undefined}
-                                                                    tabIndex={undefined}
-                                                                    renderType={"link"}
-                                                                    role={"button"}
-                                                                    buttonClass={"btn-default"}
-                                                                    caption={t([
-                                                                        ExpressionProperty({
-                                                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                                        })
-                                                                    ])}
-                                                                    tooltip={TextProperty({
-                                                                        "value": t([
-                                                                            ""
-                                                                        ])
-                                                                    })}
-                                                                    icon={WebIconProperty({
-                                                                        "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-trash-can" }
-                                                                    })}
-                                                                    action={ActionProperty({
-                                                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p5.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "ZBCqsSh8B1u9pnnE/JZJlQ" }, "disabledDuringExecution": true },
-                                                                        "abortOnServerValidation": true
-                                                                    })} />
+                                                                    contents={[
+                                                                        <$ActionButton key="p5.Administration.Account_Overview.actionButton4"
+                                                                            $widgetId="p5.Administration.Account_Overview.actionButton4"
+                                                                            buttonId={"p5.Administration.Account_Overview.actionButton4"}
+                                                                            class={"mx-name-actionButton4 btn-lg spacing-outer-left-medium"}
+                                                                            style={undefined}
+                                                                            tabIndex={undefined}
+                                                                            renderType={"link"}
+                                                                            role={"button"}
+                                                                            buttonClass={"btn-default"}
+                                                                            caption={t([
+                                                                                ExpressionProperty({
+                                                                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                                })
+                                                                            ])}
+                                                                            tooltip={TextProperty({
+                                                                                "value": t([
+                                                                                    ""
+                                                                                ])
+                                                                            })}
+                                                                            icon={WebIconProperty({
+                                                                                "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-trash-can" }
+                                                                            })}
+                                                                            action={ActionProperty({
+                                                                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p5.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "ZBCqsSh8B1u9pnnE/JZJlQ" }, "disabledDuringExecution": true },
+                                                                                "abortOnServerValidation": true
+                                                                            })} />
+                                                                    ]} />
                                                             ]
                                                         }),
                                                         "dynamicText": t([
@@ -847,54 +861,68 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 columnsHidable={true}
                                                 filterList={[]}
                                                 filtersPlaceholder={[
-                                                    <$ActionButton key="p5.Administration.Account_Overview.actionButton1"
-                                                        $widgetId="p5.Administration.Account_Overview.actionButton1"
-                                                        buttonId={"p5.Administration.Account_Overview.actionButton1"}
-                                                        class={"mx-name-actionButton1 spacing-outer-bottom"}
-                                                        style={undefined}
-                                                        tabIndex={undefined}
-                                                        renderType={"button"}
-                                                        role={undefined}
-                                                        buttonClass={"btn-success"}
-                                                        caption={t([
-                                                            ExpressionProperty({
-                                                                "expression": { "expr": { "type": "literal", "value": "New local user" }, "args": {} }
-                                                            })
-                                                        ])}
-                                                        tooltip={TextProperty({
-                                                            "value": t([
-                                                                ""
-                                                            ])
+                                                    <$ConditionalVisibilityWrapper key="p5.Administration.Account_Overview.actionButton1$visibility"
+                                                        $widgetId="p5.Administration.Account_Overview.actionButton1$visibility"
+                                                        visible={ExpressionProperty({
+                                                            "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                                         })}
-                                                        icon={undefined}
-                                                        action={ActionProperty({
-                                                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "L+044ullxlefrLRNHZmb2g", "validate": "view" }, "disabledDuringExecution": true },
-                                                            "abortOnServerValidation": true
-                                                        })} />,
-                                                    <$ActionButton key="p5.Administration.Account_Overview.actionButton2"
-                                                        $widgetId="p5.Administration.Account_Overview.actionButton2"
-                                                        buttonId={"p5.Administration.Account_Overview.actionButton2"}
-                                                        class={"mx-name-actionButton2 spacing-outer-left spacing-outer-bottom"}
-                                                        style={undefined}
-                                                        tabIndex={undefined}
-                                                        renderType={"button"}
-                                                        role={undefined}
-                                                        buttonClass={"btn-default"}
-                                                        caption={t([
-                                                            ExpressionProperty({
-                                                                "expression": { "expr": { "type": "literal", "value": "New web service user" }, "args": {} }
-                                                            })
-                                                        ])}
-                                                        tooltip={TextProperty({
-                                                            "value": t([
-                                                                ""
-                                                            ])
+                                                        contents={[
+                                                            <$ActionButton key="p5.Administration.Account_Overview.actionButton1"
+                                                                $widgetId="p5.Administration.Account_Overview.actionButton1"
+                                                                buttonId={"p5.Administration.Account_Overview.actionButton1"}
+                                                                class={"mx-name-actionButton1 spacing-outer-bottom"}
+                                                                style={undefined}
+                                                                tabIndex={undefined}
+                                                                renderType={"button"}
+                                                                role={undefined}
+                                                                buttonClass={"btn-success"}
+                                                                caption={t([
+                                                                    ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "literal", "value": "New local user" }, "args": {} }
+                                                                    })
+                                                                ])}
+                                                                tooltip={TextProperty({
+                                                                    "value": t([
+                                                                        ""
+                                                                    ])
+                                                                })}
+                                                                icon={undefined}
+                                                                action={ActionProperty({
+                                                                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "L+044ullxlefrLRNHZmb2g", "validate": "view", "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": true },
+                                                                    "abortOnServerValidation": true
+                                                                })} />
+                                                        ]} />,
+                                                    <$ConditionalVisibilityWrapper key="p5.Administration.Account_Overview.actionButton2$visibility"
+                                                        $widgetId="p5.Administration.Account_Overview.actionButton2$visibility"
+                                                        visible={ExpressionProperty({
+                                                            "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                                         })}
-                                                        icon={undefined}
-                                                        action={ActionProperty({
-                                                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "dJTbnL2ecFebcL1IZEqBlw", "validate": "view" }, "disabledDuringExecution": true },
-                                                            "abortOnServerValidation": true
-                                                        })} />
+                                                        contents={[
+                                                            <$ActionButton key="p5.Administration.Account_Overview.actionButton2"
+                                                                $widgetId="p5.Administration.Account_Overview.actionButton2"
+                                                                buttonId={"p5.Administration.Account_Overview.actionButton2"}
+                                                                class={"mx-name-actionButton2 spacing-outer-left spacing-outer-bottom"}
+                                                                style={undefined}
+                                                                tabIndex={undefined}
+                                                                renderType={"button"}
+                                                                role={undefined}
+                                                                buttonClass={"btn-default"}
+                                                                caption={t([
+                                                                    ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "literal", "value": "New web service user" }, "args": {} }
+                                                                    })
+                                                                ])}
+                                                                tooltip={TextProperty({
+                                                                    "value": t([
+                                                                        ""
+                                                                    ])
+                                                                })}
+                                                                icon={undefined}
+                                                                action={ActionProperty({
+                                                                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "dJTbnL2ecFebcL1IZEqBlw", "validate": "view", "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": true },
+                                                                    "abortOnServerValidation": true
+                                                                })} />
+                                                        ]} />
                                                 ]}
                                                 filterSectionTitle={t([
                                                     ExpressionProperty({

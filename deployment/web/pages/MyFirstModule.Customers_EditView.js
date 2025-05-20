@@ -11,6 +11,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { ValidationProperty } from "mendix/ValidationProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import { DataView } from "mendix/widgets/web/DataView";
 import { DatePicker } from "mendix/widgets/web/DatePicker";
@@ -23,7 +24,24 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Phone_BottomBar.js";
 
-const { $Div, $Container, $Text, $DataView, $FormGroup, $TextBox, $DatePicker, $RadioButtonGroup, $ActionButton } = asPluginWidgets({ Div, Container, Text, DataView, FormGroup, TextBox, DatePicker, RadioButtonGroup, ActionButton });
+const { $Div, $Container, $Text, $DataView, $FormGroup, $TextBox, $DatePicker, $RadioButtonGroup, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, DataView, FormGroup, TextBox, DatePicker, RadioButtonGroup, ConditionalVisibilityWrapper, ActionButton });
+
+addEnumerations({
+    "MyFirstModule.Gender": [
+        [
+            "Female",
+            t([
+                "Female"
+            ])
+        ],
+        [
+            "Male",
+            t([
+                "Male"
+            ])
+        ]
+    ]
+});
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p31.MyFirstModule.Customers_EditView.layoutGrid3"
@@ -358,110 +376,124 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 hasError={ValidationProperty({
                                                     "inputWidgetId": "p31.MyFirstModule.Customers_EditView.radioButtons2"
                                                 })} />,
-                                            <$FormGroup key="p31.MyFirstModule.Customers_EditView.textBox3$formGroup"
-                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox3$formGroup"
-                                                class={"mx-name-textBox3 mx-textbox"}
-                                                style={undefined}
-                                                control={[
-                                                    <$TextBox key="p31.MyFirstModule.Customers_EditView.textBox3"
-                                                        $widgetId="p31.MyFirstModule.Customers_EditView.textBox3"
-                                                        inputValue={AttributeProperty({
-                                                            "scope": "p31.MyFirstModule.Customers_EditView.dataView6",
-                                                            "path": "",
-                                                            "entity": "MyFirstModule.Customers",
-                                                            "attribute": "MailAddress",
-                                                            "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false },
-                                                            "isList": false,
-                                                            "validation": null,
-                                                            "formatting": { }
-                                                        })}
-                                                        isPassword={false}
-                                                        placeholder={t([
+                                            <$ConditionalVisibilityWrapper key="p31.MyFirstModule.Customers_EditView.textBox3$formGroup$visibility"
+                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox3$formGroup$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "!=", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Gender" }, { "type": "literal", "value": "Male" } ] }, "args": { "currentObject": { "widget": "p31.MyFirstModule.Customers_EditView.dataView6", "source": "object" } } }
+                                                })}
+                                                contents={[
+                                                    <$FormGroup key="p31.MyFirstModule.Customers_EditView.textBox3$formGroup"
+                                                        $widgetId="p31.MyFirstModule.Customers_EditView.textBox3$formGroup"
+                                                        class={"mx-name-textBox3 mx-textbox"}
+                                                        style={undefined}
+                                                        control={[
+                                                            <$TextBox key="p31.MyFirstModule.Customers_EditView.textBox3"
+                                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox3"
+                                                                inputValue={AttributeProperty({
+                                                                    "scope": "p31.MyFirstModule.Customers_EditView.dataView6",
+                                                                    "path": "",
+                                                                    "entity": "MyFirstModule.Customers",
+                                                                    "attribute": "MailAddress",
+                                                                    "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false },
+                                                                    "isList": false,
+                                                                    "validation": null,
+                                                                    "formatting": { }
+                                                                })}
+                                                                isPassword={false}
+                                                                placeholder={t([
+                                                                    ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                    })
+                                                                ])}
+                                                                mask={""}
+                                                                readOnlyStyle={"control"}
+                                                                maxLength={200}
+                                                                onEnter={undefined}
+                                                                onLeave={undefined}
+                                                                onEnterKeyPress={undefined}
+                                                                ariaLabel={undefined}
+                                                                autocomplete={"on"}
+                                                                submitWhileEditing={false}
+                                                                submitDelay={300}
+                                                                ariaRequired={undefined}
+                                                                tabIndex={undefined}
+                                                                id={DerivedUniqueIdProperty({
+                                                                    "widgetId": "p31.MyFirstModule.Customers_EditView.textBox3"
+                                                                })} />
+                                                        ]}
+                                                        caption={t([
                                                             ExpressionProperty({
-                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                "expression": { "expr": { "type": "literal", "value": "Mail address" }, "args": {} }
                                                             })
                                                         ])}
-                                                        mask={""}
-                                                        readOnlyStyle={"control"}
-                                                        maxLength={200}
-                                                        onEnter={undefined}
-                                                        onLeave={undefined}
-                                                        onEnterKeyPress={undefined}
-                                                        ariaLabel={undefined}
-                                                        autocomplete={"on"}
-                                                        submitWhileEditing={false}
-                                                        submitDelay={300}
-                                                        ariaRequired={undefined}
-                                                        tabIndex={undefined}
-                                                        id={DerivedUniqueIdProperty({
+                                                        labelFor={DerivedUniqueIdProperty({
                                                             "widgetId": "p31.MyFirstModule.Customers_EditView.textBox3"
-                                                        })} />
-                                                ]}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "Mail address" }, "args": {} }
-                                                    })
-                                                ])}
-                                                labelFor={DerivedUniqueIdProperty({
-                                                    "widgetId": "p31.MyFirstModule.Customers_EditView.textBox3"
-                                                })}
-                                                width={undefined}
-                                                orientation={"vertical"}
-                                                hasError={ValidationProperty({
-                                                    "inputWidgetId": "p31.MyFirstModule.Customers_EditView.textBox3"
-                                                })} />,
-                                            <$FormGroup key="p31.MyFirstModule.Customers_EditView.textBox4$formGroup"
-                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox4$formGroup"
-                                                class={"mx-name-textBox4 mx-textbox"}
-                                                style={undefined}
-                                                control={[
-                                                    <$TextBox key="p31.MyFirstModule.Customers_EditView.textBox4"
-                                                        $widgetId="p31.MyFirstModule.Customers_EditView.textBox4"
-                                                        inputValue={AttributeProperty({
-                                                            "scope": "p31.MyFirstModule.Customers_EditView.dataView6",
-                                                            "path": "",
-                                                            "entity": "MyFirstModule.Customers",
-                                                            "attribute": "PhoneNumber",
-                                                            "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false },
-                                                            "isList": false,
-                                                            "validation": null,
-                                                            "formatting": { }
                                                         })}
-                                                        isPassword={false}
-                                                        placeholder={t([
+                                                        width={undefined}
+                                                        orientation={"vertical"}
+                                                        hasError={ValidationProperty({
+                                                            "inputWidgetId": "p31.MyFirstModule.Customers_EditView.textBox3"
+                                                        })} />
+                                                ]} />,
+                                            <$ConditionalVisibilityWrapper key="p31.MyFirstModule.Customers_EditView.textBox4$formGroup$visibility"
+                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox4$formGroup$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "=", "parameters": [ { "type": "variable", "variable": "currentObject", "path": "Gender" }, { "type": "literal", "value": "Male" } ] }, "args": { "currentObject": { "widget": "p31.MyFirstModule.Customers_EditView.dataView6", "source": "object" } } }
+                                                })}
+                                                contents={[
+                                                    <$FormGroup key="p31.MyFirstModule.Customers_EditView.textBox4$formGroup"
+                                                        $widgetId="p31.MyFirstModule.Customers_EditView.textBox4$formGroup"
+                                                        class={"mx-name-textBox4 mx-textbox"}
+                                                        style={undefined}
+                                                        control={[
+                                                            <$TextBox key="p31.MyFirstModule.Customers_EditView.textBox4"
+                                                                $widgetId="p31.MyFirstModule.Customers_EditView.textBox4"
+                                                                inputValue={AttributeProperty({
+                                                                    "scope": "p31.MyFirstModule.Customers_EditView.dataView6",
+                                                                    "path": "",
+                                                                    "entity": "MyFirstModule.Customers",
+                                                                    "attribute": "PhoneNumber",
+                                                                    "onChange": { "type": "doNothing", "argMap": {}, "config": {}, "disabledDuringExecution": false },
+                                                                    "isList": false,
+                                                                    "validation": null,
+                                                                    "formatting": { }
+                                                                })}
+                                                                isPassword={false}
+                                                                placeholder={t([
+                                                                    ExpressionProperty({
+                                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                    })
+                                                                ])}
+                                                                mask={""}
+                                                                readOnlyStyle={"control"}
+                                                                maxLength={200}
+                                                                onEnter={undefined}
+                                                                onLeave={undefined}
+                                                                onEnterKeyPress={undefined}
+                                                                ariaLabel={undefined}
+                                                                autocomplete={"on"}
+                                                                submitWhileEditing={false}
+                                                                submitDelay={300}
+                                                                ariaRequired={undefined}
+                                                                tabIndex={undefined}
+                                                                id={DerivedUniqueIdProperty({
+                                                                    "widgetId": "p31.MyFirstModule.Customers_EditView.textBox4"
+                                                                })} />
+                                                        ]}
+                                                        caption={t([
                                                             ExpressionProperty({
-                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                "expression": { "expr": { "type": "literal", "value": "Phone number" }, "args": {} }
                                                             })
                                                         ])}
-                                                        mask={""}
-                                                        readOnlyStyle={"control"}
-                                                        maxLength={200}
-                                                        onEnter={undefined}
-                                                        onLeave={undefined}
-                                                        onEnterKeyPress={undefined}
-                                                        ariaLabel={undefined}
-                                                        autocomplete={"on"}
-                                                        submitWhileEditing={false}
-                                                        submitDelay={300}
-                                                        ariaRequired={undefined}
-                                                        tabIndex={undefined}
-                                                        id={DerivedUniqueIdProperty({
+                                                        labelFor={DerivedUniqueIdProperty({
                                                             "widgetId": "p31.MyFirstModule.Customers_EditView.textBox4"
+                                                        })}
+                                                        width={undefined}
+                                                        orientation={"vertical"}
+                                                        hasError={ValidationProperty({
+                                                            "inputWidgetId": "p31.MyFirstModule.Customers_EditView.textBox4"
                                                         })} />
-                                                ]}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "Phone number" }, "args": {} }
-                                                    })
-                                                ])}
-                                                labelFor={DerivedUniqueIdProperty({
-                                                    "widgetId": "p31.MyFirstModule.Customers_EditView.textBox4"
-                                                })}
-                                                width={undefined}
-                                                orientation={"vertical"}
-                                                hasError={ValidationProperty({
-                                                    "inputWidgetId": "p31.MyFirstModule.Customers_EditView.textBox4"
-                                                })} />,
+                                                ]} />,
                                             <$FormGroup key="p31.MyFirstModule.Customers_EditView.textBox5$formGroup"
                                                 $widgetId="p31.MyFirstModule.Customers_EditView.textBox5$formGroup"
                                                 class={"mx-name-textBox5 mx-textbox"}

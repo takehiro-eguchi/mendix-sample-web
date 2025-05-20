@@ -12,5 +12,5 @@
   "Constants": {
     "FeedbackModule.LocalStorageKey": "mxfeedback-form-data"
   },
-  "AdminPassword": null
+  "AdminPassword": "1"
 }

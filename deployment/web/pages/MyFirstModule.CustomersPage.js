@@ -11,6 +11,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -29,7 +30,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, DatagridDropdownFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p46.MyFirstModule.CustomersPage.layoutGrid2"
@@ -760,32 +761,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "dataSourceId": "p46.12",
                     "editable": false,
                     "children": () => [
-                        <$ActionButton key="p46.MyFirstModule.CustomersPage.actionButton1"
-                            $widgetId="p46.MyFirstModule.CustomersPage.actionButton1"
-                            buttonId={"p46.MyFirstModule.CustomersPage.actionButton1"}
-                            class={"mx-name-actionButton1 btn-lg"}
-                            style={undefined}
-                            tabIndex={undefined}
-                            renderType={"link"}
-                            role={"button"}
-                            buttonClass={"btn-primary"}
-                            caption={t([
-                                ExpressionProperty({
-                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                })
-                            ])}
-                            tooltip={TextProperty({
-                                "value": t([
-                                    ""
-                                ])
+                        <$ConditionalVisibilityWrapper key="p46.MyFirstModule.CustomersPage.actionButton1$visibility"
+                            $widgetId="p46.MyFirstModule.CustomersPage.actionButton1$visibility"
+                            visible={ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                             })}
-                            icon={WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                            })}
-                            action={ActionProperty({
-                                "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p46.MyFirstModule.CustomersPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                            })} />,
+                            contents={[
+                                <$ActionButton key="p46.MyFirstModule.CustomersPage.actionButton1"
+                                    $widgetId="p46.MyFirstModule.CustomersPage.actionButton1"
+                                    buttonId={"p46.MyFirstModule.CustomersPage.actionButton1"}
+                                    class={"mx-name-actionButton1 btn-lg"}
+                                    style={undefined}
+                                    tabIndex={undefined}
+                                    renderType={"link"}
+                                    role={"button"}
+                                    buttonClass={"btn-primary"}
+                                    caption={t([
+                                        ExpressionProperty({
+                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                        })
+                                    ])}
+                                    tooltip={TextProperty({
+                                        "value": t([
+                                            ""
+                                        ])
+                                    })}
+                                    icon={WebIconProperty({
+                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                                    })}
+                                    action={ActionProperty({
+                                        "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p46.MyFirstModule.CustomersPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                        "abortOnServerValidation": true
+                                    })} />
+                            ]} />,
                         <$ActionButton key="p46.MyFirstModule.CustomersPage.actionButton2"
                             $widgetId="p46.MyFirstModule.CustomersPage.actionButton2"
                             buttonId={"p46.MyFirstModule.CustomersPage.actionButton2"}
@@ -869,32 +877,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ActionButton key="p46.MyFirstModule.CustomersPage.actionButton3"
-                $widgetId="p46.MyFirstModule.CustomersPage.actionButton3"
-                buttonId={"p46.MyFirstModule.CustomersPage.actionButton3"}
-                class={"mx-name-actionButton3"}
-                style={undefined}
-                tabIndex={undefined}
-                renderType={"button"}
-                role={undefined}
-                buttonClass={"btn-primary"}
-                caption={t([
-                    ExpressionProperty({
-                        "expression": { "expr": { "type": "literal", "value": "New Customers" }, "args": {} }
-                    })
-                ])}
-                tooltip={TextProperty({
-                    "value": t([
-                        ""
-                    ])
+            <$ConditionalVisibilityWrapper key="p46.MyFirstModule.CustomersPage.actionButton3$visibility"
+                $widgetId="p46.MyFirstModule.CustomersPage.actionButton3$visibility"
+                visible={ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                 })}
-                icon={WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                })}
-                action={ActionProperty({
-                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Customers", "operationId": "CcEC4Frt/lyuh+gZy7aEfg", "pageSettings": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$Customers" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                })} />
+                contents={[
+                    <$ActionButton key="p46.MyFirstModule.CustomersPage.actionButton3"
+                        $widgetId="p46.MyFirstModule.CustomersPage.actionButton3"
+                        buttonId={"p46.MyFirstModule.CustomersPage.actionButton3"}
+                        class={"mx-name-actionButton3"}
+                        style={undefined}
+                        tabIndex={undefined}
+                        renderType={"button"}
+                        role={undefined}
+                        buttonClass={"btn-primary"}
+                        caption={t([
+                            ExpressionProperty({
+                                "expression": { "expr": { "type": "literal", "value": "New Customers" }, "args": {} }
+                            })
+                        ])}
+                        tooltip={TextProperty({
+                            "value": t([
+                                ""
+                            ])
+                        })}
+                        icon={WebIconProperty({
+                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                        })}
+                        action={ActionProperty({
+                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Customers", "operationId": "CcEC4Frt/lyuh+gZy7aEfg", "pageSettings": { "name": "MyFirstModule/Customers_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "allowedRoles": [ "Administrator", "User", "SalesPerson" ], "objectParameter": "param$Customers" }, "disabledDuringExecution": true },
+                            "abortOnServerValidation": true
+                        })} />
+                ]} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

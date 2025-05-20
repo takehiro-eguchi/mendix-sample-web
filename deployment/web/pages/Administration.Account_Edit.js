@@ -698,7 +698,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                     <$ConditionalVisibilityWrapper key="p4.Administration.Account_Edit.microflowTrigger1$visibility"
                                         $widgetId="p4.Administration.Account_Edit.microflowTrigger1$visibility"
                                         visible={ExpressionProperty({
-                                            "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "IsLocalUser" }, "args": { "currentObject": { "widget": "p4.Administration.Account_Edit.dataView1", "source": "object" } } }
+                                            "expression": { "expr": { "type": "conditional", "condition": { "type": "variable", "variable": "currentObject", "path": "IsLocalUser" }, "then": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "else": { "type": "literal", "value": false } }, "args": { "currentObject": { "widget": "p4.Administration.Account_Edit.dataView1", "source": "object" } } }
                                         })}
                                         contents={[
                                             <$ActionButton key="p4.Administration.Account_Edit.microflowTrigger1"
@@ -722,7 +722,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 })}
                                                 icon={undefined}
                                                 action={ActionProperty({
-                                                    "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "OPJ0780nKlaM0I3PVx6tIw" }, "disabledDuringExecution": false },
+                                                    "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "OPJ0780nKlaM0I3PVx6tIw", "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": false },
                                                     "abortOnServerValidation": true
                                                 })} />
                                         ]} />

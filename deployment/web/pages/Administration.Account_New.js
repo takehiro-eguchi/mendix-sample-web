@@ -19,6 +19,7 @@ import { CheckBox } from "mendix/widgets/web/CheckBox";
 import * as ComboboxWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/combobox/Combobox.mjs";
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;   
 import "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/combobox/Combobox.css";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { DataView } from "mendix/widgets/web/DataView";
 import { Div } from "mendix/widgets/web/Div";
 import { FormGroup } from "mendix/widgets/web/FormGroup";
@@ -27,7 +28,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.PopupLayout.js";
 
-const { $Div, $DataView, $FormGroup, $TextBox, $Combobox, $CheckBox, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, Combobox, CheckBox, ActionButton });
+const { $Div, $DataView, $FormGroup, $TextBox, $Combobox, $CheckBox, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, Combobox, CheckBox, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p7.Administration.Account_New.layoutGrid1"
@@ -733,30 +734,37 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                 ]}
                                 hideFooter={false}
                                 footer={[
-                                    <$ActionButton key="p7.Administration.Account_New.microflowButton1"
-                                        $widgetId="p7.Administration.Account_New.microflowButton1"
-                                        buttonId={"p7.Administration.Account_New.microflowButton1"}
-                                        class={"mx-name-microflowButton1"}
-                                        style={undefined}
-                                        tabIndex={undefined}
-                                        renderType={"button"}
-                                        role={undefined}
-                                        buttonClass={"btn-success"}
-                                        caption={t([
-                                            ExpressionProperty({
-                                                "expression": { "expr": { "type": "literal", "value": "Save" }, "args": {} }
-                                            })
-                                        ])}
-                                        tooltip={TextProperty({
-                                            "value": t([
-                                                ""
-                                            ])
+                                    <$ConditionalVisibilityWrapper key="p7.Administration.Account_New.microflowButton1$visibility"
+                                        $widgetId="p7.Administration.Account_New.microflowButton1$visibility"
+                                        visible={ExpressionProperty({
+                                            "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                         })}
-                                        icon={undefined}
-                                        action={ActionProperty({
-                                            "action": { "type": "callMicroflow", "argMap": { "AccountPasswordData": { "widget": "$AccountPasswordData", "source": "object" } }, "config": { "operationId": "3vvlLW7MW1W5uPdisYI5zg", "validate": "view" }, "disabledDuringExecution": false },
-                                            "abortOnServerValidation": true
-                                        })} />,
+                                        contents={[
+                                            <$ActionButton key="p7.Administration.Account_New.microflowButton1"
+                                                $widgetId="p7.Administration.Account_New.microflowButton1"
+                                                buttonId={"p7.Administration.Account_New.microflowButton1"}
+                                                class={"mx-name-microflowButton1"}
+                                                style={undefined}
+                                                tabIndex={undefined}
+                                                renderType={"button"}
+                                                role={undefined}
+                                                buttonClass={"btn-success"}
+                                                caption={t([
+                                                    ExpressionProperty({
+                                                        "expression": { "expr": { "type": "literal", "value": "Save" }, "args": {} }
+                                                    })
+                                                ])}
+                                                tooltip={TextProperty({
+                                                    "value": t([
+                                                        ""
+                                                    ])
+                                                })}
+                                                icon={undefined}
+                                                action={ActionProperty({
+                                                    "action": { "type": "callMicroflow", "argMap": { "AccountPasswordData": { "widget": "$AccountPasswordData", "source": "object" } }, "config": { "operationId": "3vvlLW7MW1W5uPdisYI5zg", "validate": "view", "allowedRoles": [ "Administrator" ] }, "disabledDuringExecution": false },
+                                                    "abortOnServerValidation": true
+                                                })} />
+                                        ]} />,
                                     <$ActionButton key="p7.Administration.Account_New.cancelButton1"
                                         $widgetId="p7.Administration.Account_New.cancelButton1"
                                         buttonId={"p7.Administration.Account_New.cancelButton1"}

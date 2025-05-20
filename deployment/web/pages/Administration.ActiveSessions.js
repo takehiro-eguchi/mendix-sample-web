@@ -12,6 +12,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -26,7 +27,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Container, $Div, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $ActionButton } = asPluginWidgets({ Container, Div, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, ActionButton });
+const { $Container, $Div, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Container, Div, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Container key="p2.Administration.ActiveSessions.container1"
@@ -268,32 +269,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             "dataSourceId": "p2.10",
                                             "editable": false,
                                             "children": () => [
-                                                <$ActionButton key="p2.Administration.ActiveSessions.actionButton1"
-                                                    $widgetId="p2.Administration.ActiveSessions.actionButton1"
-                                                    buttonId={"p2.Administration.ActiveSessions.actionButton1"}
-                                                    class={"mx-name-actionButton1 btn-lg"}
-                                                    style={undefined}
-                                                    tabIndex={undefined}
-                                                    renderType={"link"}
-                                                    role={"button"}
-                                                    buttonClass={"btn-default"}
-                                                    caption={t([
-                                                        ExpressionProperty({
-                                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                        })
-                                                    ])}
-                                                    tooltip={TextProperty({
-                                                        "value": t([
-                                                            ""
-                                                        ])
+                                                <$ConditionalVisibilityWrapper key="p2.Administration.ActiveSessions.actionButton1$visibility"
+                                                    $widgetId="p2.Administration.ActiveSessions.actionButton1$visibility"
+                                                    visible={ExpressionProperty({
+                                                        "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" } ] }, "args": {} }
                                                     })}
-                                                    icon={WebIconProperty({
-                                                        "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-logout" }
-                                                    })}
-                                                    action={ActionProperty({
-                                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p2.Administration.ActiveSessions.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "KTkZ0wgxyFiMxnZyKailOA" }, "disabledDuringExecution": true },
-                                                        "abortOnServerValidation": true
-                                                    })} />
+                                                    contents={[
+                                                        <$ActionButton key="p2.Administration.ActiveSessions.actionButton1"
+                                                            $widgetId="p2.Administration.ActiveSessions.actionButton1"
+                                                            buttonId={"p2.Administration.ActiveSessions.actionButton1"}
+                                                            class={"mx-name-actionButton1 btn-lg"}
+                                                            style={undefined}
+                                                            tabIndex={undefined}
+                                                            renderType={"link"}
+                                                            role={"button"}
+                                                            buttonClass={"btn-default"}
+                                                            caption={t([
+                                                                ExpressionProperty({
+                                                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                                })
+                                                            ])}
+                                                            tooltip={TextProperty({
+                                                                "value": t([
+                                                                    ""
+                                                                ])
+                                                            })}
+                                                            icon={WebIconProperty({
+                                                                "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-logout" }
+                                                            })}
+                                                            action={ActionProperty({
+                                                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p2.Administration.ActiveSessions.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "KTkZ0wgxyFiMxnZyKailOA" }, "disabledDuringExecution": true },
+                                                                "abortOnServerValidation": true
+                                                            })} />
+                                                    ]} />
                                             ]
                                         }),
                                         "dynamicText": t([

@@ -17,6 +17,7 @@ import { ActionButton } from "mendix/widgets/web/ActionButton";
 import * as ComboboxWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/combobox/Combobox.mjs";
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;   
 import "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/combobox/Combobox.css";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { DataView } from "mendix/widgets/web/DataView";
 import { FormGroup } from "mendix/widgets/web/FormGroup";
 import { TextBox } from "mendix/widgets/web/TextBox";
@@ -24,7 +25,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.PopupLayout.js";
 
-const { $DataView, $FormGroup, $TextBox, $Combobox, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, Combobox, ActionButton });
+const { $DataView, $FormGroup, $TextBox, $Combobox, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ DataView, FormGroup, TextBox, Combobox, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$DataView key="p8.Administration.MyAccount.dataView1"
@@ -265,30 +266,37 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 hasError={ValidationProperty({
                     "inputWidgetId": "p8.Administration.MyAccount.comboBox3"
                 })} />,
-            <$ActionButton key="p8.Administration.MyAccount.microflowTrigger1"
-                $widgetId="p8.Administration.MyAccount.microflowTrigger1"
-                buttonId={"p8.Administration.MyAccount.microflowTrigger1"}
-                class={"mx-name-microflowTrigger1"}
-                style={undefined}
-                tabIndex={undefined}
-                renderType={"button"}
-                role={undefined}
-                buttonClass={"btn-default"}
-                caption={t([
-                    ExpressionProperty({
-                        "expression": { "expr": { "type": "literal", "value": "Change password" }, "args": {} }
-                    })
-                ])}
-                tooltip={TextProperty({
-                    "value": t([
-                        ""
-                    ])
+            <$ConditionalVisibilityWrapper key="p8.Administration.MyAccount.microflowTrigger1$visibility"
+                $widgetId="p8.Administration.MyAccount.microflowTrigger1$visibility"
+                visible={ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" } ] }, "args": {} }
                 })}
-                icon={undefined}
-                action={ActionProperty({
-                    "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "eVRV3bBCUVqDXyb1a4Ue2A" }, "disabledDuringExecution": false },
-                    "abortOnServerValidation": true
-                })} />
+                contents={[
+                    <$ActionButton key="p8.Administration.MyAccount.microflowTrigger1"
+                        $widgetId="p8.Administration.MyAccount.microflowTrigger1"
+                        buttonId={"p8.Administration.MyAccount.microflowTrigger1"}
+                        class={"mx-name-microflowTrigger1"}
+                        style={undefined}
+                        tabIndex={undefined}
+                        renderType={"button"}
+                        role={undefined}
+                        buttonClass={"btn-default"}
+                        caption={t([
+                            ExpressionProperty({
+                                "expression": { "expr": { "type": "literal", "value": "Change password" }, "args": {} }
+                            })
+                        ])}
+                        tooltip={TextProperty({
+                            "value": t([
+                                ""
+                            ])
+                        })}
+                        icon={undefined}
+                        action={ActionProperty({
+                            "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "eVRV3bBCUVqDXyb1a4Ue2A", "allowedRoles": [ "Administrator", "User" ] }, "disabledDuringExecution": false },
+                            "abortOnServerValidation": true
+                        })} />
+                ]} />
         ]}
         hideFooter={false}
         footer={[
