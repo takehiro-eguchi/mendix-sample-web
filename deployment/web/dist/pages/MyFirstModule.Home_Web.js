@@ -1,22 +1,22 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
-import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
-import { TextProperty } from '../Icon-bVASr8MS.js';
-import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
-import { ActionButton } from '../ActionButton-DQrAMvYT.js';
-import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
-import { Container } from '../Container-DobQDWAA.js';
-import { Div } from '../Div-DkGbaEe3.js';
-import { Text } from '../Text-BcexcteZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
-import '../InlineText-06k9DgcQ.js';
-import '../BH5qNKCa-He16eDuK.js';
-import '../BrzhM9fk-CY1CP8BK.js';
-import '../BQa9VDC5-P_lNGrzq.js';
-import '../ListExpressionProperty-UOQ4kvKt.js';
-import '../WebStaticImageProperty-DtivNI6l.js';
-import '../Image-CRLik9xo.js';
-import '../DMc54HEs-BMpoF4j_.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-sUfOvV_8.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-kt62KmQf.js';
+import { ActionProperty } from '../ActionProperty-CYY0rMjJ.js';
+import { TextProperty } from '../Icon-CLMmynlf.js';
+import { WebIconProperty } from '../WebIconProperty-BB_92iSr.js';
+import { ActionButton } from '../ActionButton-CVWjzahT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-Cc1bUh1v.js';
+import { Container } from '../Container-DX13f28C.js';
+import { Div } from '../Div-CqbbyV04.js';
+import { Text } from '../Text-CYzI2A7u.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CMnpfQME.js';
+import '../InlineText-e67tRU7X.js';
+import '../BH5qNKCa-k3CyHRsq.js';
+import '../BrzhM9fk-DCcHnYPV.js';
+import '../BQa9VDC5-VmuteT3Q.js';
+import '../ListExpressionProperty-3-MchLHW.js';
+import '../WebStaticImageProperty-BaJIOPEP.js';
+import '../Image-DtxvCY00.js';
+import '../DMc54HEs-5Q7iFlvv.js';
 
 const React = { createElement: reactExports.createElement };
 const { $Container, $Div, $Text, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Container, Div, Text, ConditionalVisibilityWrapper, ActionButton });
@@ -163,7 +163,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                       "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
                                     }),
                                     action: ActionProperty({
-                                      "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "U6COPxken1OwSDg13jNqwg", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                      "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "cTUGtVky4FWO0iA2g6WOUg", "async": true, "progress": { "message": selectTranslation([""]), "modal": true }, "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
                                       "abortOnServerValidation": true
                                     })
                                   }

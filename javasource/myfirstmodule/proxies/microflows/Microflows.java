@@ -6,6 +6,7 @@ package myfirstmodule.proxies.microflows;
 
 import com.mendix.core.Core;
 import com.mendix.systemwideinterfaces.core.IContext;
+import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 public final class Microflows
 {
@@ -24,6 +25,16 @@ public final class Microflows
 	public static void aggregateList(IContext context)
 	{
 		aggregateListBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder asynchronousFlowBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.AsynchronousFlow");
+		return builder;
+	}
+
+	public static void asynchronousFlow(IContext context)
+	{
+		asynchronousFlowBuilder().execute(context);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder changeObjectBuilder(
 		myfirstmodule.proxies.Status _status
@@ -112,6 +123,27 @@ public final class Microflows
 				_deleteProduct
 			)
 			.execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder getCurrentLocationBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.GetCurrentLocation");
+		return builder;
+	}
+
+	public static void getCurrentLocation(IContext context)
+	{
+		getCurrentLocationBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder getMyIpAddressBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.GetMyIpAddress");
+		return builder;
+	}
+
+	public static myfirstmodule.proxies.Root getMyIpAddress(IContext context)
+	{
+		Object result = getMyIpAddressBuilder().execute(context);
+		return result == null ? null : myfirstmodule.proxies.Root.initialize(context, (IMendixObject) result);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder ifStatementBuilder()
 	{
@@ -202,6 +234,16 @@ public final class Microflows
 	public static void testMonthBetween(IContext context)
 	{
 		testMonthBetweenBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder testSplitStringBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.TestSplitString");
+		return builder;
+	}
+
+	public static void testSplitString(IContext context)
+	{
+		testSplitStringBuilder().execute(context);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder xPathBuilder()
 	{
