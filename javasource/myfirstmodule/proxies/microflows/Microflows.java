@@ -183,6 +183,17 @@ public final class Microflows
 	{
 		sampleFlowBuilder().execute(context);
 	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder testDateTimeToLongBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.TestDateTimeToLong");
+		return builder;
+	}
+
+	public static java.lang.Long testDateTimeToLong(IContext context)
+	{
+		Object result = testDateTimeToLongBuilder().execute(context);
+		return (java.lang.Long) result;
+	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder xPathBuilder()
 	{
 		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.XPath");

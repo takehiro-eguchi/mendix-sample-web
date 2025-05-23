@@ -8,5 +8,18 @@
 	<classpathentry kind="lib" path="C:/Program Files/Mendix/10.21.1.64969/runtime/bundles/com.mendix.public-api.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Mendix/10.21.1.64969/runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Mendix/10.21.1.64969/runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-io-2.17.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/commons-text-1.10.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/error_prone_annotations-2.36.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/failureaccess-1.0.3.jar"/>
+	<classpathentry kind="lib" path="vendorlib/fontbox-2.0.30.jar"/>
+	<classpathentry kind="lib" path="vendorlib/guava-33.4.7-jre.jar"/>
+	<classpathentry kind="lib" path="vendorlib/j2objc-annotations-3.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/jspecify-1.0.0.jar"/>
+	<classpathentry kind="lib" path="vendorlib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="vendorlib/owasp-java-html-sanitizer-20211018.2.jar"/>
+	<classpathentry kind="lib" path="vendorlib/pdfbox-2.0.30.jar"/>
 	<classpathentry kind="output" path="deployment/run/bin"/>
 </classpath>

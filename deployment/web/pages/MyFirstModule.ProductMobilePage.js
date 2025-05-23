@@ -186,7 +186,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             ]
         })}
         onClick={ListActionProperty({
-            "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p30.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+            "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p30.MyFirstModule.ProductMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Products_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
             "abortOnServerValidation": false,
             "dataSourceId": "p30.0"
         })}

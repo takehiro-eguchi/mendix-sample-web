@@ -11,7 +11,6 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
-import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -30,48 +29,48 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, DatagridDropdownFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid4"
-        $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid4"
+    <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid4"
+        $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid4"
         class={"mx-name-layoutGrid4 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid4$row0"
-                $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid4$row0"
+            <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid4$row0"
+                $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid4$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid4$row0$column0"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid4$row0$column0"
+                    <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid4$row0$column0"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid4$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$Container key="p21.MyFirstModule.SalesPersonPage.container1"
-                                $widgetId="p21.MyFirstModule.SalesPersonPage.container1"
+                            <$Container key="p26.MyFirstModule.SalesPersonPage.container1"
+                                $widgetId="p26.MyFirstModule.SalesPersonPage.container1"
                                 class={"mx-name-container1 pageheader spacing-outer-bottom-large"}
                                 style={undefined}
                                 renderMode={"div"}
                                 onClick={undefined}
                                 content={[
-                                    <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid2"
-                                        $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid2"
+                                    <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid2"
+                                        $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid2"
                                         class={"mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid"}
                                         style={undefined}
                                         content={[
-                                            <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid2$row0"
-                                                $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid2$row0"
+                                            <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid2$row0"
+                                                $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid2$row0"
                                                 class={"row"}
                                                 style={undefined}
                                                 content={[
-                                                    <$Div key="p21.MyFirstModule.SalesPersonPage.layoutGrid2$row0$column0"
-                                                        $widgetId="p21.MyFirstModule.SalesPersonPage.layoutGrid2$row0$column0"
+                                                    <$Div key="p26.MyFirstModule.SalesPersonPage.layoutGrid2$row0$column0"
+                                                        $widgetId="p26.MyFirstModule.SalesPersonPage.layoutGrid2$row0$column0"
                                                         class={"col-lg col-md col"}
                                                         style={undefined}
                                                         content={[
-                                                            <$Text key="p21.MyFirstModule.SalesPersonPage.text40"
-                                                                $widgetId="p21.MyFirstModule.SalesPersonPage.text40"
+                                                            <$Text key="p26.MyFirstModule.SalesPersonPage.text40"
+                                                                $widgetId="p26.MyFirstModule.SalesPersonPage.text40"
                                                                 class={"mx-name-text40 pageheader-title spacing-outer-bottom"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -80,8 +79,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                                     })
                                                                 ])}
                                                                 renderMode={"h1"} />,
-                                                            <$Text key="p21.MyFirstModule.SalesPersonPage.text39"
-                                                                $widgetId="p21.MyFirstModule.SalesPersonPage.text39"
+                                                            <$Text key="p26.MyFirstModule.SalesPersonPage.text39"
+                                                                $widgetId="p26.MyFirstModule.SalesPersonPage.text39"
                                                                 class={"mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -98,11 +97,11 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         ]} />
                 ]} />
         ]} />,
-    <$Datagrid key="p21.MyFirstModule.SalesPersonPage.dataGrid2_1"
-        $widgetId="p21.MyFirstModule.SalesPersonPage.dataGrid2_1"
+    <$Datagrid key="p26.MyFirstModule.SalesPersonPage.dataGrid2_1"
+        $widgetId="p26.MyFirstModule.SalesPersonPage.dataGrid2_1"
         advanced={false}
         datasource={DatabaseObjectListProperty({
-            "dataSourceId": "p21.18",
+            "dataSourceId": "p26.18",
             "entity": "MyFirstModule.SalesPersons",
             "operationId": "rRuxp6Lj012xcvOlwV7bFg",
             "sort": []
@@ -122,7 +121,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -141,8 +140,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p21.MyFirstModule.SalesPersonPage.textFilter1"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.textFilter1"
+                    <$DatagridTextFilter key="p26.MyFirstModule.SalesPersonPage.textFilter1"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.textFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -194,7 +193,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -213,8 +212,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p21.MyFirstModule.SalesPersonPage.textFilter2"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.textFilter2"
+                    <$DatagridTextFilter key="p26.MyFirstModule.SalesPersonPage.textFilter2"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.textFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -266,7 +265,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -285,8 +284,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p21.MyFirstModule.SalesPersonPage.textFilter3"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.textFilter3"
+                    <$DatagridTextFilter key="p26.MyFirstModule.SalesPersonPage.textFilter3"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.textFilter3"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -338,7 +337,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "DateTime",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -357,8 +356,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDateFilter key="p21.MyFirstModule.SalesPersonPage.dateFilter1"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.dateFilter1"
+                    <$DatagridDateFilter key="p26.MyFirstModule.SalesPersonPage.dateFilter1"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.dateFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultStartDate={undefined}
@@ -416,7 +415,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "DateTime",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -435,8 +434,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDateFilter key="p21.MyFirstModule.SalesPersonPage.dateFilter2"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.dateFilter2"
+                    <$DatagridDateFilter key="p26.MyFirstModule.SalesPersonPage.dateFilter2"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.dateFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultStartDate={undefined}
@@ -494,7 +493,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -513,8 +512,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p21.MyFirstModule.SalesPersonPage.drop_downFilter1"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.drop_downFilter1"
+                    <$DatagridDropdownFilter key="p26.MyFirstModule.SalesPersonPage.drop_downFilter1"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.drop_downFilter1"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -564,7 +563,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -583,8 +582,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p21.MyFirstModule.SalesPersonPage.drop_downFilter2"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.drop_downFilter2"
+                    <$DatagridDropdownFilter key="p26.MyFirstModule.SalesPersonPage.drop_downFilter2"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.drop_downFilter2"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -634,7 +633,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Integer",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -653,8 +652,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p21.MyFirstModule.SalesPersonPage.numberFilter1"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.numberFilter1"
+                    <$DatagridNumberFilter key="p26.MyFirstModule.SalesPersonPage.numberFilter1"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.numberFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -706,7 +705,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -725,8 +724,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p21.MyFirstModule.SalesPersonPage.drop_downFilter3"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.drop_downFilter3"
+                    <$DatagridDropdownFilter key="p26.MyFirstModule.SalesPersonPage.drop_downFilter3"
+                        $widgetId="p26.MyFirstModule.SalesPersonPage.drop_downFilter3"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -776,79 +775,65 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "isList": false
                 }),
                 "content": TemplatedWidgetProperty({
-                    "dataSourceId": "p21.18",
+                    "dataSourceId": "p26.18",
                     "editable": false,
                     "children": () => [
-                        <$ConditionalVisibilityWrapper key="p21.MyFirstModule.SalesPersonPage.actionButton1$visibility"
-                            $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton1$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                        <$ActionButton key="p26.MyFirstModule.SalesPersonPage.actionButton1"
+                            $widgetId="p26.MyFirstModule.SalesPersonPage.actionButton1"
+                            buttonId={"p26.MyFirstModule.SalesPersonPage.actionButton1"}
+                            class={"mx-name-actionButton1 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
                             })}
-                            contents={[
-                                <$ActionButton key="p21.MyFirstModule.SalesPersonPage.actionButton1"
-                                    $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton1"
-                                    buttonId={"p21.MyFirstModule.SalesPersonPage.actionButton1"}
-                                    class={"mx-name-actionButton1 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "openPage", "argMap": { "param$SalesPersons": { "widget": "p21.MyFirstModule.SalesPersonPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesPersons_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />,
-                        <$ConditionalVisibilityWrapper key="p21.MyFirstModule.SalesPersonPage.actionButton2$visibility"
-                            $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton2$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                             })}
-                            contents={[
-                                <$ActionButton key="p21.MyFirstModule.SalesPersonPage.actionButton2"
-                                    $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton2"
-                                    buttonId={"p21.MyFirstModule.SalesPersonPage.actionButton2"}
-                                    class={"mx-name-actionButton2 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p21.MyFirstModule.SalesPersonPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "bmXP0+E4glmjhaNXAfkMZw" }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />
+                            action={ActionProperty({
+                                "action": { "type": "openPage", "argMap": { "param$SalesPersons": { "widget": "p26.MyFirstModule.SalesPersonPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesPersons_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />,
+                        <$ActionButton key="p26.MyFirstModule.SalesPersonPage.actionButton2"
+                            $widgetId="p26.MyFirstModule.SalesPersonPage.actionButton2"
+                            buttonId={"p26.MyFirstModule.SalesPersonPage.actionButton2"}
+                            class={"mx-name-actionButton2 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
+                            })}
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                            })}
+                            action={ActionProperty({
+                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p26.MyFirstModule.SalesPersonPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "bmXP0+E4glmjhaNXAfkMZw" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />
                     ]
                 }),
                 "dynamicText": t([
@@ -909,39 +894,32 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ConditionalVisibilityWrapper key="p21.MyFirstModule.SalesPersonPage.actionButton3$visibility"
-                $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton3$visibility"
-                visible={ExpressionProperty({
-                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+            <$ActionButton key="p26.MyFirstModule.SalesPersonPage.actionButton3"
+                $widgetId="p26.MyFirstModule.SalesPersonPage.actionButton3"
+                buttonId={"p26.MyFirstModule.SalesPersonPage.actionButton3"}
+                class={"mx-name-actionButton3"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-primary"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "New Sales persons" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
                 })}
-                contents={[
-                    <$ActionButton key="p21.MyFirstModule.SalesPersonPage.actionButton3"
-                        $widgetId="p21.MyFirstModule.SalesPersonPage.actionButton3"
-                        buttonId={"p21.MyFirstModule.SalesPersonPage.actionButton3"}
-                        class={"mx-name-actionButton3"}
-                        style={undefined}
-                        tabIndex={undefined}
-                        renderType={"button"}
-                        role={undefined}
-                        buttonClass={"btn-primary"}
-                        caption={t([
-                            ExpressionProperty({
-                                "expression": { "expr": { "type": "literal", "value": "New Sales persons" }, "args": {} }
-                            })
-                        ])}
-                        tooltip={TextProperty({
-                            "value": t([
-                                ""
-                            ])
-                        })}
-                        icon={WebIconProperty({
-                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                        })}
-                        action={ActionProperty({
-                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.SalesPersons", "operationId": "VAY9795aCVueztn2VmgKWw", "pageSettings": { "name": "MyFirstModule/SalesPersons_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "allowedRoles": [ "Administrator", "User", "SalesPerson" ], "objectParameter": "param$SalesPersons" }, "disabledDuringExecution": true },
-                            "abortOnServerValidation": true
-                        })} />
-                ]} />
+                icon={WebIconProperty({
+                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.SalesPersons", "operationId": "VAY9795aCVueztn2VmgKWw", "pageSettings": { "name": "MyFirstModule/SalesPersons_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$SalesPersons" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

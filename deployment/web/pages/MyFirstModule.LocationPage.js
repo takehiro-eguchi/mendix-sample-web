@@ -11,7 +11,6 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
-import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -25,48 +24,48 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p23.MyFirstModule.LocationPage.layoutGrid4"
-        $widgetId="p23.MyFirstModule.LocationPage.layoutGrid4"
+    <$Div key="p27.MyFirstModule.LocationPage.layoutGrid4"
+        $widgetId="p27.MyFirstModule.LocationPage.layoutGrid4"
         class={"mx-name-layoutGrid4 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p23.MyFirstModule.LocationPage.layoutGrid4$row0"
-                $widgetId="p23.MyFirstModule.LocationPage.layoutGrid4$row0"
+            <$Div key="p27.MyFirstModule.LocationPage.layoutGrid4$row0"
+                $widgetId="p27.MyFirstModule.LocationPage.layoutGrid4$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p23.MyFirstModule.LocationPage.layoutGrid4$row0$column0"
-                        $widgetId="p23.MyFirstModule.LocationPage.layoutGrid4$row0$column0"
+                    <$Div key="p27.MyFirstModule.LocationPage.layoutGrid4$row0$column0"
+                        $widgetId="p27.MyFirstModule.LocationPage.layoutGrid4$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$Container key="p23.MyFirstModule.LocationPage.container1"
-                                $widgetId="p23.MyFirstModule.LocationPage.container1"
+                            <$Container key="p27.MyFirstModule.LocationPage.container1"
+                                $widgetId="p27.MyFirstModule.LocationPage.container1"
                                 class={"mx-name-container1 pageheader spacing-outer-bottom-large"}
                                 style={undefined}
                                 renderMode={"div"}
                                 onClick={undefined}
                                 content={[
-                                    <$Div key="p23.MyFirstModule.LocationPage.layoutGrid2"
-                                        $widgetId="p23.MyFirstModule.LocationPage.layoutGrid2"
+                                    <$Div key="p27.MyFirstModule.LocationPage.layoutGrid2"
+                                        $widgetId="p27.MyFirstModule.LocationPage.layoutGrid2"
                                         class={"mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid"}
                                         style={undefined}
                                         content={[
-                                            <$Div key="p23.MyFirstModule.LocationPage.layoutGrid2$row0"
-                                                $widgetId="p23.MyFirstModule.LocationPage.layoutGrid2$row0"
+                                            <$Div key="p27.MyFirstModule.LocationPage.layoutGrid2$row0"
+                                                $widgetId="p27.MyFirstModule.LocationPage.layoutGrid2$row0"
                                                 class={"row"}
                                                 style={undefined}
                                                 content={[
-                                                    <$Div key="p23.MyFirstModule.LocationPage.layoutGrid2$row0$column0"
-                                                        $widgetId="p23.MyFirstModule.LocationPage.layoutGrid2$row0$column0"
+                                                    <$Div key="p27.MyFirstModule.LocationPage.layoutGrid2$row0$column0"
+                                                        $widgetId="p27.MyFirstModule.LocationPage.layoutGrid2$row0$column0"
                                                         class={"col-lg col-md col"}
                                                         style={undefined}
                                                         content={[
-                                                            <$Text key="p23.MyFirstModule.LocationPage.text40"
-                                                                $widgetId="p23.MyFirstModule.LocationPage.text40"
+                                                            <$Text key="p27.MyFirstModule.LocationPage.text40"
+                                                                $widgetId="p27.MyFirstModule.LocationPage.text40"
                                                                 class={"mx-name-text40 pageheader-title spacing-outer-bottom"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -75,8 +74,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                                     })
                                                                 ])}
                                                                 renderMode={"h1"} />,
-                                                            <$Text key="p23.MyFirstModule.LocationPage.text39"
-                                                                $widgetId="p23.MyFirstModule.LocationPage.text39"
+                                                            <$Text key="p27.MyFirstModule.LocationPage.text39"
+                                                                $widgetId="p27.MyFirstModule.LocationPage.text39"
                                                                 class={"mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -93,11 +92,11 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         ]} />
                 ]} />
         ]} />,
-    <$Datagrid key="p23.MyFirstModule.LocationPage.dataGrid2_1"
-        $widgetId="p23.MyFirstModule.LocationPage.dataGrid2_1"
+    <$Datagrid key="p27.MyFirstModule.LocationPage.dataGrid2_1"
+        $widgetId="p27.MyFirstModule.LocationPage.dataGrid2_1"
         advanced={false}
         datasource={DatabaseObjectListProperty({
-            "dataSourceId": "p23.18",
+            "dataSourceId": "p27.18",
             "entity": "MyFirstModule.Locations",
             "operationId": "ct61jhHbIVySevGULm/wdw",
             "sort": []
@@ -117,7 +116,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -136,8 +135,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p23.MyFirstModule.LocationPage.textFilter1"
-                        $widgetId="p23.MyFirstModule.LocationPage.textFilter1"
+                    <$DatagridTextFilter key="p27.MyFirstModule.LocationPage.textFilter1"
+                        $widgetId="p27.MyFirstModule.LocationPage.textFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -189,7 +188,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -208,8 +207,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p23.MyFirstModule.LocationPage.textFilter2"
-                        $widgetId="p23.MyFirstModule.LocationPage.textFilter2"
+                    <$DatagridTextFilter key="p27.MyFirstModule.LocationPage.textFilter2"
+                        $widgetId="p27.MyFirstModule.LocationPage.textFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -261,7 +260,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -280,8 +279,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p23.MyFirstModule.LocationPage.textFilter3"
-                        $widgetId="p23.MyFirstModule.LocationPage.textFilter3"
+                    <$DatagridTextFilter key="p27.MyFirstModule.LocationPage.textFilter3"
+                        $widgetId="p27.MyFirstModule.LocationPage.textFilter3"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -333,7 +332,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Decimal",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -352,8 +351,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p23.MyFirstModule.LocationPage.numberFilter1"
-                        $widgetId="p23.MyFirstModule.LocationPage.numberFilter1"
+                    <$DatagridNumberFilter key="p27.MyFirstModule.LocationPage.numberFilter1"
+                        $widgetId="p27.MyFirstModule.LocationPage.numberFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -405,7 +404,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Decimal",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -424,8 +423,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p23.MyFirstModule.LocationPage.numberFilter2"
-                        $widgetId="p23.MyFirstModule.LocationPage.numberFilter2"
+                    <$DatagridNumberFilter key="p27.MyFirstModule.LocationPage.numberFilter2"
+                        $widgetId="p27.MyFirstModule.LocationPage.numberFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -477,7 +476,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Integer",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -496,8 +495,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p23.MyFirstModule.LocationPage.numberFilter3"
-                        $widgetId="p23.MyFirstModule.LocationPage.numberFilter3"
+                    <$DatagridNumberFilter key="p27.MyFirstModule.LocationPage.numberFilter3"
+                        $widgetId="p27.MyFirstModule.LocationPage.numberFilter3"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -549,79 +548,65 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "isList": false
                 }),
                 "content": TemplatedWidgetProperty({
-                    "dataSourceId": "p23.18",
+                    "dataSourceId": "p27.18",
                     "editable": false,
                     "children": () => [
-                        <$ConditionalVisibilityWrapper key="p23.MyFirstModule.LocationPage.actionButton1$visibility"
-                            $widgetId="p23.MyFirstModule.LocationPage.actionButton1$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                        <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton1"
+                            $widgetId="p27.MyFirstModule.LocationPage.actionButton1"
+                            buttonId={"p27.MyFirstModule.LocationPage.actionButton1"}
+                            class={"mx-name-actionButton1 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
                             })}
-                            contents={[
-                                <$ActionButton key="p23.MyFirstModule.LocationPage.actionButton1"
-                                    $widgetId="p23.MyFirstModule.LocationPage.actionButton1"
-                                    buttonId={"p23.MyFirstModule.LocationPage.actionButton1"}
-                                    class={"mx-name-actionButton1 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p23.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />,
-                        <$ConditionalVisibilityWrapper key="p23.MyFirstModule.LocationPage.actionButton2$visibility"
-                            $widgetId="p23.MyFirstModule.LocationPage.actionButton2$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                             })}
-                            contents={[
-                                <$ActionButton key="p23.MyFirstModule.LocationPage.actionButton2"
-                                    $widgetId="p23.MyFirstModule.LocationPage.actionButton2"
-                                    buttonId={"p23.MyFirstModule.LocationPage.actionButton2"}
-                                    class={"mx-name-actionButton2 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p23.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />
+                            action={ActionProperty({
+                                "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />,
+                        <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton2"
+                            $widgetId="p27.MyFirstModule.LocationPage.actionButton2"
+                            buttonId={"p27.MyFirstModule.LocationPage.actionButton2"}
+                            class={"mx-name-actionButton2 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
+                            })}
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                            })}
+                            action={ActionProperty({
+                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />
                     ]
                 }),
                 "dynamicText": t([
@@ -682,39 +667,32 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ConditionalVisibilityWrapper key="p23.MyFirstModule.LocationPage.actionButton3$visibility"
-                $widgetId="p23.MyFirstModule.LocationPage.actionButton3$visibility"
-                visible={ExpressionProperty({
-                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+            <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton3"
+                $widgetId="p27.MyFirstModule.LocationPage.actionButton3"
+                buttonId={"p27.MyFirstModule.LocationPage.actionButton3"}
+                class={"mx-name-actionButton3"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-primary"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
                 })}
-                contents={[
-                    <$ActionButton key="p23.MyFirstModule.LocationPage.actionButton3"
-                        $widgetId="p23.MyFirstModule.LocationPage.actionButton3"
-                        buttonId={"p23.MyFirstModule.LocationPage.actionButton3"}
-                        class={"mx-name-actionButton3"}
-                        style={undefined}
-                        tabIndex={undefined}
-                        renderType={"button"}
-                        role={undefined}
-                        buttonClass={"btn-primary"}
-                        caption={t([
-                            ExpressionProperty({
-                                "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
-                            })
-                        ])}
-                        tooltip={TextProperty({
-                            "value": t([
-                                ""
-                            ])
-                        })}
-                        icon={WebIconProperty({
-                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                        })}
-                        action={ActionProperty({
-                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "allowedRoles": [ "Administrator", "User", "SalesPerson" ], "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
-                            "abortOnServerValidation": true
-                        })} />
-                ]} />
+                icon={WebIconProperty({
+                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

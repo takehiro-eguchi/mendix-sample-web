@@ -28,8 +28,8 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 const { $ScrollContainer, $Fragment, $Div, $Container, $SidebarToggle, $Image, $LanguageSelector, $NavigationTree, $Placeholder } = asPluginWidgets({ ScrollContainer, Fragment, Div, Container, SidebarToggle, Image, LanguageSelector, NavigationTree, Placeholder });
 
 const region$Main = [
-    <$ScrollContainer key="l9.Atlas_Core.Atlas_Default.layoutContainer"
-        $widgetId="l9.Atlas_Core.Atlas_Default.layoutContainer"
+    <$ScrollContainer key="l0.Atlas_Core.Atlas_Default.layoutContainer"
+        $widgetId="l0.Atlas_Core.Atlas_Default.layoutContainer"
         class={"mx-name-layoutContainer"}
         style={undefined}
         scrollPerRegion={true}
@@ -37,34 +37,34 @@ const region$Main = [
         top={{
             "enabled": true,
             "content": [
-                <$Fragment key="l9.Atlas_Core.Atlas_Default.snippetCall1"
-                    $widgetId="l9.Atlas_Core.Atlas_Default.snippetCall1"
+                <$Fragment key="l0.Atlas_Core.Atlas_Default.snippetCall1"
+                    $widgetId="l0.Atlas_Core.Atlas_Default.snippetCall1"
                     content={undefined} />,
-                <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid1"
-                    $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid1"
+                <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid1"
+                    $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid1"
                     class={"mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
                     style={undefined}
                     content={[
-                        <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid1$row0"
-                            $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid1$row0"
+                        <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid1$row0"
+                            $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid1$row0"
                             class={"row"}
                             style={undefined}
                             content={[
-                                <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid1$row0$column0"
-                                    $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid1$row0$column0"
+                                <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid1$row0$column0"
+                                    $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid1$row0$column0"
                                     class={"col-lg-12 col-md-12 col-12"}
                                     style={undefined}
                                     content={[
-                                        <$Container key="l9.Atlas_Core.Atlas_Default.container1"
-                                            $widgetId="l9.Atlas_Core.Atlas_Default.container1"
+                                        <$Container key="l0.Atlas_Core.Atlas_Default.container1"
+                                            $widgetId="l0.Atlas_Core.Atlas_Default.container1"
                                             class={"mx-name-container1 topbar-content"}
                                             style={undefined}
                                             renderMode={"div"}
                                             onClick={undefined}
                                             content={[
-                                                <$SidebarToggle key="l9.Atlas_Core.Atlas_Default.sidebarToggle3"
-                                                    $widgetId="l9.Atlas_Core.Atlas_Default.sidebarToggle3"
-                                                    buttonId={"l9.Atlas_Core.Atlas_Default.sidebarToggle3"}
+                                                <$SidebarToggle key="l0.Atlas_Core.Atlas_Default.sidebarToggle3"
+                                                    $widgetId="l0.Atlas_Core.Atlas_Default.sidebarToggle3"
+                                                    buttonId={"l0.Atlas_Core.Atlas_Default.sidebarToggle3"}
                                                     renderType={"button"}
                                                     buttonClass={"btn-primary"}
                                                     caption={t([
@@ -83,23 +83,23 @@ const region$Main = [
                                                     class={"mx-name-sidebarToggle3 toggle-btn"}
                                                     style={undefined}
                                                     tabIndex={undefined} />,
-                                                <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid2"
-                                                    $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid2"
+                                                <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid2"
+                                                    $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid2"
                                                     class={"mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid navbar-brand"}
                                                     style={undefined}
                                                     content={[
-                                                        <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0"
-                                                            $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0"
+                                                        <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0"
+                                                            $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0"
                                                             class={"row align-children-center"}
                                                             style={undefined}
                                                             content={[
-                                                                <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0$column0"
-                                                                    $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0$column0"
+                                                                <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0$column0"
+                                                                    $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0$column0"
                                                                     class={"col-lg col-md col"}
                                                                     style={undefined}
                                                                     content={[
-                                                                        <$Image key="l9.Atlas_Core.Atlas_Default.staticImage1"
-                                                                            $widgetId="l9.Atlas_Core.Atlas_Default.staticImage1"
+                                                                        <$Image key="l0.Atlas_Core.Atlas_Default.staticImage1"
+                                                                            $widgetId="l0.Atlas_Core.Atlas_Default.staticImage1"
                                                                             datasource={"image"}
                                                                             imageObject={WebStaticImageProperty({
                                                                                 "image": { "uri": "img/Atlas_Core$Layout$logo.svg" }
@@ -131,18 +131,18 @@ const region$Main = [
                                                                             style={undefined}
                                                                             tabIndex={undefined} />
                                                                     ]} />,
-                                                                <$Div key="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0$column1"
-                                                                    $widgetId="l9.Atlas_Core.Atlas_Default.layoutGrid2$row0$column1"
+                                                                <$Div key="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0$column1"
+                                                                    $widgetId="l0.Atlas_Core.Atlas_Default.layoutGrid2$row0$column1"
                                                                     class={"col-lg-auto col-md-auto col-auto align-self-center"}
                                                                     style={undefined}
                                                                     content={[
-                                                                        <$Fragment key="l9.Atlas_Core.Atlas_Default.snippetCall2"
-                                                                            $widgetId="l9.Atlas_Core.Atlas_Default.snippetCall2"
+                                                                        <$Fragment key="l0.Atlas_Core.Atlas_Default.snippetCall2"
+                                                                            $widgetId="l0.Atlas_Core.Atlas_Default.snippetCall2"
                                                                             content={[
-                                                                                <$LanguageSelector key="l9.Atlas_Core.LanguageSelectorWidget.languageSelector1"
-                                                                                    $widgetId="l9.Atlas_Core.LanguageSelectorWidget.languageSelector1"
+                                                                                <$LanguageSelector key="l0.Atlas_Core.LanguageSelectorWidget.languageSelector1"
+                                                                                    $widgetId="l0.Atlas_Core.LanguageSelectorWidget.languageSelector1"
                                                                                     languageOptions={DatabaseObjectListProperty({
-                                                                                        "dataSourceId": "l9.2",
+                                                                                        "dataSourceId": "l0.2",
                                                                                         "entity": "System.Language",
                                                                                         "operationId": "GTD3C5qx3FGS8vipxF36Jg",
                                                                                         "sort": [
@@ -153,8 +153,8 @@ const region$Main = [
                                                                                         ]
                                                                                     })}
                                                                                     languageCaption={ListExpressionProperty({
-                                                                                        "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Description" }, "args": { "currentObject": { "widget": "l9.Atlas_Core.LanguageSelectorWidget.languageSelector1", "source": "object" } } },
-                                                                                        "dataSourceId": "l9.2"
+                                                                                        "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "Description" }, "args": { "currentObject": { "widget": "l0.Atlas_Core.LanguageSelectorWidget.languageSelector1", "source": "object" } } },
+                                                                                        "dataSourceId": "l0.2"
                                                                                     })}
                                                                                     position={"bottom"}
                                                                                     trigger={"click"}
@@ -186,8 +186,8 @@ const region$Main = [
         left={{
             "enabled": true,
             "content": [
-                <$NavigationTree key="l9.Atlas_Core.Atlas_Default.navigationTree3"
-                    $widgetId="l9.Atlas_Core.Atlas_Default.navigationTree3"
+                <$NavigationTree key="l0.Atlas_Core.Atlas_Default.navigationTree3"
+                    $widgetId="l0.Atlas_Core.Atlas_Default.navigationTree3"
                     class={"mx-name-navigationTree3"}
                     style={undefined}
                     menu={[
@@ -201,7 +201,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-home" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -215,7 +215,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-user" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -229,7 +229,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -243,7 +243,7 @@ const region$Main = [
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-location-pin" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -257,7 +257,7 @@ const region$Main = [
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-thumbs-up" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -271,7 +271,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         }
@@ -288,8 +288,8 @@ const region$Main = [
         }}
         center={{
             "content": [
-                <$Placeholder key="l9.Atlas_Core.Atlas_Default.Main"
-                    $widgetId="l9.Atlas_Core.Atlas_Default.Main"
+                <$Placeholder key="l0.Atlas_Core.Atlas_Default.Main"
+                    $widgetId="l0.Atlas_Core.Atlas_Default.Main"
                     content={PlaceholderProperty({
                         "id": "Atlas_Core.Atlas_Default.Main"
                     })} />

@@ -11,7 +11,6 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
-import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -27,7 +26,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
 
 addEnumerations({
     "MyFirstModule.Status": [
@@ -47,45 +46,45 @@ addEnumerations({
 });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid4"
-        $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid4"
+    <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid4"
+        $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid4"
         class={"mx-name-layoutGrid4 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid4$row0"
-                $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid4$row0"
+            <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid4$row0"
+                $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid4$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid4$row0$column0"
-                        $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid4$row0$column0"
+                    <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid4$row0$column0"
+                        $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid4$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$Container key="p19.MyFirstModule.ProductsPage.container1"
-                                $widgetId="p19.MyFirstModule.ProductsPage.container1"
+                            <$Container key="p21.MyFirstModule.ProductsPage.container1"
+                                $widgetId="p21.MyFirstModule.ProductsPage.container1"
                                 class={"mx-name-container1 pageheader spacing-outer-bottom-large"}
                                 style={undefined}
                                 renderMode={"div"}
                                 onClick={undefined}
                                 content={[
-                                    <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid2"
-                                        $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid2"
+                                    <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid2"
+                                        $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid2"
                                         class={"mx-name-layoutGrid2 mx-layoutgrid mx-layoutgrid-fluid"}
                                         style={undefined}
                                         content={[
-                                            <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid2$row0"
-                                                $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid2$row0"
+                                            <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid2$row0"
+                                                $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid2$row0"
                                                 class={"row"}
                                                 style={undefined}
                                                 content={[
-                                                    <$Div key="p19.MyFirstModule.ProductsPage.layoutGrid2$row0$column0"
-                                                        $widgetId="p19.MyFirstModule.ProductsPage.layoutGrid2$row0$column0"
+                                                    <$Div key="p21.MyFirstModule.ProductsPage.layoutGrid2$row0$column0"
+                                                        $widgetId="p21.MyFirstModule.ProductsPage.layoutGrid2$row0$column0"
                                                         class={"col-lg col-md col"}
                                                         style={undefined}
                                                         content={[
-                                                            <$Text key="p19.MyFirstModule.ProductsPage.text40"
-                                                                $widgetId="p19.MyFirstModule.ProductsPage.text40"
+                                                            <$Text key="p21.MyFirstModule.ProductsPage.text40"
+                                                                $widgetId="p21.MyFirstModule.ProductsPage.text40"
                                                                 class={"mx-name-text40 pageheader-title spacing-outer-bottom"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -94,8 +93,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                                     })
                                                                 ])}
                                                                 renderMode={"h1"} />,
-                                                            <$Text key="p19.MyFirstModule.ProductsPage.text39"
-                                                                $widgetId="p19.MyFirstModule.ProductsPage.text39"
+                                                            <$Text key="p21.MyFirstModule.ProductsPage.text39"
+                                                                $widgetId="p21.MyFirstModule.ProductsPage.text39"
                                                                 class={"mx-name-text39 pageheader-subtitle text-detail spacing-outer-bottom-large"}
                                                                 style={undefined}
                                                                 caption={t([
@@ -112,11 +111,11 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         ]} />
                 ]} />
         ]} />,
-    <$Datagrid key="p19.MyFirstModule.ProductsPage.dataGrid2_1"
-        $widgetId="p19.MyFirstModule.ProductsPage.dataGrid2_1"
+    <$Datagrid key="p21.MyFirstModule.ProductsPage.dataGrid2_1"
+        $widgetId="p21.MyFirstModule.ProductsPage.dataGrid2_1"
         advanced={false}
         datasource={DatabaseObjectListProperty({
-            "dataSourceId": "p19.18",
+            "dataSourceId": "p21.18",
             "entity": "MyFirstModule.Products",
             "operationId": "1H2FFrg1dFiEDy0PH5QhDw",
             "sort": []
@@ -136,7 +135,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -155,8 +154,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p19.MyFirstModule.ProductsPage.textFilter1"
-                        $widgetId="p19.MyFirstModule.ProductsPage.textFilter1"
+                    <$DatagridTextFilter key="p21.MyFirstModule.ProductsPage.textFilter1"
+                        $widgetId="p21.MyFirstModule.ProductsPage.textFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -208,7 +207,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -227,8 +226,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p19.MyFirstModule.ProductsPage.drop_downFilter1"
-                        $widgetId="p19.MyFirstModule.ProductsPage.drop_downFilter1"
+                    <$DatagridDropdownFilter key="p21.MyFirstModule.ProductsPage.drop_downFilter1"
+                        $widgetId="p21.MyFirstModule.ProductsPage.drop_downFilter1"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -278,7 +277,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Integer",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -297,8 +296,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p19.MyFirstModule.ProductsPage.numberFilter1"
-                        $widgetId="p19.MyFirstModule.ProductsPage.numberFilter1"
+                    <$DatagridNumberFilter key="p21.MyFirstModule.ProductsPage.numberFilter1"
+                        $widgetId="p21.MyFirstModule.ProductsPage.numberFilter1"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -350,7 +349,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Decimal",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -369,8 +368,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p19.MyFirstModule.ProductsPage.numberFilter2"
-                        $widgetId="p19.MyFirstModule.ProductsPage.numberFilter2"
+                    <$DatagridNumberFilter key="p21.MyFirstModule.ProductsPage.numberFilter2"
+                        $widgetId="p21.MyFirstModule.ProductsPage.numberFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -422,7 +421,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -441,8 +440,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p19.MyFirstModule.ProductsPage.drop_downFilter2"
-                        $widgetId="p19.MyFirstModule.ProductsPage.drop_downFilter2"
+                    <$DatagridDropdownFilter key="p21.MyFirstModule.ProductsPage.drop_downFilter2"
+                        $widgetId="p21.MyFirstModule.ProductsPage.drop_downFilter2"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -492,7 +491,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Decimal",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -511,8 +510,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridNumberFilter key="p19.MyFirstModule.ProductsPage.numberFilter3"
-                        $widgetId="p19.MyFirstModule.ProductsPage.numberFilter3"
+                    <$DatagridNumberFilter key="p21.MyFirstModule.ProductsPage.numberFilter3"
+                        $widgetId="p21.MyFirstModule.ProductsPage.numberFilter3"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"equal"}
@@ -564,7 +563,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -583,8 +582,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p19.MyFirstModule.ProductsPage.textFilter2"
-                        $widgetId="p19.MyFirstModule.ProductsPage.textFilter2"
+                    <$DatagridTextFilter key="p21.MyFirstModule.ProductsPage.textFilter2"
+                        $widgetId="p21.MyFirstModule.ProductsPage.textFilter2"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -636,7 +635,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -655,8 +654,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridTextFilter key="p19.MyFirstModule.ProductsPage.textFilter3"
-                        $widgetId="p19.MyFirstModule.ProductsPage.textFilter3"
+                    <$DatagridTextFilter key="p21.MyFirstModule.ProductsPage.textFilter3"
+                        $widgetId="p21.MyFirstModule.ProductsPage.textFilter3"
                         advanced={false}
                         defaultValue={undefined}
                         defaultFilter={"contains"}
@@ -708,7 +707,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "Enum",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": undefined,
@@ -727,8 +726,8 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     undefined
                 ]),
                 "filter": [
-                    <$DatagridDropdownFilter key="p19.MyFirstModule.ProductsPage.drop_downFilter3"
-                        $widgetId="p19.MyFirstModule.ProductsPage.drop_downFilter3"
+                    <$DatagridDropdownFilter key="p21.MyFirstModule.ProductsPage.drop_downFilter3"
+                        $widgetId="p21.MyFirstModule.ProductsPage.drop_downFilter3"
                         auto={true}
                         defaultValue={undefined}
                         filterOptions={[]}
@@ -778,79 +777,65 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "attributeType": "String",
                     "sortable": true,
                     "filterable": true,
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "isList": false
                 }),
                 "content": TemplatedWidgetProperty({
-                    "dataSourceId": "p19.18",
+                    "dataSourceId": "p21.18",
                     "editable": false,
                     "children": () => [
-                        <$ConditionalVisibilityWrapper key="p19.MyFirstModule.ProductsPage.actionButton1$visibility"
-                            $widgetId="p19.MyFirstModule.ProductsPage.actionButton1$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" } ] }, "args": {} }
+                        <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton1"
+                            $widgetId="p21.MyFirstModule.ProductsPage.actionButton1"
+                            buttonId={"p21.MyFirstModule.ProductsPage.actionButton1"}
+                            class={"mx-name-actionButton1 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
                             })}
-                            contents={[
-                                <$ActionButton key="p19.MyFirstModule.ProductsPage.actionButton1"
-                                    $widgetId="p19.MyFirstModule.ProductsPage.actionButton1"
-                                    buttonId={"p19.MyFirstModule.ProductsPage.actionButton1"}
-                                    class={"mx-name-actionButton1 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p19.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Products_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User" ] }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />,
-                        <$ConditionalVisibilityWrapper key="p19.MyFirstModule.ProductsPage.actionButton2$visibility"
-                            $widgetId="p19.MyFirstModule.ProductsPage.actionButton2$visibility"
-                            visible={ExpressionProperty({
-                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
                             })}
-                            contents={[
-                                <$ActionButton key="p19.MyFirstModule.ProductsPage.actionButton2"
-                                    $widgetId="p19.MyFirstModule.ProductsPage.actionButton2"
-                                    buttonId={"p19.MyFirstModule.ProductsPage.actionButton2"}
-                                    class={"mx-name-actionButton2 btn-lg"}
-                                    style={undefined}
-                                    tabIndex={undefined}
-                                    renderType={"link"}
-                                    role={"button"}
-                                    buttonClass={"btn-primary"}
-                                    caption={t([
-                                        ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                        })
-                                    ])}
-                                    tooltip={TextProperty({
-                                        "value": t([
-                                            ""
-                                        ])
-                                    })}
-                                    icon={WebIconProperty({
-                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                                    })}
-                                    action={ActionProperty({
-                                        "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p19.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
-                                        "abortOnServerValidation": true
-                                    })} />
-                            ]} />
+                            action={ActionProperty({
+                                "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Products_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />,
+                        <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton2"
+                            $widgetId="p21.MyFirstModule.ProductsPage.actionButton2"
+                            buttonId={"p21.MyFirstModule.ProductsPage.actionButton2"}
+                            class={"mx-name-actionButton2 btn-lg"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"link"}
+                            role={"button"}
+                            buttonClass={"btn-primary"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
+                            })}
+                            icon={WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                            })}
+                            action={ActionProperty({
+                                "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />
                     ]
                 }),
                 "dynamicText": t([
@@ -911,105 +896,84 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ConditionalVisibilityWrapper key="p19.MyFirstModule.ProductsPage.actionButton3$visibility"
-                $widgetId="p19.MyFirstModule.ProductsPage.actionButton3$visibility"
-                visible={ExpressionProperty({
-                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" } ] }, "args": {} }
+            <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton3"
+                $widgetId="p21.MyFirstModule.ProductsPage.actionButton3"
+                buttonId={"p21.MyFirstModule.ProductsPage.actionButton3"}
+                class={"mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-primary"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "New Products" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
                 })}
-                contents={[
-                    <$ActionButton key="p19.MyFirstModule.ProductsPage.actionButton3"
-                        $widgetId="p19.MyFirstModule.ProductsPage.actionButton3"
-                        buttonId={"p19.MyFirstModule.ProductsPage.actionButton3"}
-                        class={"mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
-                        style={undefined}
-                        tabIndex={undefined}
-                        renderType={"button"}
-                        role={undefined}
-                        buttonClass={"btn-primary"}
-                        caption={t([
-                            ExpressionProperty({
-                                "expression": { "expr": { "type": "literal", "value": "New Products" }, "args": {} }
-                            })
-                        ])}
-                        tooltip={TextProperty({
-                            "value": t([
-                                ""
-                            ])
-                        })}
-                        icon={WebIconProperty({
-                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                        })}
-                        action={ActionProperty({
-                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view", "allowedRoles": [ "Administrator", "User" ] }, "disabledDuringExecution": true },
-                            "abortOnServerValidation": true
-                        })} />
-                ]} />,
-            <$ConditionalVisibilityWrapper key="p19.MyFirstModule.ProductsPage.actionButton4$visibility"
-                $widgetId="p19.MyFirstModule.ProductsPage.actionButton4$visibility"
-                visible={ExpressionProperty({
-                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" } ] }, "args": {} }
+                icon={WebIconProperty({
+                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
                 })}
-                contents={[
-                    <$ActionButton key="p19.MyFirstModule.ProductsPage.actionButton4"
-                        $widgetId="p19.MyFirstModule.ProductsPage.actionButton4"
-                        buttonId={"p19.MyFirstModule.ProductsPage.actionButton4"}
-                        class={"mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top"}
-                        style={undefined}
-                        tabIndex={undefined}
-                        renderType={"button"}
-                        role={undefined}
-                        buttonClass={"btn-success"}
-                        caption={t([
-                            ExpressionProperty({
-                                "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
-                            })
-                        ])}
-                        tooltip={TextProperty({
-                            "value": t([
-                                ""
-                            ])
-                        })}
-                        icon={WebIconProperty({
-                            "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
-                        })}
-                        action={ActionProperty({
-                            "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
-                            "abortOnServerValidation": true
-                        })} />
-                ]} />,
-            <$ConditionalVisibilityWrapper key="p19.MyFirstModule.ProductsPage.actionButton5$visibility"
-                $widgetId="p19.MyFirstModule.ProductsPage.actionButton5$visibility"
-                visible={ExpressionProperty({
-                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />,
+            <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton4"
+                $widgetId="p21.MyFirstModule.ProductsPage.actionButton4"
+                buttonId={"p21.MyFirstModule.ProductsPage.actionButton4"}
+                class={"mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-success"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
                 })}
-                contents={[
-                    <$ActionButton key="p19.MyFirstModule.ProductsPage.actionButton5"
-                        $widgetId="p19.MyFirstModule.ProductsPage.actionButton5"
-                        buttonId={"p19.MyFirstModule.ProductsPage.actionButton5"}
-                        class={"mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
-                        style={undefined}
-                        tabIndex={undefined}
-                        renderType={"button"}
-                        role={undefined}
-                        buttonClass={"btn-warning"}
-                        caption={t([
-                            ExpressionProperty({
-                                "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
-                            })
-                        ])}
-                        tooltip={TextProperty({
-                            "value": t([
-                                ""
-                            ])
-                        })}
-                        icon={WebIconProperty({
-                            "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
-                        })}
-                        action={ActionProperty({
-                            "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
-                            "abortOnServerValidation": true
-                        })} />
-                ]} />
+                icon={WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />,
+            <$ActionButton key="p21.MyFirstModule.ProductsPage.actionButton5"
+                $widgetId="p21.MyFirstModule.ProductsPage.actionButton5"
+                buttonId={"p21.MyFirstModule.ProductsPage.actionButton5"}
+                class={"mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-warning"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
+                })}
+                icon={WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
+                })}
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

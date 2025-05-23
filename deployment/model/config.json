@@ -10,7 +10,8 @@
     "ScheduledEventExecution": "None"
   },
   "Constants": {
+    "CommunityCommons.MergeMultiplePdfs_MaxAtOnce": "10",
     "FeedbackModule.LocalStorageKey": "mxfeedback-form-data"
   },
-  "AdminPassword": "1"
+  "AdminPassword": null
 }

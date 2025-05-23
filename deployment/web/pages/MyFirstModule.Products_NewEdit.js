@@ -23,28 +23,28 @@ import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js
 const { $Div, $DataView, $FormGroup, $TextBox, $RadioButtonGroup, $ActionButton } = asPluginWidgets({ Div, DataView, FormGroup, TextBox, RadioButtonGroup, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
-    <$Div key="p18.MyFirstModule.Products_NewEdit.layoutGrid1"
-        $widgetId="p18.MyFirstModule.Products_NewEdit.layoutGrid1"
+    <$Div key="p20.MyFirstModule.Products_NewEdit.layoutGrid1"
+        $widgetId="p20.MyFirstModule.Products_NewEdit.layoutGrid1"
         class={"mx-name-layoutGrid1 mx-layoutgrid mx-layoutgrid-fluid container-fluid"}
         style={undefined}
         content={[
-            <$Div key="p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0"
-                $widgetId="p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0"
+            <$Div key="p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0"
+                $widgetId="p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0"
                 class={"row"}
                 style={undefined}
                 content={[
-                    <$Div key="p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0"
-                        $widgetId="p18.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0"
+                    <$Div key="p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0"
+                        $widgetId="p20.MyFirstModule.Products_NewEdit.layoutGrid1$row0$column0"
                         class={"col-lg col-md col"}
                         style={undefined}
                         content={[
-                            <$DataView key="p18.MyFirstModule.Products_NewEdit.dataView6"
-                                $widgetId="p18.MyFirstModule.Products_NewEdit.dataView6"
+                            <$DataView key="p20.MyFirstModule.Products_NewEdit.dataView6"
+                                $widgetId="p20.MyFirstModule.Products_NewEdit.dataView6"
                                 class={"mx-name-dataView6 form-vertical"}
                                 style={undefined}
                                 tabIndex={undefined}
                                 object={AssociationObjectProperty({
-                                    "dataSourceId": "p18.12",
+                                    "dataSourceId": "p20.12",
                                     "scope": "$Products",
                                     "editable": true
                                 })}
@@ -54,15 +54,15 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                     ])
                                 })}
                                 body={[
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox1$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox1$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox1$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox1$formGroup"
                                         class={"mx-name-textBox1 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox1"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox1"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox1"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox1"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "ProductName",
@@ -90,7 +90,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -99,22 +99,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox1"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox1"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons1$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons1$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons1$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons1$formGroup"
                                         class={"mx-name-radioButtons1 mx-radiobuttons inline"}
                                         style={undefined}
                                         control={[
-                                            <$RadioButtonGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons1"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons1"
+                                            <$RadioButtonGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons1"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons1"
                                                 value={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "Color",
@@ -129,7 +129,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -138,22 +138,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons1"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons1"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox2$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox2$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox2$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox2$formGroup"
                                         class={"mx-name-textBox2 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox2"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox2"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox2"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox2"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "SafetyStockLevel",
@@ -185,7 +185,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -194,22 +194,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox2"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox2"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox3$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox3$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox3$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox3$formGroup"
                                         class={"mx-name-textBox3 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox3"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox3"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox3"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox3"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "ListPrice",
@@ -242,7 +242,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -251,22 +251,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox3"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox3"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons2$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons2$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons2$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons2$formGroup"
                                         class={"mx-name-radioButtons2 mx-radiobuttons inline"}
                                         style={undefined}
                                         control={[
-                                            <$RadioButtonGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons2"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons2"
+                                            <$RadioButtonGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons2"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons2"
                                                 value={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "Size",
@@ -281,7 +281,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -290,22 +290,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons2"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons2"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox4$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox4$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox4$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox4$formGroup"
                                         class={"mx-name-textBox4 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox4"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox4"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox4"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox4"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "Weight",
@@ -338,7 +338,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -347,22 +347,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox4"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox4"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox5$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox5$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox5$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox5$formGroup"
                                         class={"mx-name-textBox5 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox5"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox5"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox5"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox5"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "Style",
@@ -390,7 +390,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -399,22 +399,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox5"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox5"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.textBox6$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.textBox6$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.textBox6$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.textBox6$formGroup"
                                         class={"mx-name-textBox6 mx-textbox"}
                                         style={undefined}
                                         control={[
-                                            <$TextBox key="p18.MyFirstModule.Products_NewEdit.textBox6"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.textBox6"
+                                            <$TextBox key="p20.MyFirstModule.Products_NewEdit.textBox6"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.textBox6"
                                                 inputValue={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "ModelName",
@@ -442,7 +442,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -451,22 +451,22 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.textBox6"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.textBox6"
                                         })} />,
-                                    <$FormGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons3$formGroup"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons3$formGroup"
+                                    <$FormGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons3$formGroup"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons3$formGroup"
                                         class={"mx-name-radioButtons3 mx-radiobuttons inline"}
                                         style={undefined}
                                         control={[
-                                            <$RadioButtonGroup key="p18.MyFirstModule.Products_NewEdit.radioButtons3"
-                                                $widgetId="p18.MyFirstModule.Products_NewEdit.radioButtons3"
+                                            <$RadioButtonGroup key="p20.MyFirstModule.Products_NewEdit.radioButtons3"
+                                                $widgetId="p20.MyFirstModule.Products_NewEdit.radioButtons3"
                                                 value={AttributeProperty({
-                                                    "scope": "p18.MyFirstModule.Products_NewEdit.dataView6",
+                                                    "scope": "p20.MyFirstModule.Products_NewEdit.dataView6",
                                                     "path": "",
                                                     "entity": "MyFirstModule.Products",
                                                     "attribute": "Status",
@@ -481,7 +481,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                                 ariaRequired={undefined}
                                                 tabIndex={undefined}
                                                 id={DerivedUniqueIdProperty({
-                                                    "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
+                                                    "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
                                                 })} />
                                         ]}
                                         caption={t([
@@ -490,19 +490,19 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                             })
                                         ])}
                                         labelFor={DerivedUniqueIdProperty({
-                                            "widgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
+                                            "widgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
                                         })}
                                         width={undefined}
                                         orientation={"vertical"}
                                         hasError={ValidationProperty({
-                                            "inputWidgetId": "p18.MyFirstModule.Products_NewEdit.radioButtons3"
+                                            "inputWidgetId": "p20.MyFirstModule.Products_NewEdit.radioButtons3"
                                         })} />
                                 ]}
                                 hideFooter={false}
                                 footer={[
-                                    <$ActionButton key="p18.MyFirstModule.Products_NewEdit.actionButton1"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.actionButton1"
-                                        buttonId={"p18.MyFirstModule.Products_NewEdit.actionButton1"}
+                                    <$ActionButton key="p20.MyFirstModule.Products_NewEdit.actionButton1"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.actionButton1"
+                                        buttonId={"p20.MyFirstModule.Products_NewEdit.actionButton1"}
                                         class={"mx-name-actionButton1"}
                                         style={undefined}
                                         tabIndex={undefined}
@@ -521,12 +521,12 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         })}
                                         icon={undefined}
                                         action={ActionProperty({
-                                            "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p18.MyFirstModule.Products_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "e6myHyVpbFOThqG3LsTEag", "closePage": true }, "disabledDuringExecution": true },
+                                            "action": { "type": "saveChanges", "argMap": { "$object": { "widget": "p20.MyFirstModule.Products_NewEdit.dataView6", "source": "object" } }, "config": { "operationId": "e6myHyVpbFOThqG3LsTEag", "closePage": true }, "disabledDuringExecution": true },
                                             "abortOnServerValidation": true
                                         })} />,
-                                    <$ActionButton key="p18.MyFirstModule.Products_NewEdit.actionButton2"
-                                        $widgetId="p18.MyFirstModule.Products_NewEdit.actionButton2"
-                                        buttonId={"p18.MyFirstModule.Products_NewEdit.actionButton2"}
+                                    <$ActionButton key="p20.MyFirstModule.Products_NewEdit.actionButton2"
+                                        $widgetId="p20.MyFirstModule.Products_NewEdit.actionButton2"
+                                        buttonId={"p20.MyFirstModule.Products_NewEdit.actionButton2"}
                                         class={"mx-name-actionButton2"}
                                         style={undefined}
                                         tabIndex={undefined}
