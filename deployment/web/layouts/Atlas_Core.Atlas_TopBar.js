@@ -152,7 +152,7 @@ const region$Main = [
                                                                                         "icon": { "type": "glyph", "iconClass": "glyphicon-home" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 },
@@ -166,7 +166,7 @@ const region$Main = [
                                                                                         "icon": { "type": "glyph", "iconClass": "glyphicon-user" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 },
@@ -180,7 +180,7 @@ const region$Main = [
                                                                                         "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 },
@@ -194,7 +194,7 @@ const region$Main = [
                                                                                         "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-location-pin" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 },
@@ -208,7 +208,7 @@ const region$Main = [
                                                                                         "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-thumbs-up" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 },
@@ -222,7 +222,7 @@ const region$Main = [
                                                                                         "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
                                                                                     }),
                                                                                     "action": ActionProperty({
-                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                                                                        "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                                                                         "skipClientValidation": true
                                                                                     })
                                                                                 }
@@ -298,7 +298,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-home" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/Home_Web.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -312,7 +312,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-user" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -326,7 +326,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -340,7 +340,7 @@ const region$Main = [
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-location-pin" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -354,7 +354,7 @@ const region$Main = [
                                 "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-thumbs-up" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         },
@@ -368,7 +368,7 @@ const region$Main = [
                                 "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
                             }),
                             "action": ActionProperty({
-                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content" }, "disabledDuringExecution": false },
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": false },
                                 "skipClientValidation": true
                             })
                         }

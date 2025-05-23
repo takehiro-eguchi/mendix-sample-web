@@ -189,10 +189,19 @@ public final class Microflows
 		return builder;
 	}
 
-	public static java.lang.Long testDateTimeToLong(IContext context)
+	public static void testDateTimeToLong(IContext context)
 	{
-		Object result = testDateTimeToLongBuilder().execute(context);
-		return (java.lang.Long) result;
+		testDateTimeToLongBuilder().execute(context);
+	}
+	public static com.mendix.core.actionmanagement.MicroflowCallBuilder testMonthBetweenBuilder()
+	{
+		com.mendix.core.actionmanagement.MicroflowCallBuilder builder = Core.microflowCall("MyFirstModule.TestMonthBetween");
+		return builder;
+	}
+
+	public static void testMonthBetween(IContext context)
+	{
+		testMonthBetweenBuilder().execute(context);
 	}
 	public static com.mendix.core.actionmanagement.MicroflowCallBuilder xPathBuilder()
 	{

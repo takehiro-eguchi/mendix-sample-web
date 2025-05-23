@@ -1,33 +1,34 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { DatagridWidgetModule } from '../Datagrid-BhDFmpJP.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DXJJbjLe.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BJIL2ebC.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-K_E6zeB-.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../Bgp-XL0v-iR-R4xy_.js';
-import '../Image-BLvaO7vK.js';
-import '../InlineText-BU8NLTPl.js';
-import '../ListExpressionProperty-BWFcYvBl.js';
-import '../WebStaticImageProperty-CiXGhPz_.js';
-import '../DMc54HEs-BETi155K.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DLZhJWxj.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BD-DuJ-V.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import '../Image-CRLik9xo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../ListExpressionProperty-UOQ4kvKt.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
 const DatagridNumberFilter = Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "DatagridNumberFilter")?.value || Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "default")?.value;
 const DatagridTextFilter = Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "DatagridTextFilter")?.value || Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "default")?.value;
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
 const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragment, { renderKey: historyId }, [
   /* @__PURE__ */ React.createElement(
     $Div,
@@ -636,65 +637,89 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "editable": false,
             "children": () => [
               /* @__PURE__ */ React.createElement(
-                $ActionButton,
+                $ConditionalVisibilityWrapper,
                 {
-                  key: "p27.MyFirstModule.LocationPage.actionButton1",
-                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton1",
-                  buttonId: "p27.MyFirstModule.LocationPage.actionButton1",
-                  class: "mx-name-actionButton1 btn-lg",
-                  style: void 0,
-                  tabIndex: void 0,
-                  renderType: "link",
-                  role: "button",
-                  buttonClass: "btn-primary",
-                  caption: selectTranslation([
-                    ExpressionProperty({
-                      "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                    })
-                  ]),
-                  tooltip: TextProperty({
-                    "value": selectTranslation([
-                      ""
-                    ])
+                  key: "p27.MyFirstModule.LocationPage.actionButton1$visibility",
+                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton1$visibility",
+                  visible: ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                   }),
-                  icon: WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                  }),
-                  action: ActionProperty({
-                    "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                  })
+                  contents: [
+                    /* @__PURE__ */ React.createElement(
+                      $ActionButton,
+                      {
+                        key: "p27.MyFirstModule.LocationPage.actionButton1",
+                        $widgetId: "p27.MyFirstModule.LocationPage.actionButton1",
+                        buttonId: "p27.MyFirstModule.LocationPage.actionButton1",
+                        class: "mx-name-actionButton1 btn-lg",
+                        style: void 0,
+                        tabIndex: void 0,
+                        renderType: "link",
+                        role: "button",
+                        buttonClass: "btn-primary",
+                        caption: selectTranslation([
+                          ExpressionProperty({
+                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                          })
+                        ]),
+                        tooltip: TextProperty({
+                          "value": selectTranslation([
+                            ""
+                          ])
+                        }),
+                        icon: WebIconProperty({
+                          "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                        }),
+                        action: ActionProperty({
+                          "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                          "abortOnServerValidation": true
+                        })
+                      }
+                    )
+                  ]
                 }
               ),
               /* @__PURE__ */ React.createElement(
-                $ActionButton,
+                $ConditionalVisibilityWrapper,
                 {
-                  key: "p27.MyFirstModule.LocationPage.actionButton2",
-                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton2",
-                  buttonId: "p27.MyFirstModule.LocationPage.actionButton2",
-                  class: "mx-name-actionButton2 btn-lg",
-                  style: void 0,
-                  tabIndex: void 0,
-                  renderType: "link",
-                  role: "button",
-                  buttonClass: "btn-primary",
-                  caption: selectTranslation([
-                    ExpressionProperty({
-                      "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                    })
-                  ]),
-                  tooltip: TextProperty({
-                    "value": selectTranslation([
-                      ""
-                    ])
+                  key: "p27.MyFirstModule.LocationPage.actionButton2$visibility",
+                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton2$visibility",
+                  visible: ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                   }),
-                  icon: WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                  }),
-                  action: ActionProperty({
-                    "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                  })
+                  contents: [
+                    /* @__PURE__ */ React.createElement(
+                      $ActionButton,
+                      {
+                        key: "p27.MyFirstModule.LocationPage.actionButton2",
+                        $widgetId: "p27.MyFirstModule.LocationPage.actionButton2",
+                        buttonId: "p27.MyFirstModule.LocationPage.actionButton2",
+                        class: "mx-name-actionButton2 btn-lg",
+                        style: void 0,
+                        tabIndex: void 0,
+                        renderType: "link",
+                        role: "button",
+                        buttonClass: "btn-primary",
+                        caption: selectTranslation([
+                          ExpressionProperty({
+                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                          })
+                        ]),
+                        tooltip: TextProperty({
+                          "value": selectTranslation([
+                            ""
+                          ])
+                        }),
+                        icon: WebIconProperty({
+                          "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                        }),
+                        action: ActionProperty({
+                          "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
+                          "abortOnServerValidation": true
+                        })
+                      }
+                    )
+                  ]
                 }
               )
             ]
@@ -758,34 +783,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
       filterList: [],
       filtersPlaceholder: [
         /* @__PURE__ */ React.createElement(
-          $ActionButton,
+          $ConditionalVisibilityWrapper,
           {
-            key: "p27.MyFirstModule.LocationPage.actionButton3",
-            $widgetId: "p27.MyFirstModule.LocationPage.actionButton3",
-            buttonId: "p27.MyFirstModule.LocationPage.actionButton3",
-            class: "mx-name-actionButton3",
-            style: void 0,
-            tabIndex: void 0,
-            renderType: "button",
-            role: void 0,
-            buttonClass: "btn-primary",
-            caption: selectTranslation([
-              ExpressionProperty({
-                "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
-              })
-            ]),
-            tooltip: TextProperty({
-              "value": selectTranslation([
-                ""
-              ])
+            key: "p27.MyFirstModule.LocationPage.actionButton3$visibility",
+            $widgetId: "p27.MyFirstModule.LocationPage.actionButton3$visibility",
+            visible: ExpressionProperty({
+              "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
             }),
-            icon: WebIconProperty({
-              "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-            }),
-            action: ActionProperty({
-              "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
-              "abortOnServerValidation": true
-            })
+            contents: [
+              /* @__PURE__ */ React.createElement(
+                $ActionButton,
+                {
+                  key: "p27.MyFirstModule.LocationPage.actionButton3",
+                  $widgetId: "p27.MyFirstModule.LocationPage.actionButton3",
+                  buttonId: "p27.MyFirstModule.LocationPage.actionButton3",
+                  class: "mx-name-actionButton3",
+                  style: void 0,
+                  tabIndex: void 0,
+                  renderType: "button",
+                  role: void 0,
+                  buttonClass: "btn-primary",
+                  caption: selectTranslation([
+                    ExpressionProperty({
+                      "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
+                    })
+                  ]),
+                  tooltip: TextProperty({
+                    "value": selectTranslation([
+                      ""
+                    ])
+                  }),
+                  icon: WebIconProperty({
+                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                  }),
+                  action: ActionProperty({
+                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "allowedRoles": ["Administrator", "User", "SalesPerson"], "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                  })
+                }
+              )
+            ]
           }
         )
       ],

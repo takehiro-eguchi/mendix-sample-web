@@ -13,5 +13,5 @@
     "CommunityCommons.MergeMultiplePdfs_MaxAtOnce": "10",
     "FeedbackModule.LocalStorageKey": "mxfeedback-form-data"
   },
-  "AdminPassword": null
+  "AdminPassword": "1"
 }

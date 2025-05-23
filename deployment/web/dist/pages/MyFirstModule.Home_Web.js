@@ -1,24 +1,25 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-K_E6zeB-.js';
-import '../InlineText-BU8NLTPl.js';
-import '../BH5qNKCa-DKuecUbx.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../ListExpressionProperty-BWFcYvBl.js';
-import '../WebStaticImageProperty-CiXGhPz_.js';
-import '../Image-BLvaO7vK.js';
-import '../DMc54HEs-BETi155K.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
+import '../InlineText-06k9DgcQ.js';
+import '../BH5qNKCa-He16eDuK.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../ListExpressionProperty-UOQ4kvKt.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../Image-CRLik9xo.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
-const { $Container, $Div, $Text, $ActionButton } = asPluginWidgets({ Container, Div, Text, ActionButton });
+const { $Container, $Div, $Text, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Container, Div, Text, ConditionalVisibilityWrapper, ActionButton });
 const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragment, { renderKey: historyId }, [
   /* @__PURE__ */ React.createElement(
     $Container,
@@ -85,65 +86,89 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
-                            $ActionButton,
+                            $ConditionalVisibilityWrapper,
                             {
-                              key: "p38.MyFirstModule.Home_Web.actionButton1",
-                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton1",
-                              buttonId: "p38.MyFirstModule.Home_Web.actionButton1",
-                              class: "mx-name-actionButton1",
-                              style: void 0,
-                              tabIndex: void 0,
-                              renderType: "button",
-                              role: void 0,
-                              buttonClass: "btn-success",
-                              caption: selectTranslation([
-                                ExpressionProperty({
-                                  "expression": { "expr": { "type": "literal", "value": "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A" }, "args": {} }
-                                })
-                              ]),
-                              tooltip: TextProperty({
-                                "value": selectTranslation([
-                                  ""
-                                ])
+                              key: "p38.MyFirstModule.Home_Web.actionButton1$visibility",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton1$visibility",
+                              visible: ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                               }),
-                              icon: WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
-                              }),
-                              action: ActionProperty({
-                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "UPWR9PEIN12LIjhueLcB3w", "validate": "view" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                              })
+                              contents: [
+                                /* @__PURE__ */ React.createElement(
+                                  $ActionButton,
+                                  {
+                                    key: "p38.MyFirstModule.Home_Web.actionButton1",
+                                    $widgetId: "p38.MyFirstModule.Home_Web.actionButton1",
+                                    buttonId: "p38.MyFirstModule.Home_Web.actionButton1",
+                                    class: "mx-name-actionButton1",
+                                    style: void 0,
+                                    tabIndex: void 0,
+                                    renderType: "button",
+                                    role: void 0,
+                                    buttonClass: "btn-success",
+                                    caption: selectTranslation([
+                                      ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "\u30E1\u30C3\u30BB\u30FC\u30B8\u8868\u793A" }, "args": {} }
+                                      })
+                                    ]),
+                                    tooltip: TextProperty({
+                                      "value": selectTranslation([
+                                        ""
+                                      ])
+                                    }),
+                                    icon: WebIconProperty({
+                                      "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
+                                    }),
+                                    action: ActionProperty({
+                                      "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "UPWR9PEIN12LIjhueLcB3w", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
+                                  }
+                                )
+                              ]
                             }
                           ),
                           /* @__PURE__ */ React.createElement(
-                            $ActionButton,
+                            $ConditionalVisibilityWrapper,
                             {
-                              key: "p38.MyFirstModule.Home_Web.actionButton7",
-                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton7",
-                              buttonId: "p38.MyFirstModule.Home_Web.actionButton7",
-                              class: "mx-name-actionButton7 spacing-outer-left spacing-outer-right",
-                              style: void 0,
-                              tabIndex: void 0,
-                              renderType: "button",
-                              role: void 0,
-                              buttonClass: "btn-info",
-                              caption: selectTranslation([
-                                ExpressionProperty({
-                                  "expression": { "expr": { "type": "literal", "value": "\u30DE\u30A4\u30AF\u30ED\u30D5\u30ED\u30FC" }, "args": {} }
-                                })
-                              ]),
-                              tooltip: TextProperty({
-                                "value": selectTranslation([
-                                  ""
-                                ])
+                              key: "p38.MyFirstModule.Home_Web.actionButton7$visibility",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton7$visibility",
+                              visible: ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                               }),
-                              icon: WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
-                              }),
-                              action: ActionProperty({
-                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "pMAfkg9EGFCMsmjfBSWutQ", "validate": "view" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                              })
+                              contents: [
+                                /* @__PURE__ */ React.createElement(
+                                  $ActionButton,
+                                  {
+                                    key: "p38.MyFirstModule.Home_Web.actionButton7",
+                                    $widgetId: "p38.MyFirstModule.Home_Web.actionButton7",
+                                    buttonId: "p38.MyFirstModule.Home_Web.actionButton7",
+                                    class: "mx-name-actionButton7 spacing-outer-left spacing-outer-right",
+                                    style: void 0,
+                                    tabIndex: void 0,
+                                    renderType: "button",
+                                    role: void 0,
+                                    buttonClass: "btn-info",
+                                    caption: selectTranslation([
+                                      ExpressionProperty({
+                                        "expression": { "expr": { "type": "literal", "value": "\u30DE\u30A4\u30AF\u30ED\u30D5\u30ED\u30FC" }, "args": {} }
+                                      })
+                                    ]),
+                                    tooltip: TextProperty({
+                                      "value": selectTranslation([
+                                        ""
+                                      ])
+                                    }),
+                                    icon: WebIconProperty({
+                                      "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-alert-circle" }
+                                    }),
+                                    action: ActionProperty({
+                                      "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "U6COPxken1OwSDg13jNqwg", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                      "abortOnServerValidation": true
+                                    })
+                                  }
+                                )
+                              ]
                             }
                           )
                         ]
@@ -184,34 +209,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
-                      $ActionButton,
+                      $ConditionalVisibilityWrapper,
                       {
-                        key: "p38.MyFirstModule.Home_Web.actionButton2",
-                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton2",
-                        buttonId: "p38.MyFirstModule.Home_Web.actionButton2",
-                        class: "mx-name-actionButton2",
-                        style: void 0,
-                        tabIndex: void 0,
-                        renderType: "link",
-                        role: "button",
-                        buttonClass: "btn-default",
-                        caption: selectTranslation([
-                          ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Customers" }, "args": {} }
-                          })
-                        ]),
-                        tooltip: TextProperty({
-                          "value": selectTranslation([
-                            ""
-                          ])
+                        key: "p38.MyFirstModule.Home_Web.actionButton2$visibility",
+                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton2$visibility",
+                        visible: ExpressionProperty({
+                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                         }),
-                        icon: WebIconProperty({
-                          "icon": { "type": "glyph", "iconClass": "glyphicon-user" }
-                        }),
-                        action: ActionProperty({
-                          "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                          "abortOnServerValidation": true
-                        })
+                        contents: [
+                          /* @__PURE__ */ React.createElement(
+                            $ActionButton,
+                            {
+                              key: "p38.MyFirstModule.Home_Web.actionButton2",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton2",
+                              buttonId: "p38.MyFirstModule.Home_Web.actionButton2",
+                              class: "mx-name-actionButton2",
+                              style: void 0,
+                              tabIndex: void 0,
+                              renderType: "link",
+                              role: "button",
+                              buttonClass: "btn-default",
+                              caption: selectTranslation([
+                                ExpressionProperty({
+                                  "expression": { "expr": { "type": "literal", "value": "Customers" }, "args": {} }
+                                })
+                              ]),
+                              tooltip: TextProperty({
+                                "value": selectTranslation([
+                                  ""
+                                ])
+                              }),
+                              icon: WebIconProperty({
+                                "icon": { "type": "glyph", "iconClass": "glyphicon-user" }
+                              }),
+                              action: ActionProperty({
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CustomersPage.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                              })
+                            }
+                          )
+                        ]
                       }
                     )
                   ]
@@ -226,34 +263,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
-                      $ActionButton,
+                      $ConditionalVisibilityWrapper,
                       {
-                        key: "p38.MyFirstModule.Home_Web.actionButton5",
-                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton5",
-                        buttonId: "p38.MyFirstModule.Home_Web.actionButton5",
-                        class: "mx-name-actionButton5",
-                        style: void 0,
-                        tabIndex: void 0,
-                        renderType: "link",
-                        role: "button",
-                        buttonClass: "btn-default",
-                        caption: selectTranslation([
-                          ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Sales Person" }, "args": {} }
-                          })
-                        ]),
-                        tooltip: TextProperty({
-                          "value": selectTranslation([
-                            ""
-                          ])
+                        key: "p38.MyFirstModule.Home_Web.actionButton5$visibility",
+                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton5$visibility",
+                        visible: ExpressionProperty({
+                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                         }),
-                        icon: WebIconProperty({
-                          "icon": { "type": "glyph", "iconClass": "glyphicon-thumbs-up" }
-                        }),
-                        action: ActionProperty({
-                          "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                          "abortOnServerValidation": true
-                        })
+                        contents: [
+                          /* @__PURE__ */ React.createElement(
+                            $ActionButton,
+                            {
+                              key: "p38.MyFirstModule.Home_Web.actionButton5",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton5",
+                              buttonId: "p38.MyFirstModule.Home_Web.actionButton5",
+                              class: "mx-name-actionButton5",
+                              style: void 0,
+                              tabIndex: void 0,
+                              renderType: "link",
+                              role: "button",
+                              buttonClass: "btn-default",
+                              caption: selectTranslation([
+                                ExpressionProperty({
+                                  "expression": { "expr": { "type": "literal", "value": "Sales Person" }, "args": {} }
+                                })
+                              ]),
+                              tooltip: TextProperty({
+                                "value": selectTranslation([
+                                  ""
+                                ])
+                              }),
+                              icon: WebIconProperty({
+                                "icon": { "type": "glyph", "iconClass": "glyphicon-thumbs-up" }
+                              }),
+                              action: ActionProperty({
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesPersonPage.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                              })
+                            }
+                          )
+                        ]
                       }
                     )
                   ]
@@ -279,34 +328,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
-                      $ActionButton,
+                      $ConditionalVisibilityWrapper,
                       {
-                        key: "p38.MyFirstModule.Home_Web.actionButton3",
-                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton3",
-                        buttonId: "p38.MyFirstModule.Home_Web.actionButton3",
-                        class: "mx-name-actionButton3",
-                        style: void 0,
-                        tabIndex: void 0,
-                        renderType: "link",
-                        role: "button",
-                        buttonClass: "btn-default",
-                        caption: selectTranslation([
-                          ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Products" }, "args": {} }
-                          })
-                        ]),
-                        tooltip: TextProperty({
-                          "value": selectTranslation([
-                            ""
-                          ])
+                        key: "p38.MyFirstModule.Home_Web.actionButton3$visibility",
+                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton3$visibility",
+                        visible: ExpressionProperty({
+                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                         }),
-                        icon: WebIconProperty({
-                          "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
-                        }),
-                        action: ActionProperty({
-                          "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                          "abortOnServerValidation": true
-                        })
+                        contents: [
+                          /* @__PURE__ */ React.createElement(
+                            $ActionButton,
+                            {
+                              key: "p38.MyFirstModule.Home_Web.actionButton3",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton3",
+                              buttonId: "p38.MyFirstModule.Home_Web.actionButton3",
+                              class: "mx-name-actionButton3",
+                              style: void 0,
+                              tabIndex: void 0,
+                              renderType: "link",
+                              role: "button",
+                              buttonClass: "btn-default",
+                              caption: selectTranslation([
+                                ExpressionProperty({
+                                  "expression": { "expr": { "type": "literal", "value": "Products" }, "args": {} }
+                                })
+                              ]),
+                              tooltip: TextProperty({
+                                "value": selectTranslation([
+                                  ""
+                                ])
+                              }),
+                              icon: WebIconProperty({
+                                "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
+                              }),
+                              action: ActionProperty({
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductsPage.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                              })
+                            }
+                          )
+                        ]
                       }
                     )
                   ]
@@ -321,34 +382,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
-                      $ActionButton,
+                      $ConditionalVisibilityWrapper,
                       {
-                        key: "p38.MyFirstModule.Home_Web.actionButton6",
-                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton6",
-                        buttonId: "p38.MyFirstModule.Home_Web.actionButton6",
-                        class: "mx-name-actionButton6",
-                        style: void 0,
-                        tabIndex: void 0,
-                        renderType: "link",
-                        role: "button",
-                        buttonClass: "btn-default",
-                        caption: selectTranslation([
-                          ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Sales Tracking Page" }, "args": {} }
-                          })
-                        ]),
-                        tooltip: TextProperty({
-                          "value": selectTranslation([
-                            ""
-                          ])
+                        key: "p38.MyFirstModule.Home_Web.actionButton6$visibility",
+                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton6$visibility",
+                        visible: ExpressionProperty({
+                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                         }),
-                        icon: WebIconProperty({
-                          "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
-                        }),
-                        action: ActionProperty({
-                          "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                          "abortOnServerValidation": true
-                        })
+                        contents: [
+                          /* @__PURE__ */ React.createElement(
+                            $ActionButton,
+                            {
+                              key: "p38.MyFirstModule.Home_Web.actionButton6",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton6",
+                              buttonId: "p38.MyFirstModule.Home_Web.actionButton6",
+                              class: "mx-name-actionButton6",
+                              style: void 0,
+                              tabIndex: void 0,
+                              renderType: "link",
+                              role: "button",
+                              buttonClass: "btn-default",
+                              caption: selectTranslation([
+                                ExpressionProperty({
+                                  "expression": { "expr": { "type": "literal", "value": "Sales Tracking Page" }, "args": {} }
+                                })
+                              ]),
+                              tooltip: TextProperty({
+                                "value": selectTranslation([
+                                  ""
+                                ])
+                              }),
+                              icon: WebIconProperty({
+                                "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
+                              }),
+                              action: ActionProperty({
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesTrackingPage.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                              })
+                            }
+                          )
+                        ]
                       }
                     )
                   ]
@@ -374,34 +447,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                   style: void 0,
                   content: [
                     /* @__PURE__ */ React.createElement(
-                      $ActionButton,
+                      $ConditionalVisibilityWrapper,
                       {
-                        key: "p38.MyFirstModule.Home_Web.actionButton4",
-                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton4",
-                        buttonId: "p38.MyFirstModule.Home_Web.actionButton4",
-                        class: "mx-name-actionButton4",
-                        style: void 0,
-                        tabIndex: void 0,
-                        renderType: "link",
-                        role: "button",
-                        buttonClass: "btn-default",
-                        caption: selectTranslation([
-                          ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Locations" }, "args": {} }
-                          })
-                        ]),
-                        tooltip: TextProperty({
-                          "value": selectTranslation([
-                            ""
-                          ])
+                        key: "p38.MyFirstModule.Home_Web.actionButton4$visibility",
+                        $widgetId: "p38.MyFirstModule.Home_Web.actionButton4$visibility",
+                        visible: ExpressionProperty({
+                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                         }),
-                        icon: WebIconProperty({
-                          "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-location-pin" }
-                        }),
-                        action: ActionProperty({
-                          "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                          "abortOnServerValidation": true
-                        })
+                        contents: [
+                          /* @__PURE__ */ React.createElement(
+                            $ActionButton,
+                            {
+                              key: "p38.MyFirstModule.Home_Web.actionButton4",
+                              $widgetId: "p38.MyFirstModule.Home_Web.actionButton4",
+                              buttonId: "p38.MyFirstModule.Home_Web.actionButton4",
+                              class: "mx-name-actionButton4",
+                              style: void 0,
+                              tabIndex: void 0,
+                              renderType: "link",
+                              role: "button",
+                              buttonClass: "btn-default",
+                              caption: selectTranslation([
+                                ExpressionProperty({
+                                  "expression": { "expr": { "type": "literal", "value": "Locations" }, "args": {} }
+                                })
+                              ]),
+                              tooltip: TextProperty({
+                                "value": selectTranslation([
+                                  ""
+                                ])
+                              }),
+                              icon: WebIconProperty({
+                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-location-pin" }
+                              }),
+                              action: ActionProperty({
+                                "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationPage.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                              })
+                            }
+                          )
+                        ]
                       }
                     )
                   ]

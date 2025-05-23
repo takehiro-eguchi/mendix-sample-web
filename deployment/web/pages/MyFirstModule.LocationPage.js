@@ -11,6 +11,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -24,7 +25,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p27.MyFirstModule.LocationPage.layoutGrid4"
@@ -555,58 +556,72 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "dataSourceId": "p27.18",
                     "editable": false,
                     "children": () => [
-                        <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton1"
-                            $widgetId="p27.MyFirstModule.LocationPage.actionButton1"
-                            buttonId={"p27.MyFirstModule.LocationPage.actionButton1"}
-                            class={"mx-name-actionButton1 btn-lg"}
-                            style={undefined}
-                            tabIndex={undefined}
-                            renderType={"link"}
-                            role={"button"}
-                            buttonClass={"btn-primary"}
-                            caption={t([
-                                ExpressionProperty({
-                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                })
-                            ])}
-                            tooltip={TextProperty({
-                                "value": t([
-                                    ""
-                                ])
+                        <$ConditionalVisibilityWrapper key="p27.MyFirstModule.LocationPage.actionButton1$visibility"
+                            $widgetId="p27.MyFirstModule.LocationPage.actionButton1$visibility"
+                            visible={ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                             })}
-                            icon={WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                            contents={[
+                                <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton1"
+                                    $widgetId="p27.MyFirstModule.LocationPage.actionButton1"
+                                    buttonId={"p27.MyFirstModule.LocationPage.actionButton1"}
+                                    class={"mx-name-actionButton1 btn-lg"}
+                                    style={undefined}
+                                    tabIndex={undefined}
+                                    renderType={"link"}
+                                    role={"button"}
+                                    buttonClass={"btn-primary"}
+                                    caption={t([
+                                        ExpressionProperty({
+                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                        })
+                                    ])}
+                                    tooltip={TextProperty({
+                                        "value": t([
+                                            ""
+                                        ])
+                                    })}
+                                    icon={WebIconProperty({
+                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                                    })}
+                                    action={ActionProperty({
+                                        "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                        "abortOnServerValidation": true
+                                    })} />
+                            ]} />,
+                        <$ConditionalVisibilityWrapper key="p27.MyFirstModule.LocationPage.actionButton2$visibility"
+                            $widgetId="p27.MyFirstModule.LocationPage.actionButton2$visibility"
+                            visible={ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                             })}
-                            action={ActionProperty({
-                                "action": { "type": "openPage", "argMap": { "param$Locations": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                            })} />,
-                        <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton2"
-                            $widgetId="p27.MyFirstModule.LocationPage.actionButton2"
-                            buttonId={"p27.MyFirstModule.LocationPage.actionButton2"}
-                            class={"mx-name-actionButton2 btn-lg"}
-                            style={undefined}
-                            tabIndex={undefined}
-                            renderType={"link"}
-                            role={"button"}
-                            buttonClass={"btn-primary"}
-                            caption={t([
-                                ExpressionProperty({
-                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                })
-                            ])}
-                            tooltip={TextProperty({
-                                "value": t([
-                                    ""
-                                ])
-                            })}
-                            icon={WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                            })}
-                            action={ActionProperty({
-                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                            })} />
+                            contents={[
+                                <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton2"
+                                    $widgetId="p27.MyFirstModule.LocationPage.actionButton2"
+                                    buttonId={"p27.MyFirstModule.LocationPage.actionButton2"}
+                                    class={"mx-name-actionButton2 btn-lg"}
+                                    style={undefined}
+                                    tabIndex={undefined}
+                                    renderType={"link"}
+                                    role={"button"}
+                                    buttonClass={"btn-primary"}
+                                    caption={t([
+                                        ExpressionProperty({
+                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                        })
+                                    ])}
+                                    tooltip={TextProperty({
+                                        "value": t([
+                                            ""
+                                        ])
+                                    })}
+                                    icon={WebIconProperty({
+                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                                    })}
+                                    action={ActionProperty({
+                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p27.MyFirstModule.LocationPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "FEFxRw2pAVeJUcm1ZPYHOA" }, "disabledDuringExecution": true },
+                                        "abortOnServerValidation": true
+                                    })} />
+                            ]} />
                     ]
                 }),
                 "dynamicText": t([
@@ -667,32 +682,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton3"
-                $widgetId="p27.MyFirstModule.LocationPage.actionButton3"
-                buttonId={"p27.MyFirstModule.LocationPage.actionButton3"}
-                class={"mx-name-actionButton3"}
-                style={undefined}
-                tabIndex={undefined}
-                renderType={"button"}
-                role={undefined}
-                buttonClass={"btn-primary"}
-                caption={t([
-                    ExpressionProperty({
-                        "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
-                    })
-                ])}
-                tooltip={TextProperty({
-                    "value": t([
-                        ""
-                    ])
+            <$ConditionalVisibilityWrapper key="p27.MyFirstModule.LocationPage.actionButton3$visibility"
+                $widgetId="p27.MyFirstModule.LocationPage.actionButton3$visibility"
+                visible={ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                 })}
-                icon={WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                })}
-                action={ActionProperty({
-                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                })} />
+                contents={[
+                    <$ActionButton key="p27.MyFirstModule.LocationPage.actionButton3"
+                        $widgetId="p27.MyFirstModule.LocationPage.actionButton3"
+                        buttonId={"p27.MyFirstModule.LocationPage.actionButton3"}
+                        class={"mx-name-actionButton3"}
+                        style={undefined}
+                        tabIndex={undefined}
+                        renderType={"button"}
+                        role={undefined}
+                        buttonClass={"btn-primary"}
+                        caption={t([
+                            ExpressionProperty({
+                                "expression": { "expr": { "type": "literal", "value": "New Locations" }, "args": {} }
+                            })
+                        ])}
+                        tooltip={TextProperty({
+                            "value": t([
+                                ""
+                            ])
+                        })}
+                        icon={WebIconProperty({
+                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                        })}
+                        action={ActionProperty({
+                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.Locations", "operationId": "LjzNNlWbFlG7BKW+fs/cig", "pageSettings": { "name": "MyFirstModule/Locations_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "allowedRoles": [ "Administrator", "User", "SalesPerson" ], "objectParameter": "param$Locations" }, "disabledDuringExecution": true },
+                            "abortOnServerValidation": true
+                        })} />
+                ]} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

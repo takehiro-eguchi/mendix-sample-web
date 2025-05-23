@@ -1,26 +1,26 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { AssociationObjectProperty } from '../AssociationObjectProperty-stug8OtK.js';
-import { AssociationProperty } from '../AssociationProperty-DKsoagH2.js';
-import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-CGXSnxmy.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-BWFcYvBl.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { CheckBox } from '../CheckBox-BrIO5sWD.js';
-import { ComboboxWidgetModule } from '../Combobox-Dn5J5Hsy.js';
-import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-x384SoD_.js';
-import { DataView } from '../DataView-3yV-QRpp.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { Label } from '../Label-BLO0gIPj.js';
-import { content as content$1 } from '../Atlas_Core.PopupLayout-DUEMgbZq.js';
-import { AttributeProperty } from '../Bgp-XL0v-iR-R4xy_.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../CD0QimeZ-CiCtDOL8.js';
-import '../InlineText-BU8NLTPl.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { AssociationObjectProperty } from '../AssociationObjectProperty-CpSsGt-6.js';
+import { AssociationProperty } from '../AssociationProperty-76-wepxH.js';
+import { FormGroup, TextBox, DerivedUniqueIdProperty, ValidationProperty } from '../TextBox-D6Rvgx61.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-UOQ4kvKt.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { CheckBox } from '../CheckBox-DhSbqXbx.js';
+import { ComboboxWidgetModule } from '../Combobox-B0qP6hOu.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { DataView } from '../DataView-VUb0u99s.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Label } from '../Label-DFSV2Veo.js';
+import { content as content$1 } from '../Atlas_Core.PopupLayout-CQS7asQD.js';
+import { AttributeProperty } from '../Bgp-XL0v-C7x6tFfM.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../CD0QimeZ-Do4rcJoP.js';
+import '../InlineText-06k9DgcQ.js';
 
 const React = { createElement: reactExports.createElement };
 const Combobox = Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "Combobox")?.value || Object.getOwnPropertyDescriptor(ComboboxWidgetModule, "default")?.value;
@@ -807,7 +807,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               key: "p16.Administration.Account_Edit.microflowTrigger1$visibility",
                               $widgetId: "p16.Administration.Account_Edit.microflowTrigger1$visibility",
                               visible: ExpressionProperty({
-                                "expression": { "expr": { "type": "variable", "variable": "currentObject", "path": "IsLocalUser" }, "args": { "currentObject": { "widget": "p16.Administration.Account_Edit.dataView1", "source": "object" } } }
+                                "expression": { "expr": { "type": "conditional", "condition": { "type": "variable", "variable": "currentObject", "path": "IsLocalUser" }, "then": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "else": { "type": "literal", "value": false } }, "args": { "currentObject": { "widget": "p16.Administration.Account_Edit.dataView1", "source": "object" } } }
                               }),
                               contents: [
                                 /* @__PURE__ */ React.createElement(
@@ -834,7 +834,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                     }),
                                     icon: void 0,
                                     action: ActionProperty({
-                                      "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "OPJ0780nKlaM0I3PVx6tIw" }, "disabledDuringExecution": false },
+                                      "action": { "type": "callMicroflow", "argMap": { "Account": { "widget": "$Account", "source": "object" } }, "config": { "operationId": "OPJ0780nKlaM0I3PVx6tIw", "allowedRoles": ["Administrator"] }, "disabledDuringExecution": false },
                                       "abortOnServerValidation": true
                                     })
                                   }

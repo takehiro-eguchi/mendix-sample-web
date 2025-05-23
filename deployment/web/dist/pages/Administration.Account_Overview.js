@@ -1,34 +1,34 @@
-import { fromRequest$, available, withObjectKeeping$, fromComputation$, mapL, evaluateExpressionValue, scheduleSideEffect, toObjectItem, readUntracked, LogManager, asProperty, toFriendlyId, getSubscribedObjectState$, getObjectsByPath$, fromConstant$, onlineData, unavailable, ensureAssociationId, registerAssociationType, registerFilterAttribute, asReloadable$, getObjectByPath$, getFocus, getHTMLElement, ensure, isNavigableElement, isHTMLElement, reactExports, newId, Big, useForceUpdate, tuple, repeat, reaction, useStoreBackendValue, jsxRuntimeExports, classNames, NestedStoreProvider, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { handleDataSourceExecutionError } from '../CsY9Olfe-BdZZVXAG.js';
-import { objectListTrigger, convertFilterExpressionToExpression, convertSortInstructionToExpression, getCompareFunction, withSetItemsStoreSideEffect$, asReloadableListValue$, withFirstLoadDoneSharing$, listItemProperty, DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import { getCurrentRefObjectItem$ } from '../AssociationProperty-DKsoagH2.js';
-import '../Bgp-XL0v-iR-R4xy_.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-BWFcYvBl.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
-import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-x384SoD_.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { DatagridWidgetModule } from '../Datagrid-BhDFmpJP.js';
-import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-fCLpQylR.js';
-import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-LL7QgErx.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BJIL2ebC.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { ListView } from '../ListView-B1Yau7GF.js';
-import { useLegacyResize, getBox } from '../CD0QimeZ-CiCtDOL8.js';
-import { usePersistentState } from '../DMc54HEs-BETi155K.js';
-import { isRightToLeft } from '../C6ZHc0Cf-e1SMPdVi.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-K_E6zeB-.js';
-import '../Image-BLvaO7vK.js';
-import '../InlineText-BU8NLTPl.js';
-import '../WebStaticImageProperty-CiXGhPz_.js';
+import { fromRequest$, available, withObjectKeeping$, fromComputation$, mapL, evaluateExpressionValue, scheduleSideEffect, toObjectItem, readUntracked, LogManager, asProperty, toFriendlyId, getSubscribedObjectState$, getObjectsByPath$, fromConstant$, onlineData, unavailable, ensureAssociationId, registerAssociationType, registerFilterAttribute, asReloadable$, getObjectByPath$, getFocus, getHTMLElement, ensure, isNavigableElement, isHTMLElement, reactExports, newId, Big, useForceUpdate, tuple, repeat, reaction, useStoreBackendValue, jsxRuntimeExports, classNames, NestedStoreProvider, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { handleDataSourceExecutionError } from '../CsY9Olfe-CkwyHnYn.js';
+import { objectListTrigger, convertFilterExpressionToExpression, convertSortInstructionToExpression, getCompareFunction, withSetItemsStoreSideEffect$, asReloadableListValue$, withFirstLoadDoneSharing$, listItemProperty, DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import { getCurrentRefObjectItem$ } from '../AssociationProperty-76-wepxH.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-UOQ4kvKt.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
+import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-CAawBOMV.js';
+import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-DH4SzIqp.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BD-DuJ-V.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { ListView } from '../ListView-DlByzcJa.js';
+import { useLegacyResize, getBox } from '../CD0QimeZ-Do4rcJoP.js';
+import { usePersistentState } from '../DMc54HEs-BMpoF4j_.js';
+import { isRightToLeft } from '../C6ZHc0Cf-DW2U1m2B.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
+import '../Image-CRLik9xo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
 
 function getClientPagedList$(config, store, widgetId, parameters$, fetchData) {
   const { fetchTrigger$, retrieveParameters$, silentlyResetOffset, needTotalCount$, delayedRetrieveParametersSetters, immediateRetrieveParametersSetters, loadedCallback } = objectListTrigger(config, [], store, widgetId, parameters$), fetchResult$ = fromRequest$(`Load data of ${widgetId}`, () => {
@@ -1194,65 +1194,89 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                         "editable": false,
                                         "children": () => [
                                           /* @__PURE__ */ React.createElement(
-                                            $ActionButton,
+                                            $ConditionalVisibilityWrapper,
                                             {
-                                              key: "p37.Administration.Account_Overview.actionButton3",
-                                              $widgetId: "p37.Administration.Account_Overview.actionButton3",
-                                              buttonId: "p37.Administration.Account_Overview.actionButton3",
-                                              class: "mx-name-actionButton3 btn-lg",
-                                              style: void 0,
-                                              tabIndex: void 0,
-                                              renderType: "link",
-                                              role: "button",
-                                              buttonClass: "btn-default",
-                                              caption: selectTranslation([
-                                                ExpressionProperty({
-                                                  "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                })
-                                              ]),
-                                              tooltip: TextProperty({
-                                                "value": selectTranslation([
-                                                  ""
-                                                ])
+                                              key: "p37.Administration.Account_Overview.actionButton3$visibility",
+                                              $widgetId: "p37.Administration.Account_Overview.actionButton3$visibility",
+                                              visible: ExpressionProperty({
+                                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "args": {} }
                                               }),
-                                              icon: WebIconProperty({
-                                                "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-pencil" }
-                                              }),
-                                              action: ActionProperty({
-                                                "action": { "type": "openPage", "argMap": { "param$Account": { "widget": "p37.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "name": "Administration/Account_Edit.page.xml", "location": "modal", "resizable": true }, "disabledDuringExecution": true },
-                                                "abortOnServerValidation": true
-                                              })
+                                              contents: [
+                                                /* @__PURE__ */ React.createElement(
+                                                  $ActionButton,
+                                                  {
+                                                    key: "p37.Administration.Account_Overview.actionButton3",
+                                                    $widgetId: "p37.Administration.Account_Overview.actionButton3",
+                                                    buttonId: "p37.Administration.Account_Overview.actionButton3",
+                                                    class: "mx-name-actionButton3 btn-lg",
+                                                    style: void 0,
+                                                    tabIndex: void 0,
+                                                    renderType: "link",
+                                                    role: "button",
+                                                    buttonClass: "btn-default",
+                                                    caption: selectTranslation([
+                                                      ExpressionProperty({
+                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                      })
+                                                    ]),
+                                                    tooltip: TextProperty({
+                                                      "value": selectTranslation([
+                                                        ""
+                                                      ])
+                                                    }),
+                                                    icon: WebIconProperty({
+                                                      "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-pencil" }
+                                                    }),
+                                                    action: ActionProperty({
+                                                      "action": { "type": "openPage", "argMap": { "param$Account": { "widget": "p37.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "name": "Administration/Account_Edit.page.xml", "location": "modal", "resizable": true, "allowedRoles": ["Administrator"] }, "disabledDuringExecution": true },
+                                                      "abortOnServerValidation": true
+                                                    })
+                                                  }
+                                                )
+                                              ]
                                             }
                                           ),
                                           /* @__PURE__ */ React.createElement(
-                                            $ActionButton,
+                                            $ConditionalVisibilityWrapper,
                                             {
-                                              key: "p37.Administration.Account_Overview.actionButton4",
-                                              $widgetId: "p37.Administration.Account_Overview.actionButton4",
-                                              buttonId: "p37.Administration.Account_Overview.actionButton4",
-                                              class: "mx-name-actionButton4 btn-lg spacing-outer-left-medium",
-                                              style: void 0,
-                                              tabIndex: void 0,
-                                              renderType: "link",
-                                              role: "button",
-                                              buttonClass: "btn-default",
-                                              caption: selectTranslation([
-                                                ExpressionProperty({
-                                                  "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                })
-                                              ]),
-                                              tooltip: TextProperty({
-                                                "value": selectTranslation([
-                                                  ""
-                                                ])
+                                              key: "p37.Administration.Account_Overview.actionButton4$visibility",
+                                              $widgetId: "p37.Administration.Account_Overview.actionButton4$visibility",
+                                              visible: ExpressionProperty({
+                                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "args": {} }
                                               }),
-                                              icon: WebIconProperty({
-                                                "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-trash-can" }
-                                              }),
-                                              action: ActionProperty({
-                                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p37.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "ZBCqsSh8B1u9pnnE/JZJlQ" }, "disabledDuringExecution": true },
-                                                "abortOnServerValidation": true
-                                              })
+                                              contents: [
+                                                /* @__PURE__ */ React.createElement(
+                                                  $ActionButton,
+                                                  {
+                                                    key: "p37.Administration.Account_Overview.actionButton4",
+                                                    $widgetId: "p37.Administration.Account_Overview.actionButton4",
+                                                    buttonId: "p37.Administration.Account_Overview.actionButton4",
+                                                    class: "mx-name-actionButton4 btn-lg spacing-outer-left-medium",
+                                                    style: void 0,
+                                                    tabIndex: void 0,
+                                                    renderType: "link",
+                                                    role: "button",
+                                                    buttonClass: "btn-default",
+                                                    caption: selectTranslation([
+                                                      ExpressionProperty({
+                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                      })
+                                                    ]),
+                                                    tooltip: TextProperty({
+                                                      "value": selectTranslation([
+                                                        ""
+                                                      ])
+                                                    }),
+                                                    icon: WebIconProperty({
+                                                      "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-trash-can" }
+                                                    }),
+                                                    action: ActionProperty({
+                                                      "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p37.Administration.Account_Overview.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "ZBCqsSh8B1u9pnnE/JZJlQ" }, "disabledDuringExecution": true },
+                                                      "abortOnServerValidation": true
+                                                    })
+                                                  }
+                                                )
+                                              ]
                                             }
                                           )
                                         ]
@@ -1307,61 +1331,85 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                                   filterList: [],
                                   filtersPlaceholder: [
                                     /* @__PURE__ */ React.createElement(
-                                      $ActionButton,
+                                      $ConditionalVisibilityWrapper,
                                       {
-                                        key: "p37.Administration.Account_Overview.actionButton1",
-                                        $widgetId: "p37.Administration.Account_Overview.actionButton1",
-                                        buttonId: "p37.Administration.Account_Overview.actionButton1",
-                                        class: "mx-name-actionButton1 spacing-outer-bottom",
-                                        style: void 0,
-                                        tabIndex: void 0,
-                                        renderType: "button",
-                                        role: void 0,
-                                        buttonClass: "btn-success",
-                                        caption: selectTranslation([
-                                          ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "New local user" }, "args": {} }
-                                          })
-                                        ]),
-                                        tooltip: TextProperty({
-                                          "value": selectTranslation([
-                                            ""
-                                          ])
+                                        key: "p37.Administration.Account_Overview.actionButton1$visibility",
+                                        $widgetId: "p37.Administration.Account_Overview.actionButton1$visibility",
+                                        visible: ExpressionProperty({
+                                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "args": {} }
                                         }),
-                                        icon: void 0,
-                                        action: ActionProperty({
-                                          "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "L+044ullxlefrLRNHZmb2g", "validate": "view" }, "disabledDuringExecution": true },
-                                          "abortOnServerValidation": true
-                                        })
+                                        contents: [
+                                          /* @__PURE__ */ React.createElement(
+                                            $ActionButton,
+                                            {
+                                              key: "p37.Administration.Account_Overview.actionButton1",
+                                              $widgetId: "p37.Administration.Account_Overview.actionButton1",
+                                              buttonId: "p37.Administration.Account_Overview.actionButton1",
+                                              class: "mx-name-actionButton1 spacing-outer-bottom",
+                                              style: void 0,
+                                              tabIndex: void 0,
+                                              renderType: "button",
+                                              role: void 0,
+                                              buttonClass: "btn-success",
+                                              caption: selectTranslation([
+                                                ExpressionProperty({
+                                                  "expression": { "expr": { "type": "literal", "value": "New local user" }, "args": {} }
+                                                })
+                                              ]),
+                                              tooltip: TextProperty({
+                                                "value": selectTranslation([
+                                                  ""
+                                                ])
+                                              }),
+                                              icon: void 0,
+                                              action: ActionProperty({
+                                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "L+044ullxlefrLRNHZmb2g", "validate": "view", "allowedRoles": ["Administrator"] }, "disabledDuringExecution": true },
+                                                "abortOnServerValidation": true
+                                              })
+                                            }
+                                          )
+                                        ]
                                       }
                                     ),
                                     /* @__PURE__ */ React.createElement(
-                                      $ActionButton,
+                                      $ConditionalVisibilityWrapper,
                                       {
-                                        key: "p37.Administration.Account_Overview.actionButton2",
-                                        $widgetId: "p37.Administration.Account_Overview.actionButton2",
-                                        buttonId: "p37.Administration.Account_Overview.actionButton2",
-                                        class: "mx-name-actionButton2 spacing-outer-left spacing-outer-bottom",
-                                        style: void 0,
-                                        tabIndex: void 0,
-                                        renderType: "button",
-                                        role: void 0,
-                                        buttonClass: "btn-default",
-                                        caption: selectTranslation([
-                                          ExpressionProperty({
-                                            "expression": { "expr": { "type": "literal", "value": "New web service user" }, "args": {} }
-                                          })
-                                        ]),
-                                        tooltip: TextProperty({
-                                          "value": selectTranslation([
-                                            ""
-                                          ])
+                                        key: "p37.Administration.Account_Overview.actionButton2$visibility",
+                                        $widgetId: "p37.Administration.Account_Overview.actionButton2$visibility",
+                                        visible: ExpressionProperty({
+                                          "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "args": {} }
                                         }),
-                                        icon: void 0,
-                                        action: ActionProperty({
-                                          "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "dJTbnL2ecFebcL1IZEqBlw", "validate": "view" }, "disabledDuringExecution": true },
-                                          "abortOnServerValidation": true
-                                        })
+                                        contents: [
+                                          /* @__PURE__ */ React.createElement(
+                                            $ActionButton,
+                                            {
+                                              key: "p37.Administration.Account_Overview.actionButton2",
+                                              $widgetId: "p37.Administration.Account_Overview.actionButton2",
+                                              buttonId: "p37.Administration.Account_Overview.actionButton2",
+                                              class: "mx-name-actionButton2 spacing-outer-left spacing-outer-bottom",
+                                              style: void 0,
+                                              tabIndex: void 0,
+                                              renderType: "button",
+                                              role: void 0,
+                                              buttonClass: "btn-default",
+                                              caption: selectTranslation([
+                                                ExpressionProperty({
+                                                  "expression": { "expr": { "type": "literal", "value": "New web service user" }, "args": {} }
+                                                })
+                                              ]),
+                                              tooltip: TextProperty({
+                                                "value": selectTranslation([
+                                                  ""
+                                                ])
+                                              }),
+                                              icon: void 0,
+                                              action: ActionProperty({
+                                                "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "dJTbnL2ecFebcL1IZEqBlw", "validate": "view", "allowedRoles": ["Administrator"] }, "disabledDuringExecution": true },
+                                                "abortOnServerValidation": true
+                                              })
+                                            }
+                                          )
+                                        ]
                                       }
                                     )
                                   ],

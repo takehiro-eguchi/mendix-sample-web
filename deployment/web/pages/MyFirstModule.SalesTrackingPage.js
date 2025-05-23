@@ -11,6 +11,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import * as DatagridWidgetModule from "C:/work/git/mendix-sample-web/deployment/web/widgets/com/mendix/widget/web/datagrid/Datagrid.mjs";
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;   
@@ -25,7 +26,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Atlas_Default.js";
 
-const { $Div, $Container, $Text, $Datagrid, $DatagridNumberFilter, $DatagridDateFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridNumberFilter, DatagridDateFilter, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridNumberFilter, $DatagridDateFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridNumberFilter, DatagridDateFilter, ConditionalVisibilityWrapper, ActionButton });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p44.MyFirstModule.SalesTrackingPage.layoutGrid4"
@@ -840,6 +841,51 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             {
                 "showContentAs": "attribute",
                 "attribute": ListAttributeProperty({
+                    "path": "",
+                    "entity": "MyFirstModule.SalesTrackingTable",
+                    "attribute": "OperationCode",
+                    "attributeType": "String",
+                    "sortable": true,
+                    "filterable": true,
+                    "dataSourceId": "p44.18",
+                    "isList": false
+                }),
+                "content": undefined,
+                "dynamicText": t([
+                    undefined
+                ]),
+                "exportValue": t([
+                    undefined
+                ]),
+                "header": t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "OperationCode" }, "args": {} }
+                    })
+                ]),
+                "tooltip": t([
+                    undefined
+                ]),
+                "filter": undefined,
+                "visible": ExpressionProperty({
+                    "expression": { "expr": { "type": "literal", "value": true }, "args": {} }
+                }),
+                "fetchOptionsLazy": true,
+                "filterCaptionType": "expression",
+                "sortable": true,
+                "resizable": true,
+                "draggable": true,
+                "hidable": "yes",
+                "allowEventPropagation": true,
+                "width": "autoFill",
+                "minWidth": "auto",
+                "minWidthLimit": 100,
+                "size": 1,
+                "alignment": "left",
+                "wrapText": false
+            },
+            {
+                "showContentAs": "attribute",
+                "attribute": ListAttributeProperty({
                     "path": "System.owner/System.User",
                     "entity": "System.User",
                     "attribute": "Name",
@@ -898,58 +944,72 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                     "dataSourceId": "p44.18",
                     "editable": false,
                     "children": () => [
-                        <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton1"
-                            $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton1"
-                            buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton1"}
-                            class={"mx-name-actionButton1 btn-lg"}
-                            style={undefined}
-                            tabIndex={undefined}
-                            renderType={"link"}
-                            role={"button"}
-                            buttonClass={"btn-primary"}
-                            caption={t([
-                                ExpressionProperty({
-                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                })
-                            ])}
-                            tooltip={TextProperty({
-                                "value": t([
-                                    ""
-                                ])
+                        <$ConditionalVisibilityWrapper key="p44.MyFirstModule.SalesTrackingPage.actionButton1$visibility"
+                            $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton1$visibility"
+                            visible={ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                             })}
-                            icon={WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                            contents={[
+                                <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton1"
+                                    $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton1"
+                                    buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton1"}
+                                    class={"mx-name-actionButton1 btn-lg"}
+                                    style={undefined}
+                                    tabIndex={undefined}
+                                    renderType={"link"}
+                                    role={"button"}
+                                    buttonClass={"btn-primary"}
+                                    caption={t([
+                                        ExpressionProperty({
+                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                        })
+                                    ])}
+                                    tooltip={TextProperty({
+                                        "value": t([
+                                            ""
+                                        ])
+                                    })}
+                                    icon={WebIconProperty({
+                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                                    })}
+                                    action={ActionProperty({
+                                        "action": { "type": "openPage", "argMap": { "param$SalesTrackingTable": { "widget": "p44.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                        "abortOnServerValidation": true
+                                    })} />
+                            ]} />,
+                        <$ConditionalVisibilityWrapper key="p44.MyFirstModule.SalesTrackingPage.actionButton2$visibility"
+                            $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton2$visibility"
+                            visible={ExpressionProperty({
+                                "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                             })}
-                            action={ActionProperty({
-                                "action": { "type": "openPage", "argMap": { "param$SalesTrackingTable": { "widget": "p44.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                            })} />,
-                        <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton2"
-                            $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton2"
-                            buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton2"}
-                            class={"mx-name-actionButton2 btn-lg"}
-                            style={undefined}
-                            tabIndex={undefined}
-                            renderType={"link"}
-                            role={"button"}
-                            buttonClass={"btn-primary"}
-                            caption={t([
-                                ExpressionProperty({
-                                    "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                })
-                            ])}
-                            tooltip={TextProperty({
-                                "value": t([
-                                    ""
-                                ])
-                            })}
-                            icon={WebIconProperty({
-                                "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                            })}
-                            action={ActionProperty({
-                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p44.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "6IKFfEynSFycFdce8e4XmA" }, "disabledDuringExecution": true },
-                                "abortOnServerValidation": true
-                            })} />
+                            contents={[
+                                <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton2"
+                                    $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton2"
+                                    buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton2"}
+                                    class={"mx-name-actionButton2 btn-lg"}
+                                    style={undefined}
+                                    tabIndex={undefined}
+                                    renderType={"link"}
+                                    role={"button"}
+                                    buttonClass={"btn-primary"}
+                                    caption={t([
+                                        ExpressionProperty({
+                                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                        })
+                                    ])}
+                                    tooltip={TextProperty({
+                                        "value": t([
+                                            ""
+                                        ])
+                                    })}
+                                    icon={WebIconProperty({
+                                        "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                                    })}
+                                    action={ActionProperty({
+                                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p44.MyFirstModule.SalesTrackingPage.dataGrid2_1", "source": "object" } }, "config": { "closePage": false, "operationId": "6IKFfEynSFycFdce8e4XmA" }, "disabledDuringExecution": true },
+                                        "abortOnServerValidation": true
+                                    })} />
+                            ]} />
                     ]
                 }),
                 "dynamicText": t([
@@ -1010,32 +1070,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         storeFiltersInPersonalization={true}
         filterList={[]}
         filtersPlaceholder={[
-            <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton3"
-                $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton3"
-                buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton3"}
-                class={"mx-name-actionButton3"}
-                style={undefined}
-                tabIndex={undefined}
-                renderType={"button"}
-                role={undefined}
-                buttonClass={"btn-primary"}
-                caption={t([
-                    ExpressionProperty({
-                        "expression": { "expr": { "type": "literal", "value": "New Sales tracking table" }, "args": {} }
-                    })
-                ])}
-                tooltip={TextProperty({
-                    "value": t([
-                        ""
-                    ])
+            <$ConditionalVisibilityWrapper key="p44.MyFirstModule.SalesTrackingPage.actionButton3$visibility"
+                $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton3$visibility"
+                visible={ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                 })}
-                icon={WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-                })}
-                action={ActionProperty({
-                    "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.SalesTrackingTable", "operationId": "6LqLgyBNxVKjcwybkc71nw", "pageSettings": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content" }, "objectParameter": "param$SalesTrackingTable" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                })} />
+                contents={[
+                    <$ActionButton key="p44.MyFirstModule.SalesTrackingPage.actionButton3"
+                        $widgetId="p44.MyFirstModule.SalesTrackingPage.actionButton3"
+                        buttonId={"p44.MyFirstModule.SalesTrackingPage.actionButton3"}
+                        class={"mx-name-actionButton3"}
+                        style={undefined}
+                        tabIndex={undefined}
+                        renderType={"button"}
+                        role={undefined}
+                        buttonClass={"btn-primary"}
+                        caption={t([
+                            ExpressionProperty({
+                                "expression": { "expr": { "type": "literal", "value": "New Sales tracking table" }, "args": {} }
+                            })
+                        ])}
+                        tooltip={TextProperty({
+                            "value": t([
+                                ""
+                            ])
+                        })}
+                        icon={WebIconProperty({
+                            "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                        })}
+                        action={ActionProperty({
+                            "action": { "type": "createObject", "argMap": {}, "config": { "entity": "MyFirstModule.SalesTrackingTable", "operationId": "6LqLgyBNxVKjcwybkc71nw", "pageSettings": { "name": "MyFirstModule/SalesTrackingTable_NewEdit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "allowedRoles": [ "Administrator", "User", "SalesPerson" ], "objectParameter": "param$SalesTrackingTable" }, "disabledDuringExecution": true },
+                            "abortOnServerValidation": true
+                        })} />
+                ]} />
         ]}
         filterSectionTitle={t([
             ExpressionProperty({

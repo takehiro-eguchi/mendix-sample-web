@@ -29,6 +29,7 @@ public class SalesTrackingTable implements com.mendix.systemwideinterfaces.core.
 		OrderDate("OrderDate"),
 		ShipDate("ShipDate"),
 		DueDate("DueDate"),
+		OperationCode("OperationCode"),
 		SalesTrackingTable_Customers("MyFirstModule.SalesTrackingTable_Customers"),
 		SalesTrackingTable_Locations("MyFirstModule.SalesTrackingTable_Locations"),
 		SalesTrackingTable_SalesPersons("MyFirstModule.SalesTrackingTable_SalesPersons"),
@@ -415,6 +416,42 @@ public class SalesTrackingTable implements com.mendix.systemwideinterfaces.core.
 	public final void setDueDate(com.mendix.systemwideinterfaces.core.IContext context, java.util.Date duedate)
 	{
 		getMendixObject().setValue(context, MemberNames.DueDate.toString(), duedate);
+	}
+
+	/**
+	 * @return value of OperationCode
+	 */
+	public final java.lang.String getOperationCode()
+	{
+		return getOperationCode(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of OperationCode
+	 */
+	public final java.lang.String getOperationCode(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.OperationCode.toString());
+	}
+
+	/**
+	 * Set value of OperationCode
+	 * @param operationcode
+	 */
+	public final void setOperationCode(java.lang.String operationcode)
+	{
+		setOperationCode(getContext(), operationcode);
+	}
+
+	/**
+	 * Set value of OperationCode
+	 * @param context
+	 * @param operationcode
+	 */
+	public final void setOperationCode(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String operationcode)
+	{
+		getMendixObject().setValue(context, MemberNames.OperationCode.toString(), operationcode);
 	}
 
 	/**

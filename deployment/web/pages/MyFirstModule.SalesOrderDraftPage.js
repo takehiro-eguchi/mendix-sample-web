@@ -12,6 +12,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import { Div } from "mendix/widgets/web/Div";
 import { ListView } from "mendix/widgets/web/ListView";
@@ -20,7 +21,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Phone_Default.js";
 
-const { $Div, $ActionButton, $ListView, $Container, $Text } = asPluginWidgets({ Div, ActionButton, ListView, Container, Text });
+const { $Div, $ConditionalVisibilityWrapper, $ActionButton, $ListView, $Container, $Text } = asPluginWidgets({ Div, ConditionalVisibilityWrapper, ActionButton, ListView, Container, Text });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Div key="p43.MyFirstModule.SalesOrderDraftPage.layoutGrid1"
@@ -38,37 +39,44 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                         class={"col-lg-12 col-md-12 col-12"}
                         style={undefined}
                         content={[
-                            <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton1"
-                                $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton1"
-                                buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton1"}
-                                class={"mx-name-actionButton1"}
-                                style={{
-                                    "float": "right",
-                                    "marginTop": "10px",
-                                    "marginBottom": "10px",
-                                    "marginRight": "10px"
-                                }}
-                                tabIndex={undefined}
-                                renderType={"button"}
-                                role={undefined}
-                                buttonClass={"btn-primary"}
-                                caption={t([
-                                    ExpressionProperty({
-                                        "expression": { "expr": { "type": "literal", "value": "Add Order" }, "args": {} }
-                                    })
-                                ])}
-                                tooltip={TextProperty({
-                                    "value": t([
-                                        ""
-                                    ])
+                            <$ConditionalVisibilityWrapper key="p43.MyFirstModule.SalesOrderDraftPage.actionButton1$visibility"
+                                $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton1$visibility"
+                                visible={ExpressionProperty({
+                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                                 })}
-                                icon={WebIconProperty({
-                                    "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
-                                })}
-                                action={ActionProperty({
-                                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "pVuWxuONlVqV/XL6/pAnUA", "validate": "view" }, "disabledDuringExecution": true },
-                                    "abortOnServerValidation": true
-                                })} />
+                                contents={[
+                                    <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton1"
+                                        $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton1"
+                                        buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton1"}
+                                        class={"mx-name-actionButton1"}
+                                        style={{
+                                            "float": "right",
+                                            "marginTop": "10px",
+                                            "marginBottom": "10px",
+                                            "marginRight": "10px"
+                                        }}
+                                        tabIndex={undefined}
+                                        renderType={"button"}
+                                        role={undefined}
+                                        buttonClass={"btn-primary"}
+                                        caption={t([
+                                            ExpressionProperty({
+                                                "expression": { "expr": { "type": "literal", "value": "Add Order" }, "args": {} }
+                                            })
+                                        ])}
+                                        tooltip={TextProperty({
+                                            "value": t([
+                                                ""
+                                            ])
+                                        })}
+                                        icon={WebIconProperty({
+                                            "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+                                        })}
+                                        action={ActionProperty({
+                                            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "pVuWxuONlVqV/XL6/pAnUA", "validate": "view", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                            "abortOnServerValidation": true
+                                        })} />
+                                ]} />
                         ]} />
                 ]} />
         ]} />,
@@ -77,7 +85,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
         class={"mx-name-listView1"}
         style={undefined}
         listValue={DatabaseObjectListProperty({
-            "dataSourceId": "p43.8",
+            "dataSourceId": "p43.9",
             "entity": "MyFirstModule.SalesTrackingTableTemporary",
             "operationId": "ebNjBkSrm1+zbdPIoCQGPQ",
             "sort": [],
@@ -91,7 +99,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "AutoNumber",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -101,7 +109,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Integer",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -111,7 +119,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -121,7 +129,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -131,7 +139,7 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             }),
             ListAttributeProperty({
@@ -141,40 +149,47 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                 "attributeType": "Decimal",
                 "sortable": true,
                 "filterable": true,
-                "dataSourceId": "p43.8",
+                "dataSourceId": "p43.9",
                 "isList": false
             })
         ]}
         itemTemplate={TemplatedWidgetProperty({
-            "dataSourceId": "p43.8",
+            "dataSourceId": "p43.9",
             "editable": false,
             "children": () => [
-                <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton3"
-                    $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton3"
-                    buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton3"}
-                    class={"mx-name-actionButton3 pull-right btn-sm"}
-                    style={undefined}
-                    tabIndex={undefined}
-                    renderType={"button"}
-                    role={undefined}
-                    buttonClass={"btn-danger"}
-                    caption={t([
-                        ExpressionProperty({
-                            "expression": { "expr": { "type": "literal", "value": "Delete" }, "args": {} }
-                        })
-                    ])}
-                    tooltip={TextProperty({
-                        "value": t([
-                            ""
-                        ])
+                <$ConditionalVisibilityWrapper key="p43.MyFirstModule.SalesOrderDraftPage.actionButton3$visibility"
+                    $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton3$visibility"
+                    visible={ExpressionProperty({
+                        "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                     })}
-                    icon={WebIconProperty({
-                        "icon": { "type": "glyph", "iconClass": "glyphicon-remove" }
-                    })}
-                    action={ActionProperty({
-                        "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p43.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "closePage": false, "operationId": "DroPv67AGl2mZxcxcnPBAQ" }, "disabledDuringExecution": true },
-                        "abortOnServerValidation": true
-                    })} />,
+                    contents={[
+                        <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton3"
+                            $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton3"
+                            buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton3"}
+                            class={"mx-name-actionButton3 pull-right btn-sm"}
+                            style={undefined}
+                            tabIndex={undefined}
+                            renderType={"button"}
+                            role={undefined}
+                            buttonClass={"btn-danger"}
+                            caption={t([
+                                ExpressionProperty({
+                                    "expression": { "expr": { "type": "literal", "value": "Delete" }, "args": {} }
+                                })
+                            ])}
+                            tooltip={TextProperty({
+                                "value": t([
+                                    ""
+                                ])
+                            })}
+                            icon={WebIconProperty({
+                                "icon": { "type": "glyph", "iconClass": "glyphicon-remove" }
+                            })}
+                            action={ActionProperty({
+                                "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p43.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "closePage": false, "operationId": "DroPv67AGl2mZxcxcnPBAQ" }, "disabledDuringExecution": true },
+                                "abortOnServerValidation": true
+                            })} />
+                    ]} />,
                 <$Container key="p43.MyFirstModule.SalesOrderDraftPage.container1"
                     $widgetId="p43.MyFirstModule.SalesOrderDraftPage.container1"
                     class={"mx-name-container1"}
@@ -219,35 +234,42 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
             ]
         })}
         onClick={ListActionProperty({
-            "action": { "type": "openPage", "argMap": { "param$SalesTrackingTableTemporary": { "widget": "p43.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "name": "MyFirstModule/DraftSalesOrder_Edit.page.xml", "location": "content" }, "disabledDuringExecution": true },
+            "action": { "type": "openPage", "argMap": { "param$SalesTrackingTableTemporary": { "widget": "p43.MyFirstModule.SalesOrderDraftPage.listView1", "source": "object" } }, "config": { "name": "MyFirstModule/DraftSalesOrder_Edit.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
             "abortOnServerValidation": false,
-            "dataSourceId": "p43.8"
+            "dataSourceId": "p43.9"
         })}
         pageSize={10} />,
-    <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton2"
-        $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton2"
-        buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton2"}
-        class={"mx-name-actionButton2"}
-        style={undefined}
-        tabIndex={undefined}
-        renderType={"button"}
-        role={undefined}
-        buttonClass={"btn-success"}
-        caption={t([
-            ExpressionProperty({
-                "expression": { "expr": { "type": "literal", "value": "Create Sales Order" }, "args": {} }
-            })
-        ])}
-        tooltip={TextProperty({
-            "value": t([
-                ""
-            ])
+    <$ConditionalVisibilityWrapper key="p43.MyFirstModule.SalesOrderDraftPage.actionButton2$visibility"
+        $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton2$visibility"
+        visible={ExpressionProperty({
+            "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
         })}
-        icon={undefined}
-        action={ActionProperty({
-            "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "NX1TrnUxm1WQLvqbKwwtQA", "validate": "view" }, "disabledDuringExecution": true },
-            "abortOnServerValidation": true
-        })} />
+        contents={[
+            <$ActionButton key="p43.MyFirstModule.SalesOrderDraftPage.actionButton2"
+                $widgetId="p43.MyFirstModule.SalesOrderDraftPage.actionButton2"
+                buttonId={"p43.MyFirstModule.SalesOrderDraftPage.actionButton2"}
+                class={"mx-name-actionButton2"}
+                style={undefined}
+                tabIndex={undefined}
+                renderType={"button"}
+                role={undefined}
+                buttonClass={"btn-success"}
+                caption={t([
+                    ExpressionProperty({
+                        "expression": { "expr": { "type": "literal", "value": "Create Sales Order" }, "args": {} }
+                    })
+                ])}
+                tooltip={TextProperty({
+                    "value": t([
+                        ""
+                    ])
+                })}
+                icon={undefined}
+                action={ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "NX1TrnUxm1WQLvqbKwwtQA", "validate": "view", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                })} />
+        ]} />
 ]}</PageFragment>);
 
 export const title = t([

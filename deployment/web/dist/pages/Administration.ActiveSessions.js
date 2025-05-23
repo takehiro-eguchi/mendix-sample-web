@@ -1,33 +1,34 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { ListExpressionProperty } from '../ListExpressionProperty-BWFcYvBl.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { DatagridWidgetModule } from '../Datagrid-BhDFmpJP.js';
-import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-fCLpQylR.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BJIL2ebC.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-K_E6zeB-.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../Bgp-XL0v-iR-R4xy_.js';
-import '../Image-BLvaO7vK.js';
-import '../InlineText-BU8NLTPl.js';
-import '../WebStaticImageProperty-CiXGhPz_.js';
-import '../DMc54HEs-BETi155K.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { ListExpressionProperty } from '../ListExpressionProperty-UOQ4kvKt.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
+import { DatagridDateFilterWidgetModule } from '../DatagridDateFilter-CAawBOMV.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BD-DuJ-V.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import '../Image-CRLik9xo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
 const DatagridDateFilter = Object.getOwnPropertyDescriptor(DatagridDateFilterWidgetModule, "DatagridDateFilter")?.value || Object.getOwnPropertyDescriptor(DatagridDateFilterWidgetModule, "default")?.value;
 const DatagridTextFilter = Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "DatagridTextFilter")?.value || Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "default")?.value;
-const { $Container, $Div, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $ActionButton } = asPluginWidgets({ Container, Div, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, ActionButton });
+const { $Container, $Div, $Text, $Datagrid, $DatagridTextFilter, $DatagridDateFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Container, Div, Text, Datagrid, DatagridTextFilter, DatagridDateFilter, ConditionalVisibilityWrapper, ActionButton });
 const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragment, { renderKey: historyId }, [
   /* @__PURE__ */ React.createElement(
     $Container,
@@ -316,34 +317,46 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
                               "editable": false,
                               "children": () => [
                                 /* @__PURE__ */ React.createElement(
-                                  $ActionButton,
+                                  $ConditionalVisibilityWrapper,
                                   {
-                                    key: "p2.Administration.ActiveSessions.actionButton1",
-                                    $widgetId: "p2.Administration.ActiveSessions.actionButton1",
-                                    buttonId: "p2.Administration.ActiveSessions.actionButton1",
-                                    class: "mx-name-actionButton1 btn-lg",
-                                    style: void 0,
-                                    tabIndex: void 0,
-                                    renderType: "link",
-                                    role: "button",
-                                    buttonClass: "btn-default",
-                                    caption: selectTranslation([
-                                      ExpressionProperty({
-                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                      })
-                                    ]),
-                                    tooltip: TextProperty({
-                                      "value": selectTranslation([
-                                        ""
-                                      ])
+                                    key: "p2.Administration.ActiveSessions.actionButton1$visibility",
+                                    $widgetId: "p2.Administration.ActiveSessions.actionButton1$visibility",
+                                    visible: ExpressionProperty({
+                                      "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }] }, "args": {} }
                                     }),
-                                    icon: WebIconProperty({
-                                      "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-logout" }
-                                    }),
-                                    action: ActionProperty({
-                                      "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p2.Administration.ActiveSessions.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "KTkZ0wgxyFiMxnZyKailOA" }, "disabledDuringExecution": true },
-                                      "abortOnServerValidation": true
-                                    })
+                                    contents: [
+                                      /* @__PURE__ */ React.createElement(
+                                        $ActionButton,
+                                        {
+                                          key: "p2.Administration.ActiveSessions.actionButton1",
+                                          $widgetId: "p2.Administration.ActiveSessions.actionButton1",
+                                          buttonId: "p2.Administration.ActiveSessions.actionButton1",
+                                          class: "mx-name-actionButton1 btn-lg",
+                                          style: void 0,
+                                          tabIndex: void 0,
+                                          renderType: "link",
+                                          role: "button",
+                                          buttonClass: "btn-default",
+                                          caption: selectTranslation([
+                                            ExpressionProperty({
+                                              "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                            })
+                                          ]),
+                                          tooltip: TextProperty({
+                                            "value": selectTranslation([
+                                              ""
+                                            ])
+                                          }),
+                                          icon: WebIconProperty({
+                                            "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-logout" }
+                                          }),
+                                          action: ActionProperty({
+                                            "action": { "type": "deleteObject", "argMap": { "$object": { "widget": "p2.Administration.ActiveSessions.dataGrid21", "source": "object" } }, "config": { "closePage": false, "operationId": "KTkZ0wgxyFiMxnZyKailOA" }, "disabledDuringExecution": true },
+                                            "abortOnServerValidation": true
+                                          })
+                                        }
+                                      )
+                                    ]
                                   }
                                 )
                               ]

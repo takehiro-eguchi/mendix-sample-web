@@ -8,6 +8,7 @@ import { TextProperty } from "mendix/TextProperty";
 import { WebIconProperty } from "mendix/WebIconProperty";
 
 import { ActionButton } from "mendix/widgets/web/ActionButton";
+import { ConditionalVisibilityWrapper } from "mendix/widgets/web/ConditionalVisibilityWrapper";
 import { Container } from "mendix/widgets/web/Container";
 import { Div } from "mendix/widgets/web/Div";
 import { Text } from "mendix/widgets/web/Text";
@@ -15,7 +16,7 @@ import { addEnumerations, asPluginWidgets, t } from "mendix";
 
 import { content as parentContent } from "../layouts/Atlas_Core.Phone_BottomBar.js";
 
-const { $Container, $ActionButton, $Text, $Div } = asPluginWidgets({ Container, ActionButton, Text, Div });
+const { $Container, $ActionButton, $Text, $Div, $ConditionalVisibilityWrapper } = asPluginWidgets({ Container, ActionButton, Text, Div, ConditionalVisibilityWrapper });
 
 const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
     <$Container key="p35.MyFirstModule.HomePage.container9"
@@ -108,32 +109,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         renderMode={"div"}
                                         onClick={undefined}
                                         content={[
-                                            <$ActionButton key="p35.MyFirstModule.HomePage.actionButton17"
-                                                $widgetId="p35.MyFirstModule.HomePage.actionButton17"
-                                                buttonId={"p35.MyFirstModule.HomePage.actionButton17"}
-                                                class={"mx-name-actionButton17 card-icon text-primary spacing-outer-bottom"}
-                                                style={undefined}
-                                                tabIndex={undefined}
-                                                renderType={"link"}
-                                                role={"button"}
-                                                buttonClass={"btn-default"}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                    })
-                                                ])}
-                                                tooltip={TextProperty({
-                                                    "value": t([
-                                                        "Folder Open Icon"
-                                                    ])
+                                            <$ConditionalVisibilityWrapper key="p35.MyFirstModule.HomePage.actionButton17$visibility"
+                                                $widgetId="p35.MyFirstModule.HomePage.actionButton17$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                                                 })}
-                                                icon={WebIconProperty({
-                                                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-user" }
-                                                })}
-                                                action={ActionProperty({
-                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CuttomerMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                                    "abortOnServerValidation": true
-                                                })} />,
+                                                contents={[
+                                                    <$ActionButton key="p35.MyFirstModule.HomePage.actionButton17"
+                                                        $widgetId="p35.MyFirstModule.HomePage.actionButton17"
+                                                        buttonId={"p35.MyFirstModule.HomePage.actionButton17"}
+                                                        class={"mx-name-actionButton17 card-icon text-primary spacing-outer-bottom"}
+                                                        style={undefined}
+                                                        tabIndex={undefined}
+                                                        renderType={"link"}
+                                                        role={"button"}
+                                                        buttonClass={"btn-default"}
+                                                        caption={t([
+                                                            ExpressionProperty({
+                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                            })
+                                                        ])}
+                                                        tooltip={TextProperty({
+                                                            "value": t([
+                                                                "Folder Open Icon"
+                                                            ])
+                                                        })}
+                                                        icon={WebIconProperty({
+                                                            "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-user" }
+                                                        })}
+                                                        action={ActionProperty({
+                                                            "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/CuttomerMobilePage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                                            "abortOnServerValidation": true
+                                                        })} />
+                                                ]} />,
                                             <$Text key="p35.MyFirstModule.HomePage.text3"
                                                 $widgetId="p35.MyFirstModule.HomePage.text3"
                                                 class={"mx-name-text3 text-primary spacing-outer-bottom-none"}
@@ -159,32 +167,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         renderMode={"div"}
                                         onClick={undefined}
                                         content={[
-                                            <$ActionButton key="p35.MyFirstModule.HomePage.actionButton18"
-                                                $widgetId="p35.MyFirstModule.HomePage.actionButton18"
-                                                buttonId={"p35.MyFirstModule.HomePage.actionButton18"}
-                                                class={"mx-name-actionButton18 card-icon text-primary spacing-outer-bottom"}
-                                                style={undefined}
-                                                tabIndex={undefined}
-                                                renderType={"link"}
-                                                role={"button"}
-                                                buttonClass={"btn-default"}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                    })
-                                                ])}
-                                                tooltip={TextProperty({
-                                                    "value": t([
-                                                        "Folder Open Icon"
-                                                    ])
+                                            <$ConditionalVisibilityWrapper key="p35.MyFirstModule.HomePage.actionButton18$visibility"
+                                                $widgetId="p35.MyFirstModule.HomePage.actionButton18$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                                                 })}
-                                                icon={WebIconProperty({
-                                                    "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
-                                                })}
-                                                action={ActionProperty({
-                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                                    "abortOnServerValidation": true
-                                                })} />,
+                                                contents={[
+                                                    <$ActionButton key="p35.MyFirstModule.HomePage.actionButton18"
+                                                        $widgetId="p35.MyFirstModule.HomePage.actionButton18"
+                                                        buttonId={"p35.MyFirstModule.HomePage.actionButton18"}
+                                                        class={"mx-name-actionButton18 card-icon text-primary spacing-outer-bottom"}
+                                                        style={undefined}
+                                                        tabIndex={undefined}
+                                                        renderType={"link"}
+                                                        role={"button"}
+                                                        buttonClass={"btn-default"}
+                                                        caption={t([
+                                                            ExpressionProperty({
+                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                            })
+                                                        ])}
+                                                        tooltip={TextProperty({
+                                                            "value": t([
+                                                                "Folder Open Icon"
+                                                            ])
+                                                        })}
+                                                        icon={WebIconProperty({
+                                                            "icon": { "type": "glyph", "iconClass": "glyphicon-list-alt" }
+                                                        })}
+                                                        action={ActionProperty({
+                                                            "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/ProductMobilePage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                                            "abortOnServerValidation": true
+                                                        })} />
+                                                ]} />,
                                             <$Text key="p35.MyFirstModule.HomePage.text4"
                                                 $widgetId="p35.MyFirstModule.HomePage.text4"
                                                 class={"mx-name-text4 text-primary spacing-outer-bottom-none"}
@@ -216,32 +231,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         renderMode={"div"}
                                         onClick={undefined}
                                         content={[
-                                            <$ActionButton key="p35.MyFirstModule.HomePage.actionButton19"
-                                                $widgetId="p35.MyFirstModule.HomePage.actionButton19"
-                                                buttonId={"p35.MyFirstModule.HomePage.actionButton19"}
-                                                class={"mx-name-actionButton19 card-icon text-primary spacing-outer-bottom"}
-                                                style={undefined}
-                                                tabIndex={undefined}
-                                                renderType={"link"}
-                                                role={"button"}
-                                                buttonClass={"btn-default"}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                    })
-                                                ])}
-                                                tooltip={TextProperty({
-                                                    "value": t([
-                                                        "Folder Open Icon"
-                                                    ])
+                                            <$ConditionalVisibilityWrapper key="p35.MyFirstModule.HomePage.actionButton19$visibility"
+                                                $widgetId="p35.MyFirstModule.HomePage.actionButton19$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                                                 })}
-                                                icon={WebIconProperty({
-                                                    "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-location-pin" }
-                                                })}
-                                                action={ActionProperty({
-                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationMobilePage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                                    "abortOnServerValidation": true
-                                                })} />,
+                                                contents={[
+                                                    <$ActionButton key="p35.MyFirstModule.HomePage.actionButton19"
+                                                        $widgetId="p35.MyFirstModule.HomePage.actionButton19"
+                                                        buttonId={"p35.MyFirstModule.HomePage.actionButton19"}
+                                                        class={"mx-name-actionButton19 card-icon text-primary spacing-outer-bottom"}
+                                                        style={undefined}
+                                                        tabIndex={undefined}
+                                                        renderType={"link"}
+                                                        role={"button"}
+                                                        buttonClass={"btn-default"}
+                                                        caption={t([
+                                                            ExpressionProperty({
+                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                            })
+                                                        ])}
+                                                        tooltip={TextProperty({
+                                                            "value": t([
+                                                                "Folder Open Icon"
+                                                            ])
+                                                        })}
+                                                        icon={WebIconProperty({
+                                                            "icon": { "type": "icon", "iconClass": "mx-icon-filled mx-icon-location-pin" }
+                                                        })}
+                                                        action={ActionProperty({
+                                                            "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/LocationMobilePage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                                            "abortOnServerValidation": true
+                                                        })} />
+                                                ]} />,
                                             <$Text key="p35.MyFirstModule.HomePage.text5"
                                                 $widgetId="p35.MyFirstModule.HomePage.text5"
                                                 class={"mx-name-text5 text-primary spacing-outer-bottom-none"}
@@ -267,32 +289,39 @@ const region$Main = (historyId) => (<PageFragment renderKey={historyId}>{[
                                         renderMode={"div"}
                                         onClick={undefined}
                                         content={[
-                                            <$ActionButton key="p35.MyFirstModule.HomePage.actionButton21"
-                                                $widgetId="p35.MyFirstModule.HomePage.actionButton21"
-                                                buttonId={"p35.MyFirstModule.HomePage.actionButton21"}
-                                                class={"mx-name-actionButton21 card-icon text-primary spacing-outer-bottom"}
-                                                style={undefined}
-                                                tabIndex={undefined}
-                                                renderType={"link"}
-                                                role={"button"}
-                                                buttonClass={"btn-default"}
-                                                caption={t([
-                                                    ExpressionProperty({
-                                                        "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                                                    })
-                                                ])}
-                                                tooltip={TextProperty({
-                                                    "value": t([
-                                                        "Folder Open Icon"
-                                                    ])
+                                            <$ConditionalVisibilityWrapper key="p35.MyFirstModule.HomePage.actionButton21$visibility"
+                                                $widgetId="p35.MyFirstModule.HomePage.actionButton21$visibility"
+                                                visible={ExpressionProperty({
+                                                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [ { "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" } ] }, "args": {} }
                                                 })}
-                                                icon={WebIconProperty({
-                                                    "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
-                                                })}
-                                                action={ActionProperty({
-                                                    "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesOrderDraftPage.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                                                    "abortOnServerValidation": true
-                                                })} />,
+                                                contents={[
+                                                    <$ActionButton key="p35.MyFirstModule.HomePage.actionButton21"
+                                                        $widgetId="p35.MyFirstModule.HomePage.actionButton21"
+                                                        buttonId={"p35.MyFirstModule.HomePage.actionButton21"}
+                                                        class={"mx-name-actionButton21 card-icon text-primary spacing-outer-bottom"}
+                                                        style={undefined}
+                                                        tabIndex={undefined}
+                                                        renderType={"link"}
+                                                        role={"button"}
+                                                        buttonClass={"btn-default"}
+                                                        caption={t([
+                                                            ExpressionProperty({
+                                                                "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                                                            })
+                                                        ])}
+                                                        tooltip={TextProperty({
+                                                            "value": t([
+                                                                "Folder Open Icon"
+                                                            ])
+                                                        })}
+                                                        icon={WebIconProperty({
+                                                            "icon": { "type": "glyph", "iconClass": "glyphicon-align-center" }
+                                                        })}
+                                                        action={ActionProperty({
+                                                            "action": { "type": "openPage", "argMap": {}, "config": { "name": "MyFirstModule/SalesOrderDraftPage.page.xml", "location": "content", "allowedRoles": [ "Administrator", "User", "SalesPerson" ] }, "disabledDuringExecution": true },
+                                                            "abortOnServerValidation": true
+                                                        })} />
+                                                ]} />,
                                             <$Text key="p35.MyFirstModule.HomePage.text7"
                                                 $widgetId="p35.MyFirstModule.HomePage.text7"
                                                 class={"mx-name-text7 text-primary spacing-outer-bottom-none"}

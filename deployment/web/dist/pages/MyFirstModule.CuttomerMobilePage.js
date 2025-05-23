@@ -1,22 +1,22 @@
-import { reactExports, asPluginWidgets, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import { ListActionProperty } from '../ListActionProperty-CoCCB2vR.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { ListView } from '../ListView-B1Yau7GF.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-BdyV3958.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../ActionProperty-BjRv15Ma.js';
-import '../Icon-CwpoK74K.js';
-import '../Bgp-XL0v-iR-R4xy_.js';
-import '../InlineText-BU8NLTPl.js';
-import '../WebIconProperty-DksUkMrc.js';
-import '../SimpleMenuBar-CQ7UtPfo.js';
-import '../DMc54HEs-BETi155K.js';
+import { reactExports, asPluginWidgets, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListActionProperty } from '../ListActionProperty-DdqK2sz7.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { ListView } from '../ListView-DlByzcJa.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Phone_BottomBar-DAcgfY9a.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../ActionProperty-DS8NDQ2q.js';
+import '../Icon-bVASr8MS.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import '../InlineText-06k9DgcQ.js';
+import '../WebIconProperty-vPsRN3Rv.js';
+import '../SimpleMenuBar-CXu-E15R.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const { $ListView, $Container, $Text } = asPluginWidgets({ ListView, Container, Text });
@@ -383,7 +383,7 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
         ]
       }),
       onClick: ListActionProperty({
-        "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p46.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_EditView.page.xml", "location": "content" }, "disabledDuringExecution": true },
+        "action": { "type": "openPage", "argMap": { "param$Customers": { "widget": "p46.MyFirstModule.CuttomerMobilePage.listView3", "source": "object" } }, "config": { "name": "MyFirstModule/Customers_EditView.page.xml", "location": "content", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
         "abortOnServerValidation": false,
         "dataSourceId": "p46.0"
       }),

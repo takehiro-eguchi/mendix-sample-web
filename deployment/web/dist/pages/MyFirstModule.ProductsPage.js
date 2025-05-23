@@ -1,35 +1,36 @@
-import { reactExports, asPluginWidgets, addEnumerations, selectTranslation } from '../index-BCA8X3MP.js';
-import { PageFragment, ExpressionProperty } from '../ScrollContainer-BdzcW3SP.js';
-import { ActionProperty } from '../ActionProperty-BjRv15Ma.js';
-import { DatabaseObjectListProperty } from '../BH5qNKCa-DKuecUbx.js';
-import { ListAttributeProperty } from '../ListAttributeProperty-ByudWBDe.js';
-import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-BFmsrEg-.js';
-import { TextProperty } from '../Icon-CwpoK74K.js';
-import { WebIconProperty } from '../WebIconProperty-DksUkMrc.js';
-import { ActionButton } from '../ActionButton-B1FZcI8p.js';
-import { Container } from '../Container-CxVkjo8s.js';
-import { DatagridWidgetModule } from '../Datagrid-BhDFmpJP.js';
-import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-LL7QgErx.js';
-import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DXJJbjLe.js';
-import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BJIL2ebC.js';
-import { Div } from '../Div-DWESTEoo.js';
-import { Text } from '../Text-BH0JoxPZ.js';
-import { content as content$1 } from '../Atlas_Core.Atlas_Default-K_E6zeB-.js';
-import '../BrzhM9fk-B35Z04N6.js';
-import '../BQa9VDC5-BsmL2sNc.js';
-import '../Bgp-XL0v-iR-R4xy_.js';
-import '../Image-BLvaO7vK.js';
-import '../InlineText-BU8NLTPl.js';
-import '../ListExpressionProperty-BWFcYvBl.js';
-import '../WebStaticImageProperty-CiXGhPz_.js';
-import '../DMc54HEs-BETi155K.js';
+import { reactExports, asPluginWidgets, addEnumerations, selectTranslation } from '../index-BK9-l-60.js';
+import { PageFragment, ExpressionProperty } from '../ScrollContainer-CNkE77Y0.js';
+import { ActionProperty } from '../ActionProperty-DS8NDQ2q.js';
+import { DatabaseObjectListProperty } from '../BH5qNKCa-He16eDuK.js';
+import { ListAttributeProperty } from '../ListAttributeProperty-DtR8jC4e.js';
+import { TemplatedWidgetProperty } from '../TemplatedWidgetProperty-DV3fBopW.js';
+import { TextProperty } from '../Icon-bVASr8MS.js';
+import { WebIconProperty } from '../WebIconProperty-vPsRN3Rv.js';
+import { ActionButton } from '../ActionButton-DQrAMvYT.js';
+import { ConditionalVisibilityWrapper } from '../ConditionalVisibilityWrapper-BbYYw0ly.js';
+import { Container } from '../Container-DobQDWAA.js';
+import { DatagridWidgetModule } from '../Datagrid-4DHc9UOQ.js';
+import { DatagridDropdownFilterWidgetModule } from '../DatagridDropdownFilter-DH4SzIqp.js';
+import { DatagridNumberFilterWidgetModule } from '../DatagridNumberFilter-DLZhJWxj.js';
+import { DatagridTextFilterWidgetModule } from '../DatagridTextFilter-BD-DuJ-V.js';
+import { Div } from '../Div-DkGbaEe3.js';
+import { Text } from '../Text-BcexcteZ.js';
+import { content as content$1 } from '../Atlas_Core.Atlas_Default-CJkG5REr.js';
+import '../BrzhM9fk-CY1CP8BK.js';
+import '../BQa9VDC5-P_lNGrzq.js';
+import '../Bgp-XL0v-C7x6tFfM.js';
+import '../Image-CRLik9xo.js';
+import '../InlineText-06k9DgcQ.js';
+import '../ListExpressionProperty-UOQ4kvKt.js';
+import '../WebStaticImageProperty-DtivNI6l.js';
+import '../DMc54HEs-BMpoF4j_.js';
 
 const React = { createElement: reactExports.createElement };
 const Datagrid = Object.getOwnPropertyDescriptor(DatagridWidgetModule, "Datagrid")?.value || Object.getOwnPropertyDescriptor(DatagridWidgetModule, "default")?.value;
 const DatagridDropdownFilter = Object.getOwnPropertyDescriptor(DatagridDropdownFilterWidgetModule, "DatagridDropdownFilter")?.value || Object.getOwnPropertyDescriptor(DatagridDropdownFilterWidgetModule, "default")?.value;
 const DatagridNumberFilter = Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "DatagridNumberFilter")?.value || Object.getOwnPropertyDescriptor(DatagridNumberFilterWidgetModule, "default")?.value;
 const DatagridTextFilter = Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "DatagridTextFilter")?.value || Object.getOwnPropertyDescriptor(DatagridTextFilterWidgetModule, "default")?.value;
-const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ActionButton });
+const { $Div, $Container, $Text, $Datagrid, $DatagridTextFilter, $DatagridDropdownFilter, $DatagridNumberFilter, $ConditionalVisibilityWrapper, $ActionButton } = asPluginWidgets({ Div, Container, Text, Datagrid, DatagridTextFilter, DatagridDropdownFilter, DatagridNumberFilter, ConditionalVisibilityWrapper, ActionButton });
 addEnumerations({
   "MyFirstModule.Status": [
     [
@@ -879,65 +880,89 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
             "editable": false,
             "children": () => [
               /* @__PURE__ */ React.createElement(
-                $ActionButton,
+                $ConditionalVisibilityWrapper,
                 {
-                  key: "p21.MyFirstModule.ProductsPage.actionButton1",
-                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton1",
-                  buttonId: "p21.MyFirstModule.ProductsPage.actionButton1",
-                  class: "mx-name-actionButton1 btn-lg",
-                  style: void 0,
-                  tabIndex: void 0,
-                  renderType: "link",
-                  role: "button",
-                  buttonClass: "btn-primary",
-                  caption: selectTranslation([
-                    ExpressionProperty({
-                      "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                    })
-                  ]),
-                  tooltip: TextProperty({
-                    "value": selectTranslation([
-                      ""
-                    ])
+                  key: "p21.MyFirstModule.ProductsPage.actionButton1$visibility",
+                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton1$visibility",
+                  visible: ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }] }, "args": {} }
                   }),
-                  icon: WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
-                  }),
-                  action: ActionProperty({
-                    "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Products_NewEdit.page.xml", "location": "content" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                  })
+                  contents: [
+                    /* @__PURE__ */ React.createElement(
+                      $ActionButton,
+                      {
+                        key: "p21.MyFirstModule.ProductsPage.actionButton1",
+                        $widgetId: "p21.MyFirstModule.ProductsPage.actionButton1",
+                        buttonId: "p21.MyFirstModule.ProductsPage.actionButton1",
+                        class: "mx-name-actionButton1 btn-lg",
+                        style: void 0,
+                        tabIndex: void 0,
+                        renderType: "link",
+                        role: "button",
+                        buttonClass: "btn-primary",
+                        caption: selectTranslation([
+                          ExpressionProperty({
+                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                          })
+                        ]),
+                        tooltip: TextProperty({
+                          "value": selectTranslation([
+                            ""
+                          ])
+                        }),
+                        icon: WebIconProperty({
+                          "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-pencil" }
+                        }),
+                        action: ActionProperty({
+                          "action": { "type": "openPage", "argMap": { "param$Products": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "name": "MyFirstModule/Products_NewEdit.page.xml", "location": "content", "allowedRoles": ["Administrator", "User"] }, "disabledDuringExecution": true },
+                          "abortOnServerValidation": true
+                        })
+                      }
+                    )
+                  ]
                 }
               ),
               /* @__PURE__ */ React.createElement(
-                $ActionButton,
+                $ConditionalVisibilityWrapper,
                 {
-                  key: "p21.MyFirstModule.ProductsPage.actionButton2",
-                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton2",
-                  buttonId: "p21.MyFirstModule.ProductsPage.actionButton2",
-                  class: "mx-name-actionButton2 btn-lg",
-                  style: void 0,
-                  tabIndex: void 0,
-                  renderType: "link",
-                  role: "button",
-                  buttonClass: "btn-primary",
-                  caption: selectTranslation([
-                    ExpressionProperty({
-                      "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
-                    })
-                  ]),
-                  tooltip: TextProperty({
-                    "value": selectTranslation([
-                      ""
-                    ])
+                  key: "p21.MyFirstModule.ProductsPage.actionButton2$visibility",
+                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton2$visibility",
+                  visible: ExpressionProperty({
+                    "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
                   }),
-                  icon: WebIconProperty({
-                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
-                  }),
-                  action: ActionProperty({
-                    "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view" }, "disabledDuringExecution": true },
-                    "abortOnServerValidation": true
-                  })
+                  contents: [
+                    /* @__PURE__ */ React.createElement(
+                      $ActionButton,
+                      {
+                        key: "p21.MyFirstModule.ProductsPage.actionButton2",
+                        $widgetId: "p21.MyFirstModule.ProductsPage.actionButton2",
+                        buttonId: "p21.MyFirstModule.ProductsPage.actionButton2",
+                        class: "mx-name-actionButton2 btn-lg",
+                        style: void 0,
+                        tabIndex: void 0,
+                        renderType: "link",
+                        role: "button",
+                        buttonClass: "btn-primary",
+                        caption: selectTranslation([
+                          ExpressionProperty({
+                            "expression": { "expr": { "type": "literal", "value": "" }, "args": {} }
+                          })
+                        ]),
+                        tooltip: TextProperty({
+                          "value": selectTranslation([
+                            ""
+                          ])
+                        }),
+                        icon: WebIconProperty({
+                          "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-trash-can" }
+                        }),
+                        action: ActionProperty({
+                          "action": { "type": "callMicroflow", "argMap": { "DeleteProduct": { "widget": "p21.MyFirstModule.ProductsPage.dataGrid2_1", "source": "object" } }, "config": { "operationId": "IIjXzuNRAFW025+qj4CALw", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                          "abortOnServerValidation": true
+                        })
+                      }
+                    )
+                  ]
                 }
               )
             ]
@@ -1001,96 +1026,132 @@ const region$Main = (historyId) => /* @__PURE__ */ React.createElement(PageFragm
       filterList: [],
       filtersPlaceholder: [
         /* @__PURE__ */ React.createElement(
-          $ActionButton,
+          $ConditionalVisibilityWrapper,
           {
-            key: "p21.MyFirstModule.ProductsPage.actionButton3",
-            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton3",
-            buttonId: "p21.MyFirstModule.ProductsPage.actionButton3",
-            class: "mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
-            style: void 0,
-            tabIndex: void 0,
-            renderType: "button",
-            role: void 0,
-            buttonClass: "btn-primary",
-            caption: selectTranslation([
-              ExpressionProperty({
-                "expression": { "expr": { "type": "literal", "value": "New Products" }, "args": {} }
-              })
-            ]),
-            tooltip: TextProperty({
-              "value": selectTranslation([
-                ""
-              ])
+            key: "p21.MyFirstModule.ProductsPage.actionButton3$visibility",
+            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton3$visibility",
+            visible: ExpressionProperty({
+              "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }] }, "args": {} }
             }),
-            icon: WebIconProperty({
-              "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
-            }),
-            action: ActionProperty({
-              "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view" }, "disabledDuringExecution": true },
-              "abortOnServerValidation": true
-            })
+            contents: [
+              /* @__PURE__ */ React.createElement(
+                $ActionButton,
+                {
+                  key: "p21.MyFirstModule.ProductsPage.actionButton3",
+                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton3",
+                  buttonId: "p21.MyFirstModule.ProductsPage.actionButton3",
+                  class: "mx-name-actionButton3 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
+                  style: void 0,
+                  tabIndex: void 0,
+                  renderType: "button",
+                  role: void 0,
+                  buttonClass: "btn-primary",
+                  caption: selectTranslation([
+                    ExpressionProperty({
+                      "expression": { "expr": { "type": "literal", "value": "New Products" }, "args": {} }
+                    })
+                  ]),
+                  tooltip: TextProperty({
+                    "value": selectTranslation([
+                      ""
+                    ])
+                  }),
+                  icon: WebIconProperty({
+                    "icon": { "type": "icon", "iconClass": "mx-icon-lined mx-icon-add" }
+                  }),
+                  action: ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": {}, "config": { "operationId": "YEOytzhexViQH8ZlpB43QQ", "validate": "view", "allowedRoles": ["Administrator", "User"] }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                  })
+                }
+              )
+            ]
           }
         ),
         /* @__PURE__ */ React.createElement(
-          $ActionButton,
+          $ConditionalVisibilityWrapper,
           {
-            key: "p21.MyFirstModule.ProductsPage.actionButton4",
-            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton4",
-            buttonId: "p21.MyFirstModule.ProductsPage.actionButton4",
-            class: "mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top",
-            style: void 0,
-            tabIndex: void 0,
-            renderType: "button",
-            role: void 0,
-            buttonClass: "btn-success",
-            caption: selectTranslation([
-              ExpressionProperty({
-                "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
-              })
-            ]),
-            tooltip: TextProperty({
-              "value": selectTranslation([
-                ""
-              ])
+            key: "p21.MyFirstModule.ProductsPage.actionButton4$visibility",
+            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton4$visibility",
+            visible: ExpressionProperty({
+              "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }] }, "args": {} }
             }),
-            icon: WebIconProperty({
-              "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
-            }),
-            action: ActionProperty({
-              "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
-              "abortOnServerValidation": true
-            })
+            contents: [
+              /* @__PURE__ */ React.createElement(
+                $ActionButton,
+                {
+                  key: "p21.MyFirstModule.ProductsPage.actionButton4",
+                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton4",
+                  buttonId: "p21.MyFirstModule.ProductsPage.actionButton4",
+                  class: "mx-name-actionButton4 spacing-outer-right spacing-outer-bottom spacing-outer-left spacing-outer-top",
+                  style: void 0,
+                  tabIndex: void 0,
+                  renderType: "button",
+                  role: void 0,
+                  buttonClass: "btn-success",
+                  caption: selectTranslation([
+                    ExpressionProperty({
+                      "expression": { "expr": { "type": "literal", "value": "All Active" }, "args": {} }
+                    })
+                  ]),
+                  tooltip: TextProperty({
+                    "value": selectTranslation([
+                      ""
+                    ])
+                  }),
+                  icon: WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-plus" }
+                  }),
+                  action: ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Active" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                  })
+                }
+              )
+            ]
           }
         ),
         /* @__PURE__ */ React.createElement(
-          $ActionButton,
+          $ConditionalVisibilityWrapper,
           {
-            key: "p21.MyFirstModule.ProductsPage.actionButton5",
-            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton5",
-            buttonId: "p21.MyFirstModule.ProductsPage.actionButton5",
-            class: "mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
-            style: void 0,
-            tabIndex: void 0,
-            renderType: "button",
-            role: void 0,
-            buttonClass: "btn-warning",
-            caption: selectTranslation([
-              ExpressionProperty({
-                "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
-              })
-            ]),
-            tooltip: TextProperty({
-              "value": selectTranslation([
-                ""
-              ])
+            key: "p21.MyFirstModule.ProductsPage.actionButton5$visibility",
+            $widgetId: "p21.MyFirstModule.ProductsPage.actionButton5$visibility",
+            visible: ExpressionProperty({
+              "expression": { "expr": { "type": "function", "name": "_hasSomeRole", "parameters": [{ "type": "literal", "value": "Administrator" }, { "type": "literal", "value": "User" }, { "type": "literal", "value": "SalesPerson" }] }, "args": {} }
             }),
-            icon: WebIconProperty({
-              "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
-            }),
-            action: ActionProperty({
-              "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view" }, "disabledDuringExecution": true },
-              "abortOnServerValidation": true
-            })
+            contents: [
+              /* @__PURE__ */ React.createElement(
+                $ActionButton,
+                {
+                  key: "p21.MyFirstModule.ProductsPage.actionButton5",
+                  $widgetId: "p21.MyFirstModule.ProductsPage.actionButton5",
+                  buttonId: "p21.MyFirstModule.ProductsPage.actionButton5",
+                  class: "mx-name-actionButton5 spacing-outer-top spacing-outer-right spacing-outer-left spacing-outer-bottom",
+                  style: void 0,
+                  tabIndex: void 0,
+                  renderType: "button",
+                  role: void 0,
+                  buttonClass: "btn-warning",
+                  caption: selectTranslation([
+                    ExpressionProperty({
+                      "expression": { "expr": { "type": "literal", "value": "All Disabled" }, "args": {} }
+                    })
+                  ]),
+                  tooltip: TextProperty({
+                    "value": selectTranslation([
+                      ""
+                    ])
+                  }),
+                  icon: WebIconProperty({
+                    "icon": { "type": "glyph", "iconClass": "glyphicon-minus" }
+                  }),
+                  action: ActionProperty({
+                    "action": { "type": "callMicroflow", "argMap": { "Status": { "expression": { "expr": { "type": "literal", "value": "Disable" }, "args": {} }, "kind": "primitive" } }, "config": { "operationId": "NhUNp3s4H1iqWgT3xHn/Sw", "validate": "view", "allowedRoles": ["Administrator", "User", "SalesPerson"] }, "disabledDuringExecution": true },
+                    "abortOnServerValidation": true
+                  })
+                }
+              )
+            ]
           }
         )
       ],
